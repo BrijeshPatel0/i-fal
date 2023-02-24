@@ -1,0 +1,499 @@
+<div class="findteacherheading" style="padding: 35px 0px 11px 0px;" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <!-- <h1 class="maintext ">Find a Teacher</h1> -->
+            <h1 class="maintext ">{{'find_teacher' | translate}}</h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                obligation</p> -->
+        </div>
+    </div>
+</div>
+<!-- <button (click)="test()">test6</button> -->
+<div  id="studenGraph" class="container"
+    [dir]="directionController.textDirection">
+    <div class="container"
+        style=" background-color: white;  box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);border-radius: 10px;">
+        <div class="row">
+            <div *ngIf="profileModel!.score? profileModel!.score:null != null" class="col-lg-6 col-sm-12">
+                <li class="" style="list-style: none;">
+                    <div class="ana">
+                        <div class="frame">
+                            <a (click)="explanationPopUp()" style="cursor:pointer;"> <i
+                                    class="fas fa-exclamation-circle exla-mark"></i></a>
+
+                            <div class="dashboard">
+                                <div class="text">
+                                    <span style="color: #28aae1;
+                                    font-size: 22px;">{{lastmonthScore!.total_score}}</span> <span class="small"
+                                        style="color:#777777">/1000</span>
+                                </div>
+                                <span style="width: 150px;">
+                                    <circle-progress [percent]="progress" [radius]="70" [outerStrokeWidth]="20"
+                                        [innerStrokeWidth]="20" [space]="-20" [outerStrokeColor]="'#28aae1'"
+                                        [innerStrokeColor]="'#e7e8ea'" [showSubtitle]="false" [animation]="isAnimation"
+                                        [animationDuration]="300" [startFromZero]="false" [responsive]="true"
+                                        [unitsColor]="'#ffffff'" [titleColor]="'#ffffff'"></circle-progress>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="level">
+                            <span class="yellowtext">{{'level' | translate}} {{lavel}} <span class="of8">{{'of_8' |
+                                    translate}}</span></span>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 1">{{'Pre_Beginner' | translate}}</p>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 2">{{'Beginner' | translate}}</p>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 3">{{'Pre_Intermediate' | translate}}</p>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 4">{{'Intermediate' | translate}}</p>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 5">{{'Upper_Intermediate' | translate}}</p>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 6">{{'Pre_Advanced' | translate}}</p>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 7">{{'Advanced' | translate}}</p>
+                            <p style="margin: 6px 0px;" *ngIf="lavel == 8">{{'Proficient' | translate}}</p>
+                            <span class="graytext">{{'previous_score' | translate}} :
+                                {{lastmonthScore!.last_total_score}} </span>
+                        </div>
+                    </div>
+                    <div class="progressbigginer">
+                        <div class="bigginer">
+                            <span *ngIf="lavel == 1">{{'Pre_Beginner' | translate}}</span>
+                            <span *ngIf="lavel == 1">{{'Beginner' | translate}}</span>
+                            <span *ngIf="lavel == 2">{{'Beginner' | translate}}</span>
+                            <span *ngIf="lavel == 2">{{'Pre_Intermediate' | translate}}</span>
+                            <span *ngIf="lavel == 3">{{'Pre_Intermediate' | translate}}</span>
+                            <span *ngIf="lavel == 3">{{'Intermediate' | translate}}</span>
+                            <span *ngIf="lavel == 4">{{'Intermediate' | translate}}</span>
+                            <span *ngIf="lavel == 4">{{'Upper_Intermediate' | translate}}</span>
+                            <span *ngIf="lavel == 5">{{'Upper_Intermediate' | translate}}</span>
+                            <span *ngIf="lavel == 5">{{'Pre_Advanced' | translate}}</span>
+                            <span *ngIf="lavel == 6">{{'Pre_Advanced' | translate}}</span>
+                            <span *ngIf="lavel == 6">{{'Advanced' | translate}}</span>
+                            <span *ngIf="lavel == 7">{{'Advanced' | translate}}</span>
+                            <span *ngIf="lavel == 7">{{'Proficient' | translate}}</span>
+                            <span *ngIf="lavel == 8">{{'Advanced' | translate}}</span>
+                            <span *ngIf="lavel == 8">{{'Proficient' | translate}}</span>
+                        </div>
+                        <div class="progress1">
+                            <div class="progress-value"
+                                style="--value:{{last_total_score}}%;--lastValue:{{total_score}}%;">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </div>
+            <div class="col-lg-4 col-sm-12" *ngIf="profileModel!.frequncy !== ''">
+                <div class="myprofiledetails" style="display: flex;     display: flex;
+                background: none;
+                border: none;
+                border-radius: none;
+                position: none;
+                z-index: 0;
+                box-shadow: none;
+                margin: 0px
+            ;">
+                    <li class="teacherfind" style="list-style: none;">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">{{'current_month' | translate}}</button>
+                            </li>
+                            <li *ngIf="profileModel!.is_subscription_active == '1'" class="nav-item"
+                                role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">{{'next_month' |
+                                    translate}}</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="mem">
+                                    <div class="paidsession">
+                                        <h6 style="margin: 0px;color: #28AAE1;">{{'paid_sessions' | translate}}</h6>
+                                        <ul class="remain">
+                                            <li>
+                                                <div class="remianinfo">
+                                                    <span>{{profileModel!.remaining_sessions}}</span>
+                                                    <p>{{'Ramaining_to_book' | translate}}</p>
+                                                </div>
+                                                <div class="remianinfo">
+                                                    <span>{{profileModel!.total_sessions}}</span>
+                                                    <p>{{'total' | translate}}</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="mem">
+                                    <div class="paidsession">
+                                        <h6 style="margin: 0px; color: #28AAE1 !important;">{{'paid_sessions' |
+                                            translate}}</h6>
+                                        <ul class="remain">
+                                            <li>
+                                                <div class="remianinfo">
+                                                    <span>{{profileModel!.next_month_remaining_sessions}}</span>
+                                                    <p>{{'Ramaining_to_book' | translate}}</p>
+                                                </div>
+                                                <div class="remianinfo">
+                                                    <span> {{profileModel!.next_month_total_sessions}} </span>
+                                                    <p>{{'total' | translate}}</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="profileModel!.is_subscription_active == '1'" class="membership "
+                            style="margin: 0px;">
+                            <p>{{'membership_renew' | translate}}
+                            </p>
+                            <span> {{profileModel!.subscription_exp_date | date : 'MMM d, y'}}</span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-12">
+                <div *ngIf="profileModel!.one_time_free_remaining_sessions == '1' || profileModel!.recurring_free_remaining_sessions == '1'"
+                    class="mem membershipborder" style="margin-top: 75px;">
+                    <div class="paidsession paidsessionborder">
+                        <h6 style="margin: 0px;color: #28AAE1;">{{'free_sessions' | translate}}</h6>
+                        <ul class="remain">
+                            <li style="margin: 9px 0px;">
+                                <div class="remianinfo" style="
+                    border: none;
+                ">
+                                    <span>{{freeRemainingSessions}}</span>
+                                    <p style="width:165px">{{'Ramaining_to_book' | translate}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div *ngIf="profileModel!.score? profileModel!.score:null != null" class="profiletab packagesec">
+    <div class="container">
+        <div class="myprofiledetails" style="display: flex;">
+            <ul class="biginerprogress">
+                <li class="anaylytics" style="margin-right: 25px;">
+                    <div class="ana">
+                        <div class="frame">
+                            <a (click)="explanationPopUp()" style="cursor:pointer;"> <i
+                                    class="fas fa-exclamation-circle exla-mark"></i></a>
+
+                            <div class="dashboard">
+                                <div class="text">
+                                    {{lastmonthScore!.total_score}} <span class="small"> / 1000</span>
+                                </div>
+                                <span style="width: 150px;">
+                                    <circle-progress [percent]="progress" [radius]="70" [outerStrokeWidth]="10"
+                                        [innerStrokeWidth]="10" [space]="-10" [outerStrokeColor]="'#28aae1'"
+                                        [innerStrokeColor]="'#e7e8ea'" [showSubtitle]="false" [animation]="isAnimation"
+                                        [animationDuration]="300" [startFromZero]="false" [responsive]="true"
+                                        [unitsColor]="'#ffffff'" [titleColor]="'#ffffff'">
+                                    </circle-progress>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="level">
+                            <span class="yellowtext">Level {{lavel}} <span class="of8">of 8</span></span>
+                            <p>{{levelNameStart}}</p>
+                            <span class="graytext">Previous Score : {{lastmonthScore!.last_total_score}} </span>
+                        </div>
+                    </div>
+                    <div class="progressbigginer">
+                        <div class="bigginer">
+                            <span>{{levelNameStart}}</span>
+                            <span>{{levelNameEnd}}</span>
+                        </div>
+                        <div class="progress1">
+                            <div class="progress-value"
+                                style="--value:{{last_total_score}}%;--lastValue:{{total_score}}%;"></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="teacherfind" *ngIf="profileModel!.frequncy == ''">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Current month</button>
+                        </li>
+                        <li *ngIf="profileModel!.is_subscription_active == '0'" class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Next month</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="mem">
+                                <div class="paidsession">
+                                    <h6 style="margin: 0px;">Paid Sessions</h6>
+                                    <ul class="remain">
+                                        <li>
+                                            <div class="remianinfo">
+                                                <span>{{profileModel!.remaining_sessions}}</span>
+                                                <p>{{'Ramaining_to_book' | translate}}</p>
+                                            </div>
+                                            <div class="remianinfo">
+                                                <span>{{profileModel!.total_sessions}}</span>
+                                                <p>Total</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div class="mem">
+                                <div class="paidsession">
+                                    <h6 style="margin: 0px;">Paid Sessions</h6>
+                                    <ul class="remain">
+                                        <li>
+                                            <div class="remianinfo">
+                                                <span>{{profileModel!.next_month_remaining_sessions}}</span>
+                                                <p>{{'Ramaining_to_book' | translate}}</p>
+                                            </div>
+                                            <div class="remianinfo">
+                                                <span> {{profileModel!.next_month_total_sessions}} </span>
+                                                <p>Total</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="membership " style="margin: 0px;">
+                        <p>Your Membership will renew
+                        </p>
+                        <span> {{profileModel!.subscription_exp_date | date : 'MMM d, y'}}</span>
+                    </div>
+                </li>
+                <div *ngIf="profileModel!.one_time_free_remaining_sessions != '0' || profileModel!.recurring_free_remaining_sessions != '0'"
+                    class="mem membershipborder" style="margin-top: 74px;">
+                    <div class="paidsession" style="padding-left:10px ;">
+                        <h6 style="margin: 0px;">Free Sessions</h6>
+                        <ul class="remain">
+                            <li>
+                                <div class="remianinfo" style="
+                        border: none;
+                    ">
+                                    <span>{{freeRemainingSessions}}</span>
+                                    <p style="width:165px">{{'Ramaining_to_book' | translate}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+
+        </div>
+    </div>
+</div> -->
+<div class="currentmonth" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="findteachertab" style="margin-top: 30px;">
+            <div *ngIf="isUpcomming" class="favouritetitle upcomingses">
+                <h6>{{'upcoming_sessions' | translate}}</h6>
+                <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                        </line>
+                        <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                        </line>
+                    </svg>
+                </span>
+            </div>
+            <div *ngIf="isUpcomming" class="row">
+                <div class="col-lg-4">
+                    <div class="firstsession">
+                        <a style="cursor: pointer;" (click)="sessionDetail(firstSessions!.id)">
+                            <div class="firstsessioninfo upses">
+                                <img *ngIf="firstSessions!.teacher_data?.thumbnail ? firstSessions!.teacher_data?.thumbnail : null"
+                                    style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                                    src="{{firstSessions!.teacher_data?.thumbnail ? firstSessions!.teacher_data?.thumbnail : null}}"
+                                    alt="">
+                                <img *ngIf="!firstSessions!.teacher_data?.thumbnail ? firstSessions!.teacher_data?.thumbnail : null"
+                                    style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                                    src="assets/images/userprofile.png" alt="">
+
+                                <div class="sessiontitle">
+                                    <h4>{{firstSessions!.teacher_data?.first_name}}
+                                        {{firstSessions!.teacher_data?.last_name}} </h4>
+                                    <p dir = "ltr">{{firstSessions!.startAppointmentDate | date : 'd MMMM y'}}</p>
+                                    <p>{{firstSessions!.startAppointmentDate | date:'HH:mm'}} -
+                                        {{firstSessions!.endAppointmentDate | date:'HH:mm'}}</p>
+                                </div>
+                                <!-- <div class="btnteacgertime">
+                                    <a href="javascript:void(0)" class="btntime">16:30 - 16:55</a>
+                                    <a href="session-detail.php" class="btnnext"><i
+                                            class="fas fa-chevron-right"></i></a>
+                                </div> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="youcanchoos">
+                <div class="favouritetitle upcomingses">
+                    <h6>{{'you_can_choose_teacher_by_available_time' | translate}}</h6>
+                    <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                            </line>
+                            <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round">
+                            </line>
+                        </svg>
+                    </span>
+                </div>
+                <!-- <p>You can choose teacher by availeble time</p> -->
+                <a style="    margin-top: 0px;" routerLink="/i-fal-menu/booklession"
+                    class="schedualtime">{{'schedule_session_by_available_time' | translate}}</a>
+            </div>
+            <div class="favouritetitle upcomingses">
+                <h6>{{'or_book_a_session_by_available_teacher' | translate}}</h6>
+                <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                        </line>
+                        <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                        </line>
+                    </svg>
+                </span>
+            </div>
+            <div class="sesstiondetail booksession ">
+                <div class="row ">
+                    <div class="col-lg-3 list-item" style="    padding-top: calc(var(--bs-gutter-x) * .5);
+                    padding-bottom: calc(var(--bs-gutter-x) * .5);
+                " *ngFor="let item of findTeacherModel">
+                        <div class="firstsession" style="margin-bottom: 0px;">
+                            <div class="firstsessioninfo">
+                                <div class="sessionimg">
+                                    <img style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                                        src="{{item.thumbnail}}" alt="">
+                                    <!-- <a href="https://www.youtube.com/watch?v=_mvvOdVKkbE" class="popup-youtube"><i
+                                            class="fas fa-play"></i></a> -->
+                                </div>
+                                <div class="sessiontitle">
+                                    <h4>{{item.first_name}} {{item.last_name}}</h4>
+                                    <h5><i class="fas fa-star" style="font-size: 15x;"></i><span style="color:#28AAE1;font-weight: 800;
+                                        font-size: 15px;">{{item.teacher_ratings}}</span></h5>
+                                    <p>{{item.last_seven_days_total_ratings}} {{'seven_days_ratings' | translate}}</p>
+                                </div>
+                                <a (click)="bookSession(item.id)" style="cursor:pointer;" class="btntime">{{'book_now' |
+                                    translate}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade popupbtnrtl show" id="exampleModal" [ngStyle]="{'display': styleExp}"
+    [dir]="directionController.textDirection">
+    <div class="modal-dialog  modal-dialog-centered" style="width: 500px;">
+        <div class="modal-content">
+            <div class="modal-header border-0" style="    padding: 30px 30px 0px 30px;">
+                <h1></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closePopup()"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="padding-top:0px">
+                <div class="modalbody text-center">
+
+                    <img style="max-width: 250px;" src="assets/images/home/Celebration-rafiki.png" alt="">
+                    <p class="congrat">{{'congratulation' | translate}}</p>
+
+                    <span *ngIf="isIncreaseScore">
+                        <div class="text" style="padding:10px;">
+                            <number-tracker [end]="testScore"></number-tracker> <span
+                                class="small congratFont">/1000</span>
+                        </div>
+                        <p>{{'your_score_is_increased' | translate}}</p>
+                        <div class="logoutyesno">
+                            <a href="javascript:void(0)" (click)="explanationPopUp()"
+                                class="btnblue1">{{'explanation_of_rate' | translate}}</a>
+                        </div>
+                    </span>
+                    <span *ngIf="isLevelUp">
+                        <!-- <p>Your level now is upper-intermediate.</p>
+                        <p>Please check the level report in the app for more information.</p> -->
+                        <p>{{'level_change' | translate}}</p>
+                        <div class="text" style="padding:10px;">
+                            <number-tracker [end]="testScore"></number-tracker> <span
+                                class="small congratFont">/1000</span>
+                        </div>
+                        <p>{{'your_score_is_increased' | translate}}</p>
+                        <div class="logoutyesno">
+                            <a style="cursor: pointer;" (click)="sessionReport()" class="btnblue">Session report</a>
+                        </div>
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade popupbtnrtl show" id="exampleModal" [ngStyle]="{'display': styleExplanation}"
+    [dir]="directionController.textDirection" style="z-index: 100000; display: block;">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-0" style="    padding: 30px 30px 0px 30px;">
+                <h1></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeExplanationPopup()"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="padding-top:0px">
+                <div class="modalbody text-center">
+
+
+                    <h5 style="text-align: start; padding: 0px 1rem;">{{'attention' | translate}}</h5>
+                    <div style="text-align: start; padding: 0px 1rem;"><svg width="73" height="5" viewBox="0 0 73 5"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                            <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="modal-body ">
+                        <p style="text-align: start;">{{'The_grade_is_evaluated_by_the_teacher_during_the_trial_lesson'
+                            | translate}}
+                        </p>
+                        <p style="text-align: start;">{{'ifal_automatically_increases_a_student' | translate}}</p>
+                        <p style="text-align: start;">{{'In_the_6th_lesson_of_every_subscription' | translate}}</p>
+                    </div>
+                    <div class="logoutyesno">
+                        <!-- <a (click)="logOut()" class="btnblue">Yes</a> -->
+                        <a style="cursor: pointer;" (click)="closeExplanationPopup()" class="btnblue">{{'ok' |
+                            translate}}</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

@@ -1,0 +1,424 @@
+<div class="findteacherheading" style="    padding: 35px 0px 70px;" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h1 class="maintext ">{{'teacher_detail' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="profiletab packagesec profiletabtop profiletabtopm" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="myprofiledetails texhmaindetail">
+            <div class="firstsessioninfo techdetail">
+                <div class="sessionimg sessionreviewimg"> <img
+                        style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                        src="{{singleTeacherDetailsModel.thumbnail}}" alt="">
+                </div>
+                <div class="sessiontitle">
+                    <h4>{{singleTeacherDetailsModel.first_name}} {{singleTeacherDetailsModel.last_name}}</h4>
+                    <p>{{teacherBirthYear}} {{'years_old' | translate}}</p>
+                    <div class="stardiv">
+                        <h5><i class="fas fa-star"></i><span
+                                style="color: #28aae1; font-weight: 700;">{{singleTeacherDetailsModel.teacher_ratings}}</span>
+                        </h5>
+                        <p>{{singleTeacherDetailsModel.last_seven_days_total_ratings}} {{'seven_days_ratings' |
+                            translate}}</p>
+                    </div>
+                </div>
+                <a (click)="bookSession(singleTeacherDetailsModel.id)" style="cursor:pointer;"
+                    class="btnblue ml-auto">{{'book_session' | translate}}</a>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="aboutbio">
+                        <h5>{{'bio' | translate}}</h5>
+                        <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4"
+                                    stroke-linecap="round" />
+                                <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <p style="    font-family: 'Proxima Nova Rg';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #777777;
+                        margin-bottom: 5px;" dir="ltr"> {{singleTeacherDetailsModel.bio}}</p>
+                    </div>
+                    <div style="margin-top: 70px;"> <a (click)="bookSession(singleTeacherDetailsModel.id)"
+                            style="cursor:pointer;     margin: auto;" class="btnblue ml-auto">{{'book_session' |
+                            translate}}</a></div>
+                </div>
+                <div class="col-lg-6">
+                    <div *ngIf="singleTeacherDetailsModel.youtube_link"
+                        class="techdetailimg embed-responsive embed-responsive-21by9">
+                        <!-- <div class="container1">
+                            <iframe class="responsive-iframe" [src]='singleTeacherDetailsModel.youtube_link | safe'
+                                frameborder="0" allowfullscreen>
+                            </iframe>
+
+                        </div> -->
+                        <video  class="responsive-video" [poster] ="singleTeacherDetailsModel.thumbnail" controls>
+                            <source [src]="singleTeacherDetailsModel.youtube_link" type="video/mp4">
+                            <source [src]="singleTeacherDetailsModel.youtube_link" type="video/ogg">
+                            <source [src]="singleTeacherDetailsModel.youtube_link" type="video/webm">
+                            <object [data]="singleTeacherDetailsModel.youtube_link" >
+                            <embed [src]="singleTeacherDetailsModel.youtube_link" >
+                            </object>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container teacherdetailrtl" [dir]="directionController.textDirection">
+    <div *ngIf="teacherRatingsModel?.length > 0" class="favouritetitle upcomingses" style="padding-top: 15px;">
+        <h6>{{'reviews' | translate}}</h6>
+        <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round"></line>
+                <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round"></line>
+            </svg>
+        </span>
+    </div>
+    <div class="sesstiondetail booksession texchreview" *ngIf="teacherRatingsModel?.length > 0">
+        <div class="row list-wrapper">
+            <div *ngFor="
+            let item of teacherRatingsModel
+              | paginate
+                : {
+                    itemsPerPage: itemsPerPage,
+                    currentPage: page,
+                    totalItems: totalItems
+                  }
+          " class="col-lg-4 list-item">
+                <div class="firstsession">
+                    <div class="firstsessioninfo teacherreview">
+                        <div class="sessionimg sessionreviewimg">
+                            <img *ngIf="item.thumbnail"
+                                style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                                src="{{item.thumbnail}}" alt="">
+                            <img *ngIf="!item.thumbnail"
+                                style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                                src="assets/images/teacher/userProfile.jpg" alt="">
+                        </div>
+                        <div class="sessiontitle sessionreview" style="width:100%;">
+                            <div class="sessionmainname" style="display:block;">
+                                <div class="row">
+                                    <div class="col-6 col-sm-8 col-ml-8 col-lg-8">
+                                        <h4>{{item.first_name}} {{item.last_name}}</h4>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-ml-4 col-lg-4">
+                                        <div class="crop" style="width: 90px;">
+                                            <p style="width: 90px;">
+                                                <i class="fas fa-star" style="color: #a3a3a3;"></i>
+                                                <i class="fas fa-star" style="    color: #a3a3a3;"></i>
+                                                <i class="fas fa-star" style="    color: #a3a3a3;"></i>
+                                                <i class="fas fa-star" style="    color: #a3a3a3;"></i>
+                                                <i class="fas fa-star" style="    color: #a3a3a3;"></i>
+                                            </p>
+                                        </div>
+                                        <div class="crop croprating" [style.width.px]="item.newRating">
+                                            <p style="width:90px ;"><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>{{item.comment}}</p>
+                                <div class="row">
+                                    <div class="col-6 col-sm-8 col-ml-8 col-lg-8"></div>
+                                    <div class="col-6 col-sm-4 col-ml-4 col-lg-4">
+                                        {{item.newDate | date:'dd MMM, yyyy' }}
+                                    </div>
+                                </div>
+                                <!-- <p style="visibility: hidden;">{{item.comment}}</p> -->
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <pagination-controls (pageChange)="gty((page = $event))" [previousLabel]="'previous' | translate"
+                    [nextLabel]="'next' | translate"></pagination-controls>
+                <!-- <mat-paginator [length]="42" [pageIndex]="2 - 1"
+        [pageSize]="20" showFirstLastButtons></mat-paginator> -->
+                <!-- <pagination-controls (pageChange)="p = $event"></pagination-controls> -->
+            </div>
+        </div>
+    </div>
+    <!-- </section> -->
+    <div class="modal fade modaldate show" style="z-index:100000;" id="exampleModal2" [ngStyle]="{'display': styleExp}">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">{{'book_your_lesson' | translate}}</h5>
+                    <button type="button" class="btn-close" (click)="closePopup()"></button>
+                </div>
+                <div class="modal-body modaldatebody">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <drag-scroll #nav [scroll-x-wheel-enabled]="true" class="nav-overflow">
+                            <!-- <li class="nav-item" role="presentation" *ngFor="let item of result; let i = index"
+                                drag-scroll-item>
+                                <button [ngClass]="[item.date === selectdate ? 'nav-link active' : 'nav-link']"
+                                    id="pills-day-tab" data-bs-toggle="pill" data-bs-target="#pills-day" type="button"
+                                    role="tab" aria-controls="pills-day" aria-selected="true"
+                                    (click)="selectDate(item.date)">
+                                    <span>{{item.date | date:"MMM"}}</span>
+                                    <h3>{{item.date | date:"d"}}</h3>
+                                    <p style="
+                                margin: 0px;
+                            ">{{item.date | date:"EEE"}}</p>
+                                <p *ngIf="item.isAllready === 1" style="margin: 0px;color: red;">*</p>
+                                <p *ngIf="item.isAllready === 0" style="visibility: hidden;">*</p>
+                                </button>
+                            </li> -->
+                            <li class="nav-item" id="#sample_id" role="presentation"
+                                *ngFor="let item of result; let i = index" drag-scroll-item>
+                                <button [ngClass]="[item.date === selectdate ? 'nav-link active' : 'nav-link']"
+                                    id="pills-day-tab" data-bs-toggle="pill" data-bs-target="#pills-day" type="button"
+                                    role="tab" aria-controls="pills-day" aria-selected="true"
+                                    (click)="selectDate(item.date)">
+                                    <span>{{item.date | date:"MMM"}}</span>
+                                    <h3>{{item.date | date:"d"}}</h3>
+                                    <p style="
+                                margin: 0px;
+                            ">{{item.date | date:"EEE"}}</p>
+                                    <p *ngIf="item.isAllready === 1" style="margin: 0px;color: red;">*</p>
+                                    <p *ngIf="item.isAllready === 0" style="visibility: hidden;">*</p>
+                                </button>
+                            </li>
+                        </drag-scroll>
+                    </ul>
+
+                    <!-- <div class="tag">
+                    <p>To set a Free trial class without the need for your credit card details.please choose a time that
+                        is convenient for you.</p>
+                </div> -->
+                    <div class="tab-content" style="height: auto;
+                    min-height: 275px;" id="pills-tabContent">
+                        <div *ngIf="teacherSlotFilter && !teacherSlotFilter.length"
+                            style="text-align:center;padding: 135px 0">
+                            <p>{{'teacher_not_available' | translate}}</p>
+                        </div>
+                        <div class="tab-pane fade show active" id="pills-day" role="tabpanel"
+                            aria-labelledby="pills-day-tab">
+
+                            <ul class="timeselect">
+
+                                <!-- <span *ngFor="let item of teacherSlotFilter">
+                                    <li [ngClass]="[item.start_date === selectdat ? 'active' : '']"><a
+                                            *ngIf="item.startTimeNumber >= currentTime" (click)="selectSlot(item)">
+                                            {{item.start_date | date:"HH:mm"}}</a>
+                                        <a style="color: #8589928c;" *ngIf="item.startTimeNumber < currentTime">
+                                            {{item.start_date | date:"HH:mm"}}</a>
+                                    </li>
+                                </span> -->
+                                <span *ngFor="let item of teacherSlotFilter">
+                                    <li
+                                        [ngClass]="[item.start_date === selectdat ? 'active' : '',item.isAlready === 1 ? 'active1' : '']">
+                                        <a *ngIf="item.startTimeNumber >= currentTime && item.isBooked == 0 && item.isAlready != 1"
+                                            (click)="selectSlot(item)">
+                                            {{item.start_date | date:"HH:mm"}}</a>
+                                        <a style="color: #8589928c; cursor: pointer;"
+                                            *ngIf="item.startTimeNumber < currentTime || item.isBooked == 1 || item.isAlready === 1">
+                                            {{item.start_date | date:"HH:mm"}}</a>
+                                    </li>
+                                </span>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer modalbooklession">
+
+                    <button type="button" style="padding: 8px 16px; font-size: 20px;" (click)="bookAppointment()"
+                        class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1">{{'book_your_lesson' |
+                        translate}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div *ngIf="isSuccess" class="modal fade modaldate" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true"> -->
+    <div  class="modal fade modaldate show" id="exampleModal3" style="z-index:100000;"
+        [ngStyle]="{'display': styleExpConfirm}">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" (click)="closePopupThank()"></button>
+                </div>
+                <div class="modal-body ">
+                    <div class="modalbody thankyou text-center">
+                        <!--  <img src="assets/images/teacher/thanksimg.png" alt=""> -->
+                        <h5>{{'thank_you_' | translate}}</h5>
+                        <span><svg width="73" height="5" viewBox="0 0 73 5" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                    stroke-linecap="round"></line>
+                                <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                    stroke-linecap="round"></line>
+                            </svg>
+                        </span>
+                        <p>{{'Your_session_has_been_booked_with' | translate}}
+                            <span>{{singleTeacherDetailsModel.first_name}}
+                                {{singleTeacherDetailsModel.last_name}}.</span></p>
+                        <div class="showdatetime">
+                            <a><img src="assets/images/teacher/calender.png" alt=""><span>{{sloteDate | date:'d
+                                    MMMM
+                                    y'}}</span></a>
+                            <a><img src="assets/images/teacher/time.png" alt=""><span>{{this.selectdat |
+                                    date:'HH:mm'}} - {{futureDate | date:'HH:mm'}}</span></a>
+                        </div>
+                        <p class="cancellationinfo">
+                            <span>{{'cancellation_of_the_session_is_only_possible_2_hours_before_the_scheduled_session_starts'
+                                | translate}}</span>
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="modal-footer">
+                    <div class="btnssessions">
+                        <!-- <a routerLink="/i-fal-menu/session-detail"  type="button" class="btn btn-primary btnblue">Go to sessions Details
+                    </a> -->
+                        <a (click)="sessionDetail()" type="button" class="btn btn-primary btnblue"
+                            clbuttonss="btn btn-primary btnblue">{{'Details_preferences' | translate}}
+                        </a>
+                        <a *ngIf="appointmentCount != '0'" (click)="session()" type="button"
+                            class="btn btn-primary btnblue" clbuttonss="btn btn-primary btnblue">{{'Book_More_Sessions'
+                            | translate}}
+                        </a>
+                        <!-- (click)="bookFirstLesson()" -->
+                        <!-- <a routerLink="/i-fal-menu/sessions" class="btn btn-primary btnblue">Book More Sessions
+                    </a> -->
+                        <a (click)="openCityInNewWindow()" target="blank" type="button"
+                            class="btn btn-primary btnblue">{{'add_in_google_calendar' | translate}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<div class="modal fade modaldate classPreference show" style="z-index: 100000;" [ngStyle]="{'display': stylePreference}" [dir]="directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 500px !important;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{'session_preference' | translate}}</h5>
+            </div>
+            <div class="modal-body " style="padding:1rem 30px;">
+                <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                    <div class="form-group">
+                        <form [formGroup]="notesForm">
+                            <div class="form-check">
+                                <input class="form-check-input custom-control-input" type="checkbox" (change)="checkValue(1)" name="flexRadioDefault" formControlName="notes1" value="1" id="flexCheckChecked01">
+                                <label class="form-check-label" for="flexCheckChecked01">
+                                  {{'I_would_like_to_be_corrected_actively_during_the_class' | translate }}
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"  (change)="checkValue(2)" formControlName="notes2" value="2" id="flexCheckChecked02" >
+                                <label class="form-check-label" for="flexCheckChecked02">
+                                  {{'I_prefer_not_to_be_corrected_during_the_class' | translate}}
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" formControlName="notes3" value="3" id="flexCheckChecked03" >
+                                <label class="form-check-label" for="flexCheckChecked03">
+                                  {{'I_would_like_to_receive_a_copy_of_my_class_recording' | translate}}
+                                </label>
+                              </div>
+                              <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" formControlName="notes4" value="4" id="flexCheckChecked04" >
+                                <label class="form-check-label" for="flexCheckChecked04">
+                                  {{'I_would_like_to_receive_homework_after_my_class' | translate}}
+                                </label>
+                              </div>
+                              <div style="font-weight: 600; text-align: start;">{{'I_would_like_to_focus_on' | translate}}</div>
+                              <div class="form-check mt-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" formControlName="notes5" value="5" id="flexRadioDefault01">
+                                <label class="form-check-label" for="flexRadioDefault01">
+                                    {{'Grammar' | translate}}
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" formControlName="notes5" value="6" id="flexRadioDefault02">
+                                <label class="form-check-label" for="flexRadioDefault02">
+                                    {{'Reading_comprehension' | translate}}
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" formControlName="notes5" value="7" id="flexRadioDefault03">
+                                <label class="form-check-label" for="flexRadioDefault03">
+                                    {{'Writing' | translate}}
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" formControlName="notes5" value="8" id="flexRadioDefault04">
+                                <label class="form-check-label" for="flexRadioDefault04">
+                                    {{'Open_conversation' | translate}}
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" (change)="businessEnglish($event)" formControlName="notes5" value="9" id="flexRadioDefault05">
+                                <label class="form-check-label" for="flexRadioDefault05">
+                                    {{'Business_english' | translate}}
+                                </label>
+                              </div>
+                              <hr>
+                              
+                          </form>
+                          <div class="form-check">
+                            <input class="form-check-input" [(ngModel)]="isDontShow" type="checkbox"  id="flexCheckChecked05" >
+                            <label class="form-check-label" for="flexCheckChecked05">
+                              {{'Don_t_show_this_popup_again' | translate}}
+                            </label>
+                          </div>
+                    </div>
+            <div class="youcanchoos" style="    margin-bottom: 0px;
+            text-align: end;">
+                <a style="   cursor: pointer; margin-top: 0px;" (click)="updateSessionSettingsNext()"
+                    class="schedualtime" >{{'next' | translate}}</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modaldate show" style="z-index: 999999;" [ngStyle]="{'display': stylebusiness}" [dir]="directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 500px !important;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{'Note' | translate}}</h5>
+            </div>
+            <div class="modal-body " style="padding:1rem 30px;">
+                <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                    <p class="bissuness">{{'Business_english_preference_accepted_only_if_the_teacher_you_choose_has_this_skill' | translate}}</p>
+                    <div class="okayClose">
+                        <a style="cursor: pointer;" (click)="closePopup()" class="btnblue">{{'ok' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<mat-spinner *ngIf="Loader" style="z-index: 1000000;" class="mat-spinner-color"></mat-spinner>

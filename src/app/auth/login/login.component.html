@@ -1,0 +1,132 @@
+<section class="login" [dir]="directionController.textDirection">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="loginimg">
+          <img src="assets/images/login/loginimg.png" alt="">
+          <div class="logininfo">
+            <h6>{{'Welcome_To_ifal' | translate}}</h6>
+            <h4>{{'Learning_Platform' | translate}}
+            </h4>
+            <span>
+              <svg width="71" height="5" viewBox="0 0 71 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.0440063" y="0.992676" width="54.9796" height="3.83578" rx="1.91789" fill="white" />
+                <rect x="60.138" y="0.992676" width="10.2288" height="3.83578" rx="1.91789" fill="white" />
+              </svg>
+
+            </span>
+            <p> {{'The_ifal_app_was_established'| translate}}</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="logindetail">
+          <div class="ifallogo">
+            <img src="assets/images/login/Logo.svg" alt="">
+          </div>
+          <h4>{{'login' | translate}}</h4>
+          <span><svg width="70" height="5" viewBox="0 0 70 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.468506" y="0.491943" width="54.1918" height="3.78082" rx="1.89041" fill="#28AAE1" />
+              <rect x="59.7014" y="0.491943" width="10.0822" height="3.78082" rx="1.89041" fill="#28AAE1" />
+            </svg>
+          </span>
+          <form id="registrationForm" [formGroup]="registrationForm">
+            <div class="containerfuil">
+              <div class="row">
+                <div class="col-12">
+                  <div class="profilename">
+                    <label>{{'Email_Address' | translate}}</label>
+                    <input type="text" class="form-control mail" class="mail" placeholder="{{'err_email' | translate}}"
+                      formControlName="email">
+                    <div style="height: 20px;">
+                      <div class="denger" *ngIf="submitted && email!.errors?.['required']">
+                        Email is required
+                        <!-- {{'First_Name_is_required' | translate}} -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="profilename">
+                    <label>{{'password' | translate}}</label>
+                    <input type="password" class="form-control mail" formControlName="password" class="mail"
+                      placeholder="{{'err_password' | translate}}">
+                    <div style="height: 20px;">
+                      <div class="denger" *ngIf="submitted && password!.errors?.['required']">
+                        Password is required
+                        <!-- {{'First_Name_is_required' | translate}} -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <label>Email Address *</label>
+            <input type="mail" formControlName="email" class="mail" placeholder="Enter email">
+            <label>Password *</label>
+            <input type="password" formControlName="password" class="mail" placeholder="Enter Password"> -->
+          </form>
+          <div class="containerfuil">
+            <div class="row">
+              <div class="col-12">
+                <a style=" cursor: pointer;" (click)="onForgotpassword()" class="forgot">{{'forgot_password' |
+                  translate}}</a>
+              </div>
+              <div class="col-12">
+                <a type="submit" style="border-radius: 5px;
+          cursor: pointer;
+          box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" form="registrationForm" (click)="onSubmit()"
+                  class="login">{{'login' | translate}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade forgott show" id="staticBackdrop" [ngStyle]="{'display': styleExp}" style="z-index:100000;">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="btn-close" (click)="closePopup()"></button>
+        </div>
+        <div class="modal-body">
+          <div class="forgotpassmail text-center">
+            <img src="assets/images/home/logo.svg" alt="">
+            <p>{{'no_worries_let_us_know_your_email_and_we_ll_send_you_a_link_to_reset_it' | translate}}</p>
+            <form id="forgotpassmail" [formGroup]="forgotpassmail">
+              <input type="mail" formControlName="email" class="mail" placeholder="{{'err_email' | translate}}">
+              <div class="denger" *ngIf="submitted && f!.errors?.['required']">
+                {{'New_Password_is_required' | translate}}
+              </div>
+            </form>
+            <a style="cursor: pointer;" (click)="onSubmitforgotpassmail()" class="login">{{'submit' | translate}}</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>
+<!-- 
+<h2>Custom rating Display</h2>
+
+<ng-template #heart let-fill="fill">
+	<span class="star" [class.full]="fill === 100">
+    <span class="half" [style.width.%]="fill">&hearts;</span>&hearts;
+	</span>
+</ng-template>
+
+<ngb-rating [(rate)]="currentRate" [starTemplate]="heart" [readonly]="true" [max]="5"></ngb-rating>
+
+<hr>
+<pre>Rate: <b>{{currentRate}}</b></pre>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="currentRate = 2.5">2.5</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="currentRate = 1.53">1.53</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="currentRate = 4.25">4.25</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="currentRate = 2.75">2.75</button> -->

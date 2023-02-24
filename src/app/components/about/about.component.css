@@ -1,0 +1,68 @@
+.maintext {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #424143;
+    margin-bottom: 5px;
+}
+
+.findteacherheading {
+    margin-top: 100px;
+    background: #f5f7fb;
+    padding: 35px 0px 111px;
+    position: relative;
+}
+.teacherfind p{
+    font-family: "Proxima Nova Rg";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #777777;
+    /* max-width: 1111px; */
+    margin: 15px 10px;
+    line-height: 30px;
+}
+.findteacherheading[dir = "rtl"] h1{
+    font-family: "open-sans-hebrew-condensed" !important;
+  }
+  .profiletab[dir = "rtl"] p{
+    font-family: "open-sans-hebrew-condensed" !important;
+  }
+
+  .gifimage{
+    height: auto;
+    max-width: 80%;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-style: solid;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
+    border-color: #A0A0A0;
+    border-radius: 20px 20px 20px 20px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .gifimage {
+      max-width: 60%;
+    }
+    .findteacherheading {
+      margin-top: 60px;
+      padding: 35px 0px 70px;
+  }
+  }
+  @media only screen and (max-width: 575px) {
+    .gifimage {
+      max-width: 100%;
+    }
+    .findteacherheading {
+      margin-top: 60px;
+      padding: 35px 0px 50px;
+  }
+  }

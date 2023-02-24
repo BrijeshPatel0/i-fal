@@ -1,0 +1,477 @@
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+.teacherinfo h6 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 10px;
+}
+.zoommeeting h5 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #424143;
+}
+.modaldate .modal-dialog.modal-dialog-centered {
+  max-width: 940px !important;
+}
+.favouritetitle h6 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #424143;
+}
+.okayClose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: end !important;
+}
+/* .active1{
+    background: red;
+    color: white;
+  } */
+ul.timeselect li.active1 a {
+  background: red;
+  color: white !important;
+}
+.modaldate ul#pills-tab li button.active1 {
+  background: red !important;
+  color: white !important;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.active-color {
+  color: white !important;
+}
+
+.modalbody.text-center p {
+  text-transform: none !important;
+}
+ul.timeselect li a {
+  cursor: pointer;
+}
+drag-scroll div {
+  overflow: hidden !important;
+}
+
+ul.timeselect span {
+  width: 20%;
+}
+.modaldate .modal-content {
+  border-radius: 50px;
+}
+ul.timeselect li a {
+  width: 142px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid rgb(133 137 146 / 50%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #858992;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+button.btn.btn-primary.btnbook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #28aae1;
+  border-radius: 5px;
+  width: 243px;
+  height: 50px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+ul.timeselect li.active a {
+  color: white !important;
+}
+.crop {
+  overflow: hidden;
+}
+
+.sessionmainname i {
+  color: #faa721;
+  margin: 0px !important;
+}
+
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+}
+.modaldate ul#pills-tab li {
+  width: 99px;
+  height: 100px !important;
+  margin-right: 10px;
+}
+.modaldate ul#pills-tab li button {
+  width: 100px;
+  height: 100px !important;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0 !important;
+}
+.modaldate ul#pills-tab li {
+  width: 80px;
+  height: 94px;
+  margin: 5px;
+}
+.modaldate ul#pills-tab li button {
+  width: 80px;
+  height: 93px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0 !important;
+}
+ul.timeselect li a {
+  width: 162px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(133 137 146 / 50%);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #858992;
+  transition: all 0.5s;
+}
+ul.timeselect li {
+  width: auto;
+  margin: 6px 0px;
+}
+
+a.bookmore:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  border: 1px solid;
+}
+a.join:hover {
+  color: #fff !important;
+  background-color: #28aae1 !important;
+  border-color: #28aae1 !important;
+  border: 1px solid;
+}
+a.join:hover i {
+  color: #fff;
+}
+a.zoom:hover {
+  color: #fff !important;
+  background-color: #858992 !important;
+  border-color: #858992 !important;
+}
+.resheduelbtn a:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  border: 1px solid;
+}
+.resheduelbtn a {
+  border-color: #28aae1 !important;
+  border: 1px solid;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  border: 1px solid;
+}
+.btn-primary {
+  border-color: #28aae1 !important;
+  border: 1px solid;
+}
+
+.cardsession {
+  background-color: white !important;
+  margin-top: 20px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 0px !important;
+  margin-top: 25px !important;
+}
+.profiletab[dir="rtl"] a.bookmore {
+  margin-right: auto;
+  margin-left: unset;
+}
+.profiletab[dir="rtl"] .sesiondetail img {
+  margin-right: 0px;
+  margin-left: 35px;
+}
+.profiletab[dir="rtl"] .teacherinfo p span.totalratings {
+  padding-right: 8px !important;
+  padding-left: unset;
+}
+.sessiontimimgrtl[dir="rtl"] ul.seessiontime span {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.sessiontimimgrtl[dir="rtl"] ul.seessiontime li {
+  border-left: 2px solid #c4c4c4;
+  border-right: none;
+}
+.sessiontimimgrtl2[dir="rtl"] .zoommeeting a.join i {
+  margin-left: 10px;
+}
+.sessiontimimgrtl2[dir="rtl"] .resheduelbtn {
+  margin-left: unset;
+  margin-right: auto;
+}
+.modelthanks[dir="rtl"] .btn-close {
+  margin-left: 0px !important;
+}
+.sessiondtlcol {
+  color: #858992 !important;
+}
+.findteacherheading[dir="rtl"] h1,
+.findteacherheading[dir="rtl"] h5 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir="rtl"] a,
+.profiletab[dir="rtl"] span,
+.profiletab[dir="rtl"] p {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.sessiontimimgrtl[dir="rtl"] a,
+.sessiontimimgrtl[dir="rtl"] span {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.sessiontimimgrtl2[dir="rtl"] h5,
+.sessiontimimgrtl2[dir="rtl"] span,
+.sessiontimimgrtl2[dir="rtl"] a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.modaldate[dir="rtl"] h5,
+.modaldate[dir="rtl"] p,
+.modaldate[dir="rtl"] span,
+.modaldate[dir="rtl"] a,
+.modaldate[dir="rtl"] button,.modaldate[dir="rtl"] label,.modaldate[dir="rtl"] div {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.favouritetitlertl[dir="rtl"] h6,
+.favouritetitlertl[dir="rtl"] a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+.settingmarging {
+  margin-top: 85px !important;
+}
+.settingmarging[dir="rtl"] ul li #button-1 {
+  margin-right: auto;
+  margin-left: 0;
+}
+.settingmarging[dir="rtl"] h5,
+.settingmarging[dir="rtl"] div,
+.settingmarging[dir="rtl"] mat-panel-title,
+.settingmarging[dir="rtl"] a,
+.settingmarging[dir="rtl"] li {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.mat-expansion-panel:not([class*="mat-elevation-z"]) {
+  box-shadow: unset;
+}
+.mat-expansion-panel-header {
+  padding: 0 24px 0 0;
+}
+.notititle {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #424143;
+  margin-bottom: 8px;
+}
+ul.settings li {
+  padding-left: 20px;
+}
+.expanxsion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  box-shadow: 0px 8px 10px rgb(0 0 0 / 8%) !important;
+  border-radius: 10px !important;
+  padding: 15px 42px;
+  margin-bottom: 19px;
+}
+.expanxsion1{
+margin-right: 5px;
+}
+.expanxsion2{
+  margin-left: 5px;
+}
+::ng-deep.form-check-input:checked {
+  background-color: #faa721 !important;
+  border-color: #faa721 !important;
+  box-shadow: 0 0 0 0.25rem rgb(253 153 13 / 25%) !important;
+}
+
+.settingmarging[dir="rtl"] .form-check .form-check-input {
+  float: right;
+  margin-right: -1.5em;
+}
+.classPreference[dir="rtl"] .form-check .form-check-input {
+  float: right;
+  margin-right: -1.5em;
+}
+.classPreference[dir="rtl"] .form-check {
+  padding-right: 1.5em;
+}
+.form-group label {
+  visibility: visible;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #777777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bissuness {
+  font-family: "Proxima Nova Rg";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #858992;
+    text-align:start !important;
+}
+.rowdesign{
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .rowdesign{
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sessiontimimgrtl[dir="rtl"] ul.seessiontime li {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+    border: none;
+  }
+  .mobileview {
+    margin-bottom: 0px;
+  }
+
+  .sessiontimimg {
+    padding-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  span.totalratings {
+    padding-left: 0px;
+    font-size: 14px;
+  }
+
+  .mat-expansion-panel-body{
+    padding: 0 15px 16px;
+  }
+  .expanxsion{
+    padding: 15px 20px;
+  }
+}
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}

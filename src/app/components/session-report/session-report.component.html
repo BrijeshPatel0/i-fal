@@ -1,0 +1,288 @@
+<div *ngIf="userAppointmentDetailsModel.summary.fluency != null" class="findteacherheading" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h1 class="maintext ">{{'assessment_report' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                    obligation</p> -->
+        </div>
+    </div>
+</div>
+<div *ngIf="userAppointmentDetailsModel.summary.fluency != null" class="profiletab packagesec" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="myprofiledetails">
+            <ul class="biginerprogress">
+                <div class="row">
+                    <div class="col-ml-12 col-lg-6">
+                        <!-- <li class="anaylytics"> -->
+                        <span class="">
+                            <div class="ana">
+                                <div class="frame">
+
+                                    <div class="dashboard">
+                                        <div class="text">
+                                            <span style="color: #28aae1;
+                                                font-size: 22px;">{{lastmonthScore!.total_score}}</span> <span
+                                                class="small" style="color:#777777">/1000</span>
+                                        </div>
+                                        <span style="width: 150px;">
+                                            <circle-progress [percent]="progress" [radius]="70" [outerStrokeWidth]="20"
+                                                [innerStrokeWidth]="20" [space]="-20" [outerStrokeColor]="'#28aae1'"
+                                                [innerStrokeColor]="'#e7e8ea'" [showSubtitle]="false"
+                                                [animation]="isAnimation" [animationDuration]="300"
+                                                [startFromZero]="false" [responsive]="true" [unitsColor]="'#ffffff'"
+                                                [titleColor]="'#ffffff'"></circle-progress>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="level">
+                                    <!-- <span class="yellowtext">Level {{lavel}} <span class="of8">of 8</span></span> -->
+                                    <span class="yellowtext">{{'level' | translate}} {{lavel}} </span>
+                                    <!-- <p>{{levelNameStart}}</p> -->
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 1">{{'Pre_Beginner' | translate}}</p>
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 2">{{'Beginner' | translate}}</p>
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 3">{{'Pre_Intermediate' | translate}}</p>
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 4">{{'Intermediate' | translate}}</p>
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 5">{{'Upper_Intermediate' | translate}}</p>
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 6">{{'Pre_Advanced' | translate}}</p>
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 7">{{'Advanced' | translate}}</p>
+                                    <p style="margin: 6px 0px;" *ngIf="lavel == 8">{{'Proficient' | translate}}</p>
+                                    <!-- <span class="graytext">Previous Score : {{lastmonthScore!.total_score}} </span> -->
+                                </div>
+                            </div>
+                            <!-- <div class="">
+                                    <a href="javascript:void(0)" (click)="test()" class="redbtn" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">popup </a>
+                                </div> -->
+                            <div class="progressbigginer">
+                                <div class="bigginer">
+                                    <!-- <span>{{levelNameStart}}</span>
+                                    <span>{{levelNameEnd}}</span> -->
+                                    <span *ngIf="lavel == 1" >{{'Pre_Beginner' | translate}}</span>
+                                    <span *ngIf="lavel == 1" >{{'Beginner' | translate}}</span>
+                                    <span *ngIf="lavel == 2" >{{'Beginner' | translate}}</span>
+                                    <span *ngIf="lavel == 2" >{{'Pre_Intermediate' | translate}}</span>
+                                    <span *ngIf="lavel == 3" >{{'Pre_Intermediate' | translate}}</span>
+                                    <span *ngIf="lavel == 3" >{{'Intermediate' | translate}}</span>
+                                    <span *ngIf="lavel == 4" >{{'Intermediate' | translate}}</span>
+                                    <span *ngIf="lavel == 4" >{{'Upper_Intermediate' | translate}}</span>
+                                    <span *ngIf="lavel == 5" >{{'Upper_Intermediate' | translate}}</span>
+                                    <span *ngIf="lavel == 5" >{{'Pre_Advanced' | translate}}</span>
+                                    <span *ngIf="lavel == 6" >{{'Pre_Advanced' | translate}}</span>
+                                    <span *ngIf="lavel == 6" >{{'Advanced' | translate}}</span>
+                                    <span *ngIf="lavel == 7" >{{'Advanced' | translate}}</span>
+                                    <span *ngIf="lavel == 7" >{{'Proficient' | translate}}</span>
+                                    <span *ngIf="lavel == 8" >{{'Advanced' | translate}}</span>
+                                    <span *ngIf="lavel == 8" >{{'Proficient' | translate}}</span>
+                                </div>
+                                <div class="progress1">
+                                    <div class="progress-value"
+                                        style="--value:{{last_total_score}}%;--lastValue:{{total_score}}%;"></div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="col-ml-12 col-lg-6" style="margin:auto ;">
+                        <!-- <li class="teacherfind"> -->
+
+                        <div class="membership " style="margin: 0px;">
+                            <p> {{lastmonthScore!.level_description}} </p>
+                        </div>
+                        <!-- </li> -->
+                    </div>
+                </div>
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- <div class="favouritetitle upcomingses">
+    <h6>Competency summary</h6>
+    <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+            </line>
+            <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+            </line>
+        </svg>
+    </span>
+</div> -->
+<div *ngIf="userAppointmentDetailsModel.summary.fluency != null" class="container favouritetitlertl" [dir] = "directionController.textDirection">
+    <div class="favouritetitle upcomingses" style="margin: 45px 0px;">
+        <h6>{{'competency_summary' | translate}}</h6>
+        <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                </line>
+                <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                </line>
+            </svg>
+        </span>
+    </div>
+</div>
+<div *ngIf="userAppointmentDetailsModel != null" class="container summryrtl" style="background-color:white ;" [dir] = "directionController.textDirection">
+    <div *ngIf="userAppointmentDetailsModel.summary.fluency != null" class="summry">
+        <!-- <div class="favouritetitle upcomingses">
+            <h6>Competency summary</h6>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                    </line>
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                    </line>
+                </svg>
+            </span>
+        </div> -->
+        <table class="compentency">
+            <thead>
+                <tr>
+                    <th>{{'competency' | translate}}</th>
+                    <th>{{'score' | translate}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{'fluency' | translate}}</td>
+                    <td>{{userAppointmentDetailsModel.summary.fluency}}</td>
+                </tr>
+                <tr>
+                    <td>{{'grammar' | translate}}</td>
+                    <td>{{userAppointmentDetailsModel.summary.grammar}}</td>
+                </tr>
+                <tr>
+                    <td>{{'pronunciation' | translate}}</td>
+                    <td>{{userAppointmentDetailsModel.summary.pronunciation}}</td>
+                </tr>
+                <tr>
+                    <td>{{'comprehension' | translate}}</td>
+                    <td>{{userAppointmentDetailsModel.summary.comprehension}}</td>
+                </tr>
+                <tr>
+                    <td>{{'lexical_resource_vocabulary' | translate}}</td>
+                    <td>{{userAppointmentDetailsModel.summary.vocabulary}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- <div class="favouritetitle upcomingses">
+                <h6>Level Discription</h6>
+                <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                        </line>
+                        <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                        </line>
+                    </svg>
+                </span>
+                <p>{{userAppointmentDetailsModel.summary.level_description}}</p>
+            </div> -->
+    </div>
+</div>
+
+<div class="container mainheadingdirection" [dir] = "directionController.textDirection">
+    <div class="mainheading text-center sessionrep" style="    text-align: start !important;
+    padding-top: 45px;">
+        <h1 class="maintext ">{{'session_report' | translate}}
+        </h1>
+        <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+            </svg>
+        </span>
+        <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                    obligation</p> -->
+    </div>
+
+    <div class="comment">
+        <div class="mainheading text-left sesrep">
+            <h1 class="maintext ">{{'comment' | translate}}
+            </h1>
+            <div class="sentencecurrection">
+                <div class="container-fuild">
+                    <div class="row">
+                        <div class="col-12 sentencecurrection">
+                            <div class="close">
+                                <p style="max-width: 75%;">{{userAppointmentDetailsModel.report.report_comment}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <input type="text" value="test" class="test"> -->
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                    obligation</p> -->
+        </div>
+
+        <div class="mainheading text-left sesrep">
+            <h1 class="maintext ">{{'new_words' | translate}}
+            </h1>
+            <a routerLink="/i-fal-menu/practice" class="btnblue">{{'click_here_to_learn_new_words' | translate}}</a>
+
+            <ul class="sentencecurrection">
+                <li *ngFor="let item of userAppointmentDetailsModel.report.new_words" class="close"><span>{{item}}</span></li>
+                <!-- <li class="close"><span>test</span></li>
+                <li class="close"><span>test</span></li>
+                <li class="close"><span>test</span></li>
+                <li class="close"><span>test</span></li>
+                <li class="close"><span>test</span></li>
+                <li class="close"><span>test</span></li>
+                <li class="close"><span>test</span></li>
+                <li class="close"><span>test</span></li>
+                <div class="container-fuild">
+                    <div class="row">
+                        <div class="col-4" >
+                            <li class="close"><span>{{item}}</span></li>
+                        </div>
+                    </div>
+                </div> -->
+            </ul>
+            <!-- <input type="text" [value]="'userAppointmentDetailsModel.report.report_comment'" class="test"> -->
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                    obligation</p> -->
+        </div>
+        <div class="mainheading text-left sesrep">
+            <h1 class="maintext mb-3">{{'mispronounced_words' | translate}}
+            </h1>
+            <p>{{'click_the_icon_to_hear_how_to_pronounce_the_words' | translate}}</p>
+            <ul class=" mispronounce">
+                <li *ngFor="let item of userAppointmentDetailsModel.report.mispronounced_words">
+                    <textarea type="text" placeholder="test" class="test say_these_words8" readonly>{{item}}</textarea>
+                    <a (click)="voice(item)" class="speaker8" id="speak"><img src="assets/images/teacher/speaker.png"
+                            alt=""></a>
+                </li>
+            </ul>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                    obligation</p> -->
+        </div>
+
+
+        <div class="mainheading text-left sesrep">
+            <h1 class="maintext mb-3">{{'sentence_correction' | translate}}
+            </h1>
+
+            <ul class="sentencecurrection" dir="ltr">
+                <div class="container" style="padding:0px ;">
+                    <div class="row" *ngFor="let item of userAppointmentDetailsModel.report.corrections">
+                        <div class="col-6">
+                            <li class="close"><span style="line-height: 24px;">{{item.problem_sentences}}</span><a><i
+                                        class="fas fa-times-circle"></i></a></li>
+                        </div>
+                        <div class="col-6">
+                            <li class="tick"><span style="line-height: 24px;">{{item.teacher_corrections}}</span><a><i
+                                        class="fas fa-check-circle"></i></a></li>
+                        </div>
+                    </div>
+                </div>
+                <!-- <li class="close"><span>test</span><a href="#"><i class="fas fa-times-circle"></i></a></li>
+                <li class="tick"><span>test</span><a href="#"><i class="fas fa-check-circle"></i></a></li>
+                <li class="tick"><span>test</span><a href="#"><i class="fas fa-check-circle"></i></a></li>
+                <li class="close"><span>test</span><a href="#"><i class="fas fa-times-circle"></i></a></li> -->
+            </ul>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                    obligation</p> -->
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

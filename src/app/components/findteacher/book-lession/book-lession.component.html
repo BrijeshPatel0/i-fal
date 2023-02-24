@@ -1,0 +1,347 @@
+<div class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h1 class="maintext ">{{'book_your_lesson' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="profiletabsec modaldate " [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="myprofiledetails bookless" style="padding-top: 30px;">
+            <div class="modal-body">
+                <ul class="nav webview nav-pills mb-3" id="pills-tab" role="tablist" style="max-width: 100%;">
+                    <!-- <li class="nav-item" role="presentation" *ngFor="let item of result">
+                        <button [ngClass]="[item === selectdate ? 'nav-link active' : 'nav-link']" id="pills-day-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-day" type="button" role="tab"
+                            aria-controls="pills-day" aria-selected="true" (click)="selectDate(item)">
+                            <span>{{item | date:"MMM"}}</span>
+                            <h3>{{item | date:"d"}}</h3>
+                            <p>{{item | date:"EEEE"}}</p>
+                        </button>
+                    </li> -->
+                    <drag-scroll #nav [scroll-x-wheel-enabled]="true" class="nav-overflow" style="
+                    width: auto; max-width: 90%;">
+                        <li class="nav-item" id="#sample_id" role="presentation"
+                            *ngFor="let item of result; let i = index" drag-scroll-item>
+                            <button [disabled]="isDisable"
+                                [ngClass]="[item.date === selectdate ? 'nav-link active' : 'nav-link']"
+                                id="pills-day-tab" data-bs-toggle="pill" data-bs-target="#pills-day" type="button"
+                                role="tab" aria-controls="pills-day" aria-selected="true"
+                                (click)="selectDate(item.date)">
+                                <span>{{item.date | date:"MMM"}}</span>
+                                <h3>{{item.date | date:"d"}}</h3>
+                                <p style="
+                                margin: 0px;
+                            ">{{item.date | date:"EEE"}}</p>
+                                <p *ngIf="item.isAllready === 1" style="margin: 0px;color: red;">*</p>
+                                <p *ngIf="item.isAllready === 0" style="visibility: hidden;">*</p>
+                            </button>
+                        </li>
+                    </drag-scroll>
+                    <li *ngIf="appointmentCount != '0'" class="nav-item" role="presentation">
+                        <button style="background-color: #f9a722 !important;" (click)="Last7Days(5,'loadMore')"
+                            class="nav-link" id="pills-day6-tab" data-bs-toggle="pill" data-bs-target="#pills-day6"
+                            type="button" role="tab" aria-controls="pills-day6" aria-selected="false">
+                            <span style="color: white !important; padding-bottom: 5px;">{{'load' | translate}}
+                            </span><span style="color: white !important;">
+                                {{'more' | translate}}</span>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="nav mobileview nav-pills mb-3" id="pills-tab" role="tablist" style="max-width: 100%;">
+                    <!-- <li class="nav-item" role="presentation" *ngFor="let item of result">
+                        <button [ngClass]="[item === selectdate ? 'nav-link active' : 'nav-link']" id="pills-day-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-day" type="button" role="tab"
+                            aria-controls="pills-day" aria-selected="true" (click)="selectDate(item)">
+                            <span>{{item | date:"MMM"}}</span>
+                            <h3>{{item | date:"d"}}</h3>
+                            <p>{{item | date:"EEEE"}}</p>
+                        </button>
+                    </li> -->
+                    <div #nav class="nav-overflow" style="
+                    width: auto; max-width: 90%;     display: contents;">
+                        <li class="nav-item" id="#sample_id" role="presentation"
+                            *ngFor="let item of result; let i = index">
+                            <button [disabled]="isDisable"
+                                [ngClass]="[item.date === selectdate ? 'nav-link active' : 'nav-link']"
+                                id="pills-day-tab" data-bs-toggle="pill" data-bs-target="#pills-day" type="button"
+                                role="tab" aria-controls="pills-day" aria-selected="true"
+                                (click)="selectDate(item.date)">
+                                <span>{{item.date | date:"MMM"}}</span>
+                                <h3>{{item.date | date:"d"}}</h3>
+                                <p style="
+                                margin: 0px;
+                            ">{{item.date | date:"EEE"}}</p>
+                                <p *ngIf="item.isAllready === 1" style="margin: 0px;color: red;">*</p>
+                                <p *ngIf="item.isAllready === 0" style="visibility: hidden;">*</p>
+                            </button>
+                        </li>
+                    </div>
+                    <li *ngIf="appointmentCount != '0'" class="nav-item" role="presentation">
+                        <button style="background-color: #f9a722 !important;" (click)="Last7Days(5,'loadMore')"
+                            class="nav-link" id="pills-day6-tab" data-bs-toggle="pill" data-bs-target="#pills-day6"
+                            type="button" role="tab" aria-controls="pills-day6" aria-selected="false">
+                            <span style="color: white !important; padding-bottom: 5px;">{{'load' | translate}}
+                            </span><span style="color: white !important;">
+                                {{'more' | translate}}</span>
+                        </button>
+                    </li>
+                </ul>
+                <!-- <div class="tag">
+                    <p>To set a Free trial class without the need for your credit card details.please choose a
+                        time
+                        that
+                        is convenient for you.</p>
+                </div> -->
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- <div *ngIf="unicresponseSlot && !unicresponseSlot.length"
+                    style="text-align:center;padding: 135px 0">
+                    <p>{{'teacher_not_available' | translate}}</p>
+                </div> -->
+                    <div class="tab-pane fade show active" id="0-day" role="tabpanel" aria-labelledby="pills-day-tab">
+                        <ul class="timeselect">
+                            <span *ngFor="let item of unicresponseSlot">
+                                <li
+                                    [ngClass]="[item.start_date === selectdat ? 'active' : '',item.isAlready === 1 ? 'active1' : '']">
+                                    <a *ngIf="item.startTimeNumber >= currentTime && item.isAlready != 1"
+                                        (click)="selectSlot(item)">
+                                        {{item.start_date | date:"HH:mm"}}</a>
+                                    <a style="color: #8589928c; cursor: pointer;"
+                                        *ngIf="item.startTimeNumber < currentTime || item.isAlready === 1">
+                                        {{item.start_date | date:"HH:mm"}}</a>
+                                </li>
+                            </span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" booksess mt-5" *ngIf="appointmentCount != '0'">
+                <div class="row">
+                    <div class="col-lg-4 position-relative" style="padding: 0px 18px;"
+                        *ngFor="let findTeacher of findTeacherData">
+                        <input type="radio" id="check" class="check" name="check" (change)="onCheck(findTeacher)"
+                            [value]="'{{findTeacher.id}}'">
+                        <div class="firstsession">
+
+                            <div class="firstsessioninfo">
+                                <img style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                                    src="{{findTeacher.thumbnail}}" alt="">
+                                <div class="sessiontitle">
+                                    <h4>{{findTeacher.first_name}} {{findTeacher.last_name}}</h4>
+                                    <h5><i class="fas fa-star" style="font-size: 15x;"></i><span style="color:#28AAE1;font-weight: 800;
+                                        font-size: 15px;">{{findTeacher.teacher_ratings}}</span></h5>
+                                    <!-- <h5><i class="fas fa-star"></i>{{findTeacher.teacher_ratings}}</h5> -->
+                                    <p>{{findTeacher.last_seven_days_total_ratings}} {{'seven_days_ratings' |
+                                        translate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button *ngIf="appointmentCount != '0'" type="button" style="display: block; margin-left: 6px !important; padding: 10px 20px;
+            font-size: 25px;" (click)="bookFirstLesson()"
+                class=" mt-5 btn btn-primary box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" data-bs-toggle="modal"
+                data-bs-target="#exampleModal1">{{'book_your_lesson' | translate}}</button>
+            <!-- </div> -->
+            <button *ngIf="appointmentCount == '0'" type="button" style="display: block; margin-left: 6px !important; padding: 10px 20px;
+            font-size: 25px;" (click)="bookFirstLesson()"
+                class=" mt-5 btn btn-primary box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"> {{'book_first_lesson' | translate}}</button>
+            <!-- <button type="button" style="display: block; margin-left: 6px !important;" (click)="bookFirstLesson()"
+                class="btn btn-primary box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"> {{appointmentCount != '0' ? "Book
+                your lesson" :"Book your first lesson free"}}</button> -->
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade modaldate show" style="z-index:100000 ;  background-color: #0e0d0d9e;"
+    [ngStyle]="{'display': styleExp}" [dir]="directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" (click)="closePopup()" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="modalbody thankyou text-center">
+                    <!--  <img src="assets/images/teacher/thanksimg.png" alt=""> -->
+                    <h5>{{'thank_you_' | translate}}</h5>
+                    <span><svg width="73" height="5" viewBox="0 0 73 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round"></line>
+                            <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round"></line>
+                        </svg>
+                    </span>
+                    <p style="    text-transform: none;">{{'Your_session_has_been_booked_with' | translate}}
+                        <span>{{teacherFirstName}} {{teacherLastName}}.</span>
+                    </p>
+                    <div class="showdatetime">
+                        <a><img src="assets/images/teacher/calender.png" alt=""><span>{{sloteDate | date:'d
+                                MMMM
+                                y'}}</span></a>
+                        <a><img src="assets/images/teacher/time.png" alt=""><span>{{this.selectDateLast |
+                                date:'HH:mm'}} - {{futureDate | date:'HH:mm'}}</span></a>
+                    </div>
+                    <p class="cancellationinfo"><span
+                            style="    text-transform: none;">{{'cancellation_of_the_session_is_only_possible_2_hours_before_the_scheduled_session_starts'
+                            | translate}}</span></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btnssessions">
+                    <!-- <a routerLink="/i-fal-menu/session-detail"  type="button" class="btn btn-primary btnblue">Go to sessions Details
+                    </a> -->
+                    <a style="box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" (click)="sessionDetail()" type="button"
+                        class="btn btn-primary btnblue" clbuttonss="btn btn-primary btnblue">{{'Details_preferences' |
+                        translate}}
+                    </a>
+                    <a style="box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" *ngIf="appointmentCount != '0'"
+                        (click)="session()" type="button" class="btn btn-primary btnblue"
+                        clbuttonss="btn btn-primary btnblue">{{'Book_More_Sessions' | translate}}
+                    </a>
+                    <!-- (click)="bookFirstLesson()" -->
+                    <!-- <a style="box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" routerLink="/i-fal-menu/sessions" class="btn btn-primary btnblue">Book More Sessions
+                    </a> -->
+                    <a style="box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" (click)="openCityInNewWindow()" target="blank"
+                        type="button" class="btn btn-primary btnblue">{{'add_in_google_calendar' | translate}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade modaldate classPreference show" style="z-index: 100000;" [ngStyle]="{'display': stylePreference}"
+    [dir]="directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 500px !important;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{'session_preference' | translate}}</h5>
+            </div>
+            <div class="modal-body " style="padding:1rem 30px;">
+                <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                    <div class="form-group">
+                        <form [formGroup]="notesForm">
+                            <div class="form-check">
+                                <input class="form-check-input custom-control-input" type="checkbox"
+                                    (change)="checkValue(1)" name="flexRadioDefault" formControlName="notes1" value="1"
+                                    id="flexCheckChecked01">
+                                <label class="form-check-label" for="flexCheckChecked01">
+                                    {{'I_would_like_to_be_corrected_actively_during_the_class' | translate }}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    (change)="checkValue(2)" formControlName="notes2" value="2" id="flexCheckChecked02">
+                                <label class="form-check-label" for="flexCheckChecked02">
+                                    {{'I_prefer_not_to_be_corrected_during_the_class' | translate}}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" formControlName="notes3" value="3"
+                                    id="flexCheckChecked03">
+                                <label class="form-check-label" for="flexCheckChecked03">
+                                    {{'I_would_like_to_receive_a_copy_of_my_class_recording' | translate}}
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" formControlName="notes4" value="4"
+                                    id="flexCheckChecked04">
+                                <label class="form-check-label" for="flexCheckChecked04">
+                                    {{'I_would_like_to_receive_homework_after_my_class' | translate}}
+                                </label>
+                            </div>
+                            <div style="font-weight: 600; text-align: start;">{{'I_would_like_to_focus_on' | translate}}
+                            </div>
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    formControlName="notes5" value="5" id="flexRadioDefault01">
+                                <label class="form-check-label" for="flexRadioDefault01">
+                                    {{'Grammar' | translate}}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    formControlName="notes5" value="6" id="flexRadioDefault02">
+                                <label class="form-check-label" for="flexRadioDefault02">
+                                    {{'Reading_comprehension' | translate}}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    formControlName="notes5" value="7" id="flexRadioDefault03">
+                                <label class="form-check-label" for="flexRadioDefault03">
+                                    {{'Writing' | translate}}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    formControlName="notes5" value="8" id="flexRadioDefault04">
+                                <label class="form-check-label" for="flexRadioDefault04">
+                                    {{'Open_conversation' | translate}}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    (change)="businessEnglish($event)" formControlName="notes5" value="9"
+                                    id="flexRadioDefault05">
+                                <label class="form-check-label" for="flexRadioDefault05">
+                                    {{'Business_english' | translate}}
+                                </label>
+                            </div>
+                            <hr>
+
+                        </form>
+                        <div class="form-check">
+                            <input class="form-check-input" [(ngModel)]="isDontShow" type="checkbox"
+                                id="flexCheckChecked05">
+                            <label class="form-check-label" for="flexCheckChecked05">
+                                {{'Don_t_show_this_popup_again' | translate}}
+                            </label>
+                        </div>
+                    </div>
+                    <div class="youcanchoos" style="    margin-bottom: 0px;
+            text-align: end;">
+                        <a style="   cursor: pointer; margin-top: 0px;" (click)="updateSessionSettingsNext()"
+                            class="schedualtime">{{'next' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modaldate show" style="z-index: 999999;" [ngStyle]="{'display': stylebusiness}"
+        [dir]="directionController.textDirection">
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 500px !important;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">{{'Note' | translate}}</h5>
+                </div>
+                <div class="modal-body " style="padding:1rem 30px;">
+                    <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                        <p class="bissuness">
+                            {{'Business_english_preference_accepted_only_if_the_teacher_you_choose_has_this_skill' |
+                            translate}}</p>
+                        <div class="okayClose">
+                            <a style="cursor: pointer;" (click)="closePopup1()" class="btnblue">{{'ok' | translate}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<mat-spinner style="z-index: 9999999999;" *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

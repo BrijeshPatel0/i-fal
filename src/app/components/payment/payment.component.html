@@ -1,0 +1,156 @@
+<!-- <div class="tearchermaintab">
+      <div class="container">
+          <ul class="teachertab">
+              <li><a href="findteacher.php">Find a Teacher</a></li>
+              <li><a href="analytics.php">Analytics</a></li>
+              <li><a href="session.php">Sessions</a></li>
+              <li><a href="profile.php">My Profile</a></li>
+              <li class="active"><a href="member.php">Membership</a></li>
+              <li><a href="practice.php">Practice words</a></li>
+
+              <li><a href="setting.php">Settings</a></li>
+
+          </ul>
+      </div>
+  </div> -->
+
+<div class="findteacherheading" style="    padding: 45px 0px 0px;" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h1 class="maintext ">{{'payment' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                    </line>
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                    </line>
+                </svg>
+            </span>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+          obligation</p> -->
+        </div>
+    </div>
+</div>
+
+
+<div class="profiletab packagesec payment-height" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="myprofiledetails payment-credit">
+            <p>{{'choose_your_payment_method' | translate}}</p>
+            <div class="tab-navigation">
+                <!-- <select id="select-box">
+                      <option value="1" class="credit"><a href="#">Credit/Debit Card</a></option>
+                      <option value="2">Pay pal</option>
+                  </select> -->
+                <mat-form-field id="select-box" class="example-full-width">
+                    <mat-select [(value)]="selected" matInput>
+                        <mat-option [ngClass]="directionController.textDirection == 'rtl'?'optionfont':''" value="CreditCard">
+                            {{'credit_debit_card' | translate}}
+                        </mat-option>
+                        <mat-option  [ngClass]="directionController.textDirection == 'rtl'?'optionfont':''" value="Paypal">
+                            {{'paypal' | translate}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div *ngIf="selected == 'CreditCard'" id="tab-1" class="tab-content ">
+                <div class="visa-mast">
+                    <img src="assets/images/home/visa.png">
+                    <i class="far fa-lock"></i>
+                </div>
+                <p style="    padding-top: 15px;margin: 0px;">{{'invoice_name' | translate}}</p>
+                <form (ngSubmit)="onSubmit()" id="profileForm" [formGroup]="subscriptionForm">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control mail" formControlName="firstname" name="First Name"
+                                placeholder="{{'first_name' | translate}}">
+                            <div class="denger" *ngIf="submitted && firstname!.errors?.['required']">
+                                {{'First_Name_is_required' | translate}}
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control mail" formControlName="lastname" name="Last Name"
+                                placeholder="{{'last_name' | translate}}">
+                            <div class="denger" *ngIf="submitted && lastname!.errors?.['required']">
+                                {{'Last_Name_is_required' | translate}}
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <input formControlName="card_number" name="Card number" maxlength=19
+                        onkeyup="this.value=this.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim()"
+                        placeholder="{{'card_number' | translate}}">
+                    <div class="denger" *ngIf="submitted && card_number!.errors?.['required']">
+                        {{'Card_number_is_required' | translate}}
+                    </div> -->
+                    <input mask="0000-0000-0000-0000" class="form-control mail" formControlName="card_number" name="Card number" maxlength=19
+                    placeholder="{{'card_number' | translate}}">
+                <div class="denger" *ngIf="submitted && card_number!.errors?.['required']">
+                    {{'Card_number_is_required' | translate}}
+                </div>
+                    <!-- <input type="text" formControlName="expiry_date" name="Expiry date" placeholder="Expiry date"> -->
+                    <input size=7  mask="00/00" class="form-control mail" maxlength=5 formControlName="expiry_date" name="Expiry date"
+                        placeholder="{{'expiry_date' | translate}}" >
+                    <div class="denger" *ngIf="submitted && expiry_date!.errors?.['required']">
+                        {{'Expiry_date_is_required' | translate}}
+                    </div>
+                    <!-- <input size=7 maxlength=5 formControlName="expiry_date" name="Expiry date"
+                    placeholder="{{'expiry_date' | translate}}"
+                    onkeyup="this.value=this.value.replace(/^(\d\d)(\d)$/g,'$1/$2').replace(/[^\d\/]/g,'')">
+                <div class="denger" *ngIf="submitted && expiry_date!.errors?.['required']">
+                    {{'Expiry_date_is_required' | translate}}
+                </div> -->
+                    <!-- <input  size=19 maxlength=19  onkeyup="this.value=this.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim()"> -->
+                    <input maxlength=3 mask="000"  class="form-control mail" formControlName="cvv"
+                        name="Security code" placeholder="{{'security_code' | translate}}">
+                    <div class="denger" *ngIf="submitted && cvv!.errors?.['required']">
+                        {{'CVV_is_required' | translate}}
+                    </div>
+                    <div class="payment-checkbox">
+                        <input type="checkbox" formControlName="isSubscription" name="checkbox">
+                        <p>{{'you_agree_that_you_will_automatically_be_charged_the_subscription_fee_every_month_until_you_cancel'
+                        | translate}}</p>
+                    </div>
+                    <div class="payment-checkbox">
+                        <input type="checkbox" formControlName="isAccept" name="checkbox">
+                         <p>
+                            {{'I_accept' | translate}} &nbsp;
+                        <a href="{{privacyPolicy}}" target="_blank"
+                            style="text-decoration: underline !important;">{{'privacy_policy_' | translate}} </a>
+                        &nbsp; {{'and' | translate}}&nbsp;
+                        <a href="{{termsOfUse}}" target="_blank" style="text-decoration: underline !important;"> {{'Terms_conditions_' | translate}} </a>
+                    </p>
+                    </div>
+                    <div class="denger" *ngIf="submitted && isSubscription!.errors?.['required'] && isAccept!.errors?.['required']">
+                        {{'in_order_to_complete_the_purchase' | translate}}
+                    </div>
+                </form>
+                <a style="cursor: pointer;" (click)="onSubmit()" class="credit-pay-button">{{'Safe_secure_checkout' |
+                    translate}} <i class="far fa-lock"></i></a>
+                <!--    <a href="#" class="need-help"><i class="fab fa-whatsapp"></i>Need help? Feel free to ask</a> -->
+            </div>
+            <div *ngIf="selected == 'Paypal'" id="tab-2" class="tab-content ">
+                <div class="payment-checkbox"><input type="checkbox" name="checkbox">
+                    <p>{{'you_agree_that_you_will_automatically_be_charged_the_subscription_fee_every_month_until_you_cancel'
+                        | translate}}
+                    </p>
+                </div>
+                <div class="payment-checkbox"><input type="checkbox" name="checkbox">
+                    <p>{{'I_accept' | translate}} &nbsp;<a href="{{privacyPolicy}}" target="_blank"
+                            style="text-decoration: underline !important;"> {{'privacy_policy_' | translate}} </a> &nbsp;
+                            {{'and' | translate}}  &nbsp;<a href="{{termsOfUse}}" target="_blank"
+                            style="text-decoration: underline !important;"> {{'Terms_conditions_' | translate}} </a></p>
+                </div>
+                <div class="paypal">
+                    <img src="assets/images/home/paypal.png">
+                    <p>{{'we_ll_redirect_you_to_paypal_to_complete_your_purchase' | translate}}</p>
+                    <a style="cursor: pointer;" (click)="generatPaymentLink()"
+                        class="credit-pay-button">{{'continue_purchase' | translate}}</a>
+                    <!-- <a [href]="paymentLink" class="credit-pay-button">CONTINUE PURCHSE</a> -->
+                </div>
+                <!--   <a href="#" class="need-help"><i class="fab fa-whatsapp"></i>Need help? Feel free to ask</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

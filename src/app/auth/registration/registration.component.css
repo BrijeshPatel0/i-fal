@@ -1,0 +1,516 @@
+.logininfo h6 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.logininfo h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 67px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.logindetail span {
+  display: block;
+}
+.logindetail h4 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.logindetail h4 {
+  font-size: 34px !important;
+}
+.signupwith a {
+  text-decoration: none;
+}
+.signupwith1 a {
+  text-decoration: none;
+}
+button.login1 {
+  text-decoration: none;
+ display:  inline-flex;
+ width: 350px;;
+}
+.loginexistinguser a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #28aae1;
+}
+.height-100 {
+  height: 100vh;
+}
+.card {
+  width: 400px;
+  border: none;
+  height: 300px;
+  box-shadow: 0px 5px 20px 0px #d2dae3;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card h6 {
+  color: #28aae1;
+  font-size: 20px;
+}
+.inputs input {
+  width: 40px;
+  height: 40px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.card-2 {
+  background-color: #fff;
+  padding: 10px;
+  width: 350px;
+  height: 100px;
+  bottom: -50px;
+  left: 20px;
+  position: absolute;
+  border-radius: 5px;
+}
+.card-2 .content {
+  margin-top: 50px;
+}
+.card-2 .content a {
+  color: #28aae1;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #28aae1;
+}
+.validate {
+  height: 40px;
+  background-color: #28aae1;
+  border: 1px solid #28aae1;
+  width: 350px;
+}
+
+.validateDisable {
+  pointer-events: none;
+  cursor: default;
+  border: 2px solid #858992 !important;
+  color: #858992 !important;
+  background: white !important;
+}
+
+.background {
+  background-color: #80808080;
+}
+.iti {
+  width: 100% !important;
+}
+.iti--allow-dropdown {
+  width: 100% !important;
+}
+
+.loginexistinguser a:hover {
+  color: #28aae1;
+}
+.profilename input {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding-left: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Proxima Nova rg;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+  color: #878b94;
+}
+.logindetail1 h4 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 0;
+  font-size: 34px !important;
+}
+
+::ng-deep .iti--allow-dropdown input {
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding-left: 50px !important;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Proxima Nova rg;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+  color: #878b94;
+}
+
+::ng-deep .country-dropdown {
+  border: 1px solid #ccc;
+  width: -moz-fit-content;
+  width: 341px !important;
+  padding: 1px;
+  border-collapse: collapse;
+}
+::ng-deep .iti {
+  width: 100%;
+}
+.modalbody.text-center p {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #858992;
+}
+/* a.login:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  border: 2px solid;
+} */
+a.login {
+  border-radius: 5px !important;
+}
+button.validate:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  border: 2px solid;
+}
+button.login1 {
+  border-radius: 5px !important;
+}
+
+.signupwith a:hover {
+  color: #1976d3 !important;
+  background-color: #fff !important;
+  border-color: #1976d3 !important;
+  border: 2px solid;
+}
+.signupwith1 a:hover {
+  color: red !important;
+  background-color: #fff !important;
+  border-color: red !important;
+  border: 2px solid;
+}
+
+.signupwithapp a:hover {
+  color: #000000 !important;
+  background-color: #fff !important;
+  border-color: #000000 !important;
+  border: 2px solid;
+}
+.login[dir="rtl"] .logininfo {
+  text-align: right !important;
+}
+.login[dir="rtl"] .admin a {
+  left: 10px;
+  right: unset;
+}
+.login[dir="rtl"] .signupwith span {
+  padding-right: 26px;
+  padding-left: unset;
+}
+.login[dir="rtl"] .signupwith1 span {
+  padding-right: 26px;
+  padding-left: unset;
+}
+
+.signin-button {
+  width: 210px;
+  height: 40px;
+}
+.login[dir="rtl"] .logininfo h6,
+.login[dir="rtl"] h4,
+.login[dir="rtl"] div,
+.login[dir="rtl"] p,
+.login[dir="rtl"] span,
+.login[dir="rtl"] a,
+.login[dir="rtl"] input,
+.login[dir="rtl"] label {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+#exampleModal[dir="rtl"] p,
+#exampleModal[dir="rtl"] button,
+#exampleModal[dir="rtl"] a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.denger {
+  color: red;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+.upload-btn-wrapper {
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.iconinput {
+  width: 38px;
+  height: 38px;
+}
+@media only screen and (max-width: 1199px){
+.signupwith1 a {
+    max-width: 280px !important;
+}
+}
+@media only screen and (max-width: 600px) {
+  ::ng-deep .iti--allow-dropdown input {
+    padding-left: 50px !important;
+  }
+  .signupwith1 a {
+    max-width: 100% !important;
+}
+.tabtext{
+  font-size: 14px !important;
+}
+}
+@media only screen and (max-width: 479px) {
+  .login[dir="rtl"] .admin a {
+    left: -10px;
+    right: unset;
+  }
+  .admin a {
+    right: -10px;
+  }
+  .iconinput {
+    width: 30px;
+    height: 30px;
+  }
+  .signupwith1 span {
+    font-size: 14px;
+    padding-left: 10px !important;
+}
+.signupwith1 a {
+  max-width: 100% !important;
+}
+.tabtext {
+  font-size: 14px;
+}
+
+}
+@media screen and (max-width: 420px) {
+  ::ng-deep .otp-input {
+    width: 40px !important;
+    font-size: 18px;
+    height: 40px !important;
+  }
+  .validate {
+    width: 285px !important;
+    font-size: 18px;
+  }
+  .validateDisable {
+    width: 285px !important;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .logininfo h4 {
+    font-size: 18px !important;
+    line-height: 20px !important;
+  }
+  .logininfo h6 {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  ::ng-deep .otp-input {
+    width: 30px !important;
+    font-size: 15px;
+    height: 30px !important;
+  }
+  .validate {
+    width: 220px !important;
+  }
+  .validateDisable {
+    width: 220px !important;
+  }
+}
+@media screen and (max-width: 276px) {
+  ::ng-deep .otp-input {
+    width: 25px !important;
+    font-size: 12px;
+    height: 25px !important;
+  }
+  .validate {
+    height: 40px;
+    background-color: #28aae1;
+    border: 1px solid #28aae1;
+    width: 190px;
+  }
+  .validateDisable {
+    height: 40px;
+    background-color: gray;
+    border: 1px solid gray;
+    width: 190px;
+  }
+}
+
+button.login1 {
+  background: #28aae1;
+  border-radius: 12px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 31px;
+  width: 350px;
+  border: none;
+}
+
+.signupwith1 a {
+  background: red;
+  border-radius: 10px;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  max-width: 364px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.signupwith1 span {
+  margin: 0;
+  padding-left: 26px;
+}
+
+.activetab{
+  border: 2px solid #28aae1 !important;
+  color: #28aae1 !important;
+}
+.tabtext {
+  height: 48px;
+  padding: 0 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  /* border: 3px solid #28aae1; */
+  border: 1px solid rgb(133 137 146 / 50%);
+  font-size: 16px;
+  opacity: 1;
+}
+.tabborder1{
+  border-radius: 5px 0px 0px 5px;
+}
+.tabborder2{
+  border-radius: 0px 5px 5px 0px;
+}
+.login[dir="rtl"] .favourittopic .tabborder1 {
+  border-radius: 0px 5px 5px 0px;
+}
+.login[dir="rtl"] .favourittopic .tabborder2 {
+  border-radius: 5px 0px 0px 5px;
+}
+.login[dir="rtl"]  .tabborder1 {
+  border-radius: 0px 5px 5px 0px;
+}
+.ifallogo{
+  margin-bottom: 25px;
+}
+.signupwith a {
+  height: 40px;
+}
+.signupwith1 a {
+  height: 40px;
+}

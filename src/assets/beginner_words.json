@@ -1,0 +1,6008 @@
+  [
+  {
+    "english": "ability",
+    "hebrew": "יְכוֹלֶת",
+    "spanish": "habilidad",
+    "sentence": "I have the ability to speak English well."
+  },
+  {
+    "english": "able",
+    "hebrew": "יכול",
+    "spanish": "poder",
+    "sentence": "She is able to submit his homework."
+  },
+  {
+    "english": "about",
+    "hebrew": "על אודות",
+    "spanish": "acerca de",
+    "sentence": "Let's talk about the best place to visit in Israel."
+  },
+  {
+    "english": "above",
+    "hebrew": "מֵעַל",
+    "spanish": "sobre",
+    "sentence": "Airplane flies above the clouds."
+  },
+  {
+    "english": "accept",
+    "hebrew": "לְקַבֵּל",
+    "spanish": "aceptar",
+    "sentence": "She will accept my offer."
+  },
+  {
+    "english": "according",
+    "hebrew": "לפי",
+    "spanish": "de acuerdo a",
+    "sentence": "The city is so polluted according to the news."
+  },
+  {
+    "english": "account",
+    "hebrew": "חֶשְׁבּוֹן",
+    "spanish": "cuenta",
+    "sentence": "I deposited the money into my account this morning."
+  },
+  {
+    "english": "across",
+    "hebrew": "ברחבי",
+    "spanish": "a través",
+    "sentence": "I saw them walking across the street."
+  },
+  {
+    "english": "act",
+    "hebrew": "פעולה",
+    "spanish": "Actuar",
+    "sentence": "She shows an act of kindness."
+  },
+  {
+    "english": "action",
+    "hebrew": "פעולה",
+    "spanish": "acción",
+    "sentence": "They must take action to solve the problem."
+  },
+  {
+    "english": "activity",
+    "hebrew": "פעילות",
+    "spanish": "actividad",
+    "sentence": "Playing games is my favorite activity in the afternoon."
+  },
+  {
+    "english": "actually",
+    "hebrew": "בעצם",
+    "spanish": "Realmente",
+    "sentence": "I can actually sing a song."
+  },
+  {
+    "english": "add",
+    "hebrew": "לְהוֹסִיף",
+    "spanish": "agregar",
+    "sentence": "She added more working hours."
+  },
+  {
+    "english": "address",
+    "hebrew": "כתובת",
+    "spanish": "dirección",
+    "sentence": "Please give me your complete address."
+  },
+  {
+    "english": "administration",
+    "hebrew": "מִנהָל",
+    "spanish": "administración",
+    "sentence": "The administration rejected his proposal."
+  },
+  {
+    "english": "admit",
+    "hebrew": "להתוודות",
+    "spanish": "admitir",
+    "sentence": "The students didn't admit they are wrong."
+  },
+  {
+    "english": "adult",
+    "hebrew": "מְבוּגָר",
+    "spanish": "adulto",
+    "sentence": "Only adult can enter this place."
+  },
+  {
+    "english": "affect",
+    "hebrew": "להשפיע",
+    "spanish": "afectar",
+    "sentence": "The weather affects my mood."
+  },
+  {
+    "english": "after",
+    "hebrew": "לאחר",
+    "spanish": "después",
+    "sentence": "I am going to wash the dishes after eating."
+  },
+  {
+    "english": "again",
+    "hebrew": "שוב",
+    "spanish": "nuevo",
+    "sentence": "I will call her again."
+  },
+  {
+    "english": "against",
+    "hebrew": "נגד",
+    "spanish": "contra",
+    "sentence": "My team will play against the top team."
+  },
+  {
+    "english": "age",
+    "hebrew": "גיל",
+    "spanish": "edad",
+    "sentence": "May I know your age?"
+  },
+  {
+    "english": "agency",
+    "hebrew": "סוֹכְנוּת",
+    "spanish": "agencia",
+    "sentence": "She gets the job through an agency."
+  },
+  {
+    "english": "agent",
+    "hebrew": "סוֹכֵן",
+    "spanish": "agente",
+    "sentence": "I talked to an agent when I bought a ticket."
+  },
+  {
+    "english": "ago",
+    "hebrew": "לִפנֵי",
+    "spanish": "atrás",
+    "sentence": "I learned the English language two years ago."
+  },
+  {
+    "english": "agree",
+    "hebrew": "לְהַסכִּים",
+    "spanish": "aceptar",
+    "sentence": "I agree with you."
+  },
+  {
+    "english": "agreement",
+    "hebrew": "הֶסכֵּם",
+    "spanish": "convenio",
+    "sentence": "We need to settle the agreement."
+  },
+  {
+    "english": "ahead",
+    "hebrew": "קָדִימָה",
+    "spanish": "adelante",
+    "sentence": "Please inform me ahead of time."
+  },
+  {
+    "english": "air",
+    "hebrew": "אוויר",
+    "spanish": "aire",
+    "sentence": "The air in this city is so fresh."
+  },
+  {
+    "english": "all",
+    "hebrew": "את כל",
+    "spanish": "todos",
+    "sentence": "I will give you all I have."
+  },
+  {
+    "english": "allow",
+    "hebrew": "להתיר",
+    "spanish": "permitir",
+    "sentence": "Parents should not allow their children to eat too much junk foods."
+  },
+  {
+    "english": "almost",
+    "hebrew": "כִּמעַט",
+    "spanish": "casi",
+    "sentence": "I almost hit the post while driving."
+  },
+  {
+    "english": "alone",
+    "hebrew": "לבד",
+    "spanish": "solo",
+    "sentence": "I will be alone tonight."
+  },
+  {
+    "english": "along",
+    "hebrew": "לְאוֹרֶך",
+    "spanish": "a lo largo de",
+    "sentence": "There are many stalls along the road."
+  },
+  {
+    "english": "already",
+    "hebrew": "כְּבָר",
+    "spanish": "ya",
+    "sentence": "I have already taken my meal."
+  },
+  {
+    "english": "also",
+    "hebrew": "גַם",
+    "spanish": "además",
+    "sentence": "The teachers can also teach you Math."
+  },
+  {
+    "english": "although",
+    "hebrew": "למרות ש",
+    "spanish": "aunque",
+    "sentence": "Although I understand the problem, it is still difficult to solve."
+  },
+  {
+    "english": "always",
+    "hebrew": "תמיד",
+    "spanish": "siempre",
+    "sentence": "She always forgets her sandwich."
+  },
+  {
+    "english": "American",
+    "hebrew": "אֲמֶרִיקָאִי",
+    "spanish": "Americano",
+    "sentence": "She is an American."
+  },
+  {
+    "english": "among",
+    "hebrew": "בין",
+    "spanish": "entre",
+    "sentence": "He is the smartest student among the students in this class."
+  },
+  {
+    "english": "amount",
+    "hebrew": "כמות",
+    "spanish": "Monto",
+    "sentence": "I need a big amount of money to buy a new house."
+  },
+  {
+    "english": "analysis",
+    "hebrew": "אָנָלִיזָה",
+    "spanish": "análisis",
+    "sentence": "We need an analysis of the situation."
+  },
+  {
+    "english": "and",
+    "hebrew": "ו",
+    "spanish": "y",
+    "sentence": "I would like some apples and oranges."
+  },
+  {
+    "english": "another",
+    "hebrew": "אַחֵר",
+    "spanish": "otro",
+    "sentence": "I am visiting another country next month."
+  },
+  {
+    "english": "answer",
+    "hebrew": "תשובה",
+    "spanish": "responder",
+    "sentence": "Please give me the correct answer."
+  },
+  {
+    "english": "any",
+    "hebrew": "כל",
+    "spanish": "ninguno",
+    "sentence": "I don't have any available books right now."
+  },
+  {
+    "english": "anyone",
+    "hebrew": "כֹּל אֶחָד",
+    "spanish": "cualquiera",
+    "sentence": "Can you please talk to anyone?"
+  },
+  {
+    "english": "anything",
+    "hebrew": "כל דבר",
+    "spanish": "cualquier cosa",
+    "sentence": "Do you need anything?"
+  },
+  {
+    "english": "appear",
+    "hebrew": "לְהוֹפִיעַ",
+    "spanish": "Aparecer",
+    "sentence": "He suddenly appeared in the doorway."
+  },
+  {
+    "english": "apply",
+    "hebrew": "להגיש מועמדות",
+    "spanish": "aplicar",
+    "sentence": "Are you going to apply for that job vacancy?"
+  },
+  {
+    "english": "approach",
+    "hebrew": "גִישָׁה",
+    "spanish": "Acercarse",
+    "sentence": "There is a certain approach to this issue."
+  },
+  {
+    "english": "argue",
+    "hebrew": "לִטעוֹן",
+    "spanish": "argumentar",
+    "sentence": "Some teenagers like to argue with their parents."
+  },
+  {
+    "english": "arm",
+    "hebrew": "זְרוֹעַ",
+    "spanish": "brazo",
+    "sentence": "There is a mosquito on your arm."
+  },
+  {
+    "english": "around",
+    "hebrew": "סְבִיב",
+    "spanish": "alrededor",
+    "sentence": "I would like to go around the mall."
+  },
+  {
+    "english": "arrive",
+    "hebrew": "לְהַגִיעַ",
+    "spanish": "llegar",
+    "sentence": "They will arrive soon."
+  },
+  {
+    "english": "article",
+    "hebrew": "מאמר",
+    "spanish": "artículo",
+    "sentence": "I read an interesting article last night."
+  },
+  {
+    "english": "as",
+    "hebrew": "כפי ש",
+    "spanish": "como",
+    "sentence": "I can't run as fast as you."
+  },
+  {
+    "english": "ask",
+    "hebrew": "לִשְׁאוֹל",
+    "spanish": "pedir",
+    "sentence": "They asked me a lot of questions."
+  },
+  {
+    "english": "assume",
+    "hebrew": "לְהַנִיחַ",
+    "spanish": "asumir",
+    "sentence": "My friends assumed that I am okay."
+  },
+  {
+    "english": "at",
+    "hebrew": "בְּ-",
+    "spanish": "en",
+    "sentence": "I am at my mother's house."
+  },
+  {
+    "english": "attack",
+    "hebrew": "לִתְקוֹף",
+    "spanish": "ataque",
+    "sentence": "The pirates attack the main city."
+  },
+  {
+    "english": "attention",
+    "hebrew": "תשומת הלב",
+    "spanish": "atención",
+    "sentence": "We need your attention. Please listen."
+  },
+  {
+    "english": "attorney",
+    "hebrew": "עו\"ד",
+    "spanish": "abogado",
+    "sentence": "I am calling an attorney to file a lawsuit."
+  },
+  {
+    "english": "audience",
+    "hebrew": "קהל",
+    "spanish": "audiencia",
+    "sentence": "They have got a loud audience."
+  },
+  {
+    "english": "authority",
+    "hebrew": "רָשׁוּת",
+    "spanish": "autoridad",
+    "sentence": "The local government is given the authority to use the land."
+  },
+  {
+    "english": "available",
+    "hebrew": "זמין",
+    "spanish": "disponible",
+    "sentence": "There is no available schedule this time."
+  },
+  {
+    "english": "avoid",
+    "hebrew": "לְהִמָנַע",
+    "spanish": "evitar",
+    "sentence": "We need to avoid this situation to happen again."
+  },
+  {
+    "english": "away",
+    "hebrew": "רָחוֹק",
+    "spanish": "lejos",
+    "sentence": "I will be away for a few months."
+  },
+  {
+    "english": "baby",
+    "hebrew": "תִינוֹק",
+    "spanish": "bebé",
+    "sentence": "She has a newly born baby."
+  },
+  {
+    "english": "back",
+    "hebrew": "חזור",
+    "spanish": "espalda",
+    "sentence": "I will be back in a few minutes."
+  },
+  {
+    "english": "bad",
+    "hebrew": "רַע",
+    "spanish": "malo",
+    "sentence": "The weather is bad today."
+  },
+  {
+    "english": "bag",
+    "hebrew": "תיק",
+    "spanish": "bolso",
+    "sentence": "She needs to buy a new bag."
+  },
+  {
+    "english": "ball",
+    "hebrew": "כַּדוּר",
+    "spanish": "pelota",
+    "sentence": "The kids are playing with a ball."
+  },
+  {
+    "english": "bank",
+    "hebrew": "בַּנק",
+    "spanish": "banco",
+    "sentence": "The bank opens at 8 AM every day."
+  },
+  {
+    "english": "be",
+    "hebrew": "לִהיוֹת",
+    "spanish": "ser",
+    "sentence": "I will be there soon."
+  },
+  {
+    "english": "beat",
+    "hebrew": "להיות ב",
+    "spanish": "golpear",
+    "sentence": "They saw the teenagers beating the dog."
+  },
+  {
+    "english": "beautiful",
+    "hebrew": "יפה",
+    "spanish": "hermoso",
+    "sentence": "She is so beautiful with that dress."
+  },
+  {
+    "english": "because",
+    "hebrew": "כי",
+    "spanish": "porque",
+    "sentence": "I am sorry because I was late for the class."
+  },
+  {
+    "english": "become",
+    "hebrew": "הפכו",
+    "spanish": "volverse",
+    "sentence": "She wants to become a teacher."
+  },
+  {
+    "english": "bed",
+    "hebrew": "מיטה",
+    "spanish": "cama",
+    "sentence": "She is lying on the bed."
+  },
+  {
+    "english": "before",
+    "hebrew": "לפני",
+    "spanish": "antes",
+    "sentence": "We need to clean this mess before we leave."
+  },
+  {
+    "english": "begin",
+    "hebrew": "התחל",
+    "spanish": "empezar",
+    "sentence": "The class begins at 10 AM."
+  },
+  {
+    "english": "behavior",
+    "hebrew": "התנהגות",
+    "spanish": "comportamiento",
+    "sentence": "Your behavior is unacceptable."
+  },
+  {
+    "english": "behind",
+    "hebrew": "מֵאָחוֹר",
+    "spanish": "detrás",
+    "sentence": "The car behind us is very fast."
+  },
+  {
+    "english": "believe",
+    "hebrew": "לְהֶאֱמִין",
+    "spanish": "creer",
+    "sentence": "We believe in different customs."
+  },
+  {
+    "english": "benefit",
+    "hebrew": "תועלת",
+    "spanish": "beneficio",
+    "sentence": "This company offers great benefits."
+  },
+  {
+    "english": "best",
+    "hebrew": "הטוב ביותר",
+    "spanish": "El mejor",
+    "sentence": "This is the best cookie I have ever eaten."
+  },
+  {
+    "english": "better",
+    "hebrew": "טוב יותר",
+    "spanish": "mejor",
+    "sentence": "She sings better than her sister."
+  },
+  {
+    "english": "between",
+    "hebrew": "בֵּין",
+    "spanish": "Entre",
+    "sentence": "Our house is located between the laundry shop and the pharmacy."
+  },
+  {
+    "english": "beyond",
+    "hebrew": "מעבר",
+    "spanish": "más allá de",
+    "sentence": "Our house is just beyod the bridge."
+  },
+  {
+    "english": "big",
+    "hebrew": "גָדוֹל",
+    "spanish": "grande",
+    "sentence": "I went to a big bakery shop."
+  },
+  {
+    "english": "bill",
+    "hebrew": "שטר כסף",
+    "spanish": "factura",
+    "sentence": "I only have a ten-dollar bill."
+  },
+  {
+    "english": "billion",
+    "hebrew": "מיליארד",
+    "spanish": "mil millones",
+    "sentence": "The population in China is over a billion."
+  },
+  {
+    "english": "bit",
+    "hebrew": "קצת",
+    "spanish": "poco",
+    "sentence": "I am a bit tired."
+  },
+  {
+    "english": "black",
+    "hebrew": "שָׁחוֹר",
+    "spanish": "negro",
+    "sentence": "She is wearing a black shirt."
+  },
+  {
+    "english": "blood",
+    "hebrew": "דָם",
+    "spanish": "sangre",
+    "sentence": "We saw a lot of blood on the road after the accident."
+  },
+  {
+    "english": "blue",
+    "hebrew": "כָּחוֹל",
+    "spanish": "azul",
+    "sentence": "I have a blue car."
+  },
+  {
+    "english": "board",
+    "hebrew": "גלשן",
+    "spanish": "junta",
+    "sentence": "Today's specials are written on the board."
+  },
+  {
+    "english": "body",
+    "hebrew": "גוּף",
+    "spanish": "cuerpo",
+    "sentence": "Our body needs a lot of nutrients."
+  },
+  {
+    "english": "book",
+    "hebrew": "סֵפֶר",
+    "spanish": "libro",
+    "sentence": "I have read a lot of books recently."
+  },
+  {
+    "english": "born",
+    "hebrew": "נוֹלָד",
+    "spanish": "nacido",
+    "sentence": "She was born in Jerusalem."
+  },
+  {
+    "english": "both",
+    "hebrew": "שניהם",
+    "spanish": "ambos",
+    "sentence": "They are both kind."
+  },
+  {
+    "english": "box",
+    "hebrew": "קופסא",
+    "spanish": "caja",
+    "sentence": "Please get the box on the table."
+  },
+  {
+    "english": "boy",
+    "hebrew": "יֶלֶד",
+    "spanish": "chico",
+    "sentence": "The boy is playing basketball."
+  },
+  {
+    "english": "break",
+    "hebrew": "לשבור",
+    "spanish": "romper",
+    "sentence": "She accidentally broke my phone."
+  },
+  {
+    "english": "bring",
+    "hebrew": "לְהָבִיא",
+    "spanish": "traer",
+    "sentence": "They forgot to bring the vegetables."
+  },
+  {
+    "english": "brother",
+    "hebrew": "אָח",
+    "spanish": "hermano",
+    "sentence": "I have a brother."
+  },
+  {
+    "english": "budget",
+    "hebrew": "תַקצִיב",
+    "spanish": "presupuesto",
+    "sentence": "We don't have a lot of budget for the project."
+  },
+  {
+    "english": "build",
+    "hebrew": "לִבנוֹת",
+    "spanish": "construir",
+    "sentence": "They will build a subway station here."
+  },
+  {
+    "english": "building",
+    "hebrew": "בִּניָן",
+    "spanish": "edificio",
+    "sentence": "There are a lot of buildings in Tel Aviv."
+  },
+  {
+    "english": "business",
+    "hebrew": "עֵסֶק",
+    "spanish": "negocio",
+    "sentence": "My friends are planning to start a business."
+  },
+  {
+    "english": "but",
+    "hebrew": "אבל",
+    "spanish": "pero",
+    "sentence": "This burger is delicious but it doesn't have a lot of vegetables."
+  },
+  {
+    "english": "buy",
+    "hebrew": "לִקְנוֹת",
+    "spanish": "comprar",
+    "sentence": "My father is buying a new car."
+  },
+  {
+    "english": "by",
+    "hebrew": "על ידי",
+    "spanish": "por",
+    "sentence": "They are playing by the sea."
+  },
+  {
+    "english": "call",
+    "hebrew": "שִׂיחָה",
+    "spanish": "llamar",
+    "sentence": "I got a call from an old college friend."
+  },
+  {
+    "english": "campaign",
+    "hebrew": "קמפיין",
+    "spanish": "campaña",
+    "sentence": "The campaign is effective."
+  },
+  {
+    "english": "can",
+    "hebrew": "פחית",
+    "spanish": "puede",
+    "sentence": "They can perform well."
+  },
+  {
+    "english": "car",
+    "hebrew": "אוטו",
+    "spanish": "coche",
+    "sentence": "The car looks expensive."
+  },
+  {
+    "english": "card",
+    "hebrew": "כַּרְטִיס",
+    "spanish": "tarjeta",
+    "sentence": "There is a card in the box."
+  },
+  {
+    "english": "care",
+    "hebrew": "לְטַפֵּל",
+    "spanish": "cuidado",
+    "sentence": "I don't care how much it is. I am buying it."
+  },
+  {
+    "english": "career",
+    "hebrew": "קריירה",
+    "spanish": "carrera",
+    "sentence": "She has a good career."
+  },
+  {
+    "english": "carry",
+    "hebrew": "לשאת",
+    "spanish": "llevar",
+    "sentence": "I saw a woman carrying two lovely babies."
+  },
+  {
+    "english": "catch",
+    "hebrew": "לתפוס",
+    "spanish": "captura",
+    "sentence": "They will catch some fish in the river."
+  },
+  {
+    "english": "cell",
+    "hebrew": "תָא",
+    "spanish": "celúla",
+    "sentence": "The cell reproduced and the organism grew."
+  },
+  {
+    "english": "century",
+    "hebrew": "מֵאָה",
+    "spanish": "siglo",
+    "sentence": "Most people walked to work a century ago."
+  },
+  {
+    "english": "certain",
+    "hebrew": "מסוים",
+    "spanish": "determinado",
+    "sentence": "I am certain that my answer is correct."
+  },
+  {
+    "english": "certainly",
+    "hebrew": "בְּהֶחלֵט",
+    "spanish": "ciertamente",
+    "sentence": "It is certainly a difficult question."
+  },
+  {
+    "english": "chair",
+    "hebrew": "כִּסֵא",
+    "spanish": "silla",
+    "sentence": "There are many chairs in the room."
+  },
+  {
+    "english": "challenge",
+    "hebrew": "אתגר",
+    "spanish": "desafío",
+    "sentence": "I like different kinds of challenges."
+  },
+  {
+    "english": "chance",
+    "hebrew": "הִזדַמְנוּת",
+    "spanish": "oportunidad",
+    "sentence": "I have given him a last chance."
+  },
+  {
+    "english": "change",
+    "hebrew": "שינוי",
+    "spanish": "cambio",
+    "sentence": "My hometown has a lot of good changes."
+  },
+  {
+    "english": "character",
+    "hebrew": "אופי",
+    "spanish": "personaje",
+    "sentence": "My girlfriend has a lof of good characters."
+  },
+  {
+    "english": "charge",
+    "hebrew": "לחייב",
+    "spanish": "cargo",
+    "sentence": "They charged me for the stained bedsheets."
+  },
+  {
+    "english": "check",
+    "hebrew": "חשבון",
+    "spanish": "cheque",
+    "sentence": "I got paid through check."
+  },
+  {
+    "english": "child",
+    "hebrew": "יֶלֶד",
+    "spanish": "niño",
+    "sentence": "I don't have any child."
+  },
+  {
+    "english": "choice",
+    "hebrew": "בְּחִירָה",
+    "spanish": "elección",
+    "sentence": "We don't have a choice but to accept him."
+  },
+  {
+    "english": "choose",
+    "hebrew": "בחר",
+    "spanish": "escoger",
+    "sentence": "We have to choose the venue for the event."
+  },
+  {
+    "english": "church",
+    "hebrew": "כְּנֵסִיָה",
+    "spanish": "iglesia",
+    "sentence": "My mother often goes to the church."
+  },
+  {
+    "english": "citizen",
+    "hebrew": "אֶזרָח",
+    "spanish": "ciudadano",
+    "sentence": "She is a good citizen."
+  },
+  {
+    "english": "city",
+    "hebrew": "עִיר",
+    "spanish": "ciudad",
+    "sentence": "I live in a big city."
+  },
+  {
+    "english": "claim",
+    "hebrew": "תְבִיעָה",
+    "spanish": "afirmar",
+    "sentence": "Can you give a solid evidence to support your claims?"
+  },
+  {
+    "english": "clear",
+    "hebrew": "ברור",
+    "spanish": "claro",
+    "sentence": "The teacher gave me a clear explanation."
+  },
+  {
+    "english": "clearly",
+    "hebrew": "בְּבִירוּר",
+    "spanish": "claramente",
+    "sentence": "The teacher explained the topic clearly."
+  },
+  {
+    "english": "close",
+    "hebrew": "סגור",
+    "spanish": "Cerrar",
+    "sentence": "The bank closes at 5 PM  every day."
+  },
+  {
+    "english": "coach",
+    "hebrew": "מְאַמֵן",
+    "spanish": "entrenador",
+    "sentence": "I have been working out with a coach."
+  },
+  {
+    "english": "cold",
+    "hebrew": "קַר",
+    "spanish": "frío",
+    "sentence": "The weather is so cold. Please wear your jacket."
+  },
+  {
+    "english": "collection",
+    "hebrew": "אוסף",
+    "spanish": "recopilación",
+    "sentence": "She has got a collection of expensive bags."
+  },
+  {
+    "english": "come",
+    "hebrew": "לבוא",
+    "spanish": "ven",
+    "sentence": "Are you coming with me?"
+  },
+  {
+    "english": "common",
+    "hebrew": "מְשׁוּתָף",
+    "spanish": "común",
+    "sentence": "Mangoes are common in the Philippines."
+  },
+  {
+    "english": "community",
+    "hebrew": "קהילה",
+    "spanish": "comunidad",
+    "sentence": "I live in a peaceful community."
+  },
+  {
+    "english": "company",
+    "hebrew": "חֶברָה",
+    "spanish": "empresa",
+    "sentence": "I work in a big company."
+  },
+  {
+    "english": "computer",
+    "hebrew": "מַחשֵׁב",
+    "spanish": "ordenador",
+    "sentence": "I bought a new computer."
+  },
+  {
+    "english": "concern",
+    "hebrew": "דְאָגָה",
+    "spanish": "inquietud",
+    "sentence": "I have some concerns about my class."
+  },
+  {
+    "english": "conference",
+    "hebrew": "וְעִידָה",
+    "spanish": "conferencia",
+    "sentence": "The manager attend a conference annually."
+  },
+  {
+    "english": "consider",
+    "hebrew": "לשקול",
+    "spanish": "considerar",
+    "sentence": "They consider buying a new house."
+  },
+  {
+    "english": "consumer",
+    "hebrew": "צרכן",
+    "spanish": "consumidor",
+    "sentence": "We need to know what the consumer wants to buy these days."
+  },
+  {
+    "english": "contain",
+    "hebrew": "לְהַכִיל",
+    "spanish": "Contiene",
+    "sentence": "This file contains confidential information."
+  },
+  {
+    "english": "continue",
+    "hebrew": "לְהַמשִׁיך",
+    "spanish": "Seguir",
+    "sentence": "Will you continue to work here?"
+  },
+  {
+    "english": "could",
+    "hebrew": "הָיָה יָכוֹל",
+    "spanish": "podría",
+    "sentence": "I could play basketball."
+  },
+  {
+    "english": "country",
+    "hebrew": "מדינה",
+    "spanish": "país",
+    "sentence": "This country has a lot of beautiful beaches."
+  },
+  {
+    "english": "couple",
+    "hebrew": "זוּג",
+    "spanish": "pareja",
+    "sentence": "My boyfriend bought a couple of shoes."
+  },
+  {
+    "english": "cover",
+    "hebrew": "כיסוי",
+    "spanish": "cubrir",
+    "sentence": "You have to cover the meat with some cheese."
+  },
+  {
+    "english": "create",
+    "hebrew": "לִיצוֹר",
+    "spanish": "crear",
+    "sentence": "We are creating a useful app."
+  },
+  {
+    "english": "crime",
+    "hebrew": "פֶּשַׁע",
+    "spanish": "delito",
+    "sentence": "He committed a crime again."
+  },
+  {
+    "english": "cup",
+    "hebrew": "גָבִיעַ",
+    "spanish": "taza",
+    "sentence": "I would like to have a cup of coffee, please."
+  },
+  {
+    "english": "current",
+    "hebrew": "נוֹכְחִי",
+    "spanish": "Actual",
+    "sentence": "The current situation in Ukraine is not good."
+  },
+  {
+    "english": "customer",
+    "hebrew": "צרכן",
+    "spanish": "cliente",
+    "sentence": "We had a lot of customers last night."
+  },
+  {
+    "english": "cut",
+    "hebrew": "גזירה",
+    "spanish": "cortar",
+    "sentence": "I forgot to cut the fruits."
+  },
+  {
+    "english": "dark",
+    "hebrew": "אפל",
+    "spanish": "oscuro",
+    "sentence": "Don't forget to bring a flashlight. It is dark outside."
+  },
+  {
+    "english": "data",
+    "hebrew": "נתונים",
+    "spanish": "datos",
+    "sentence": "The data was deleted."
+  },
+  {
+    "english": "daughter",
+    "hebrew": "בַּת",
+    "spanish": "hija",
+    "sentence": "My daughter goes to a famous university."
+  },
+  {
+    "english": "day",
+    "hebrew": "יְוֹם",
+    "spanish": "día",
+    "sentence": "I am having a great day."
+  },
+  {
+    "english": "dead",
+    "hebrew": "מֵת",
+    "spanish": "muerto",
+    "sentence": "They found a dead body in the river."
+  },
+  {
+    "english": "deal",
+    "hebrew": "עִסקָה",
+    "spanish": "negociar",
+    "sentence": "We closed a deal with a big company."
+  },
+  {
+    "english": "death",
+    "hebrew": "מוות",
+    "spanish": "muerte",
+    "sentence": "She never got over the death of her grandmother."
+  },
+  {
+    "english": "decide",
+    "hebrew": "לְהַחלִיט",
+    "spanish": "decidir",
+    "sentence": "We decided to clean the room."
+  },
+  {
+    "english": "deep",
+    "hebrew": "עָמוֹק",
+    "spanish": "profundo",
+    "sentence": "The water is not deep here."
+  },
+  {
+    "english": "degree",
+    "hebrew": "תוֹאַר",
+    "spanish": "grado",
+    "sentence": "This job demands a high degree of skills."
+  },
+  {
+    "english": "design",
+    "hebrew": "לְעַצֵב",
+    "spanish": "diseño",
+    "sentence": "Do you like the new design of this bag?"
+  },
+  {
+    "english": "despite",
+    "hebrew": "למרות",
+    "spanish": "A pesar de",
+    "sentence": "I still enjoy the week despite of the bad weather."
+  },
+  {
+    "english": "detail",
+    "hebrew": "פרט",
+    "spanish": "detalle",
+    "sentence": "I need specific details about the program."
+  },
+  {
+    "english": "develop",
+    "hebrew": "לְפַתֵחַ",
+    "spanish": "desarrollar",
+    "sentence": "The management is developing a new curriculum."
+  },
+  {
+    "english": "development",
+    "hebrew": "התפתחות",
+    "spanish": "desarrollo",
+    "sentence": "Please call me if there are any new developments."
+  },
+  {
+    "english": "die",
+    "hebrew": "לָמוּת",
+    "spanish": "morir",
+    "sentence": "My dog died yesterday."
+  },
+  {
+    "english": "difference",
+    "hebrew": "הֶבדֵל",
+    "spanish": "diferencia",
+    "sentence": "What is the difference between a monkey and an ape?"
+  },
+  {
+    "english": "difficult",
+    "hebrew": "קָשֶׁה",
+    "spanish": "difícil",
+    "sentence": "It will be difficult to solve this issue."
+  },
+  {
+    "english": "dinner",
+    "hebrew": "אֲרוּחַת עֶרֶב",
+    "spanish": "cena",
+    "sentence": "Would you like to have dinner with me?"
+  },
+  {
+    "english": "direction",
+    "hebrew": "כיוון",
+    "spanish": "dirección",
+    "sentence": "They drove away in opposite directions."
+  },
+  {
+    "english": "discover",
+    "hebrew": "לְגַלוֹת",
+    "spanish": "descubrir",
+    "sentence": "They discover a new type of plants in the forest."
+  },
+  {
+    "english": "discuss",
+    "hebrew": "לָדוּן",
+    "spanish": "conversar",
+    "sentence": "I would like to discuss about your new offer."
+  },
+  {
+    "english": "discussion",
+    "hebrew": "דִיוּן",
+    "spanish": "discusión",
+    "sentence": "There was some lively discussion at the meeting."
+  },
+  {
+    "english": "disease",
+    "hebrew": "מַחֲלָה",
+    "spanish": "enfermedad",
+    "sentence": "Chicken pox is a common disease among children."
+  },
+  {
+    "english": "do",
+    "hebrew": "לַעֲשׂוֹת",
+    "spanish": "hacer",
+    "sentence": "I am doing a lot of things these days."
+  },
+  {
+    "english": "dog",
+    "hebrew": "כֶּלֶב",
+    "spanish": "perro",
+    "sentence": "Your dog is so cute."
+  },
+  {
+    "english": "door",
+    "hebrew": "דלת",
+    "spanish": "puerta",
+    "sentence": "The memo is on the door."
+  },
+  {
+    "english": "down",
+    "hebrew": "מטה",
+    "spanish": "abajo",
+    "sentence": "Is this elevator going down?"
+  },
+  {
+    "english": "draw",
+    "hebrew": "לצייר",
+    "spanish": "dibujar",
+    "sentence": "My students really like drawing."
+  },
+  {
+    "english": "dream",
+    "hebrew": "חולם",
+    "spanish": "sueño",
+    "sentence": "My dream is to be an inventor."
+  },
+  {
+    "english": "drive",
+    "hebrew": "נהיגה",
+    "spanish": "manejar",
+    "sentence": "He has been driving all day."
+  },
+  {
+    "english": "drop",
+    "hebrew": "יְרִידָה",
+    "spanish": "soltar",
+    "sentence": "She accidentally dropped her wallet while walking."
+  },
+  {
+    "english": "drug",
+    "hebrew": "תְרוּפָה",
+    "spanish": "droga",
+    "sentence": "Scientists have developed a new drug."
+  },
+  {
+    "english": "during",
+    "hebrew": "בְּמַהֲלָך",
+    "spanish": "durante",
+    "sentence": "I slept during the movie."
+  },
+  {
+    "english": "each",
+    "hebrew": "כל אחד",
+    "spanish": "cada",
+    "sentence": "Each of the companies supports the local charity."
+  },
+  {
+    "english": "early",
+    "hebrew": "מוקדם",
+    "spanish": "Temprano",
+    "sentence": "I have to leave the office early."
+  },
+  {
+    "english": "east",
+    "hebrew": "מזרח",
+    "spanish": "este",
+    "sentence": "Our home is in the east of the Philippines."
+  },
+  {
+    "english": "easy",
+    "hebrew": "קַל",
+    "spanish": "fácil",
+    "sentence": "Learning the English language is easy."
+  },
+  {
+    "english": "eat",
+    "hebrew": "לאכול",
+    "spanish": "come",
+    "sentence": "She eats an apple every day."
+  },
+  {
+    "english": "economic",
+    "hebrew": "כַּלְכָּלִי",
+    "spanish": "económico",
+    "sentence": "The economic situation in Israel is strong."
+  },
+  {
+    "english": "economy",
+    "hebrew": "כַּלְכָּלָה",
+    "spanish": "economía",
+    "sentence": "The economy of Israel is strong."
+  },
+  {
+    "english": "edge",
+    "hebrew": "קָצֶה",
+    "spanish": "borde",
+    "sentence": "They built the new house on the edge of the village."
+  },
+  {
+    "english": "effect",
+    "hebrew": "השפעה",
+    "spanish": "efecto",
+    "sentence": "This medicine doesn't have any effect on my headache."
+  },
+  {
+    "english": "effort",
+    "hebrew": "מַאֲמָץ",
+    "spanish": "esfuerzo",
+    "sentence": "We need to make effort to improve our English skills."
+  },
+  {
+    "english": "eight",
+    "hebrew": "שמונה",
+    "spanish": "ocho",
+    "sentence": "There are eight apples on the table."
+  },
+  {
+    "english": "either",
+    "hebrew": "אוֹ",
+    "spanish": "o",
+    "sentence": "I don't like either fruits or vegetables."
+  },
+  {
+    "english": "election",
+    "hebrew": "בְּחִירָה",
+    "spanish": "elección",
+    "sentence": "The election is coming soon."
+  },
+  {
+    "english": "else",
+    "hebrew": "אַחֵר",
+    "spanish": "demás",
+    "sentence": "I need to try something else because this solution doesn't work."
+  },
+  {
+    "english": "employee",
+    "hebrew": "עוֹבֵד",
+    "spanish": "empleado",
+    "sentence": "We need a trusted employee."
+  },
+  {
+    "english": "end",
+    "hebrew": "סוֹף",
+    "spanish": "fin",
+    "sentence": "Let's meet at the end of the class."
+  },
+  {
+    "english": "energy",
+    "hebrew": "אֵנֶרְגִיָה",
+    "spanish": "energía",
+    "sentence": "I don't have enough energy to go out."
+  },
+  {
+    "english": "enjoy",
+    "hebrew": "תהנה",
+    "spanish": "disfrutar",
+    "sentence": "Did you enjoy walking around the city?"
+  },
+  {
+    "english": "enough",
+    "hebrew": "מספיק",
+    "spanish": "suficiente",
+    "sentence": "I don't have enough time."
+  },
+  {
+    "english": "enter",
+    "hebrew": "להיכנס",
+    "spanish": "entrar",
+    "sentence": "She entered the wrong room."
+  },
+  {
+    "english": "entire",
+    "hebrew": "שלם",
+    "spanish": "todo",
+    "sentence": "He read the entire book during his trip."
+  },
+  {
+    "english": "environment",
+    "hebrew": "סביבה",
+    "spanish": "medioambiente",
+    "sentence": "The environment in this city is so refreshing."
+  },
+  {
+    "english": "environmental",
+    "hebrew": "סְבִיבָתִי",
+    "spanish": "ambiental",
+    "sentence": "Countries have a lot of environmental issues."
+  },
+  {
+    "english": "especially",
+    "hebrew": "במיוחד",
+    "spanish": "especialmente",
+    "sentence": "I like desserts, especially chocolate cake."
+  },
+  {
+    "english": "establish",
+    "hebrew": "לְהַקִים",
+    "spanish": "establecer",
+    "sentence": "My boss established a new company."
+  },
+  {
+    "english": "even",
+    "hebrew": "אֲפִילוּ",
+    "spanish": "incluso",
+    "sentence": "I don't even know where I am."
+  },
+  {
+    "english": "evening",
+    "hebrew": "עֶרֶב",
+    "spanish": "Noche",
+    "sentence": "I normally go for a walk in the evening."
+  },
+  {
+    "english": "event",
+    "hebrew": "מִקרֶה",
+    "spanish": "acontecimiento",
+    "sentence": "I met her during the event."
+  },
+  {
+    "english": "ever",
+    "hebrew": "אֵיִ פַּעַם",
+    "spanish": "alguna vez",
+    "sentence": "Have you ever visited Japan?"
+  },
+  {
+    "english": "every",
+    "hebrew": "כֹּל",
+    "spanish": "cada",
+    "sentence": "I take a shower every day."
+  },
+  {
+    "english": "everybody",
+    "hebrew": "כולם",
+    "spanish": "Todos",
+    "sentence": "Everybody should listen to us."
+  },
+  {
+    "english": "everyone",
+    "hebrew": "כל אחד",
+    "spanish": "Todos",
+    "sentence": "Everyone has his or her own ideas about the best way to raise children."
+  },
+  {
+    "english": "everything",
+    "hebrew": "הכל",
+    "spanish": "todo",
+    "sentence": "We can't blame our parents for everything."
+  },
+  {
+    "english": "evidence",
+    "hebrew": "עֵדוּת",
+    "spanish": "evidencia",
+    "sentence": "She needs to submit evidences to support her complain."
+  },
+  {
+    "english": "exactly",
+    "hebrew": "בְּדִיוּק",
+    "spanish": "exactamente",
+    "sentence": "I don't know where exactly she is at."
+  },
+  {
+    "english": "example",
+    "hebrew": "דוגמא",
+    "spanish": "ejemplo",
+    "sentence": "I will give some examples for you to understand it."
+  },
+  {
+    "english": "executive",
+    "hebrew": "מְנַהֵל",
+    "spanish": "ejecutivo",
+    "sentence": "She is now the senior executive at her work."
+  },
+  {
+    "english": "exist",
+    "hebrew": "קיימים",
+    "spanish": "existir",
+    "sentence": "Do you think ghosts exist?"
+  },
+  {
+    "english": "expect",
+    "hebrew": "לְצַפּוֹת",
+    "spanish": "esperar",
+    "sentence": "I didn't expect anything from you."
+  },
+  {
+    "english": "experience",
+    "hebrew": "ניסיון",
+    "spanish": "experiencia",
+    "sentence": "I don't have any experience doing this job."
+  },
+  {
+    "english": "expert",
+    "hebrew": "מוּמחֶה",
+    "spanish": "experto",
+    "sentence": "She is an expert at this job."
+  },
+  {
+    "english": "explain",
+    "hebrew": "להסביר",
+    "spanish": "explique",
+    "sentence": "She explained why she is angry at me."
+  },
+  {
+    "english": "eye",
+    "hebrew": "עַיִן",
+    "spanish": "ojo",
+    "sentence": "There is something in my eye."
+  },
+  {
+    "english": "face",
+    "hebrew": "פָּנִים",
+    "spanish": "rostro",
+    "sentence": "She has a beautiful face."
+  },
+  {
+    "english": "fact",
+    "hebrew": "עוּבדָה",
+    "spanish": "hecho",
+    "sentence": "I don't know all the facts about the case."
+  },
+  {
+    "english": "fail",
+    "hebrew": "לְהִכָּשֵׁל",
+    "spanish": "fallar",
+    "sentence": "They failed to meet the deadlines."
+  },
+  {
+    "english": "fall",
+    "hebrew": "נפילה",
+    "spanish": "otoño",
+    "sentence": "I like looking at the trees in the fall season."
+  },
+  {
+    "english": "family",
+    "hebrew": "מִשׁפָּחָה",
+    "spanish": "familia",
+    "sentence": "I live together with my family."
+  },
+  {
+    "english": "far",
+    "hebrew": "רָחוֹק",
+    "spanish": "lejos",
+    "sentence": "The beach is very far from here."
+  },
+  {
+    "english": "fast",
+    "hebrew": "מָהִיר",
+    "spanish": "rápido",
+    "sentence": "He drives so fast."
+  },
+  {
+    "english": "father",
+    "hebrew": "אַבָּא",
+    "spanish": "padre",
+    "sentence": "My father is a policeman."
+  },
+  {
+    "english": "fear",
+    "hebrew": "פַּחַד",
+    "spanish": "miedo",
+    "sentence": "I have a fear of heights."
+  },
+  {
+    "english": "feel",
+    "hebrew": "להרגיש",
+    "spanish": "sentir",
+    "sentence": "I don't feel that she will like this."
+  },
+  {
+    "english": "feeling",
+    "hebrew": "מַרגִישׁ",
+    "spanish": "sentimiento",
+    "sentence": "I am feeling bad right now."
+  },
+  {
+    "english": "few",
+    "hebrew": "מְעַטִים",
+    "spanish": "pocos",
+    "sentence": "I have a few errors on the test."
+  },
+  {
+    "english": "field",
+    "hebrew": "שדה",
+    "spanish": "campo",
+    "sentence": "The cows are eating the grass in the field."
+  },
+  {
+    "english": "fight",
+    "hebrew": "מַאֲבָק",
+    "spanish": "pelear",
+    "sentence": "I had a fight with my best friend yesterday."
+  },
+  {
+    "english": "fill",
+    "hebrew": "למלא",
+    "spanish": "llenar",
+    "sentence": "I filled the glass with some orange juice."
+  },
+  {
+    "english": "film",
+    "hebrew": "סרט צילום",
+    "spanish": "película",
+    "sentence": "The film I watched with my friends last night was so good."
+  },
+  {
+    "english": "finally",
+    "hebrew": "סוף כל סוף",
+    "spanish": "por fin",
+    "sentence": "I finally finished the proposal."
+  },
+  {
+    "english": "financial",
+    "hebrew": "כַּספִּי",
+    "spanish": "financiero",
+    "sentence": "I have some financial problems."
+  },
+  {
+    "english": "find",
+    "hebrew": "למצוא",
+    "spanish": "encontrar",
+    "sentence": "I need to find my necklace."
+  },
+  {
+    "english": "fine",
+    "hebrew": "בסדר גמור",
+    "spanish": "bien",
+    "sentence": "She is fine with the place."
+  },
+  {
+    "english": "finger",
+    "hebrew": "אֶצבַּע",
+    "spanish": "dedo",
+    "sentence": "I accidentally bit my finger."
+  },
+  {
+    "english": "finish",
+    "hebrew": "סיים",
+    "spanish": "terminar",
+    "sentence": "I didn't finish my homework yet."
+  },
+  {
+    "english": "fire",
+    "hebrew": "אֵשׁ",
+    "spanish": "fuego",
+    "sentence": "The firefighters helped to put out the fire."
+  },
+  {
+    "english": "firm",
+    "hebrew": "מוּצָק",
+    "spanish": "firma",
+    "sentence": "I have worked in different firms."
+  },
+  {
+    "english": "first",
+    "hebrew": "ראשון",
+    "spanish": "primero",
+    "sentence": "I have to call her first before I go."
+  },
+  {
+    "english": "fish",
+    "hebrew": "דג",
+    "spanish": "pescado",
+    "sentence": "I caught a lot of fish in the river."
+  },
+  {
+    "english": "five",
+    "hebrew": "חָמֵשׁ",
+    "spanish": "cinco",
+    "sentence": "There are five oranges in the refrigerator."
+  },
+  {
+    "english": "floor",
+    "hebrew": "קוֹמָה",
+    "spanish": "piso",
+    "sentence": "There are so many toys on the floor."
+  },
+  {
+    "english": "fly",
+    "hebrew": "לטוס, זבוב",
+    "spanish": "mosca",
+    "sentence": "I hate seeing flies on my food."
+  },
+  {
+    "english": "focus",
+    "hebrew": "מוֹקֵד",
+    "spanish": "enfocar",
+    "sentence": "The managers have to focus on their tasks."
+  },
+  {
+    "english": "follow",
+    "hebrew": "לעקוב אחר",
+    "spanish": "seguir",
+    "sentence": "We should follow the given rules."
+  },
+  {
+    "english": "food",
+    "hebrew": "מזון",
+    "spanish": "comida",
+    "sentence": "There is a lot of food on the table."
+  },
+  {
+    "english": "foot",
+    "hebrew": "כף רגל",
+    "spanish": "pie",
+    "sentence": "I injured my right foot."
+  },
+  {
+    "english": "for",
+    "hebrew": "ל",
+    "spanish": "por",
+    "sentence": "I have been studying English for many years."
+  },
+  {
+    "english": "force",
+    "hebrew": "כּוֹחַ",
+    "spanish": "fuerza",
+    "sentence": "Teachers aren't allowed to use force in the classroom."
+  },
+  {
+    "english": "foreign",
+    "hebrew": "זָר",
+    "spanish": "extranjero",
+    "sentence": "I like talking with foreign people."
+  },
+  {
+    "english": "forget",
+    "hebrew": "לשכוח",
+    "spanish": "olvidar",
+    "sentence": "The deliveryman forgot to deliver our parcel."
+  },
+  {
+    "english": "form",
+    "hebrew": "טופס",
+    "spanish": "forma",
+    "sentence": "Please fill in/out the form with black ink."
+  },
+  {
+    "english": "former",
+    "hebrew": "לְשֶׁעָבַר",
+    "spanish": "anterior",
+    "sentence": "I saw my former colleagues in the mall."
+  },
+  {
+    "english": "forward",
+    "hebrew": "קָדִימָה",
+    "spanish": "delantero",
+    "sentence": "I have to move forward."
+  },
+  {
+    "english": "four",
+    "hebrew": "ארבע",
+    "spanish": "cuatro",
+    "sentence": "I still have four cookies in the box."
+  },
+  {
+    "english": "free",
+    "hebrew": "חינם",
+    "spanish": "gratis",
+    "sentence": "I got some free movie tickerts from my friends."
+  },
+  {
+    "english": "friend",
+    "hebrew": "חבר",
+    "spanish": "amigo",
+    "sentence": "My friend is very generous."
+  },
+  {
+    "english": "from",
+    "hebrew": "מ",
+    "spanish": "De",
+    "sentence": "I am from Israel."
+  },
+  {
+    "english": "front",
+    "hebrew": "חֲזִית",
+    "spanish": "delantero",
+    "sentence": "The bakery is in front of the museum."
+  },
+  {
+    "english": "full",
+    "hebrew": "מלא",
+    "spanish": "lleno",
+    "sentence": "The basket is full of apples."
+  },
+  {
+    "english": "fund",
+    "hebrew": "קֶרֶן",
+    "spanish": "fondo",
+    "sentence": "Our department needs some funds to start this project."
+  },
+  {
+    "english": "future",
+    "hebrew": "עתיד",
+    "spanish": "futuro",
+    "sentence": "I will meet her again in the future."
+  },
+  {
+    "english": "game",
+    "hebrew": "מִשְׂחָק",
+    "spanish": "juego",
+    "sentence": "The children played a game in the yard."
+  },
+  {
+    "english": "garden",
+    "hebrew": "גן",
+    "spanish": "jardín",
+    "sentence": "I have a lot of flowers in the garden."
+  },
+  {
+    "english": "generation",
+    "hebrew": "דוֹר",
+    "spanish": "generación",
+    "sentence": "This generation is very different."
+  },
+  {
+    "english": "get",
+    "hebrew": "לקבל",
+    "spanish": "conseguir",
+    "sentence": "I get some grapes."
+  },
+  {
+    "english": "girl",
+    "hebrew": "נערה",
+    "spanish": "muchacha",
+    "sentence": "The girl I met in the supermarket is very adorable."
+  },
+  {
+    "english": "give",
+    "hebrew": "לָתֵת",
+    "spanish": "dar",
+    "sentence": "She gives me some chocolates."
+  },
+  {
+    "english": "glass",
+    "hebrew": "זכוכית",
+    "spanish": "vidrio",
+    "sentence": "I need a glass of lemonade."
+  },
+  {
+    "english": "go",
+    "hebrew": "ללכת",
+    "spanish": "Vamos",
+    "sentence": "I will go to the party."
+  },
+  {
+    "english": "goal",
+    "hebrew": "מטרה",
+    "spanish": "objetivo",
+    "sentence": "My goal is to speak fluent English."
+  },
+  {
+    "english": "good",
+    "hebrew": "טוֹב",
+    "spanish": "bueno",
+    "sentence": "I am good at the Spanish language."
+  },
+  {
+    "english": "government",
+    "hebrew": "מֶמְשָׁלָה",
+    "spanish": "gobierno",
+    "sentence": "Our government is very strict."
+  },
+  {
+    "english": "great",
+    "hebrew": "גדול",
+    "spanish": "gran",
+    "sentence": "I have a great evening."
+  },
+  {
+    "english": "green",
+    "hebrew": "ירוק",
+    "spanish": "verde",
+    "sentence": "I bought a green carpet."
+  },
+  {
+    "english": "ground",
+    "hebrew": "קרקע, אדמה",
+    "spanish": "tierra",
+    "sentence": "I sat down on the ground."
+  },
+  {
+    "english": "group",
+    "hebrew": "קְבוּצָה",
+    "spanish": "grupo",
+    "sentence": "I am meeting a group of friends for lunch later."
+  },
+  {
+    "english": "grow",
+    "hebrew": "לגדול",
+    "spanish": "crecer",
+    "sentence": "I didn't grow in a rural area."
+  },
+  {
+    "english": "growth",
+    "hebrew": "צְמִיחָה",
+    "spanish": "crecimiento",
+    "sentence": "The government is trying to limit population growth."
+  },
+  {
+    "english": "guess",
+    "hebrew": "לְנַחֵשׁ",
+    "spanish": "adivinar",
+    "sentence": "I guess you don't like this food."
+  },
+  {
+    "english": "gun",
+    "hebrew": "אֶקְדָח",
+    "spanish": "pistola",
+    "sentence": "My father owns a gun."
+  },
+  {
+    "english": "guy",
+    "hebrew": "בָּחוּר",
+    "spanish": "chico",
+    "sentence": "I met a guy at the beach."
+  },
+  {
+    "english": "hair",
+    "hebrew": "שיער",
+    "spanish": "pelo",
+    "sentence": "She has got a long and black hair."
+  },
+  {
+    "english": "half",
+    "hebrew": "חֲצִי",
+    "spanish": "medio",
+    "sentence": "Please cut the watermelon in half."
+  },
+  {
+    "english": "hand",
+    "hebrew": "יד",
+    "spanish": "mano",
+    "sentence": "My hand is freezing. It is so cold."
+  },
+  {
+    "english": "hang",
+    "hebrew": "לִתְלוֹת",
+    "spanish": "colgar",
+    "sentence": "Please hang your coat on the rack over there."
+  },
+  {
+    "english": "happen",
+    "hebrew": "לִקְרוֹת",
+    "spanish": "ocurrir",
+    "sentence": "What happened to you?"
+  },
+  {
+    "english": "happy",
+    "hebrew": "שַׂמֵחַ",
+    "spanish": "feliz",
+    "sentence": "She is a happy woman."
+  },
+  {
+    "english": "hard",
+    "hebrew": "קָשֶׁה",
+    "spanish": "Duro",
+    "sentence": "It is not so hard to answer these questions."
+  },
+  {
+    "english": "have",
+    "hebrew": "יש",
+    "spanish": "tener",
+    "sentence": "I have three siblings."
+  },
+  {
+    "english": "he",
+    "hebrew": "הוא",
+    "spanish": "él",
+    "sentence": "He doesn't work at all."
+  },
+  {
+    "english": "head",
+    "hebrew": "רֹאשׁ",
+    "spanish": "cabeza",
+    "sentence": "She is the head in her deparment."
+  },
+  {
+    "english": "health",
+    "hebrew": "בְּרִיאוּת",
+    "spanish": "salud",
+    "sentence": "We have to exercise to be in good health."
+  },
+  {
+    "english": "hear",
+    "hebrew": "לִשְׁמוֹעַ",
+    "spanish": "escuchar",
+    "sentence": "They didn't hear what I said."
+  },
+  {
+    "english": "heart",
+    "hebrew": "לֵב",
+    "spanish": "corazón",
+    "sentence": "My heart beats so fast after running."
+  },
+  {
+    "english": "heat",
+    "hebrew": "חוֹם",
+    "spanish": "calor",
+    "sentence": "You may cook the meat on a low heat."
+  },
+  {
+    "english": "heavy",
+    "hebrew": "כָּבֵד",
+    "spanish": "pesado",
+    "sentence": "This luggage is so heavy."
+  },
+  {
+    "english": "help",
+    "hebrew": "עֶזרָה",
+    "spanish": "ayudar",
+    "sentence": "I need some help."
+  },
+  {
+    "english": "her",
+    "hebrew": "שֶׁלָה",
+    "spanish": "ella",
+    "sentence": "Her bag is so expensive."
+  },
+  {
+    "english": "here",
+    "hebrew": "פה",
+    "spanish": "aquí",
+    "sentence": "Please come here."
+  },
+  {
+    "english": "herself",
+    "hebrew": "עַצמָה",
+    "spanish": "ella misma",
+    "sentence": "She gave herself an expensive gift."
+  },
+  {
+    "english": "high",
+    "hebrew": "גָבוֹהַ",
+    "spanish": "alto",
+    "sentence": "They built a house with high ceilings."
+  },
+  {
+    "english": "him",
+    "hebrew": "אוֹתוֹ",
+    "spanish": "a él",
+    "sentence": "Did you talk to him?"
+  },
+  {
+    "english": "himself",
+    "hebrew": "עַצמוֹ",
+    "spanish": "él mismo",
+    "sentence": "He left his little brother by himself."
+  },
+  {
+    "english": "his",
+    "hebrew": "שֶׁלוֹ",
+    "spanish": "su",
+    "sentence": "I talked to his father."
+  },
+  {
+    "english": "history",
+    "hebrew": "הִיסטוֹרִיָה",
+    "spanish": "historia",
+    "sentence": "Students should learn about history."
+  },
+  {
+    "english": "hit",
+    "hebrew": "מכה",
+    "spanish": "golpear",
+    "sentence": "Parents must not hit their children."
+  },
+  {
+    "english": "hold",
+    "hebrew": "לְהַחזִיק",
+    "spanish": "mantener",
+    "sentence": "My friend usually holds a big party."
+  },
+  {
+    "english": "home",
+    "hebrew": "בית",
+    "spanish": "casa",
+    "sentence": "Do you work from home?"
+  },
+  {
+    "english": "hope",
+    "hebrew": "לְקַווֹת",
+    "spanish": "esperar",
+    "sentence": "I hope my dreams come true."
+  },
+  {
+    "english": "hot",
+    "hebrew": "חַם",
+    "spanish": "caliente",
+    "sentence": "The weather is hot. Let's not go outside."
+  },
+  {
+    "english": "hour",
+    "hebrew": "שָׁעָה",
+    "spanish": "hora",
+    "sentence": "I will be home in an hour."
+  },
+  {
+    "english": "house",
+    "hebrew": "בַּיִת",
+    "spanish": "casa",
+    "sentence": "Our house was built five years ago."
+  },
+  {
+    "english": "how",
+    "hebrew": "אֵיך",
+    "spanish": "cómo",
+    "sentence": "How are you?"
+  },
+  {
+    "english": "however",
+    "hebrew": "למרות זאת",
+    "spanish": "sin embargo",
+    "sentence": "This is one good solution to the problem, however, there are others."
+  },
+  {
+    "english": "huge",
+    "hebrew": "עָצוּם",
+    "spanish": "enorme",
+    "sentence": "They live in a huge house."
+  },
+  {
+    "english": "human",
+    "hebrew": "בן אנוש",
+    "spanish": "humano",
+    "sentence": "We are all humans."
+  },
+  {
+    "english": "hundred",
+    "hebrew": "מֵאָה",
+    "spanish": "ciento",
+    "sentence": "There are about four hundred students in the school."
+  },
+  {
+    "english": "husband",
+    "hebrew": "בַּעַל",
+    "spanish": "esposo",
+    "sentence": "Her husband is very hardworking."
+  },
+  {
+    "english": "I",
+    "hebrew": "אני",
+    "spanish": "yo",
+    "sentence": "I have a car."
+  },
+  {
+    "english": "idea",
+    "hebrew": "רַעְיוֹן",
+    "spanish": "ocurrencia",
+    "sentence": "I have a lot of ideas in my mind."
+  },
+  {
+    "english": "identify",
+    "hebrew": "לזהות",
+    "spanish": "identificar",
+    "sentence": "I cannot reveal the identity of my main source."
+  },
+  {
+    "english": "if",
+    "hebrew": "אם",
+    "spanish": "Si",
+    "sentence": "What would you do if you had a milldion dollars?"
+  },
+  {
+    "english": "image",
+    "hebrew": "תמונה",
+    "spanish": "imagen",
+    "sentence": "The advertisements are intended to improve the company's image"
+  },
+  {
+    "english": "imagine",
+    "hebrew": "לדמיין",
+    "spanish": "imagina",
+    "sentence": "I cannot imagine what he wants."
+  },
+  {
+    "english": "impact",
+    "hebrew": "פְּגִיעָה",
+    "spanish": "impacto",
+    "sentence": "The impact of the crash destroyed the car."
+  },
+  {
+    "english": "important",
+    "hebrew": "חָשׁוּב",
+    "spanish": "importante",
+    "sentence": "It is important to know what the problem is."
+  },
+  {
+    "english": "improve",
+    "hebrew": "לְשַׁפֵּר",
+    "spanish": "mejorar",
+    "sentence": "I think I need to improve my piano skills."
+  },
+  {
+    "english": "in",
+    "hebrew": "ב",
+    "spanish": "en",
+    "sentence": "I am interested in reading books."
+  },
+  {
+    "english": "include",
+    "hebrew": "לִכלוֹל",
+    "spanish": "incluir",
+    "sentence": "The hotel room charge inclused breakfast."
+  },
+  {
+    "english": "including",
+    "hebrew": "לְרַבּוֹת",
+    "spanish": "incluido",
+    "sentence": "Their new house has four storeys including the attic."
+  },
+  {
+    "english": "increase",
+    "hebrew": "להגביר",
+    "spanish": "incrementar",
+    "sentence": "The price of cigarette increases annually."
+  },
+  {
+    "english": "indeed",
+    "hebrew": "אכן",
+    "spanish": "En efecto",
+    "sentence": "The movie is indeed interesting."
+  },
+  {
+    "english": "indicate",
+    "hebrew": "מצביע",
+    "spanish": "indicar",
+    "sentence": "Please indicate your sex and date of birth below."
+  },
+  {
+    "english": "industry",
+    "hebrew": "תַעֲשִׂיָה",
+    "spanish": "industria",
+    "sentence": "We are just new to this industry."
+  },
+  {
+    "english": "information",
+    "hebrew": "מֵידָע",
+    "spanish": "información",
+    "sentence": "Do you have any information about this book?"
+  },
+  {
+    "english": "inside",
+    "hebrew": "בְּתוֹך",
+    "spanish": "dentro",
+    "sentence": "I cleaned the inside of the car."
+  },
+  {
+    "english": "instead",
+    "hebrew": "במקום זאת",
+    "spanish": "en cambio",
+    "sentence": "I would like a cup of tea instead."
+  },
+  {
+    "english": "institution",
+    "hebrew": "מוֹסָד",
+    "spanish": "institución",
+    "sentence": "Harvard University is a respected institution."
+  },
+  {
+    "english": "interest",
+    "hebrew": "ריבית",
+    "spanish": "interés",
+    "sentence": "I have always had an interest in Physics."
+  },
+  {
+    "english": "interesting",
+    "hebrew": "מעניין",
+    "spanish": "interesante",
+    "sentence": "This book is so interesting."
+  },
+  {
+    "english": "international",
+    "hebrew": "בינלאומי",
+    "spanish": "internacional",
+    "sentence": "English is an international language."
+  },
+  {
+    "english": "interview",
+    "hebrew": "רֵאָיוֹן",
+    "spanish": "entrevista",
+    "sentence": "I have an interview tomorrow."
+  },
+  {
+    "english": "into",
+    "hebrew": "לְתוֹך",
+    "spanish": "en",
+    "sentence": "The birds got into the room."
+  },
+  {
+    "english": "investment",
+    "hebrew": "הַשׁקָעָה",
+    "spanish": "inversión",
+    "sentence": "The company increased its investment in stock market."
+  },
+  {
+    "english": "involve",
+    "hebrew": "כרוך",
+    "spanish": "involucrar",
+    "sentence": "They said that the job would involve traveling to the United States."
+  },
+  {
+    "english": "issue",
+    "hebrew": "נושא",
+    "spanish": "tema",
+    "sentence": "The company is facing a lot of issues right now."
+  },
+  {
+    "english": "it",
+    "hebrew": "זה",
+    "spanish": "eso",
+    "sentence": "It is windy outside."
+  },
+  {
+    "english": "item",
+    "hebrew": "פריט",
+    "spanish": "partida",
+    "sentence": "There is an item left at the counter."
+  },
+  {
+    "english": "its",
+    "hebrew": "שֶׁלָה",
+    "spanish": "su",
+    "sentence": "The company sold its assets."
+  },
+  {
+    "english": "itself",
+    "hebrew": "את עצמה",
+    "spanish": "sí mismo",
+    "sentence": "The dog licked itself."
+  },
+  {
+    "english": "job",
+    "hebrew": "עבודה",
+    "spanish": "trabajo",
+    "sentence": "I need to find a new job."
+  },
+  {
+    "english": "join",
+    "hebrew": "לְהִצְטַרֵף",
+    "spanish": "entrar",
+    "sentence": "A smart guy joined our team."
+  },
+  {
+    "english": "just",
+    "hebrew": "רַק",
+    "spanish": "sólo",
+    "sentence": "I just changed the bedsheets."
+  },
+  {
+    "english": "keep",
+    "hebrew": "לִשְׁמוֹר",
+    "spanish": "mantenerse",
+    "sentence": "Can I keep this photograph?"
+  },
+  {
+    "english": "key",
+    "hebrew": "מַפְתֵחַ",
+    "spanish": "llave",
+    "sentence": "I forgot my key in my room."
+  },
+  {
+    "english": "kid",
+    "hebrew": "יֶלֶד",
+    "spanish": "niño",
+    "sentence": "I like plating with kids."
+  },
+  {
+    "english": "kill",
+    "hebrew": "לַהֲרוֹג",
+    "spanish": "matar",
+    "sentence": "It's very annoying to kill mosquitoes."
+  },
+  {
+    "english": "kind",
+    "hebrew": "סוג",
+    "spanish": "clase",
+    "sentence": "My best friend is so kind."
+  },
+  {
+    "english": "kitchen",
+    "hebrew": "מִטְבָּח",
+    "spanish": "cocina",
+    "sentence": "She is preparing some meals in the kitchen."
+  },
+  {
+    "english": "know",
+    "hebrew": "לָדַעַת",
+    "spanish": "saber",
+    "sentence": "She knows a lot of languages."
+  },
+  {
+    "english": "knowledge",
+    "hebrew": "יֶדַע",
+    "spanish": "conocimiento",
+    "sentence": "He has a limited knowledge of Spanish."
+  },
+  {
+    "english": "taste",
+    "hebrew": "לטעום",
+    "spanish": "gusto",
+    "sentence": "I tasted some free chocolates in that store."
+  },
+  {
+    "english": "Breathe",
+    "hebrew": "לנשום",
+    "spanish": "Respirar",
+    "sentence": "It is hard to breathe in this factory."
+  },
+  {
+    "english": "swim",
+    "hebrew": "לשחות",
+    "spanish": "nadar",
+    "sentence": "She likes to swim."
+  },
+  {
+    "english": "Does not work",
+    "hebrew": "לא עובד",
+    "spanish": "No funciona",
+    "sentence": "She doesn't work every Sunday."
+  },
+  {
+    "english": "to jump",
+    "hebrew": "לקפוץ",
+    "spanish": "saltar",
+    "sentence": "She doesn't want to jump over the fence."
+  },
+  {
+    "english": "Breakfast",
+    "hebrew": "ארוחת בוקר",
+    "spanish": "Desayuno",
+    "sentence": "My mother always prepares breakfast every morning."
+  },
+  {
+    "english": "Lunch",
+    "hebrew": "ארוחת צהריים",
+    "spanish": "Almuerzo",
+    "sentence": "I like having lunch with her."
+  },
+  {
+    "english": "to love",
+    "hebrew": "לאהוב",
+    "spanish": "amar",
+    "sentence": "I want to love her."
+  },
+  {
+    "english": "worry",
+    "hebrew": "לדאוג",
+    "spanish": "preocuparse",
+    "sentence": "She worried a lot."
+  },
+  {
+    "english": "frozen",
+    "hebrew": "קפוא",
+    "spanish": "congelado",
+    "sentence": "I don't like eating frozen goods."
+  },
+  {
+    "english": "boiling",
+    "hebrew": "רותח",
+    "spanish": "hirviendo",
+    "sentence": "The water is boiling."
+  },
+  {
+    "english": "sleep",
+    "hebrew": "לישון",
+    "spanish": "dormir",
+    "sentence": "She doesn't sleep well every night."
+  },
+  {
+    "english": "to take pictures",
+    "hebrew": "לצלם",
+    "spanish": "para tomar fotografias",
+    "sentence": "I like to take pictures of different flowers."
+  },
+  {
+    "english": "Giant",
+    "hebrew": "ענק",
+    "spanish": "Gigante",
+    "sentence": "I encountered giant waves while swimming in the sea."
+  },
+  {
+    "english": "yellow",
+    "hebrew": "צהוב",
+    "spanish": "amarillo",
+    "sentence": "There is a yellow ribbon on the table."
+  },
+  {
+    "english": "gold",
+    "hebrew": "זהב",
+    "spanish": "oro",
+    "sentence": "I bought a gold ring."
+  },
+  {
+    "english": "diamond",
+    "hebrew": "יהלום",
+    "spanish": "diamante",
+    "sentence": "He gave me a diamond ring."
+  },
+  {
+    "english": "Ring",
+    "hebrew": "טבעת",
+    "spanish": "Anillo",
+    "sentence": "Women like rings."
+  },
+  {
+    "english": "ears",
+    "hebrew": "אוזניים",
+    "spanish": "orejas",
+    "sentence": "You should always clean your ears."
+  },
+  {
+    "english": "Nose",
+    "hebrew": "אף",
+    "spanish": "Nariz",
+    "sentence": "I have a sore throat and a runny nose."
+  },
+  {
+    "english": "horse",
+    "hebrew": "סוס",
+    "spanish": "caballo",
+    "sentence": "I am riding a horse."
+  },
+  {
+    "english": "Eyes",
+    "hebrew": "עיניים",
+    "spanish": "Ojos",
+    "sentence": "My eyes are very itchy."
+  },
+  {
+    "english": "Shoes",
+    "hebrew": "נעליים",
+    "spanish": "Zapatos",
+    "sentence": "I need to buy new shoes."
+  },
+  {
+    "english": "Kindergarten",
+    "hebrew": "גן ילדים",
+    "spanish": "Jardín de infancia",
+    "sentence": "My son doesn't like to go to a kindergarten."
+  },
+  {
+    "english": "sun",
+    "hebrew": "שמש",
+    "spanish": "sol",
+    "sentence": "The sun rises in the east."
+  },
+  {
+    "english": "moon",
+    "hebrew": "ירח",
+    "spanish": "luna",
+    "sentence": "There is no moon tonight."
+  },
+  {
+    "english": "sky",
+    "hebrew": "שמים",
+    "spanish": "cielo",
+    "sentence": "The sky is so clear."
+  },
+  {
+    "english": "Violin",
+    "hebrew": "כינור",
+    "spanish": "Violín",
+    "sentence": "She likes playing the violin."
+  },
+  {
+    "english": "cloud",
+    "hebrew": "ענן",
+    "spanish": "nube",
+    "sentence": "The clouds are so wonderful."
+  },
+  {
+    "english": "Tongue",
+    "hebrew": "לשון",
+    "spanish": "Lengua",
+    "sentence": "I accidentally bit my tongue."
+  },
+  {
+    "english": "electricity",
+    "hebrew": "חשמל",
+    "spanish": "electricidad",
+    "sentence": "The electricity went out during the meeting."
+  },
+  {
+    "english": "to cook",
+    "hebrew": "לבשל",
+    "spanish": "cocinar",
+    "sentence": "She doesn't like to cook every day."
+  },
+  {
+    "english": "milk",
+    "hebrew": "חלב",
+    "spanish": "Leche",
+    "sentence": "I have no milk left."
+  },
+  {
+    "english": "grandfather",
+    "hebrew": "סבא",
+    "spanish": "abuelo",
+    "sentence": "My grandfather passed away five years ago."
+  },
+  {
+    "english": "grandmother",
+    "hebrew": "סבתא",
+    "spanish": "abuela",
+    "sentence": "My grandmother likes taking care of my daughter."
+  },
+  {
+    "english": "Uncle",
+    "hebrew": "דוד",
+    "spanish": "Tío",
+    "sentence": "I like playing basketball with my uncle."
+  },
+  {
+    "english": "aunt",
+    "hebrew": "דודה",
+    "spanish": "tía",
+    "sentence": "My aunt likes baking cookies."
+  },
+  {
+    "english": "land",
+    "hebrew": "ארץ",
+    "spanish": "tierra",
+    "sentence": "I really like to invest in land."
+  },
+  {
+    "english": "language",
+    "hebrew": "שפה",
+    "spanish": "idioma",
+    "sentence": "I would like to learn a new language."
+  },
+  {
+    "english": "large",
+    "hebrew": "גָדוֹל",
+    "spanish": "gran",
+    "sentence": "I bought a large watermelon."
+  },
+  {
+    "english": "last",
+    "hebrew": "אחרון",
+    "spanish": "Último",
+    "sentence": "December is the last month of the year."
+  },
+  {
+    "english": "late",
+    "hebrew": "מאוחר",
+    "spanish": "tarde",
+    "sentence": "I was late for the class."
+  },
+  {
+    "english": "later",
+    "hebrew": "יותר מאוחר",
+    "spanish": "luego",
+    "sentence": "I will meet you later."
+  },
+  {
+    "english": "laugh",
+    "hebrew": "לִצְחוֹק",
+    "spanish": "reír",
+    "sentence": "She laughs when she watches a comedy movie."
+  },
+  {
+    "english": "law",
+    "hebrew": "חוֹק",
+    "spanish": "ley",
+    "sentence": "We need to follow the law in our country."
+  },
+  {
+    "english": "lawyer",
+    "hebrew": "עורך דין",
+    "spanish": "abogado",
+    "sentence": "I talked to a lawyer about a certain concern."
+  },
+  {
+    "english": "lay",
+    "hebrew": "לְהַנִיחַ",
+    "spanish": "poner",
+    "sentence": "She laid the baby in his crib."
+  },
+  {
+    "english": "lead",
+    "hebrew": "עוֹפֶרֶת",
+    "spanish": "Plomo",
+    "sentence": "She likes leading a group."
+  },
+  {
+    "english": "leader",
+    "hebrew": "מַנהִיג",
+    "spanish": "líder",
+    "sentence": "She is a great leader."
+  },
+  {
+    "english": "learn",
+    "hebrew": "לִלמוֹד",
+    "spanish": "aprender",
+    "sentence": "She is learning the English language."
+  },
+  {
+    "english": "least",
+    "hebrew": "הכי פחות",
+    "spanish": "menos",
+    "sentence": "Traveling abroad is my least priority these days."
+  },
+  {
+    "english": "leave",
+    "hebrew": "לעזוב",
+    "spanish": "abandonar",
+    "sentence": "All students leave the school at 4 PM."
+  },
+  {
+    "english": "left",
+    "hebrew": "שמאלה",
+    "spanish": "Izquierdo",
+    "sentence": "All students already left the school."
+  },
+  {
+    "english": "leg",
+    "hebrew": "רגל",
+    "spanish": "pierna",
+    "sentence": "I injured my leg during the game."
+  },
+  {
+    "english": "legal",
+    "hebrew": "משפטי",
+    "spanish": "jurídico",
+    "sentence": "Marijuana is legal in other western countries."
+  },
+  {
+    "english": "less",
+    "hebrew": "פָּחוּת",
+    "spanish": "menos",
+    "sentence": "My headache is becoming less frequent."
+  },
+  {
+    "english": "let",
+    "hebrew": "לתת",
+    "spanish": "dejar",
+    "sentence": "I will let you speak later."
+  },
+  {
+    "english": "letter",
+    "hebrew": "מִכְתָב",
+    "spanish": "carta",
+    "sentence": "I send her a love letter every year."
+  },
+  {
+    "english": "level",
+    "hebrew": "רָמָה",
+    "spanish": "nivel",
+    "sentence": "My English level is improving."
+  },
+  {
+    "english": "lie",
+    "hebrew": "שקר",
+    "spanish": "mentira",
+    "sentence": "Everything she said is a lie."
+  },
+  {
+    "english": "life",
+    "hebrew": "חַיִים",
+    "spanish": "la vida",
+    "sentence": "We should start living a healthy life."
+  },
+  {
+    "english": "light",
+    "hebrew": "אוֹר",
+    "spanish": "Ligero",
+    "sentence": "Don't forget to turn off the light when you leave."
+  },
+  {
+    "english": "like",
+    "hebrew": "כמו",
+    "spanish": "como",
+    "sentence": "She likes English a lot."
+  },
+  {
+    "english": "likely",
+    "hebrew": "סָבִיר",
+    "spanish": "probable",
+    "sentence": "I will likely be at home on Sunday."
+  },
+  {
+    "english": "line",
+    "hebrew": "קַו",
+    "spanish": "línea",
+    "sentence": "There is a long line in the market."
+  },
+  {
+    "english": "list",
+    "hebrew": "רשימה",
+    "spanish": "lista",
+    "sentence": "My name is not on the list of those who passed the exam."
+  },
+  {
+    "english": "listen",
+    "hebrew": "להקשיב",
+    "spanish": "escucha",
+    "sentence": "I like listening to rap music."
+  },
+  {
+    "english": "little",
+    "hebrew": "קטן",
+    "spanish": "pequeño",
+    "sentence": "I am little tired today."
+  },
+  {
+    "english": "live",
+    "hebrew": "לחיות",
+    "spanish": "En Vivo",
+    "sentence": "She lives in Tel Aviv."
+  },
+  {
+    "english": "Expensive",
+    "hebrew": "יקר",
+    "spanish": "Caro",
+    "sentence": "The shirt I bought is expensive."
+  },
+  {
+    "english": "long",
+    "hebrew": "ארוך",
+    "spanish": "largo",
+    "sentence": "The pants I bought are long."
+  },
+  {
+    "english": "look",
+    "hebrew": "תראה",
+    "spanish": "Mira",
+    "sentence": "The kid is looking at the clown."
+  },
+  {
+    "english": "lose",
+    "hebrew": "לאבד",
+    "spanish": "perder",
+    "sentence": "She is sad because she lost her waller."
+  },
+  {
+    "english": "loss",
+    "hebrew": "הֶפסֵד",
+    "spanish": "pérdida",
+    "sentence": "It is a great loss to her."
+  },
+  {
+    "english": "lot",
+    "hebrew": "מִגרָשׁ",
+    "spanish": "lote",
+    "sentence": "I bought a lot of eggs."
+  },
+  {
+    "english": "love",
+    "hebrew": "אהבה",
+    "spanish": "amar",
+    "sentence": "She loves to travel a lot."
+  },
+  {
+    "english": "low",
+    "hebrew": "נָמוּך",
+    "spanish": "bajo",
+    "sentence": "I got a low score on the test."
+  },
+  {
+    "english": "machine",
+    "hebrew": "מְכוֹנָה",
+    "spanish": "máquina",
+    "sentence": "Farmers use a machine to plant potatoes."
+  },
+  {
+    "english": "magazine",
+    "hebrew": "מגזין",
+    "spanish": "revista",
+    "sentence": "Our customers like reading magazines."
+  },
+  {
+    "english": "main",
+    "hebrew": "רָאשִׁי",
+    "spanish": "principal",
+    "sentence": "We drove through the main road."
+  },
+  {
+    "english": "maintain",
+    "hebrew": "לְתַחְזֵק",
+    "spanish": "mantener",
+    "sentence": "We need to maintain the cleanliness of this room."
+  },
+  {
+    "english": "major",
+    "hebrew": "גדול",
+    "spanish": "principal",
+    "sentence": "I have a major exam tomorrow."
+  },
+  {
+    "english": "majority",
+    "hebrew": "רוֹב",
+    "spanish": "mayoria",
+    "sentence": "The majority of the students passed the test."
+  },
+  {
+    "english": "make",
+    "hebrew": "עשה",
+    "spanish": "hacer",
+    "sentence": "I will make some cookies in the afternoon."
+  },
+  {
+    "english": "man",
+    "hebrew": "איש",
+    "spanish": "hombre",
+    "sentence": "Who is the man my sister is talking to?"
+  },
+  {
+    "english": "manage",
+    "hebrew": "לנהל",
+    "spanish": "gestionar",
+    "sentence": "Pharmaceutical companies managed to produce vaccines."
+  },
+  {
+    "english": "management",
+    "hebrew": "הַנהָלָה",
+    "spanish": "administración",
+    "sentence": "The management is working on the new policy."
+  },
+  {
+    "english": "manager",
+    "hebrew": "מנהל",
+    "spanish": "gerente",
+    "sentence": "The angry customer wants to talk to the manager."
+  },
+  {
+    "english": "many",
+    "hebrew": "רב",
+    "spanish": "muchos",
+    "sentence": "She has many errors during the game."
+  },
+  {
+    "english": "market",
+    "hebrew": "שׁוּק",
+    "spanish": "mercado",
+    "sentence": "The public market is open in the evening."
+  },
+  {
+    "english": "marriage",
+    "hebrew": "נישואים",
+    "spanish": "casamiento",
+    "sentence": "Her marriage life is so wonderful."
+  },
+  {
+    "english": "vegetables",
+    "hebrew": "ירקות",
+    "spanish": "verduras",
+    "sentence": "Children should start eating vegetables at an early age."
+  },
+  {
+    "english": "matter",
+    "hebrew": "חוֹמֶר",
+    "spanish": "materia",
+    "sentence": "It doesn't matter even if you disagree with me."
+  },
+  {
+    "english": "may",
+    "hebrew": "מאי",
+    "spanish": "puede",
+    "sentence": "The visitors may arrive early."
+  },
+  {
+    "english": "maybe",
+    "hebrew": "אולי",
+    "spanish": "quizás",
+    "sentence": "Maybe I am wrong and you are correct."
+  },
+  {
+    "english": "football",
+    "hebrew": "כדורגל",
+    "spanish": "fútbol americano",
+    "sentence": "Footbal is a famous sport in America."
+  },
+  {
+    "english": "mean",
+    "hebrew": "מתכוון",
+    "spanish": "significar",
+    "sentence": "What does this word mean?"
+  },
+  {
+    "english": "measure",
+    "hebrew": "מידה",
+    "spanish": "medida",
+    "sentence": "You didn't measure the sizes accurately."
+  },
+  {
+    "english": "media",
+    "hebrew": "כְּלֵי תִקְשׁוֹרֶת",
+    "spanish": "medios de comunicación",
+    "sentence": "People tend to rely on media these days."
+  },
+  {
+    "english": "medical",
+    "hebrew": "רְפוּאִי",
+    "spanish": "médico",
+    "sentence": "I will undergo medical tests tomorrow."
+  },
+  {
+    "english": "meet",
+    "hebrew": "לִפְגוֹשׁ",
+    "spanish": "reunir",
+    "sentence": "Shall I meet your parents?"
+  },
+  {
+    "english": "meeting",
+    "hebrew": "פְּגִישָׁה",
+    "spanish": "reunión",
+    "sentence": "I am meeting my dentist tonight."
+  },
+  {
+    "english": "member",
+    "hebrew": "חבר",
+    "spanish": "miembro",
+    "sentence": "She is a membe of an english club at school."
+  },
+  {
+    "english": "memory",
+    "hebrew": "זיכרון",
+    "spanish": "memoria",
+    "sentence": "I have a good memory of Paris."
+  },
+  {
+    "english": "mention",
+    "hebrew": "אִזְכּוּר",
+    "spanish": "mencionar",
+    "sentence": "My friends mentioned that they are visiting me today."
+  },
+  {
+    "english": "message",
+    "hebrew": "הוֹדָעָה",
+    "spanish": "mensaje",
+    "sentence": "I sent her a message."
+  },
+  {
+    "english": "method",
+    "hebrew": "שיטה",
+    "spanish": "método",
+    "sentence": "There are many methods you can use to enhance your English skills."
+  },
+  {
+    "english": "middle",
+    "hebrew": "אֶמצַע",
+    "spanish": "medio",
+    "sentence": "She is standing in the middle of the crowd."
+  },
+  {
+    "english": "might",
+    "hebrew": "אולי",
+    "spanish": "podría",
+    "sentence": "John might visit his grandmother next week."
+  },
+  {
+    "english": "military",
+    "hebrew": "צבאי",
+    "spanish": "militar",
+    "sentence": "He is exempted from the military service."
+  },
+  {
+    "english": "million",
+    "hebrew": "מִילִיוֹן",
+    "spanish": "millón",
+    "sentence": "I have a million dollars in my account."
+  },
+  {
+    "english": "mind",
+    "hebrew": "אכפת",
+    "spanish": "mente",
+    "sentence": "Please tell me what is in your mind."
+  },
+  {
+    "english": "minute",
+    "hebrew": "דַקָה",
+    "spanish": "minuto",
+    "sentence": "Can you give me a minute?"
+  },
+  {
+    "english": "miss",
+    "hebrew": "עלמה",
+    "spanish": "señorita",
+    "sentence": "Miss Smith gave her students some chocolates."
+  },
+  {
+    "english": "mission",
+    "hebrew": "משימה",
+    "spanish": "misión",
+    "sentence": "Our mission in this country was accomplished."
+  },
+  {
+    "english": "model",
+    "hebrew": "דֶגֶם",
+    "spanish": "modelo",
+    "sentence": "You should be a good role model for others."
+  },
+  {
+    "english": "modern",
+    "hebrew": "מוֹדֶרנִי",
+    "spanish": "moderno",
+    "sentence": "My family lives in a modern house."
+  },
+  {
+    "english": "moment",
+    "hebrew": "רֶגַע",
+    "spanish": "momento",
+    "sentence": "I am studying English at the moment."
+  },
+  {
+    "english": "money",
+    "hebrew": "כֶּסֶף",
+    "spanish": "De dinero",
+    "sentence": "Could you lend me some money?"
+  },
+  {
+    "english": "month",
+    "hebrew": "חוֹדֶשׁ",
+    "spanish": "mes",
+    "sentence": "I need a month to rest."
+  },
+  {
+    "english": "more",
+    "hebrew": "יותר",
+    "spanish": "más",
+    "sentence": "The company needs more staff."
+  },
+  {
+    "english": "morning",
+    "hebrew": "בוקר",
+    "spanish": "Mañana",
+    "sentence": "I normally exercise in the morning."
+  },
+  {
+    "english": "most",
+    "hebrew": "רוב",
+    "spanish": "más",
+    "sentence": "She finished all her deadlines most of the time."
+  },
+  {
+    "english": "mother",
+    "hebrew": "אִמָא",
+    "spanish": "madre",
+    "sentence": "She is a mother of 4 children."
+  },
+  {
+    "english": "mouth",
+    "hebrew": "פֶּה",
+    "spanish": "boca",
+    "sentence": "Please don't tal when your mouth is full."
+  },
+  {
+    "english": "move",
+    "hebrew": "לזוז",
+    "spanish": "moverse",
+    "sentence": "My boyfriend is moving to a new apartment."
+  },
+  {
+    "english": "movement",
+    "hebrew": "תְנוּעָה",
+    "spanish": "movimienot",
+    "sentence": "I heard movements from that room."
+  },
+  {
+    "english": "movie",
+    "hebrew": "סרט",
+    "spanish": "película",
+    "sentence": "I will see a movie tonight."
+  },
+  {
+    "english": "Mr",
+    "hebrew": "אדון",
+    "spanish": "Señor",
+    "sentence": "Mr. Yoni needs to see this."
+  },
+  {
+    "english": "Mrs",
+    "hebrew": "גברת",
+    "spanish": "señora",
+    "sentence": "I invited Mrs. Jones tomorrow."
+  },
+  {
+    "english": "much",
+    "hebrew": "הַרבֵּה",
+    "spanish": "mucho",
+    "sentence": "I don't have much money."
+  },
+  {
+    "english": "music",
+    "hebrew": "מוּסִיקָה",
+    "spanish": "música",
+    "sentence": "Do you like to listen to music when you are free?"
+  },
+  {
+    "english": "must",
+    "hebrew": "צריך",
+    "spanish": "deber",
+    "sentence": "I must study English hard."
+  },
+  {
+    "english": "my",
+    "hebrew": "שֶׁלִי",
+    "spanish": "mi",
+    "sentence": "I cannot find my wallet."
+  },
+  {
+    "english": "myself",
+    "hebrew": "עצמי",
+    "spanish": "mí mismo",
+    "sentence": "I hurt myself by accident."
+  },
+  {
+    "english": "name",
+    "hebrew": "שֵׁם",
+    "spanish": "nombre",
+    "sentence": "May I know your name?"
+  },
+  {
+    "english": "nation",
+    "hebrew": "אוּמָה",
+    "spanish": "nación",
+    "sentence": "Germany is a nation I would like to visit."
+  },
+  {
+    "english": "national",
+    "hebrew": "לאומי",
+    "spanish": "nacional",
+    "sentence": "Today is a national holiday."
+  },
+  {
+    "english": "Circle",
+    "hebrew": "עיגול",
+    "spanish": "Círculo",
+    "sentence": "We sat in a circle."
+  },
+  {
+    "english": "nature",
+    "hebrew": "טֶבַע",
+    "spanish": "naturaleza",
+    "sentence": "I like going to the nature."
+  },
+  {
+    "english": "near",
+    "hebrew": "סמוך ל",
+    "spanish": "cerca",
+    "sentence": "There is a hospital near my home."
+  },
+  {
+    "english": "nearly",
+    "hebrew": "כמעט",
+    "spanish": "cerca de",
+    "sentence": "I have nearly finished my meal. Please wait."
+  },
+  {
+    "english": "necessary",
+    "hebrew": "נחוץ",
+    "spanish": "necesario",
+    "sentence": "It is necessary to eat vegetables."
+  },
+  {
+    "english": "need",
+    "hebrew": "צוֹרֶך",
+    "spanish": "necesito",
+    "sentence": "I need some books."
+  },
+  {
+    "english": "network",
+    "hebrew": "רֶשֶׁת",
+    "spanish": "red",
+    "sentence": "The phone network in this city is not good."
+  },
+  {
+    "english": "never",
+    "hebrew": "לעולם לא",
+    "spanish": "nunca",
+    "sentence": "I have never visited Paris."
+  },
+  {
+    "english": "new",
+    "hebrew": "חָדָשׁ",
+    "spanish": "nuevo",
+    "sentence": "I am new to this community."
+  },
+  {
+    "english": "news",
+    "hebrew": "חֲדָשׁוֹת",
+    "spanish": "noticias",
+    "sentence": "How often do you watch news."
+  },
+  {
+    "english": "newspaper",
+    "hebrew": "עיתון",
+    "spanish": "periódico",
+    "sentence": "How often do you read newspaper?"
+  },
+  {
+    "english": "next",
+    "hebrew": "הַבָּא",
+    "spanish": "Siguiente",
+    "sentence": "Who is that woman sititng next to you?"
+  },
+  {
+    "english": "nice",
+    "hebrew": "נֶחְמָד",
+    "spanish": "bonito",
+    "sentence": "This new restaurant is nice."
+  },
+  {
+    "english": "night",
+    "hebrew": "לַיְלָה",
+    "spanish": "noche",
+    "sentence": "What do you usually do at night?"
+  },
+  {
+    "english": "Contact",
+    "hebrew": "להתקשר",
+    "spanish": "Contacto",
+    "sentence": "I couldn't find her name in my contact list."
+  },
+  {
+    "english": "none",
+    "hebrew": "אף אחד",
+    "spanish": "ninguno",
+    "sentence": "None of the students know the answer."
+  },
+  {
+    "english": "nor",
+    "hebrew": "ולא",
+    "spanish": "ni",
+    "sentence": "My sister nor my mother visits that museum."
+  },
+  {
+    "english": "north",
+    "hebrew": "צָפוֹן",
+    "spanish": "norte",
+    "sentence": "The synagogue is located in the north of our hometown."
+  },
+  {
+    "english": "sweet",
+    "hebrew": "מתוק",
+    "spanish": "dulce",
+    "sentence": "I like eating sweet foods."
+  },
+  {
+    "english": "note",
+    "hebrew": "הערה",
+    "spanish": "Nota",
+    "sentence": "This will be written in my notes."
+  },
+  {
+    "english": "nothing",
+    "hebrew": "שום דבר",
+    "spanish": "nada",
+    "sentence": "We can do nothing."
+  },
+  {
+    "english": "notice",
+    "hebrew": "הודעה",
+    "spanish": "aviso",
+    "sentence": "I receive a disconnection notice."
+  },
+  {
+    "english": "now",
+    "hebrew": "עַכשָׁיו",
+    "spanish": "ahora",
+    "sentence": "Are you busy now?"
+  },
+  {
+    "english": "Quiet",
+    "hebrew": "שקט",
+    "spanish": "Tranquilo",
+    "sentence": "The children are quiet when studying."
+  },
+  {
+    "english": "number",
+    "hebrew": "מספר",
+    "spanish": "número",
+    "sentence": "May I know your number?"
+  },
+  {
+    "english": "occur",
+    "hebrew": "מתרחש",
+    "spanish": "ocurrir",
+    "sentence": "A road accident usually occurs here."
+  },
+  {
+    "english": "of",
+    "hebrew": "שֶׁל",
+    "spanish": "de",
+    "sentence": "Please tell me what is the meaning of this word."
+  },
+  {
+    "english": "off",
+    "hebrew": "כבוי",
+    "spanish": "apagado",
+    "sentence": "Don't forget to turn off the television."
+  },
+  {
+    "english": "offer",
+    "hebrew": "הַצָעָה",
+    "spanish": "oferta",
+    "sentence": "She didn't accept my offer to help her."
+  },
+  {
+    "english": "office",
+    "hebrew": "מִשׂרָד",
+    "spanish": "oficina",
+    "sentence": "I asked an officer the direction on how to get to the nearet bank."
+  },
+  {
+    "english": "officer",
+    "hebrew": "קָצִין",
+    "spanish": "oficial",
+    "sentence": "A government official should be trustworthy."
+  },
+  {
+    "english": "official",
+    "hebrew": "רשמי",
+    "spanish": "oficial",
+    "sentence": "How often do you watch news?"
+  },
+  {
+    "english": "often",
+    "hebrew": "לעתים קרובות",
+    "spanish": "a menudo",
+    "sentence": "How often do you watch news?"
+  },
+  {
+    "english": "ant",
+    "hebrew": "נמלה",
+    "spanish": "hormiga",
+    "sentence": "There are ants on the table."
+  },
+  {
+    "english": "oil",
+    "hebrew": "שמן",
+    "spanish": "petróleo",
+    "sentence": "Make sure the pan is hot before you put oil."
+  },
+  {
+    "english": "ok",
+    "hebrew": "בסדר",
+    "spanish": "Bien",
+    "sentence": "Are you OK?"
+  },
+  {
+    "english": "old",
+    "hebrew": "ישן",
+    "spanish": "antiguo",
+    "sentence": "I talked to an old lady in the supermarket."
+  },
+  {
+    "english": "on",
+    "hebrew": "עַל",
+    "spanish": "en",
+    "sentence": "I will meet you on Sunday."
+  },
+  {
+    "english": "once",
+    "hebrew": "פַּעַם",
+    "spanish": "una vez",
+    "sentence": "I go to the theater once a month."
+  },
+  {
+    "english": "one",
+    "hebrew": "אחד",
+    "spanish": "uno",
+    "sentence": "She is the number one student in the class."
+  },
+  {
+    "english": "only",
+    "hebrew": "רק",
+    "spanish": "solamente",
+    "sentence": "She is the only student who got the perfect score."
+  },
+  {
+    "english": "onto",
+    "hebrew": "עַל גַבֵּי",
+    "spanish": "sobre",
+    "sentence": "We are onto our next destination."
+  },
+  {
+    "english": "open",
+    "hebrew": "לִפְתוֹחַ",
+    "spanish": "Abrir",
+    "sentence": "Please open the door when they arrive."
+  },
+  {
+    "english": "operation",
+    "hebrew": "מבצע",
+    "spanish": "operación",
+    "sentence": "The patient will have a major operation this afternoon."
+  },
+  {
+    "english": "opportunity",
+    "hebrew": "הִזדַמְנוּת",
+    "spanish": "oportunidad",
+    "sentence": "I have the opportunity to travel abroad."
+  },
+  {
+    "english": "option",
+    "hebrew": "אוֹפְּצִיָה",
+    "spanish": "opción",
+    "sentence": "Do we have any options to get to the museum earlier?"
+  },
+  {
+    "english": "or",
+    "hebrew": "אוֹ",
+    "spanish": "o",
+    "sentence": "Do you like this bag or that necklace?"
+  },
+  {
+    "english": "order",
+    "hebrew": "להזמין",
+    "spanish": "pedir",
+    "sentence": "What would you like to order?"
+  },
+  {
+    "english": "organization",
+    "hebrew": "אִרגוּן",
+    "spanish": "organización",
+    "sentence": "I don't want to join that organization."
+  },
+  {
+    "english": "other",
+    "hebrew": "אַחֵר",
+    "spanish": "otros",
+    "sentence": "There is no other work available now."
+  },
+  {
+    "english": "others",
+    "hebrew": "אחרים",
+    "spanish": "otros",
+    "sentence": "I expect others to participate in our event."
+  },
+  {
+    "english": "our",
+    "hebrew": "שֶׁלָנוּ",
+    "spanish": "nuestro",
+    "sentence": "Our house was destroyed during the typhoon."
+  },
+  {
+    "english": "out",
+    "hebrew": "הַחוּצָה",
+    "spanish": "fuera",
+    "sentence": "She is out of the house at the moment."
+  },
+  {
+    "english": "outside",
+    "hebrew": "בחוץ",
+    "spanish": "fuera",
+    "sentence": "The visitors went outside for a while."
+  },
+  {
+    "english": "over",
+    "hebrew": "על",
+    "spanish": "terminado",
+    "sentence": "The kid jumped over the fence."
+  },
+  {
+    "english": "own",
+    "hebrew": "שֶׁלוֹ",
+    "spanish": "propio",
+    "sentence": "He owns two companies."
+  },
+  {
+    "english": "owner",
+    "hebrew": "בעלים",
+    "spanish": "propietario",
+    "sentence": "He is the owner of two companies."
+  },
+  {
+    "english": "page",
+    "hebrew": "עמוד",
+    "spanish": "página",
+    "sentence": "The activity is on page 54 of the book."
+  },
+  {
+    "english": "pain",
+    "hebrew": "כְּאֵב",
+    "spanish": "dolor",
+    "sentence": "I am in pain."
+  },
+  {
+    "english": "painting",
+    "hebrew": "צִיוּר",
+    "spanish": "pintura",
+    "sentence": "I like looking at the paintings."
+  },
+  {
+    "english": "paper",
+    "hebrew": "עיתון",
+    "spanish": "papel",
+    "sentence": "Do you have an extra sheet of paper?"
+  },
+  {
+    "english": "parent",
+    "hebrew": "הוֹרֶה",
+    "spanish": "padre",
+    "sentence": "They can be good parents to their children."
+  },
+  {
+    "english": "part",
+    "hebrew": "חֵלֶק",
+    "spanish": "parte",
+    "sentence": "Which part of your body got hurt?"
+  },
+  {
+    "english": "participant",
+    "hebrew": "מִשׁתַתֵף",
+    "spanish": "partícipe",
+    "sentence": "We have a lot of participants at our conference."
+  },
+  {
+    "english": "particular",
+    "hebrew": "מיוחד",
+    "spanish": "especial",
+    "sentence": "I wanted a particular type of plants."
+  },
+  {
+    "english": "particularly",
+    "hebrew": "בִּמְיוּחָד",
+    "spanish": "particularmente",
+    "sentence": "I am particularly interested in reading books."
+  },
+  {
+    "english": "partner",
+    "hebrew": "בת זוג",
+    "spanish": "compañero",
+    "sentence": "I have a lovely partner."
+  },
+  {
+    "english": "party",
+    "hebrew": "מפלגה",
+    "spanish": "fiesta",
+    "sentence": "Yoni likes going to a party."
+  },
+  {
+    "english": "pass",
+    "hebrew": "לַעֲבוֹר",
+    "spanish": "pasar",
+    "sentence": "Please pass the salt."
+  },
+  {
+    "english": "past",
+    "hebrew": "עבר",
+    "spanish": "pasado",
+    "sentence": "You just have to past the bridge to get our home."
+  },
+  {
+    "english": "patient",
+    "hebrew": "סבלני",
+    "spanish": "paciente",
+    "sentence": "The hospital has a lot of patients during the pandemic."
+  },
+  {
+    "english": "pattern",
+    "hebrew": "תבנית",
+    "spanish": "patrón",
+    "sentence": "Children normally follow patterns when drawing."
+  },
+  {
+    "english": "pay",
+    "hebrew": "לְשַׁלֵם",
+    "spanish": "pay",
+    "sentence": "I can pay for this meal."
+  },
+  {
+    "english": "peace",
+    "hebrew": "שָׁלוֹם",
+    "spanish": "paz",
+    "sentence": "I hope there will be peace between countries."
+  },
+  {
+    "english": "people",
+    "hebrew": "אֲנָשִׁים",
+    "spanish": "el gente",
+    "sentence": "Are there many people at the party?"
+  },
+  {
+    "english": "Oval",
+    "hebrew": "מעוגל",
+    "spanish": "Óvalo",
+    "sentence": "My mother bought an oval mirror."
+  },
+  {
+    "english": "perform",
+    "hebrew": "לְבַצֵעַ",
+    "spanish": "rindir",
+    "sentence": "My favorite artists will perform tonight."
+  },
+  {
+    "english": "performance",
+    "hebrew": "ביצועים",
+    "spanish": "prendimiento",
+    "sentence": "My favorite artists had a great performance last night."
+  },
+  {
+    "english": "perhaps",
+    "hebrew": "אוּלַי",
+    "spanish": "acaso",
+    "sentence": "I perhaps go out tonight."
+  },
+  {
+    "english": "period",
+    "hebrew": "פרק זמן",
+    "spanish": "periodo",
+    "sentence": "I have been seeing her for a long period of time."
+  },
+  {
+    "english": "person",
+    "hebrew": "אדם",
+    "spanish": "persona",
+    "sentence": "Who was the first person to arrive here?"
+  },
+  {
+    "english": "Cube",
+    "hebrew": "קוביה",
+    "spanish": "Cubo",
+    "sentence": "Please cut the cheese into big cubes."
+  },
+  {
+    "english": "phone",
+    "hebrew": "מכשיר טלפון",
+    "spanish": "Teléfono",
+    "sentence": "Your phone is ringing, please answer it."
+  },
+  {
+    "english": "physical",
+    "hebrew": "גוּפָנִי",
+    "spanish": "físico",
+    "sentence": "We should encourage children to do physical exercises."
+  },
+  {
+    "english": "pick",
+    "hebrew": "לִבחוֹר",
+    "spanish": "coger",
+    "sentence": "You may pick the dress you like."
+  },
+  {
+    "english": "picture",
+    "hebrew": "תְמוּנָה",
+    "spanish": "cuadro",
+    "sentence": "I am going to take a lot of pictures during the trip."
+  },
+  {
+    "english": "piece",
+    "hebrew": "לְחַבֵּר",
+    "spanish": "pieza",
+    "sentence": "I asked for a piece of paper."
+  },
+  {
+    "english": "place",
+    "hebrew": "מקום",
+    "spanish": "colocar",
+    "sentence": "I am looking for a new place to stay."
+  },
+  {
+    "english": "plan",
+    "hebrew": "לְתַכְנֵן",
+    "spanish": "planear",
+    "sentence": "Do you have any plan tonight?"
+  },
+  {
+    "english": "plant",
+    "hebrew": "צמח",
+    "spanish": "sembrar",
+    "sentence": "My father likes plants."
+  },
+  {
+    "english": "play",
+    "hebrew": "לְשַׂחֵק",
+    "spanish": "juge",
+    "sentence": "They are going to play basketball."
+  },
+  {
+    "english": "player",
+    "hebrew": "שחקן",
+    "spanish": "jugador",
+    "sentence": "Michael Jordan is a great basketball player."
+  },
+  {
+    "english": "Nephew",
+    "hebrew": "אחיין",
+    "spanish": "Sobrino",
+    "sentence": "My nephew is cute."
+  },
+  {
+    "english": "point",
+    "hebrew": "נְקוּדָה",
+    "spanish": "punta",
+    "sentence": "Please get to the point."
+  },
+  {
+    "english": "police",
+    "hebrew": "מִשׁטָרָה",
+    "spanish": "policía",
+    "sentence": "The police protect the country."
+  },
+  {
+    "english": "policy",
+    "hebrew": "מְדִינִיוּת",
+    "spanish": "política",
+    "sentence": "Employees must follow company policy."
+  },
+  {
+    "english": "political",
+    "hebrew": "פּוֹלִיטִי",
+    "spanish": "político",
+    "sentence": "We should respect everyone's political view."
+  },
+  {
+    "english": "politics",
+    "hebrew": "פּוֹלִיטִיקָה",
+    "spanish": "la politica",
+    "sentence": "The politics in our country is corrupt."
+  },
+  {
+    "english": "poor",
+    "hebrew": "עני",
+    "spanish": "pobresa",
+    "sentence": "There are many poor families in our country."
+  },
+  {
+    "english": "Niece",
+    "hebrew": "אחיינית",
+    "spanish": "Sobrina",
+    "sentence": "My niece likes helping her mother."
+  },
+  {
+    "english": "population",
+    "hebrew": "אוּכְלוֹסִיָה",
+    "spanish": "populacion",
+    "sentence": "The population in our country is increading."
+  },
+  {
+    "english": "position",
+    "hebrew": "עמדה",
+    "spanish": "posición",
+    "sentence": "My sofa in the living room is in a good position."
+  },
+  {
+    "english": "positive",
+    "hebrew": "חִיוּבִי",
+    "spanish": "Positivo",
+    "sentence": "She is tested positive witht the COVID19."
+  },
+  {
+    "english": "possible",
+    "hebrew": "אפשרי",
+    "spanish": "posible",
+    "sentence": "Is it possible to have a class in the evening?"
+  },
+  {
+    "english": "power",
+    "hebrew": "כּוֹחַ",
+    "spanish": "potencia",
+    "sentence": "The President has the power to decline the law."
+  },
+  {
+    "english": "practice",
+    "hebrew": "תרגול",
+    "spanish": "practic",
+    "sentence": "We need to practice on how to speak fluent English."
+  },
+  {
+    "english": "prepare",
+    "hebrew": "הכן",
+    "spanish": "preparar",
+    "sentence": "We have to prepare what we should bring to camping."
+  },
+  {
+    "english": "present",
+    "hebrew": "מתנה",
+    "spanish": "actualidad",
+    "sentence": "I am working abroad at present."
+  },
+  {
+    "english": "president",
+    "hebrew": "נָשִׂיא",
+    "spanish": "presidente",
+    "sentence": "Being the President is a hard position."
+  },
+  {
+    "english": "pressure",
+    "hebrew": "לַחַץ",
+    "spanish": "la presion",
+    "sentence": "She can work under pressure."
+  },
+  {
+    "english": "pretty",
+    "hebrew": "יפה",
+    "spanish": "bonita",
+    "sentence": "I saw a pretty woman in the cafe."
+  },
+  {
+    "english": "prevent",
+    "hebrew": "לִמְנוֹעַ",
+    "spanish": "impedir",
+    "sentence": "The police tried to prevent the criminals from escaping."
+  },
+  {
+    "english": "price",
+    "hebrew": "מחיר",
+    "spanish": "precion",
+    "sentence": "The price of oil is increasing these days."
+  },
+  {
+    "english": "private",
+    "hebrew": "פְּרָטִי",
+    "spanish": "privado",
+    "sentence": "They had a party in a private villa."
+  },
+  {
+    "english": "probably",
+    "hebrew": "כנראה",
+    "spanish": "probablemente",
+    "sentence": "I will probably invite her."
+  },
+  {
+    "english": "problem",
+    "hebrew": "בְּעָיָה",
+    "spanish": "problemente",
+    "sentence": "My country is facing a lot of problems."
+  },
+  {
+    "english": "process",
+    "hebrew": "תהליך",
+    "spanish": "proceso",
+    "sentence": "Following that method is a long process."
+  },
+  {
+    "english": "produce",
+    "hebrew": "ליצר",
+    "spanish": "producir",
+    "sentence": "Farmers produce great vegetables."
+  },
+  {
+    "english": "product",
+    "hebrew": "מוצר",
+    "spanish": "producto",
+    "sentence": "We should buy local products."
+  },
+  {
+    "english": "production",
+    "hebrew": "הפקה",
+    "spanish": "producción",
+    "sentence": "The board members agree to an increase in production."
+  },
+  {
+    "english": "professional",
+    "hebrew": "מקצועי",
+    "spanish": "profesional",
+    "sentence": "I met a professional lawyer during the conference."
+  },
+  {
+    "english": "Puppet",
+    "hebrew": "בובת יד",
+    "spanish": "titere",
+    "sentence": "I attended a puppet show."
+  },
+  {
+    "english": "program",
+    "hebrew": "תכנית",
+    "spanish": "programa",
+    "sentence": "The organizer created a good program."
+  },
+  {
+    "english": "project",
+    "hebrew": "פּרוֹיֶקט",
+    "spanish": "proyecto",
+    "sentence": "My manager gave me a project for next month."
+  },
+  {
+    "english": "property",
+    "hebrew": "תכונה",
+    "spanish": "propiedad",
+    "sentence": "My parents bought a property in a rural area."
+  },
+  {
+    "english": "protect",
+    "hebrew": "לְהַגֵן",
+    "spanish": "proteger",
+    "sentence": "We should protect our loved ones."
+  },
+  {
+    "english": "Rattle",
+    "hebrew": "רעשן",
+    "spanish": "Sonajero",
+    "sentence": "The noise from that room started to rattle me."
+  },
+  {
+    "english": "provide",
+    "hebrew": "לְסַפֵּק",
+    "spanish": "proporcionar",
+    "sentence": "We provide free medicine to poor families."
+  },
+  {
+    "english": "public",
+    "hebrew": "פּוּמְבֵּי",
+    "spanish": "público",
+    "sentence": "You should not speak so loud in public places."
+  },
+  {
+    "english": "pull",
+    "hebrew": "מְשׁוֹך",
+    "spanish": "jalar",
+    "sentence": "The child pulled the chair away from the desk."
+  },
+  {
+    "english": "purpose",
+    "hebrew": "מַטָרָה",
+    "spanish": "propósito",
+    "sentence": "What is the purpose of your visit here?"
+  },
+  {
+    "english": "push",
+    "hebrew": "לִדחוֹף",
+    "spanish": "empujar",
+    "sentence": "Could you help me push these boxes?"
+  },
+  {
+    "english": "put",
+    "hebrew": "לָשִׂים",
+    "spanish": "poner",
+    "sentence": "I put some sugar in my coffee."
+  },
+  {
+    "english": "quality",
+    "hebrew": "איכות",
+    "spanish": "calidad",
+    "sentence": "The quality of education in the United States is great."
+  },
+  {
+    "english": "question",
+    "hebrew": "שְׁאֵלָה",
+    "spanish": "pregunta",
+    "sentence": "I don't have any questions."
+  },
+  {
+    "english": "quickly",
+    "hebrew": "בִּמְהִירוּת",
+    "spanish": "rápidamente",
+    "sentence": "The robber quickly run away."
+  },
+  {
+    "english": "quite",
+    "hebrew": "דַי",
+    "spanish": "bastante",
+    "sentence": "This is quite expensive."
+  },
+  {
+    "english": "race",
+    "hebrew": "גזע",
+    "spanish": "carrera",
+    "sentence": "My brother attended a race."
+  },
+  {
+    "english": "radio",
+    "hebrew": "רָדִיוֹ",
+    "spanish": "la radio",
+    "sentence": "I like listening to the radio."
+  },
+  {
+    "english": "raise",
+    "hebrew": "הַעֲלָאָה",
+    "spanish": "eleven",
+    "sentence": "Parents normally raise their kids until the age of 18."
+  },
+  {
+    "english": "range",
+    "hebrew": "טווח",
+    "spanish": "gama",
+    "sentence": "There is a wide range of ideas on this issue."
+  },
+  {
+    "english": "rate",
+    "hebrew": "ציון",
+    "spanish": "tasa",
+    "sentence": "The vaccine has a high success rate."
+  },
+  {
+    "english": "rather",
+    "hebrew": "אלא",
+    "spanish": "bastante",
+    "sentence": "I would rather travel alone than with my friends."
+  },
+  {
+    "english": "reach",
+    "hebrew": "לְהַגִיעַ",
+    "spanish": "llegar a",
+    "sentence": "We won't be able to reach Jerusalem in twenty minutes."
+  },
+  {
+    "english": "read",
+    "hebrew": "לקרוא",
+    "spanish": "leer",
+    "sentence": "I started to read a book at the age of 5."
+  },
+  {
+    "english": "ready",
+    "hebrew": "מוּכָן",
+    "spanish": "listos",
+    "sentence": "Are you ready to leave?"
+  },
+  {
+    "english": "Balloon",
+    "hebrew": "בלון",
+    "spanish": "Globo",
+    "sentence": "Children like playing balloons."
+  },
+  {
+    "english": "reality",
+    "hebrew": "מְצִיאוּת",
+    "spanish": "realidad",
+    "sentence": "She is not rich in reality."
+  },
+  {
+    "english": "realize",
+    "hebrew": "לִהַבִין",
+    "spanish": "darse cuenta",
+    "sentence": "I realize that I am eating too much these days."
+  },
+  {
+    "english": "Cylinder",
+    "hebrew": "גליל",
+    "spanish": "Cilindro",
+    "sentence": "I put the flowers in a cylinder vase."
+  },
+  {
+    "english": "reason",
+    "hebrew": "סיבה",
+    "spanish": "motivo",
+    "sentence": "What do you think the reason why she left?"
+  },
+  {
+    "english": "receive",
+    "hebrew": "לְקַבֵּל",
+    "spanish": "reciber",
+    "sentence": "I didn't receive the report yesterday."
+  },
+  {
+    "english": "recent",
+    "hebrew": "לאחרונה",
+    "spanish": "reciente",
+    "sentence": "Is that a recent photo?"
+  },
+  {
+    "english": "recently",
+    "hebrew": "לאחרונה",
+    "spanish": "recientemente",
+    "sentence": "She just recently moved to Europe."
+  },
+  {
+    "english": "recognize",
+    "hebrew": "לזהות",
+    "spanish": "reconocer",
+    "sentence": "I recognize this photo."
+  },
+  {
+    "english": "record",
+    "hebrew": "תקליט",
+    "spanish": "grabar",
+    "sentence": "My medical record should be confidential."
+  },
+  {
+    "english": "red",
+    "hebrew": "אָדוֹם",
+    "spanish": "tinto",
+    "sentence": "I like red lipsticks."
+  },
+  {
+    "english": "reduce",
+    "hebrew": "לְהַפחִית",
+    "spanish": "reducir",
+    "sentence": "We should start to reduce air pollution."
+  },
+  {
+    "english": "reflect",
+    "hebrew": "משקף",
+    "spanish": "reflejar",
+    "sentence": "The record reflects a change in people's buying power."
+  },
+  {
+    "english": "Pentagon",
+    "hebrew": "מחומש",
+    "spanish": "Pentágono",
+    "sentence": "The pentagon that I drew is perfectly straight, and it has the five angles."
+  },
+  {
+    "english": "relate",
+    "hebrew": "לְסַפֵּר",
+    "spanish": "relacionar",
+    "sentence": "We need to relate these values to everyday lives."
+  },
+  {
+    "english": "relationship",
+    "hebrew": "מערכת יחסים",
+    "spanish": "relación",
+    "sentence": "My relationship with my parents is very nice."
+  },
+  {
+    "english": "religious",
+    "hebrew": "דָתִי",
+    "spanish": "religioso",
+    "sentence": "I met a lot of religious people in Israel."
+  },
+  {
+    "english": "remain",
+    "hebrew": "לְהִשָׁאֵר",
+    "spanish": "permanecer",
+    "sentence": "My team remained undefeated in the league."
+  },
+  {
+    "english": "remember",
+    "hebrew": "זכור",
+    "spanish": "te acuerdes",
+    "sentence": "I cannot rememger her name."
+  },
+  {
+    "english": "remove",
+    "hebrew": "לְהַסִיר",
+    "spanish": "quitar",
+    "sentence": "Please remove your books on the table."
+  },
+  {
+    "english": "report",
+    "hebrew": "להגיש תלונה",
+    "spanish": "informe",
+    "sentence": "Will you report him to the police?"
+  },
+  {
+    "english": "respect",
+    "hebrew": "כבוד",
+    "spanish": "respetar",
+    "sentence": "They always respect each other."
+  },
+  {
+    "english": "Republican",
+    "hebrew": "רֶפּוּבּלִיקָנִי",
+    "spanish": "Republicano",
+    "sentence": "They follow a republican system of government."
+  },
+  {
+    "english": "require",
+    "hebrew": "לִדרוֹשׁ",
+    "spanish": "precisar",
+    "sentence": "I don't require you to attend the party."
+  },
+  {
+    "english": "research",
+    "hebrew": "מחקר",
+    "spanish": "investigación",
+    "sentence": "The senior students normally have a research at the end of the semester."
+  },
+  {
+    "english": "resource",
+    "hebrew": "מַשׁאָב",
+    "spanish": "recurso",
+    "sentence": "The government has enough resources to start the project."
+  },
+  {
+    "english": "respond",
+    "hebrew": "לְהָגִיב",
+    "spanish": "responder",
+    "sentence": "My client did not respond to me."
+  },
+  {
+    "english": "response",
+    "hebrew": "תְגוּבָה",
+    "spanish": "respuesta",
+    "sentence": "I got a response from the manager that I am hired for the job."
+  },
+  {
+    "english": "responsibility",
+    "hebrew": "אַחֲרָיוּת",
+    "spanish": "responsabilidad",
+    "sentence": "I have the responsibility to manage the production"
+  },
+  {
+    "english": "rest",
+    "hebrew": "מנוחה",
+    "spanish": "que descanse",
+    "sentence": "I need to take some rest."
+  },
+  {
+    "english": "result",
+    "hebrew": "תוֹצָאָה",
+    "spanish": "resulta",
+    "sentence": "The result of the test will be announced soon."
+  },
+  {
+    "english": "return",
+    "hebrew": "לַחֲזוֹר",
+    "spanish": "regreso",
+    "sentence": "I returned to my hometown."
+  },
+  {
+    "english": "reveal",
+    "hebrew": "לְגַלוֹת",
+    "spanish": "revelar",
+    "sentence": "He would not reveal where he works."
+  },
+  {
+    "english": "rich",
+    "hebrew": "עָשִׁיר",
+    "spanish": "rica",
+    "sentence": "I want to be rich soon."
+  },
+  {
+    "english": "right",
+    "hebrew": "ימין",
+    "spanish": "dcha",
+    "sentence": "I set the clock to the right time."
+  },
+  {
+    "english": "rise",
+    "hebrew": "לעלות",
+    "spanish": "subida",
+    "sentence": "The sun rises in the east."
+  },
+  {
+    "english": "risk",
+    "hebrew": "לְהִסְתָכֵּן",
+    "spanish": "riesgo",
+    "sentence": "I can take a risk."
+  },
+  {
+    "english": "road",
+    "hebrew": "כְּבִישׁ",
+    "spanish": "vía",
+    "sentence": "You should be careful when you cross a main road."
+  },
+  {
+    "english": "rock",
+    "hebrew": "סלע",
+    "spanish": "el rock",
+    "sentence": "Be careful from the falling rocks."
+  },
+  {
+    "english": "role",
+    "hebrew": "תַפְקִיד",
+    "spanish": "Rol",
+    "sentence": "I can be a good role model to everyone."
+  },
+  {
+    "english": "room",
+    "hebrew": "חֶדֶר",
+    "spanish": "habitación",
+    "sentence": "The room is very spacious."
+  },
+  {
+    "english": "rule",
+    "hebrew": "כְּלָל",
+    "spanish": "regla",
+    "sentence": "A referee must know all the rules of the game."
+  },
+  {
+    "english": "run",
+    "hebrew": "לָרוּץ",
+    "spanish": "correr",
+    "sentence": "The athlete always runs every day."
+  },
+  {
+    "english": "safe",
+    "hebrew": "בטוח",
+    "spanish": "seguro",
+    "sentence": "Do you think this place is safe?"
+  },
+  {
+    "english": "spell",
+    "hebrew": "לאיית",
+    "spanish": "hechizo",
+    "sentence": "How do you spell this word?"
+  },
+  {
+    "english": "shape",
+    "hebrew": "צורה",
+    "spanish": "forma",
+    "sentence": "I like this shape."
+  },
+  {
+    "english": "say",
+    "hebrew": "אמר",
+    "spanish": "dij",
+    "sentence": "My friends say to me that she bought a car."
+  },
+  {
+    "english": "scene",
+    "hebrew": "סְצֵינָה",
+    "spanish": "escena",
+    "sentence": "Evidence was found at the scene of the crime."
+  },
+  {
+    "english": "school",
+    "hebrew": "בית ספר",
+    "spanish": "escuela",
+    "sentence": "Do you still go to school?"
+  },
+  {
+    "english": "science",
+    "hebrew": "מַדָע",
+    "spanish": "ciencia",
+    "sentence": "Science is one of my favorite subjects."
+  },
+  {
+    "english": "scientist",
+    "hebrew": "מַדְעָן",
+    "spanish": "científico",
+    "sentence": "Scientist usually finds new type of vaccine."
+  },
+  {
+    "english": "score",
+    "hebrew": "ציון",
+    "spanish": "puntuación",
+    "sentence": "I got a low score on the test."
+  },
+  {
+    "english": "sea",
+    "hebrew": "יָם",
+    "spanish": "mar",
+    "sentence": "She saw different types of fish in the sea."
+  },
+  {
+    "english": "season",
+    "hebrew": "עונה",
+    "spanish": "estación",
+    "sentence": "What is your favorite season?"
+  },
+  {
+    "english": "seat",
+    "hebrew": "מושב",
+    "spanish": "asiento",
+    "sentence": "Please take a seat."
+  },
+  {
+    "english": "second",
+    "hebrew": "שְׁנִיָה",
+    "spanish": "segunda",
+    "sentence": "She is with my second child."
+  },
+  {
+    "english": "section",
+    "hebrew": "סָעִיף",
+    "spanish": "sección",
+    "sentence": "Does the hotel have a non-smoking section?"
+  },
+  {
+    "english": "security",
+    "hebrew": "בִּטָחוֹן",
+    "spanish": "segur",
+    "sentence": "You need to call the security in case of emergency."
+  },
+  {
+    "english": "see",
+    "hebrew": "לִרְאוֹת",
+    "spanish": "vist",
+    "sentence": "I should see a dentist soon."
+  },
+  {
+    "english": "seek",
+    "hebrew": "לְחַפֵּשׂ",
+    "spanish": "buscar",
+    "sentence": "My cousin is actively seeking a new job."
+  },
+  {
+    "english": "seem",
+    "hebrew": "נראה",
+    "spanish": "parecer",
+    "sentence": "She seems a good girl."
+  },
+  {
+    "english": "sell",
+    "hebrew": "מכירה",
+    "spanish": "vender",
+    "sentence": "We are going to sell our house."
+  },
+  {
+    "english": "send",
+    "hebrew": "לִשְׁלוֹחַ",
+    "spanish": "mandar",
+    "sentence": "I should send the package soon."
+  },
+  {
+    "english": "senior",
+    "hebrew": "בָּכִיר",
+    "spanish": "mayor",
+    "sentence": "They are my seniors at school."
+  },
+  {
+    "english": "sense",
+    "hebrew": "לָחוּשׁ",
+    "spanish": "sentido",
+    "sentence": "They have a good sense of humour."
+  },
+  {
+    "english": "series",
+    "hebrew": "סִדרָה",
+    "spanish": "sarta",
+    "sentence": "My favorite basketball team still has series of games left."
+  },
+  {
+    "english": "serious",
+    "hebrew": "רְצִינִי",
+    "spanish": "serio",
+    "sentence": "She is a serious type of woman."
+  },
+  {
+    "english": "stood",
+    "hebrew": "עמד",
+    "spanish": "Estaba",
+    "sentence": "John stood in the doorway. "
+  },
+  {
+    "english": "service",
+    "hebrew": "שֵׁרוּת",
+    "spanish": "saque",
+    "sentence": "That restaurant has a good service."
+  },
+  {
+    "english": "set",
+    "hebrew": "מַעֲרֶכֶת",
+    "spanish": "poner",
+    "sentence": "I bought a new television set."
+  },
+  {
+    "english": "seven",
+    "hebrew": "שבע",
+    "spanish": "siete",
+    "sentence": "I got seven apples from a friend."
+  },
+  {
+    "english": "several",
+    "hebrew": "כַּמָה",
+    "spanish": "varias",
+    "sentence": "I have seen her several times."
+  },
+  {
+    "english": "sandals",
+    "hebrew": "סנדלים",
+    "spanish": "las sandalias",
+    "sentence": "I bought new sandals in the mall."
+  },
+  {
+    "english": "submit",
+    "hebrew": "למסור",
+    "spanish": "sumitir",
+    "sentence": "I just submitted my application."
+  },
+  {
+    "english": "shake",
+    "hebrew": "לְנַעֵר",
+    "spanish": "agitarse",
+    "sentence": "Alwys shake this medicine before drinking."
+  },
+  {
+    "english": "share",
+    "hebrew": "לַחֲלוֹק",
+    "spanish": "compartir",
+    "sentence": "I shared a house with my friends."
+  },
+  {
+    "english": "she",
+    "hebrew": "היא",
+    "spanish": "ella me",
+    "sentence": "She is 18 years old."
+  },
+  {
+    "english": "shoot",
+    "hebrew": "לירות",
+    "spanish": "disparar",
+    "sentence": "If he is not the criminal, don't shoot."
+  },
+  {
+    "english": "suspect",
+    "hebrew": "לחשוד",
+    "spanish": "sospechar",
+    "sentence": "She suspected him of stealing her money."
+  },
+  {
+    "english": "shot",
+    "hebrew": "בְּעִיטָה",
+    "spanish": "tiro",
+    "sentence": "I got some really good shots of the mountains."
+  },
+  {
+    "english": "should",
+    "hebrew": "צריך",
+    "spanish": "deber",
+    "sentence": "I should take medicine."
+  },
+  {
+    "english": "shoulder",
+    "hebrew": "כָּתֵף",
+    "spanish": "hombro",
+    "sentence": "My shoulder is so painful."
+  },
+  {
+    "english": "show",
+    "hebrew": "הופעה",
+    "spanish": "mostrar",
+    "sentence": "My favorite TV show starts at 10 PM."
+  },
+  {
+    "english": "side",
+    "hebrew": "צַד",
+    "spanish": "lado",
+    "sentence": "The door on the right side of our house was open."
+  },
+  {
+    "english": "sign",
+    "hebrew": "סִימָן",
+    "spanish": "signacion",
+    "sentence": "I saw a sign on the door."
+  },
+  {
+    "english": "significant",
+    "hebrew": "משמעותי",
+    "spanish": "significativo",
+    "sentence": "Trust is significant for a strong marriage."
+  },
+  {
+    "english": "similar",
+    "hebrew": "דוֹמֶה",
+    "spanish": "parecido",
+    "sentence": "This case is similar to that case."
+  },
+  {
+    "english": "simple",
+    "hebrew": "פָּשׁוּט",
+    "spanish": "sencillo",
+    "sentence": "I like to live in a simple life."
+  },
+  {
+    "english": "simply",
+    "hebrew": "בפשטות",
+    "spanish": "simplemente",
+    "sentence": "It is simply an accusation"
+  },
+  {
+    "english": "since",
+    "hebrew": "מאז",
+    "spanish": "toda vez que",
+    "sentence": "I have been working here since Monday"
+  },
+  {
+    "english": "sing",
+    "hebrew": "לָשִׁיר",
+    "spanish": "cantar",
+    "sentence": "I like to sing every day."
+  },
+  {
+    "english": "single",
+    "hebrew": "יחיד",
+    "spanish": "soltera",
+    "sentence": "I have been single for 5 years."
+  },
+  {
+    "english": "sister",
+    "hebrew": "אָחוֹת",
+    "spanish": "sor",
+    "sentence": "My sister words in a bank."
+  },
+  {
+    "english": "sit",
+    "hebrew": "לָשֶׁבֶת",
+    "spanish": "sientarse",
+    "sentence": "I am sitting on a chair."
+  },
+  {
+    "english": "site",
+    "hebrew": "אֲתַר",
+    "spanish": "sitio",
+    "sentence": "The managers haven't chosen the new site for the new branch."
+  },
+  {
+    "english": "situation",
+    "hebrew": "מַצָב",
+    "spanish": "situación",
+    "sentence": "What is the current situation in your family?"
+  },
+  {
+    "english": "six",
+    "hebrew": "שֵׁשׁ",
+    "spanish": "seis",
+    "sentence": "I have been working here for six years."
+  },
+  {
+    "english": "size",
+    "hebrew": "גודל",
+    "spanish": "tamaño",
+    "sentence": "The size of his feet is big."
+  },
+  {
+    "english": "skill",
+    "hebrew": "מְיוּמָנוּת",
+    "spanish": "habilidad",
+    "sentence": "His English skills are great."
+  },
+  {
+    "english": "skin",
+    "hebrew": "עור",
+    "spanish": "piel",
+    "sentence": "She has got a tanned skin."
+  },
+  {
+    "english": "small",
+    "hebrew": "קָטָן",
+    "spanish": "pequeto",
+    "sentence": "I bought a small bag."
+  },
+  {
+    "english": "smile",
+    "hebrew": "חיוך",
+    "spanish": "sonrisa",
+    "sentence": "She smiles at me a lot."
+  },
+  {
+    "english": "so",
+    "hebrew": "כך",
+    "spanish": "entonces",
+    "sentence": "I like her so much. "
+  },
+  {
+    "english": "social",
+    "hebrew": "חֶברָתִי",
+    "spanish": "social",
+    "sentence": "I have an active social life."
+  },
+  {
+    "english": "society",
+    "hebrew": "חֶברָה",
+    "spanish": "socie",
+    "sentence": "LGBTQ is accepted in our society."
+  },
+  {
+    "english": "soldier",
+    "hebrew": "לוֹחֶם",
+    "spanish": "soldado",
+    "sentence": "Israel has strong soldiers."
+  },
+  {
+    "english": "some",
+    "hebrew": "כמה",
+    "spanish": "unas",
+    "sentence": "There are some beautiful trees in our country."
+  },
+  {
+    "english": "somebody",
+    "hebrew": "מִישֶׁהוּ",
+    "spanish": "alguien",
+    "sentence": "Somebody in the office should know this."
+  },
+  {
+    "english": "someone",
+    "hebrew": "מִישֶׁהוּ",
+    "spanish": "alguien",
+    "sentence": "Someone in our company received the documents."
+  },
+  {
+    "english": "something",
+    "hebrew": "משהו",
+    "spanish": "algo",
+    "sentence": "I need to buy something."
+  },
+  {
+    "english": "sometimes",
+    "hebrew": "לִפְעָמִים",
+    "spanish": "algunas veces",
+    "sentence": "I sometimes go out in the evening."
+  },
+  {
+    "english": "son",
+    "hebrew": "בֵּן",
+    "spanish": "hijo",
+    "sentence": "My sister has two sons."
+  },
+  {
+    "english": "song",
+    "hebrew": "שִׁיר",
+    "spanish": "canción",
+    "sentence": "I sing a song wonderfully."
+  },
+  {
+    "english": "soon",
+    "hebrew": "בקרוב",
+    "spanish": "pronto",
+    "sentence": "I will go out soon."
+  },
+  {
+    "english": "sort",
+    "hebrew": "סוג",
+    "spanish": "ordenar",
+    "sentence": "We both like the same sort of music."
+  },
+  {
+    "english": "sound",
+    "hebrew": "נשמע",
+    "spanish": "sonido",
+    "sentence": "Your job sounds really interesting."
+  },
+  {
+    "english": "source",
+    "hebrew": "מָקוֹר",
+    "spanish": "fuente",
+    "sentence": "Lemons are a good source of vitamin C."
+  },
+  {
+    "english": "south",
+    "hebrew": "דָרוֹם",
+    "spanish": "sur",
+    "sentence": "There are many beautiful beaches in the south of the Philippines."
+  },
+  {
+    "english": "southern",
+    "hebrew": "דְרוֹמִי",
+    "spanish": "meridional",
+    "sentence": "Louisiana is the southern part of America."
+  },
+  {
+    "english": "space",
+    "hebrew": "מֶרחָב",
+    "spanish": "especio",
+    "sentence": "Is there any space for my new clothes."
+  },
+  {
+    "english": "speak",
+    "hebrew": "לְדַבֵּר",
+    "spanish": "hablar",
+    "sentence": "I would like to speak with the manager."
+  },
+  {
+    "english": "special",
+    "hebrew": "מיוחד",
+    "spanish": "espe",
+    "sentence": "I would like to do something special today."
+  },
+  {
+    "english": "specific",
+    "hebrew": "ספֵּצִיפִי",
+    "spanish": "específico",
+    "sentence": "Is there anything specific you want to buy here?"
+  },
+  {
+    "english": "speech",
+    "hebrew": "נְאוּם",
+    "spanish": "discurso",
+    "sentence": "Children usually develop speech at the age of 2."
+  },
+  {
+    "english": "spend",
+    "hebrew": "לְבַלוֹת",
+    "spanish": "gastar",
+    "sentence": "She doesn't spend a lot of money on her vacation."
+  },
+  {
+    "english": "sport",
+    "hebrew": "ספּוֹרט",
+    "spanish": "deporte",
+    "sentence": "What kind of sports do you play?"
+  },
+  {
+    "english": "spring",
+    "hebrew": "אביב",
+    "spanish": "manantial",
+    "sentence": "I normally go to the park in the Spring season."
+  },
+  {
+    "english": "staff",
+    "hebrew": "צוות",
+    "spanish": "personal",
+    "sentence": "The staff in that company is very polite."
+  },
+  {
+    "english": "stage",
+    "hebrew": "שלב",
+    "spanish": "etapa",
+    "sentence": "The project is in its final stage."
+  },
+  {
+    "english": "stand",
+    "hebrew": "לַעֲמוֹד",
+    "spanish": "puesto",
+    "sentence": "Please stand at the bus stop."
+  },
+  {
+    "english": "standard",
+    "hebrew": "תֶקֶן",
+    "spanish": "estándar",
+    "sentence": "We follow specific standards here."
+  },
+  {
+    "english": "star",
+    "hebrew": "כוכב",
+    "spanish": "estrell",
+    "sentence": "I can see a lot of beautiful stars in the sky."
+  },
+  {
+    "english": "start",
+    "hebrew": "הַתחָלָה",
+    "spanish": "largate",
+    "sentence": "When do you start your classes?"
+  },
+  {
+    "english": "state",
+    "hebrew": "מדינה",
+    "spanish": "estado",
+    "sentence": "Her mental state is in a bad condition."
+  },
+  {
+    "english": "statement",
+    "hebrew": "הַצהָרָה",
+    "spanish": "declaración",
+    "sentence": "I am not surprised by his statement that he got fired from his job."
+  },
+  {
+    "english": "station",
+    "hebrew": "תַחֲנָה",
+    "spanish": "emisora",
+    "sentence": "I waited her at the bus station."
+  },
+  {
+    "english": "stay",
+    "hebrew": "שָׁהוּת",
+    "spanish": "estadía",
+    "sentence": "I will be staying at my sister's house for two weeks."
+  },
+  {
+    "english": "step",
+    "hebrew": "שלב",
+    "spanish": "peldaño",
+    "sentence": "What is the next step?"
+  },
+  {
+    "english": "still",
+    "hebrew": "עוֹד",
+    "spanish": "Quieto",
+    "sentence": "I can still work for many years."
+  },
+  {
+    "english": "stock",
+    "hebrew": "מְלַאי",
+    "spanish": "acción",
+    "sentence": "The store has a good stock of eggs."
+  },
+  {
+    "english": "stop",
+    "hebrew": "תפסיק",
+    "spanish": "deja de",
+    "sentence": "I need to stop by at a supermarket."
+  },
+  {
+    "english": "store",
+    "hebrew": "חנות",
+    "spanish": "Tienda",
+    "sentence": "Are the stores open now?"
+  },
+  {
+    "english": "story",
+    "hebrew": "סִפּוּר",
+    "spanish": "cuento",
+    "sentence": "I want to listen to a good story"
+  },
+  {
+    "english": "strategy",
+    "hebrew": "אִסטרָטֶגִיָה",
+    "spanish": "estrategia",
+    "sentence": "The company has decided to start a new strategy."
+  },
+  {
+    "english": "street",
+    "hebrew": "רְחוֹב",
+    "spanish": "calle",
+    "sentence": "I live on Main Street."
+  },
+  {
+    "english": "strong",
+    "hebrew": "חָזָק",
+    "spanish": "fuerte",
+    "sentence": "My grandfather is still strong."
+  },
+  {
+    "english": "structure",
+    "hebrew": "מִבְנֶה",
+    "spanish": "estructura",
+    "sentence": "I like the structure of this house."
+  },
+  {
+    "english": "student",
+    "hebrew": "סטוּדֶנט",
+    "spanish": "estudiante",
+    "sentence": "She is still a student at school."
+  },
+  {
+    "english": "study",
+    "hebrew": "לימוד",
+    "spanish": "estud",
+    "sentence": "Do you like studying English?"
+  },
+  {
+    "english": "stuff",
+    "hebrew": "דברים",
+    "spanish": "embutir",
+    "sentence": "There is a lot of stuff in the compartment."
+  },
+  {
+    "english": "style",
+    "hebrew": "סִגְנוֹן",
+    "spanish": "estilo",
+    "sentence": "Her fashion style is updated."
+  },
+  {
+    "english": "subject",
+    "hebrew": "נושא",
+    "spanish": "asignatura",
+    "sentence": "English is my favorite subject at school."
+  },
+  {
+    "english": "success",
+    "hebrew": "הַצלָחָה",
+    "spanish": "el exito",
+    "sentence": "The campaign is a great success."
+  },
+  {
+    "english": "successful",
+    "hebrew": "מוּצלָח",
+    "spanish": "exitosa",
+    "sentence": "She will become successful soon."
+  },
+  {
+    "english": "such",
+    "hebrew": "כגון",
+    "spanish": "tal",
+    "sentence": "You are such a lovely boy."
+  },
+  {
+    "english": "suddenly",
+    "hebrew": "פִּתְאוֹם",
+    "spanish": "de repente",
+    "sentence": "I suddenly feel unwell."
+  },
+  {
+    "english": "suffer",
+    "hebrew": "סובל",
+    "spanish": "sufrir",
+    "sentence": "My patient suffers from cancer."
+  },
+  {
+    "english": "suggest",
+    "hebrew": "לְהַצִיעַ",
+    "spanish": "sugir",
+    "sentence": "I suggest you find the best doctor."
+  },
+  {
+    "english": "summer",
+    "hebrew": "קַיִץ",
+    "spanish": "verano",
+    "sentence": "What do you usually do in the summer?"
+  },
+  {
+    "english": "support",
+    "hebrew": "תמיכה",
+    "spanish": "respaldar",
+    "sentence": "I need some support from the management."
+  },
+  {
+    "english": "sure",
+    "hebrew": "בטוח",
+    "spanish": "seguro",
+    "sentence": "Are you sure she didn't like the flowers I gave her?"
+  },
+  {
+    "english": "surface",
+    "hebrew": "משטח",
+    "spanish": "superficie",
+    "sentence": "The table has smooth surface."
+  },
+  {
+    "english": "system",
+    "hebrew": "מערכת",
+    "spanish": "sistema",
+    "sentence": "Our house is equipped by a central heating system."
+  },
+  {
+    "english": "table",
+    "hebrew": "שולחן",
+    "spanish": "mesa",
+    "sentence": "I bought a new table."
+  },
+  {
+    "english": "take",
+    "hebrew": "לקחת",
+    "spanish": "tomar",
+    "sentence": "I really want to take care of my mother."
+  },
+  {
+    "english": "talk",
+    "hebrew": "דבר",
+    "spanish": "platicar",
+    "sentence": "She talks a lot during the class."
+  },
+  {
+    "english": "task",
+    "hebrew": "מְשִׁימָה",
+    "spanish": "tarea",
+    "sentence": "I have got a lot of tasks these days."
+  },
+  {
+    "english": "tax",
+    "hebrew": "מַס",
+    "spanish": "impuesto",
+    "sentence": "Rich people pay a lot of taxes."
+  },
+  {
+    "english": "teach",
+    "hebrew": "לְלַמֵד",
+    "spanish": "ensenar",
+    "sentence": "She has been teaching English for many years."
+  },
+  {
+    "english": "teacher",
+    "hebrew": "מוֹרֶה",
+    "spanish": "docente",
+    "sentence": "She is a great teacher."
+  },
+  {
+    "english": "team",
+    "hebrew": "קְבוּצָה",
+    "spanish": "equipo",
+    "sentence": "Our team won a lot of games."
+  },
+  {
+    "english": "technology",
+    "hebrew": "טֶכנוֹלוֹגִיָה",
+    "spanish": "tecnología",
+    "sentence": "Technology is modern these days."
+  },
+  {
+    "english": "television",
+    "hebrew": "טֵלֶוִיזִיָה",
+    "spanish": "el televis",
+    "sentence": "Do you watch a lot of programs on television?"
+  },
+  {
+    "english": "tell",
+    "hebrew": "לומר",
+    "spanish": "decir",
+    "sentence": "They will tell me what to do."
+  },
+  {
+    "english": "ten",
+    "hebrew": "עשר",
+    "spanish": "diez",
+    "sentence": "I have ten siblings."
+  },
+  {
+    "english": "tend",
+    "hebrew": "נוטה",
+    "spanish": "tender",
+    "sentence": "I tend to eat more in the winter."
+  },
+  {
+    "english": "term",
+    "hebrew": "טווח",
+    "spanish": "término",
+    "sentence": "He served a long term at that company."
+  },
+  {
+    "english": "test",
+    "hebrew": "מִבְחָן",
+    "spanish": "prueba",
+    "sentence": "I have an English test soon."
+  },
+  {
+    "english": "than",
+    "hebrew": "מאשר",
+    "spanish": "que",
+    "sentence": "You are more beautiful than my friend."
+  },
+  {
+    "english": "thank",
+    "hebrew": "להודות",
+    "spanish": "gracias",
+    "sentence": "He thanked him for cleaning the room."
+  },
+  {
+    "english": "that",
+    "hebrew": "זֶה",
+    "spanish": "ese",
+    "sentence": "How much is that bag?"
+  },
+  {
+    "english": "the",
+    "hebrew": "ה",
+    "spanish": "los es",
+    "sentence": "The bag I bought is cheap."
+  },
+  {
+    "english": "their",
+    "hebrew": "שֶׁלָהֶם",
+    "spanish": "su",
+    "sentence": "I want to meet their parents."
+  },
+  {
+    "english": "them",
+    "hebrew": "אוֹתָם",
+    "spanish": "que se jodan",
+    "sentence": "I lost my keys. I can't find them anywhere."
+  },
+  {
+    "english": "themselves",
+    "hebrew": "עצמם",
+    "spanish": "ellos mismos",
+    "sentence": "They asked themselves why their proposals were rejected."
+  },
+  {
+    "english": "then",
+    "hebrew": "לאחר מכן",
+    "spanish": "Entonces",
+    "sentence": "I am working in the city then."
+  },
+  {
+    "english": "theory",
+    "hebrew": "תֵאוֹרִיָה",
+    "spanish": "teoría",
+    "sentence": "I took a course in modern political theory."
+  },
+  {
+    "english": "there",
+    "hebrew": "שם",
+    "spanish": "allí",
+    "sentence": "Please put the chair there."
+  },
+  {
+    "english": "these",
+    "hebrew": "אלה",
+    "spanish": "estas",
+    "sentence": "These flowers look good."
+  },
+  {
+    "english": "they",
+    "hebrew": "הֵם",
+    "spanish": "ellos",
+    "sentence": "They normally have breakfast together."
+  },
+  {
+    "english": "thing",
+    "hebrew": "דָבָר",
+    "spanish": "cosa",
+    "sentence": "I don't eat sweet things."
+  },
+  {
+    "english": "think",
+    "hebrew": "לַחשׁוֹב",
+    "spanish": "pensan",
+    "sentence": "I think I will study more."
+  },
+  {
+    "english": "third",
+    "hebrew": "שְׁלִישִׁי",
+    "spanish": "tercera",
+    "sentence": "My sister came in third place in the competition."
+  },
+  {
+    "english": "this",
+    "hebrew": "זֶה",
+    "spanish": "esto",
+    "sentence": "This weather is so nice."
+  },
+  {
+    "english": "those",
+    "hebrew": "ההם",
+    "spanish": "esos",
+    "sentence": "Those shoes look expensive."
+  },
+  {
+    "english": "though",
+    "hebrew": "אף על פי כן",
+    "spanish": "aunque",
+    "sentence": "She didn't come even though she said she would."
+  },
+  {
+    "english": "thought",
+    "hebrew": "מַחֲשָׁבָה",
+    "spanish": "el pensamiento",
+    "sentence": "I thought I did the right decision."
+  },
+  {
+    "english": "thousand",
+    "hebrew": "אלף",
+    "spanish": "mil",
+    "sentence": "I have driven a thousand miles just to get to this place."
+  },
+  {
+    "english": "threat",
+    "hebrew": "אִיוּם",
+    "spanish": "amenaza",
+    "sentence": "I received a threat from an enemy."
+  },
+  {
+    "english": "three",
+    "hebrew": "שְׁלוֹשָׁה",
+    "spanish": "Tres",
+    "sentence": "I have got three cute dogs."
+  },
+  {
+    "english": "through",
+    "hebrew": "דרך",
+    "spanish": "a través de",
+    "sentence": "The birds came in through the window."
+  },
+  {
+    "english": "throughout",
+    "hebrew": "בְּמֶשֶך",
+    "spanish": "en todo",
+    "sentence": "I have been cleaning the house throughout the day."
+  },
+  {
+    "english": "throw",
+    "hebrew": "לזרוק",
+    "spanish": "tirar",
+    "sentence": "I throw the ball very far."
+  },
+  {
+    "english": "thus",
+    "hebrew": "לכן",
+    "spanish": "así",
+    "sentence": "It is late and thus we must go."
+  },
+  {
+    "english": "time",
+    "hebrew": "זְמַן",
+    "spanish": "tiempo",
+    "sentence": "She wants to spend more time with her family."
+  },
+  {
+    "english": "to",
+    "hebrew": "ל",
+    "spanish": "para",
+    "sentence": "I am going to the Philippines."
+  },
+  {
+    "english": "today",
+    "hebrew": "היום",
+    "spanish": "hoy",
+    "sentence": "I don't have anything to do today."
+  },
+  {
+    "english": "together",
+    "hebrew": "יַחַד",
+    "spanish": "juntos",
+    "sentence": "We should spend more time together."
+  },
+  {
+    "english": "tonight",
+    "hebrew": "היום בלילה",
+    "spanish": "esta noche",
+    "sentence": "What are you doing tonight?"
+  },
+  {
+    "english": "too",
+    "hebrew": "גַם",
+    "spanish": "también",
+    "sentence": "I like chocolates too."
+  },
+  {
+    "english": "top",
+    "hebrew": "חלק עליון",
+    "spanish": "cima",
+    "sentence": "She waited for me at the top of the stairs."
+  },
+  {
+    "english": "chapter",
+    "hebrew": "פרק",
+    "spanish": "capítulo",
+    "sentence": "This chapter of the book is so difficult to understand."
+  },
+  {
+    "english": "tough",
+    "hebrew": "קָשֶׁה",
+    "spanish": "Duro",
+    "sentence": "The questions on this test are so tough."
+  },
+  {
+    "english": "toward",
+    "hebrew": "לקראת",
+    "spanish": "hacia",
+    "sentence": "The children run toward their parents."
+  },
+  {
+    "english": "town",
+    "hebrew": "העיר",
+    "spanish": "pueblo",
+    "sentence": "I was born in a small town."
+  },
+  {
+    "english": "trade",
+    "hebrew": "סַחַר",
+    "spanish": "comercio",
+    "sentence": "Two countries have signed a trade agreement."
+  },
+  {
+    "english": "traditional",
+    "hebrew": "מָסוֹרתִי",
+    "spanish": "tradicional",
+    "sentence": "These are traditional clothes."
+  },
+  {
+    "english": "training",
+    "hebrew": "הַדְרָכָה",
+    "spanish": "capacitación",
+    "sentence": "I must undergo a training to know how this job works."
+  },
+  {
+    "english": "travel",
+    "hebrew": "לִנְסוֹעַ",
+    "spanish": "viajar",
+    "sentence": "She traveled a lot when she was still young."
+  },
+  {
+    "english": "treat",
+    "hebrew": "טיפול",
+    "spanish": "tratar",
+    "sentence": "As a special treat, I will take you to an expensive restaurant."
+  },
+  {
+    "english": "treatment",
+    "hebrew": "יַחַס",
+    "spanish": "tratamiento",
+    "sentence": "My mother received treatment for her cancer."
+  },
+  {
+    "english": "tree",
+    "hebrew": "עֵץ",
+    "spanish": "árbol",
+    "sentence": "There are many trees in the park."
+  },
+  {
+    "english": "trial",
+    "hebrew": "ניסוי",
+    "spanish": "ensayo",
+    "sentence": "The trial is expected to continue for three months."
+  },
+  {
+    "english": "trip",
+    "hebrew": "טיול",
+    "spanish": "viaje",
+    "sentence": "I will go on a trip next month."
+  },
+  {
+    "english": "trouble",
+    "hebrew": "צרה",
+    "spanish": "problema",
+    "sentence": "I don't want to cause you trouble."
+  },
+  {
+    "english": "true",
+    "hebrew": "נָכוֹן",
+    "spanish": "verdadero",
+    "sentence": "Is the news true?"
+  },
+  {
+    "english": "truth",
+    "hebrew": "אֶמֶת",
+    "spanish": "verdad",
+    "sentence": "Please tell me the truth."
+  },
+  {
+    "english": "try",
+    "hebrew": "לְנַסוֹת",
+    "spanish": "intente",
+    "sentence": "They try to talk to her but she really didn't like."
+  },
+  {
+    "english": "turn",
+    "hebrew": "תור",
+    "spanish": "girar",
+    "sentence": "Could you please turn the TV on?"
+  },
+  {
+    "english": "TV",
+    "hebrew": "טֵלֶוִיזִיָה",
+    "spanish": "TELEVISOR",
+    "sentence": "There are a lot of good TV programs these days."
+  },
+  {
+    "english": "two",
+    "hebrew": "שתיים",
+    "spanish": "dos",
+    "sentence": "I have two months to stay here."
+  },
+  {
+    "english": "type",
+    "hebrew": "סוּג",
+    "spanish": "tipo",
+    "sentence": "There are so many different types of bread I want to buy."
+  },
+  {
+    "english": "under",
+    "hebrew": "תַחַת",
+    "spanish": "en",
+    "sentence": "The shoes are under the bed."
+  },
+  {
+    "english": "understand",
+    "hebrew": "מבינה",
+    "spanish": "entender",
+    "sentence": "I cannot understand what you are trying to say."
+  },
+  {
+    "english": "unit",
+    "hebrew": "יחידה",
+    "spanish": "unidad",
+    "sentence": "The company plans to split into two units."
+  },
+  {
+    "english": "until",
+    "hebrew": "עד",
+    "spanish": "hasta",
+    "sentence": "I am up until 12 midnight."
+  },
+  {
+    "english": "up",
+    "hebrew": "לְמַעלָה",
+    "spanish": "arriba",
+    "sentence": "Put those books up on the top shelves."
+  },
+  {
+    "english": "upon",
+    "hebrew": "עַל",
+    "spanish": "sobre",
+    "sentence": "Please call me upon your arrival."
+  },
+  {
+    "english": "us",
+    "hebrew": "לָנוּ",
+    "spanish": "nosotros",
+    "sentence": "Thank you for driving us to the airport."
+  },
+  {
+    "english": "use",
+    "hebrew": "להשתמש",
+    "spanish": "usar",
+    "sentence": "I forgot to use the perfume you gave me."
+  },
+  {
+    "english": "usually",
+    "hebrew": "בְּדֶרֶך כְּלַל",
+    "spanish": "usualmente",
+    "sentence": "I don't usually eat breakfast."
+  },
+  {
+    "english": "value",
+    "hebrew": "ערך",
+    "spanish": "valor",
+    "sentence": "What is the value of this property?"
+  },
+  {
+    "english": "various",
+    "hebrew": "שׁוֹנִים",
+    "spanish": "varios",
+    "sentence": "I do various types of hobbies."
+  },
+  {
+    "english": "very",
+    "hebrew": "מאוד",
+    "spanish": "muy",
+    "sentence": "I like this show very much."
+  },
+  {
+    "english": "victim",
+    "hebrew": "קורבן",
+    "spanish": "víctima",
+    "sentence": "She is a victim of war."
+  },
+  {
+    "english": "view",
+    "hebrew": "נוף",
+    "spanish": "vista",
+    "sentence": "The view in this city is so refreshing."
+  },
+  {
+    "english": "violence",
+    "hebrew": "אַלִימוּת",
+    "spanish": "violencia",
+    "sentence": "There is too much violence on TV these days."
+  },
+  {
+    "english": "visit",
+    "hebrew": "לְבַקֵר",
+    "spanish": "visitar",
+    "sentence": "I want to visit a wonderful country."
+  },
+  {
+    "english": "voice",
+    "hebrew": "קוֹל",
+    "spanish": "voz",
+    "sentence": "She has soft bvoice."
+  },
+  {
+    "english": "vote",
+    "hebrew": "הַצבָּעָה",
+    "spanish": "votar",
+    "sentence": "I voted him to be the next president of our country."
+  },
+  {
+    "english": "wait",
+    "hebrew": "לַחֲכוֹת",
+    "spanish": "Espere",
+    "sentence": "I waited for him for many months."
+  },
+  {
+    "english": "walk",
+    "hebrew": "לָלֶכֶת",
+    "spanish": "andar",
+    "sentence": "I walk one mile to work every morning."
+  },
+  {
+    "english": "wall",
+    "hebrew": "קִיר",
+    "spanish": "pared",
+    "sentence": "The memo is on the wall."
+  },
+  {
+    "english": "want",
+    "hebrew": "רוצה",
+    "spanish": "querer",
+    "sentence": "I want to travel around the world. "
+  },
+  {
+    "english": "war",
+    "hebrew": "מִלחָמָה",
+    "spanish": "guerra",
+    "sentence": "A war broke out between the two countries."
+  },
+  {
+    "english": "watch",
+    "hebrew": "שעון",
+    "spanish": "reloj",
+    "sentence": "They usually watch horror movies together."
+  },
+  {
+    "english": "water",
+    "hebrew": "מים",
+    "spanish": "agua",
+    "sentence": "I need some cold water."
+  },
+  {
+    "english": "way",
+    "hebrew": "דֶרֶך",
+    "spanish": "camino",
+    "sentence": "Do you know the nearest way to the restaurant?"
+  },
+  {
+    "english": "we",
+    "hebrew": "אָנוּ",
+    "spanish": "Nosotros",
+    "sentence": "We decided to study English together."
+  },
+  {
+    "english": "weapon",
+    "hebrew": "נֶשֶׁק",
+    "spanish": "arma",
+    "sentence": "The security guards found a weapon in his bag."
+  },
+  {
+    "english": "wear",
+    "hebrew": "לִלבּוֹשׁ",
+    "spanish": "vestir",
+    "sentence": "She wears the most expensive coat in the world."
+  },
+  {
+    "english": "week",
+    "hebrew": "שָׁבוּעַ",
+    "spanish": "semana",
+    "sentence": "I study English once a week."
+  },
+  {
+    "english": "weight",
+    "hebrew": "מִשׁקָל",
+    "spanish": "peso",
+    "sentence": "May I know your current weight?"
+  },
+  {
+    "english": "well",
+    "hebrew": "נו",
+    "spanish": "bien",
+    "sentence": "I don't understand English well."
+  },
+  {
+    "english": "west",
+    "hebrew": "מַעֲרָב",
+    "spanish": "Oeste",
+    "sentence": "The sun sets in the west."
+  },
+  {
+    "english": "western",
+    "hebrew": "מערבי",
+    "spanish": "occidental",
+    "sentence": "We can find beautiful mountains in the western area."
+  },
+  {
+    "english": "what",
+    "hebrew": "מה",
+    "spanish": "qué",
+    "sentence": "What is your name?"
+  },
+  {
+    "english": "whatever",
+    "hebrew": "מה שתגיד",
+    "spanish": "lo que",
+    "sentence": "I forgive you whatever you have done to me."
+  },
+  {
+    "english": "when",
+    "hebrew": "מתי",
+    "spanish": "cuando",
+    "sentence": "Please call me when you are free."
+  },
+  {
+    "english": "where",
+    "hebrew": "איפה",
+    "spanish": "donde",
+    "sentence": "I want to know where you live."
+  },
+  {
+    "english": "whether",
+    "hebrew": "האם",
+    "spanish": "si",
+    "sentence": "May I know whether you like it or not."
+  },
+  {
+    "english": "which",
+    "hebrew": "איזה",
+    "spanish": "cual",
+    "sentence": "Which party would you like to go to."
+  },
+  {
+    "english": "while",
+    "hebrew": "בזמן",
+    "spanish": "mientras",
+    "sentence": "While I was in Italy, I visited a lot of museums."
+  },
+  {
+    "english": "white",
+    "hebrew": "לבן",
+    "spanish": "blanco",
+    "sentence": "She is wearing a white shirt."
+  },
+  {
+    "english": "who",
+    "hebrew": "מי",
+    "spanish": "quién",
+    "sentence": "I want to know who did this to you."
+  },
+  {
+    "english": "whole",
+    "hebrew": "כֹּל",
+    "spanish": "todo",
+    "sentence": "I spent the whole day cleaning."
+  },
+  {
+    "english": "whom",
+    "hebrew": "מִי",
+    "spanish": "quién",
+    "sentence": "To whom do you wish to speak?"
+  },
+  {
+    "english": "whose",
+    "hebrew": "של מי",
+    "spanish": "cuyo",
+    "sentence": "Whose bag is this?"
+  },
+  {
+    "english": "why",
+    "hebrew": "למה",
+    "spanish": "por qué",
+    "sentence": "I don't know why he is angry at me."
+  },
+  {
+    "english": "wide",
+    "hebrew": "רָחָב",
+    "spanish": "ancho",
+    "sentence": "I swam in a wide river."
+  },
+  {
+    "english": "wife",
+    "hebrew": "אשה",
+    "spanish": "esposa",
+    "sentence": "My wife can cook well."
+  },
+  {
+    "english": "will",
+    "hebrew": "רָצוֹן",
+    "spanish": "será",
+    "sentence": "I will visit Germany soon."
+  },
+  {
+    "english": "win",
+    "hebrew": "לנצח",
+    "spanish": "ganar",
+    "sentence": "They win the competition."
+  },
+  {
+    "english": "wind",
+    "hebrew": "רוּחַ",
+    "spanish": "viento",
+    "sentence": "The wind in this place is so refreshing."
+  },
+  {
+    "english": "window",
+    "hebrew": "חַלוֹן",
+    "spanish": "ventana",
+    "sentence": "Don't forget to close the window."
+  },
+  {
+    "english": "wish",
+    "hebrew": "בַּקָשָׁה",
+    "spanish": "deseo",
+    "sentence": "I wish I was there."
+  },
+  {
+    "english": "with",
+    "hebrew": "עם",
+    "spanish": "con",
+    "sentence": "I was with her the whole day."
+  },
+  {
+    "english": "within",
+    "hebrew": "בְּתוֹך",
+    "spanish": "dentro",
+    "sentence": "Orders can only be delivered withing Israel."
+  },
+  {
+    "english": "without",
+    "hebrew": "לְלֹא",
+    "spanish": "sin",
+    "sentence": "I can't live without you."
+  },
+  {
+    "english": "woman",
+    "hebrew": "אִשָׁה",
+    "spanish": "mujer",
+    "sentence": "She is a woman who can do both things at the same time."
+  },
+  {
+    "english": "wonder",
+    "hebrew": "פֶּלֶא",
+    "spanish": "preguntarse",
+    "sentence": "I wonder why she left the party earlier."
+  },
+  {
+    "english": "word",
+    "hebrew": "מִלָה",
+    "spanish": "palabra",
+    "sentence": "I can't understand this word."
+  },
+  {
+    "english": "work",
+    "hebrew": "עֲבוֹדָה",
+    "spanish": "trabaja",
+    "sentence": "I don't have any work."
+  },
+  {
+    "english": "worker",
+    "hebrew": "עוֹבֵד",
+    "spanish": "trabajador",
+    "sentence": "I don't have any work."
+  },
+  {
+    "english": "world",
+    "hebrew": "עוֹלָם",
+    "spanish": "mundo",
+    "sentence": "I really want to visit different places around the world."
+  },
+  {
+    "english": "worry",
+    "hebrew": "דאגה",
+    "spanish": "preocupación",
+    "sentence": "I don't worry a lot."
+  },
+  {
+    "english": "would",
+    "hebrew": "היה",
+    "spanish": "haría",
+    "sentence": "I would like to have a burger for dinner."
+  },
+  {
+    "english": "write",
+    "hebrew": "לִכתוֹב",
+    "spanish": "escribe",
+    "sentence": "Please don't forget to write your name in that form."
+  },
+  {
+    "english": "writer",
+    "hebrew": "סוֹפֵר",
+    "spanish": "escritor",
+    "sentence": "She is a good writer."
+  },
+  {
+    "english": "wrong",
+    "hebrew": "שגוי",
+    "spanish": "Equivocado",
+    "sentence": "I know some of my answers are wrong."
+  },
+  {
+    "english": "yard",
+    "hebrew": "חָצֵר",
+    "spanish": "patio",
+    "sentence": "The kids are playing in the yard."
+  },
+  {
+    "english": "yeah",
+    "hebrew": "כֵּן",
+    "spanish": "sí",
+    "sentence": "Will you drive? yeah, sure."
+  },
+  {
+    "english": "year",
+    "hebrew": "שָׁנָה",
+    "spanish": "año",
+    "sentence": "I meet my relatives every year."
+  },
+  {
+    "english": "yes",
+    "hebrew": "כן",
+    "spanish": "sí",
+    "sentence": "Do you like it? Yes, I do."
+  },
+  {
+    "english": "yet",
+    "hebrew": "עדיין",
+    "spanish": "aún",
+    "sentence": "I haven't finished the report yet."
+  },
+  {
+    "english": "you",
+    "hebrew": "אתה",
+    "spanish": "usted",
+    "sentence": "You can dance well."
+  },
+  {
+    "english": "young",
+    "hebrew": "צָעִיר",
+    "spanish": "joven",
+    "sentence": "When I was young, I learned how to play the guitar."
+  },
+  {
+    "english": "your",
+    "hebrew": "שֶׁלְךָ",
+    "spanish": "su",
+    "sentence": "Your English is improving."
+  },
+  {
+    "english": "yourself",
+    "hebrew": "עַצמְךָ",
+    "spanish": "tú mismo",
+    "sentence": "Be careful with the knives or else you will cut yourself."
+  },
+  {
+    "english": "blanket",
+    "hebrew": "שמיכה",
+    "spanish": "frazada",
+    "sentence": "She wrapped the baby in a blanket."
+  },
+  {
+    "english": "Pillow",
+    "hebrew": "כרית",
+    "spanish": "Almohada",
+    "sentence": "How many pillows do you need?"
+  },
+  {
+    "english": "scissors",
+    "hebrew": "מספריים",
+    "spanish": "tijeras",
+    "sentence": "May I borrow a pair of scissors?"
+  },
+  {
+    "english": "shopping mall",
+    "hebrew": "קניון",
+    "spanish": "centro comercial",
+    "sentence": "I like going around the shopping mall."
+  },
+  {
+    "english": "Apple",
+    "hebrew": "תפוח",
+    "spanish": "Manzana",
+    "sentence": "I bought an apple and an orange."
+  },
+  {
+    "english": "orange",
+    "hebrew": "תפוז",
+    "spanish": "naranja",
+    "sentence": "We have bought some oranges in the market."
+  },
+  {
+    "english": "luck",
+    "hebrew": "מזל",
+    "spanish": "suerte",
+    "sentence": "It was just luck to get the job I want."
+  },
+  {
+    "english": "Friend",
+    "hebrew": "חבר",
+    "spanish": "Amigo",
+    "sentence": "I asked my friend how to get to the farm."
+  },
+  {
+    "english": "joke",
+    "hebrew": "בדיחה",
+    "spanish": "broma",
+    "sentence": "Your joke is funny."
+  },
+  {
+    "english": "Sand",
+    "hebrew": "חול",
+    "spanish": "Arena",
+    "sentence": "Beaches in Thailand have white and fine sand."
+  },
+  {
+    "english": "Beach",
+    "hebrew": "חוף ים",
+    "spanish": "Playa",
+    "sentence": "Would you like to visit beaches?"
+  },
+  {
+    "english": "Pool",
+    "hebrew": "בריכה",
+    "spanish": "Piscina",
+    "sentence": "She swims in the pool every day."
+  },
+  {
+    "english": "Singer",
+    "hebrew": "זמר",
+    "spanish": "Cantante",
+    "sentence": "She is a great singer."
+  },
+  {
+    "english": "Present",
+    "hebrew": "מתנה",
+    "spanish": "Presente",
+    "sentence": "The whole family is present at the party."
+  },
+  {
+    "english": "sock",
+    "hebrew": "גֶרֶב",
+    "spanish": "calcetín",
+    "sentence": "I received a pair of white socks."
+  }
+]

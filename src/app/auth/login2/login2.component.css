@@ -1,0 +1,18 @@
+.logininfo h6 {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.logininfo h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}

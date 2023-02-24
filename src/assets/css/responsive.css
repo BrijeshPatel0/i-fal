@@ -1,0 +1,3470 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media only screen and (min-width: 1430px) {
+  .responsive-video {
+    height: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media only screen and (max-width: 1799px) {
+  .topic1 {
+    width: 330px;
+    height: 330px;
+  }
+
+  .logout {
+    margin-right: 100px;
+  }
+
+  ul.settings {
+    z-index: 0;
+  }
+
+  section.login {
+    padding: 45px 0px;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .myprofiledetails.bookless ul#pills-tab {
+    margin-right: 0;
+  }
+
+  p.sessiontext {
+    max-width: 700px;
+  }
+
+  .package {
+    padding: 30px;
+  }
+
+  .heroimg {
+    max-width: 600px;
+  }
+
+  h1.maintext {
+    font-size: 36px;
+  }
+
+  ul.download h3 {
+    font-size: 30;
+    font-size: 30px;
+  }
+
+  .package h5 {
+    font-size: 36px;
+  }
+
+  .topic1 {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .sessiontitle {
+    padding: 0px 10px;
+  }
+
+  .col-lg-3.list-item .sessiontitle {
+    margin: auto;
+  }
+
+  .myprofiledetails.texhmaindetail .sessiontitle {
+    max-width: 100%;
+  }
+  .topmenuli {
+    margin-left: 70px !important;
+  }
+}
+
+@media only screen and (max-width: 1429px) {
+  .responsive-video {
+    height: 400px !important;
+  }
+  .topmenuli {
+    margin-left: 58px !important;
+    font-size: 18px !important;
+  }
+  /* nav.navbar.navbar-expand-lg{
+  padding-top: 55px !important;
+} */
+  .sessionmainname {
+    display: block;
+  }
+
+  li.teacherfind {
+    max-width: 750px;
+  }
+
+  .sessiontitle {
+    max-width: 180px;
+  }
+
+  .btnteacgertime a.btntime {
+    width: 50%;
+  }
+
+  .firstsessioninfo.upses .sessiontitle {
+    max-width: 190px;
+  }
+
+  .firstsessioninfo.teacherreview {
+    flex-wrap: wrap;
+  }
+
+  .list-item .firstsession:after {
+    /* height: 90px; */
+    /* top: 0; */
+    /* width: 100% !important; */
+    /* border-radius: 10px 10px 0px 0px; */
+  }
+
+  section.landing.modaldate {
+    padding: 50px 0px;
+  }
+
+  ul.landingdetail li p {
+    font-size: 24px;
+  }
+
+  ul.landingdetail li img {
+    width: 300px;
+  }
+
+  .getstarted {
+    margin-bottom: 100px;
+  }
+
+  ul.teachertab li.active:before {
+    width: 150px;
+  }
+
+  a.bookmore {
+    font-size: 14px;
+  }
+
+  .sesiondetail img {
+    margin-right: 25px;
+  }
+
+  .dropdown.code {
+    padding: 18.5px 10px;
+    font-size: 14px;
+  }
+
+  .topic1 {
+    max-width: 260px;
+    max-height: 260px;
+  }
+
+  .speak textarea {
+    padding: 0;
+    font-size: 21px;
+  }
+
+  .topic1 a.star i {
+    font-size: 21px;
+  }
+
+  .speaker2,
+  .speaker3,
+  .speaker4,
+  .speaker5,
+  .speaker6,
+  .speaker7,
+  .speaker8 {
+    width: 24px;
+  }
+
+  a.refresh i {
+    font-size: 19px;
+  }
+
+  .profiletab.packagesec {
+    z-index: 0;
+    position: relative;
+  }
+
+  .firstsessioninfo {
+    padding: 10px;
+  }
+
+  .firstsession img {
+    margin-right: 10px;
+  }
+
+  a.btntime {
+    width: 120px;
+  }
+
+  section.findteachertab {
+    margin-top: 17px;
+  }
+
+  ul.navbar-nav.m-lg-auto a {
+    margin-left: 10px;
+  }
+
+  a.navbar-brand {
+    width: 150px;
+  }
+
+  section.hero {
+    margin-top: 130px;
+  }
+
+  h1.maintext {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  ul.download img {
+    width: 180px;
+  }
+
+  ul.download h3 {
+    margin-bottom: 0px;
+  }
+
+  ul.download p {
+    margin-top: 10px;
+  }
+
+  .package {
+    padding: 20px;
+  }
+
+  .package a {
+    font-size: 14px;
+  }
+
+  li.progressbigginer.sessrep {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .responsive-video {
+    height: 300px !important;
+  }
+  .topmenuli {
+    margin-left: 40px !important;
+    font-size: 15px !important;
+  }
+  .sesstiondetail.booksession.texchreview .col-lg-4.list-item {
+    width: 50%;
+  }
+
+  .sesstiondetail.booksession.texchreview .sessiontitle.sessionreview {
+    max-width: 100%;
+  }
+
+  .sesstiondetail.booksession.texchreview .firstsessioninfo.teacherreview {
+    flex-wrap: nowrap;
+  }
+  .sesstiondetail.booksession .col-lg-4.list-item {
+    width: 25%;
+  }
+
+  .sesstiondetail.booksession .firstsession:after {
+    display: none;
+  }
+
+  .findteachertab .col-lg-3.list-item .firstsession:after {
+    display: block;
+  }
+
+  .col-lg-4.position-relative {
+    width: 50%;
+  }
+
+  li.teacherfind {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  ul.biginerprogress {
+    /* display: block; */
+  }
+
+  li.anaylytics {
+    width: 100%;
+  }
+
+  .firstsessioninfo.upses .sessiontitle {
+    max-width: 150px;
+  }
+
+  span.need {
+    /* display: none; */
+  }
+
+  a#myBtn {
+    /* width: 50px; */
+  }
+
+  a#myBtn span {
+    padding-right: 7px;
+  }
+
+  ul.landingdetail li p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  ul.landingdetail li img {
+    margin-right: 20px;
+  }
+
+  .meetingbtns a {
+    padding: 0px 20px;
+    font-size: 14px;
+  }
+
+  span.yellowtext {
+    font-size: 18px;
+  }
+
+  span.redtext {
+    font-size: 18px;
+  }
+
+  .resheduelbtn a {
+    padding: 0px 40px;
+    font-size: 14px;
+  }
+
+  .mainheading.text-left.profileheading p {
+    padding-right: 250px;
+  }
+
+  .favourittopic .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 33%;
+  }
+
+  .topic1 {
+    max-width: 100%;
+    /* height: 382px; */
+    /* max-height: 382px; */
+  }
+
+  a.speaker {
+    width: 24px;
+  }
+
+  a.star i {
+    font-size: 22px;
+  }
+
+  .myprofiledetails .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .firstsession img {
+  }
+
+  a.btntime {
+    font-size: 14px;
+    width: 100px;
+  }
+
+  .sessiontitle h4 {
+    font-size: 16px;
+  }
+
+  .sessiontitle p {
+    font-size: 14px;
+  }
+
+  .youcanchoos p {
+    font-size: 19px;
+  }
+
+  ul.navbar-nav.m-lg-auto a {
+    font-size: 14px;
+  }
+
+  .btnblue {
+    width: 140px;
+    font-size: 14px;
+  }
+
+  h1.maintext {
+    font-size: 30px;
+  }
+
+  .heroinfo span {
+    font-size: 18px;
+  }
+
+  .heroinfo p {
+    font-size: 16px;
+  }
+
+  .valueinfo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .valuedetail h5 {
+    font-size: 18px;
+  }
+
+  .valuedetail p {
+    font-size: 14px;
+  }
+
+  section.value {
+    padding-bottom: 0;
+  }
+
+  .frontcom tbody tr th {
+    padding: 0px 30px;
+    font-size: 16px;
+  }
+
+  .frontcom table thead th {
+    font-size: 20px;
+  }
+
+  .frontcom tbody td {
+    font-size: 16px;
+  }
+
+  .frontcom table tr {
+    height: 70px;
+  }
+
+  ul.download li:last-child {
+    text-align: right;
+  }
+
+  section.packagesec .row .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .signupwith a {
+    max-width: 280px;
+  }
+
+  img.eng {
+    top: -40px;
+    left: 40px;
+  }
+
+  ul#pills-tab {
+  }
+
+  ul.timeselect li a {
+    width: 150px;
+    height: 50px;
+  }
+
+  .modaldate ul#pills-tab {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .modaldate ul#pills-tab li {
+    margin-right: 20px;
+  }
+
+  .modaldate .modal-dialog.modal-dialog-centered {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+
+  .tag p {
+    font-size: 17px;
+  }
+
+  .modaldate .modal-footer a {
+    width: 337px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .firstsessioninfo.upses .sessiontitle1 {
+    max-width: 100%;
+  }
+  .responsive-video {
+    height: 400px !important;
+  }
+  /* header {
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        -webkit-transform: all 0.5s;
+        -ms-transform: all 0.5s;
+        transform: all 0.5s;
+        z-index: 99999;
+      } */
+  .settingmarging {
+    margin-top: 55px !important;
+  }
+  .iti {
+    width: 100%;
+  }
+  a.navbar-brand {
+    width: 100px;
+    position: relative;
+    left: 70%;
+    right: 0;
+  }
+  #profilename .iti input,
+  .iti input .iti input[type="tel"] {
+    padding-left: 50px !important;
+  }
+  /* .contantdetails input {
+        height: 40px;
+        margin-bottom: 15px;
+    } */
+  .btnblue {
+    height: 40px;
+  }
+  .modal {
+    margin-top: 0px;
+  }
+  ul.biginerprogress {
+    display: block;
+  }
+
+  ul.biginerprogress li {
+    width: 100%;
+  }
+
+  .col-lg-3.list-item {
+    width: 25%;
+  }
+
+  li.teacherfind ul#pills-tab {
+    width: 100%;
+  }
+
+  .frame {
+    transform: scale(1);
+  }
+
+  a.bookmore {
+    margin-top: 10px;
+  }
+
+  .myprofiledetails.texhmaindetail .firstsessioninfo.techdetail .btnblue {
+    margin-left: auto;
+  }
+
+  .myprofiledetails.texhmaindetail .sessiontitle {
+    max-width: 100%;
+  }
+
+  .sessiontitle.sessionreview {
+    max-width: 100%;
+  }
+
+  .col-lg-4.position-relative {
+    width: 50%;
+  }
+
+  .col-lg-4.position-relative .firstsessioninfo {
+    padding: 10px;
+  }
+
+  .btnteacgertime {
+    width: 50%;
+    margin-left: auto;
+  }
+
+  .sesstiondetail.booksess.mt-5.active .row {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .sesstiondetail.booksess.mt-5.active .row .col-lg-6 {
+    max-width: 45%;
+  }
+
+  .sesstiondetail.booksess.mt-5.active .row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .langugeselect {
+    display: block;
+    margin-left: auto;
+  }
+
+  section.faqsec .mainheading.text-center p {
+    padding-right: 0;
+  }
+
+  section.instruction .mainheading.text-center p {
+    padding-right: 0;
+  }
+
+  section.contact .mainheading.text-center p {
+    padding-right: 0;
+  }
+
+  section.frontcomsec .mainheading p {
+    padding-right: 0;
+  }
+
+  section.herelan .mainheading.text-center p {
+    padding-right: 0;
+  }
+
+  .modalbody.thankyou.text-center p {
+    font-size: 17px;
+  }
+
+  .modaldate ul#pills-tab::-webkit-scrollbar {
+    display: none;
+  }
+
+  section.packagesec .mainheading p {
+    padding-right: 0;
+  }
+
+  section.packagesec .mainheading.text-center {
+    margin-bottom: 50px;
+  }
+
+  .termsheading h4 {
+    font-size: 34px;
+  }
+
+  .termsheading p {
+    font-size: 18px;
+  }
+
+  h5.titletext {
+    font-size: 22px;
+  }
+
+  .termswrap {
+    margin-bottom: 40px;
+  }
+
+  .myprofiledetails.bookless ul#pills-tab {
+    margin-right: 0 !important;
+  }
+
+  .myprofiledetails.bookless .profiletabsec.modaldate ul.timeselect li a {
+    width: auto !important;
+  }
+
+  .myprofiledetails.bookless .profiletabsec.modaldate ul.timeselect li a {
+    width: auto !important;
+  }
+
+  .myprofiledetails.bookless ul.timeselect li a {
+    width: 120px;
+  }
+
+  .myprofiledetails.bookless ul#pills-tab li {
+    margin-right: 19px !important;
+  }
+
+  .myprofiledetails.bookless {
+    z-index: 0;
+  }
+
+  section.downloadsec {
+    z-index: 0;
+    position: relative;
+    background-position: bottom;
+  }
+
+  .sesiondetail {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .sesiondetail a {
+    margin-left: 0;
+  }
+
+  .teacherinfo {
+    margin: 20px 0px;
+  }
+
+  ul.seessiontime span {
+    margin-left: 10px;
+  }
+
+  ul.seessiontime img {
+    width: 50px;
+    height: 50px;
+  }
+
+  ul.seessiontime {
+    margin: 0;
+  }
+
+  .myprofiledetails.session ul#pills-tab {
+    width: 100%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .myprofiledetails.session ul#pills-tab li {
+    width: auto;
+  }
+
+  .myprofiledetails ul#pills-tab li {
+    width: 50%;
+    margin: 0 !important;
+  }
+
+  .myprofiledetails ul#pills-tab {
+    margin-right: 240px !important;
+  }
+
+  .myprofiledetails li.nav-item button.active:before {
+    width: 110px;
+  }
+
+  .dropdown.code {
+    font-size: 18px;
+  }
+
+  section.findteachertab {
+    /* z-index: -9; */
+    position: relative;
+  }
+
+  body {
+    z-index: 0;
+    position: relative;
+  }
+
+  .mainheading.text-left.setting p {
+    padding-right: 0px;
+  }
+
+  .logout a {
+    width: 150px;
+  }
+
+  ul.settings li {
+    padding: 27px;
+  }
+
+  div#button-1 {
+    /* margin-left: 20px; */
+  }
+
+  .speak textarea {
+    font-size: 18px;
+  }
+
+  .speak a {
+    font-size: 14px;
+    max-width: 120px;
+    height: 40px;
+  }
+
+  .myprofiledetails.session {
+    height: auto;
+  }
+
+  div#chart {
+    padding: 0;
+  }
+
+  .chartanalytics {
+    padding: 0;
+  }
+
+  .profiletab.packagesec {
+    /* z-index: -9; */
+    position: relative;
+  }
+
+  .firstsessioninfo {
+    position: relative;
+  }
+
+  .firstsession {
+    /* z-index: 9; */
+  }
+
+  .findteacherheading {
+    /* z-index: -9; */
+    margin-top: 25px;
+  }
+
+  section.findteachertab {
+    margin: 0;
+    padding-top: 58px;
+  }
+  .tearchermaintab {
+    height: auto !important;
+  }
+  ul.teachertab {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: auto;
+    min-width: 1150px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    min-width: 0 !important;
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    height: 100vh;
+    background: #28aae1;
+    transition: all 0.5s;
+  }
+
+  ul.teachertab li {
+    width: 206px;
+    text-align: center;
+  }
+
+  .tearchermaintab .container {
+    overflow: auto;
+  }
+
+  ul.teachertab::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tearchermaintab .container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .profiletab.packagesec .myprofiledetails {
+    padding: 20px;
+  }
+
+  .circle-big svg {
+    width: 140px;
+    height: 140px;
+  }
+
+  .circle-big .text {
+    font-size: 14px;
+  }
+
+  .circle-big .text span {
+    font-size: 14px !important;
+  }
+
+  .circle-big {
+    width: 140px;
+    height: 140px;
+  }
+
+  .circle-big .bg {
+    width: 140px !important;
+    cx: 67;
+    cy: 67;
+    r: 42;
+  }
+
+  .circle-big .progress {
+    width: 140px !important;
+    height: 140px !important;
+    cx: 66;
+    cy: 69;
+    r: 42;
+    stroke-dasharray: 180.56;
+  }
+
+  .frame {
+    margin-right: 10px;
+    width: 140px;
+    height: 140px;
+  }
+
+  span.yellowtext {
+    font-size: 18px;
+  }
+
+  .level p {
+    font-size: 20px;
+  }
+
+  span.graytext {
+    font-size: 15px;
+  }
+
+  .currentmonth ul#pills-tab li button {
+    font-size: 18px;
+  }
+
+  .mem ul.remain p {
+    text-align: left;
+  }
+
+  .mem ul.remain {
+    text-align: left !important;
+    display: block;
+  }
+
+  .mem ul.remain li:last-child {
+    text-align: left !important;
+  }
+
+  .mem ul li {
+    margin-bottom: 20px;
+  }
+
+  .youcanchoos a {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .youcanchoos {
+    padding: 0px;
+  }
+
+  .youcanchoos p {
+    font-size: 16px;
+  }
+
+  div#navbarNav .followus {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    display: block;
+    padding: 0 40px;
+  }
+
+  ul.followus li {
+    margin: 20px 0px 20px;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 5px;
+  }
+
+  .lecturerimg {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  ul.instr li {
+    margin: 0 20px;
+  }
+
+  ul.instr {
+    padding: 0;
+  }
+
+  .contantdetails input {
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .headingfooter.teaching {
+    padding: 0;
+  }
+
+  .headingfooter {
+    margin-top: 40px;
+  }
+
+  footer {
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  section.hero .col-lg-6:first-child {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  section.hero {
+    margin-top: 0px;
+    padding-bottom: 0;
+  }
+
+  nav.navbar.navbar-expand-lg {
+    padding-top: 90px !important;
+  }
+
+  img.eng {
+    top: 20px;
+    left: 80px;
+  }
+
+  .heroimg {
+    margin-bottom: 50px;
+  }
+
+  .valueinfo ul {
+    padding: 0;
+  }
+
+  .frontcom table {
+    /* min-width: 950px; */
+    /* overflow: auto; */
+  }
+
+  .frontcom {
+    overflow: auto;
+  }
+
+  section.login .col-lg-6:first-child {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 60px;
+  }
+
+  .plate {
+    height: 40px;
+    width: 40px;
+  }
+
+  .burger {
+    -webkit-filter: url(#gooeyness);
+    filter: url(#gooeyness);
+  }
+
+  .x {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    -o-transition: transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+  }
+
+  .line {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition: stroke-dasharray 500ms 200ms,
+      stroke-dashoffset 500ms 200ms, -webkit-transform 500ms 200ms;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+      -webkit-transform 500ms 200ms;
+    -o-transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+      transform 500ms 200ms;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+      transform 500ms 200ms;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+      transform 500ms 200ms, -webkit-transform 500ms 200ms;
+  }
+
+  .x .line {
+    stroke-width: 5.5px;
+  }
+
+  /* Common Css must add end */
+
+  /* Forth Menu Css */
+  .plate4 .x {
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    -o-transition: transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+  }
+
+  .plate4 .line {
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition: -webkit-transform 400ms 100ms;
+    transition: -webkit-transform 400ms 100ms;
+    -o-transition: transform 400ms 100ms;
+    transition: transform 400ms 100ms;
+    transition: transform 400ms 100ms, -webkit-transform 400ms 100ms;
+  }
+
+  .active.plate4 .line {
+    -webkit-transition: -webkit-transform 400ms;
+    transition: -webkit-transform 400ms;
+    -o-transition: transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+  }
+
+  .active.plate4 .line1 {
+    -webkit-transform: translateX(18px) translateY(-3px) rotate(-45deg)
+      scale(0.7);
+    -ms-transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(0.7);
+    transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(0.7);
+  }
+
+  .active.plate4 .line2 {
+    -webkit-transform: translateX(-18px) translateY(-3px) rotate(45deg)
+      scale(0.7);
+    -ms-transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(0.7);
+    transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(0.7);
+  }
+
+  .active.plate4 .line3 {
+    -webkit-transform: translateY(0px) rotate(45deg) scale(0.7);
+    -ms-transform: translateY(0px) rotate(45deg) scale(0.7);
+    transform: translateY(0px) rotate(45deg) scale(0.7);
+  }
+
+  .active.plate4 .line4 {
+    -webkit-transform: translateY(0px) rotate(-45deg) scale(0.7);
+    -ms-transform: translateY(0px) rotate(-45deg) scale(0.7);
+    transform: translateY(0px) rotate(-45deg) scale(0.7);
+  }
+
+  .active.plate4 .line5 {
+    -webkit-transform: translateX(18px) translateY(3px) rotate(45deg) scale(0.7);
+    -ms-transform: translateX(18px) translateY(3px) rotate(45deg) scale(0.7);
+    transform: translateX(18px) translateY(3px) rotate(45deg) scale(0.7);
+  }
+
+  .active.plate4 .line6 {
+    -webkit-transform: translateX(-18px) translateY(3px) rotate(-45deg)
+      scale(0.7);
+    -ms-transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(0.7);
+    transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(0.7);
+  }
+
+  .active.plate4 .x {
+    -webkit-transition: -webkit-transform 400ms 100ms;
+    transition: -webkit-transform 400ms 100ms;
+    -o-transition: transform 400ms 100ms;
+    transition: transform 400ms 100ms;
+    transition: transform 400ms 100ms, -webkit-transform 400ms 100ms;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  button.navbar-toggler {
+    padding: 0;
+    position: absolute;
+    top: 56%;
+    right: 30px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    z-index: 10000;
+    display: block;
+    left: 0;
+  }
+
+  span.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-toggler svg {
+    left: 0;
+    top: 0;
+  }
+
+  .show-menu .navbar-toggler {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 9999;
+    right: 30px;
+  }
+
+  .navbar-toggler:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  ul.timeselect {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  ul.timeselect li {
+    width: 20%;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  ul.timeselect li a {
+    width: auto !important;
+    padding: 0 20px;
+  }
+
+  /**  Menu  **/
+
+  /**********  Responsive Menu  **********/
+  .findteacherheading:after {
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .mainheading p {
+    padding-right: 100px;
+  }
+
+  ul.mispronounce {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* .onclick-pop-up p {
+    margin-bottom: 10px;
+  } */
+
+  .herevideo {
+    margin-top: 25px;
+  }
+  .responsive-video {
+    height: 350px !important;
+  }
+  /* .modal.show .modal-dialog {
+    overflow: hidden !important;
+    height: 100% !important;
+  } */
+  .modal.show .modal-dialog {
+    overflow: hidden !important;
+    height: 100% ;
+  }
+  .sesstiondetail.booksession.texchreview .col-lg-4.list-item {
+    width: 100%;
+  }
+
+  .col-lg-4.position-relative .firstsession:after {
+    height: 100%;
+    width: 16%;
+    top: 0;
+    border-radius: 0;
+  }
+
+  input.check:checked + .firstsession:before {
+    z-index: 0;
+  }
+
+  .sesstiondetail.booksession .col-lg-4.list-item {
+    width: 33%;
+  }
+
+  .col-lg-3.list-item {
+    width: 33%;
+  }
+
+  li.teacherfind {
+    margin-top: 0px;
+  }
+
+  .col-lg-4.position-relative {
+    width: 100%;
+  }
+
+  .firstsessioninfo.upses a.btntime {
+    width: 100px !important;
+    margin-left: auto;
+  }
+
+  .btnteacgertime {
+    width: auto;
+  }
+
+  .frontcom table tr {
+    height: 60px;
+  }
+
+  .frontcom table thead th {
+    font-size: 18px;
+  }
+
+  .frontcom table thead th img {
+    width: 100px;
+  }
+
+  .frontcom tbody td {
+    font-size: 14px;
+  }
+
+  .frontcom tbody tr th {
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+
+  .sesstiondetail.booksess.mt-5.active .row .col-lg-6 {
+    max-width: 47%;
+  }
+
+  ul.mispronounce li {
+    width: 100%;
+    margin-bottom: 18px;
+    margin-right: 0;
+  }
+
+  textarea.test {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  ul.sentencecurrection li {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  input.test {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .giverrating .modal-dialog.modal-dialog-centered {
+    margin: auto;
+  }
+
+  .showdatetime img {
+    width: 50px !important;
+  }
+
+  .showdatetime a {
+    height: 70px;
+  }
+
+  .modalbody.thankyou.text-center p span br {
+    display: none;
+  }
+
+  .modalbody.thankyou.text-center {
+    padding-bottom: 11px;
+  }
+
+  .btnssessions {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .btnssessions a {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .firstsessioninfo.techdetail .btnblue {
+    margin-left: 0;
+  }
+
+  .profiletabsec.modaldate .myprofiledetails ul#pills-tab {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .profiletabsec.modaldate .myprofiledetails.bookless {
+    padding: 40px 20px;
+  }
+
+  .profiletabsec.modaldate .myprofiledetails.bookless p {
+    font-size: 18px;
+  }
+
+  .profiletabsec.modaldate
+    .myprofiledetails.bookless
+    a.btn.btn-primary.btnbook {
+    width: 250px;
+    font-size: 16px;
+  }
+
+  ul.seessiontime {
+    display: block;
+    padding: 0px 20px;
+  }
+
+  ul.seessiontime li {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    border: none;
+  }
+
+  .sessiontimimg {
+    padding-bottom: 30px;
+  }
+
+  .meetingbtns {
+    display: block;
+  }
+
+  .meetingbtns a {
+    margin-bottom: 20px;
+  }
+
+  .reshedulebtns {
+    display: block;
+  }
+
+  .resheduelbtn a {
+    width: 45%;
+  }
+
+  .resheduelbtn {
+    margin-top: 20px;
+  }
+
+  .myprofiledetails {
+    padding: 0px 0px 0px;
+  }
+
+  .profileimg {
+    position: relative;
+    right: 0;
+    top: 0;
+    left: unset !important;
+  }
+
+  .myprofiledetails ul#pills-tab {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+
+  .myprofiledetails ul#pills-tab li {
+    text-align: center;
+    width: auto;
+  }
+
+  .mainheading.text-left.profileheading p {
+    padding: 0;
+  }
+
+  .myprofiledetails ul#pills-tab:after {
+    display: none;
+  }
+
+  .sessionimg {
+    /* max-width: 100px; */
+  }
+
+  .favourittopic .col-lg-3 {
+    width: 50%;
+  }
+
+  .firstsessioninfo {
+    /* display: block; */
+    text-align: left;
+  }
+
+  .firstsession:after {
+    /*display: none;*/
+  }
+
+  a.btntime.past {
+    margin-left: 0;
+  }
+
+  .sessiontitle h4 {
+    margin: 0px 0px;
+  }
+
+  .sessiontitle {
+    margin: 0px 0px;
+  }
+
+  a.btntime {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .myprofiledetails li.nav-item button {
+    width: auto;
+  }
+
+  .myprofiledetails ul#pills-tab {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .myprofiledetails li.nav-item button.active:before {
+    width: 150px;
+  }
+
+  .simple-pagination li a,
+  .simple-pagination li span {
+    margin: 0;
+  }
+
+  span.current.prev {
+    width: 120px;
+  }
+
+  span.current.prev span {
+    font-size: 14px;
+  }
+
+  a.page-link.next {
+    width: 120px !important;
+  }
+
+  a.page-link.next span {
+    font-size: 14px;
+  }
+
+  .simple-pagination li {
+    margin: 0px 10px;
+  }
+
+  ul.biginerprogress {
+    display: block;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  li.progressbigginer {
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  li.anaylytics {
+    width: 100%;
+    /* border-bottom: 2px solid rgb(133 137 146 / 28%); */
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+    /* border-right: none; */
+  }
+
+  .remianinfo:first-child {
+    padding-right: 30px;
+    margin-right: 30px;
+  }
+
+  .modaldate ul#pills-tab li {
+    margin-right: 10px;
+  }
+
+  .modaldate ul#pills-tab li button {
+    width: 80px;
+    height: 90px;
+  }
+
+  .modaldate ul#pills-tab li button h3 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .modaldate .modal-body {
+    padding: 10px 20px;
+  }
+
+  .modaldate h5#exampleModalLabel {
+    font-size: 30px;
+  }
+
+  .modaldate .modal-header {
+    padding: 20px;
+  }
+
+  .modaldate .modal-footer a {
+    height: 50px;
+  }
+
+  section {
+    padding: 40px 0px;
+  }
+
+  #video .owl-nav {
+    position: relative;
+    top: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #video .owl-nav button {
+    width: 40;
+    width: 40px;
+    height: 40px;
+  }
+
+  #video button.owl-next {
+    margin-left: 20px;
+  }
+
+  .accordion-flush .accordion-item .accordion-button {
+    padding: 25px;
+    font-size: 18px;
+  }
+
+  #profile .owl-nav {
+    position: relative;
+    top: auto;
+    left: auto;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    display: inherit;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #profile .owl-nav button {
+    width: 48px;
+    height: 48px;
+    margin: 0px 10px;
+  }
+
+  #profile .owl-nav button i {
+    font-size: 24px;
+  }
+
+  .mainheading.text-center p {
+    font-size: 16px;
+  }
+
+  ul.instr {
+    display: block;
+    text-align: center;
+  }
+
+  ul.instr li {
+    margin-bottom: 40px;
+  }
+
+  .heroimg {
+    max-width: 100%;
+    margin-top: 70px;
+  }
+
+  h1.maintext br {
+    display: none;
+  }
+
+  ul.download {
+    display: block;
+  }
+
+  ul.download li:last-child {
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .lecturerimg a:after {
+    width: 80px;
+    height: 80px;
+  }
+
+  .lecturerimg a i {
+    font-size: 20px;
+  }
+
+  .lecturerimg a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .lecturer {
+    padding: 20px;
+  }
+
+  .lecturer h6 {
+    font-size: 22;
+    font-size: 22px;
+  }
+
+  .lecturer p {
+    font-size: 15px;
+  }
+
+  .currentmonth .tab-content .tab-pane .mem {
+    padding: 20px;
+  }
+
+  .youcanchoos {
+    display: block;
+    /* text-align: center; */
+    padding: 0px;
+  }
+
+  .youcanchoos p {
+  }
+
+  .mem ul.remain p {
+    font-size: 18px;
+  }
+
+  ul.remain span {
+    font-size: 18px;
+  }
+
+  .currentmonth ul#pills-tab li button {
+    width: 230px;
+    font-size: 18px;
+  }
+
+  .currentmonth ul#pills-tab li button.active {
+    font-size: 18px;
+  }
+
+  .sessiontitle {
+    /* width: 100%; */
+  }
+
+  .firstsessioninfo {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .firstsessioninfo a.btntime {
+    width: 90;
+    width: 85%;
+  }
+
+  ul.howtext p {
+    font-size: 15px;
+  }
+
+  .onclick-pop-up p {
+    font-size: 26px !important;
+  }
+
+  .onclick-pop-up a {
+    font-size: 15px !important;
+    padding: 15px 15px !important;
+  }
+
+  .onclick-pop-up p:nth-child(2) {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .loginimg img {
+    width: 100%;
+    height: 350px;
+  }
+  .responsive-video {
+    height: 280px !important;
+  }
+  .nav-overflow {
+    overflow: initial !important;
+  }
+  div#pills-tabContent .favourittopic .col-lg-3 {
+    width: 50%;
+  }
+
+  ul.mispronounce a {
+    text-align: right;
+  }
+
+  ul.sentencecurrection a {
+    text-align: right;
+  }
+
+  a.btntime.giverating {
+    display: flex;
+  }
+
+  a.btntime.sesstionreport {
+    display: flex;
+    height: 40px;
+  }
+
+  .pastsession .btnnext {
+    margin-right: 90px;
+    display: inline-grid;
+  }
+
+  a.btntime {
+    display: none;
+  }
+
+  a.btnnext {
+    width: 30px;
+    height: 30px;
+  }
+
+  a.btnnext i {
+    font-size: 15px;
+  }
+
+  .col-lg-3.list-item {
+    width: 50%;
+  }
+
+  .frame {
+    transform: scale(1.1);
+  }
+
+  .btnteacgertime {
+    /* display: none !important; */
+    margin-top: 0;
+  }
+
+  .sessiontitle p:nth-child(3) {
+    display: block !important;
+  }
+
+  .sessiontitle p {
+    color: #777777 !important;
+    margin-bottom: 0px !important;
+  }
+
+  /* .sessiontitle span {
+    display: none;
+  } */
+
+  .firstsessioninfo.upses .sessiontitle {
+    max-width: 220px;
+  }
+
+  .frontcom tbody td img {
+    max-width: 30px;
+  }
+
+  .frontcom tbody td {
+    font-size: 13px;
+  }
+
+  .frontcom table thead th {
+    font-size: 16px;
+  }
+
+  .sesstiondetail.booksess.mt-5.active .row .col-lg-6 {
+    max-width: 65%;
+  }
+
+  .rating:not(:checked) > label {
+    width: 30px;
+  }
+
+  .rating:not(:checked) > label:before {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 40px;
+  }
+
+  .practicetextinput {
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+  }
+
+  .payment-checkbox {
+    font-size: 16px;
+  }
+
+  .payment-checkbox input {
+    max-width: 15px !important;
+    min-width: 15px !important;
+  }
+
+  .youcanchoos p {
+    display: block !important;
+    text-align: left;
+    color: black !important;
+  }
+
+  a.credit-pay-button {
+    font-size: 16px;
+  }
+
+  table.compentency {
+    width: 100%;
+  }
+
+  a#myBtn {
+    right: 20px;
+    bottom: 20px;
+    /* width: 50px; */
+  }
+
+  .currentmonth ul#pills-tab li button.active {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .currentmonth ul#pills-tab li button {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .currentmonth ul#pills-tab {
+    margin-bottom: 20px !important;
+  }
+
+  .profiletab.packagesec {
+    margin-bottom: 50px;
+    margin-top: -40px;
+  }
+  .profiletabtop {
+    margin-top: 0px !important;
+  }
+  .profiletabtopm {
+    padding-top: 0px !important;
+  }
+
+  .topic1 {
+    width: 100%;
+  }
+
+  .modaldate .modal-content {
+    border-radius: 20px;
+  }
+
+  .showdatetime {
+    display: block;
+  }
+
+  .showdatetime a {
+    width: 90%;
+    margin-bottom: 19px;
+  }
+
+  .modalbody.thankyou.text-center p {
+    line-height: 30px;
+  }
+
+  .modalbody.thankyou.text-center {
+    margin-bottom: 20px;
+  }
+
+  .modalbody.text-center p {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+
+  .termsheading h4 {
+    font-size: 30px;
+  }
+
+  .termsheading p {
+    font-size: 14px;
+  }
+
+  h5.titletext {
+    font-size: 22px;
+  }
+
+  .termswrap {
+    margin-bottom: 40px;
+  }
+
+  ss .myprofiledetails.bookless ul.timeselect li {
+    width: 30%;
+    margin-left: 0;
+  }
+
+  .logout {
+    margin: 0;
+    z-index: 1;
+    margin-left: auto;
+  }
+
+  .logout a {
+    height: 50px;
+    width: 120px;
+  }
+
+  .mainheading.text-left.setting p {
+    font-size: 16px;
+  }
+
+  div#button-1 {
+    width: 50px;
+    height: 28px;
+    min-width: 50px;
+    margin-left: auto;
+  }
+
+  #button-1 .checkbox:checked + .knobs:before {
+    left: 24px;
+  }
+
+  #button-1 .knobs:before {
+    width: 20px;
+    height: 20px;
+  }
+
+  .button-cover,
+  .knobs,
+  .layer {
+    width: 50px;
+  }
+
+  input.checkbox {
+    width: 50px;
+  }
+
+  div#profile .owl-nav:first-child {
+    display: none;
+  }
+
+  .myprofiledetails .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .myprofiledetails.session {
+    padding: 20px;
+    margin-top: -70px;
+  }
+
+  .myprofiledetails li.nav-item button.active:before {
+    width: 120px;
+  }
+
+  .currentmonth ul#pills-tab li button {
+    width: 150px;
+  }
+
+  .currentmonth ul#pills-tab li button.active:after {
+    width: 100%;
+  }
+
+  .simple-pagination li {
+    margin: 0;
+  }
+
+  span.current.prev {
+    margin-right: 10px;
+  }
+
+  a.page-link.next {
+    margin-left: 10px;
+  }
+
+  ul.timeselect li {
+    width: 28%;
+  }
+
+  ul.download h3 {
+    font-size: 24px;
+  }
+
+  ul.download h3 br {
+    display: none;
+  }
+
+  ul.download p {
+    font-size: 16px;
+  }
+
+  section.packagesec .row .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .profilemain {
+    padding: 30px 20px 50px;
+  }
+
+  ul.instr h5 {
+    font-size: 20px;
+  }
+
+  .name {
+    width: 100%;
+  }
+
+  img.eng {
+    width: 100px;
+  }
+
+  .entername.mt-1 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .signupwith a {
+    height: 50px;
+  }
+
+  .signupwith p {
+    margin: 0 !important;
+  }
+
+  section.login {
+    padding: 50px 0px;
+  }
+  section.login .row {
+    margin: 0px;
+  }
+  section.login .row .col-lg-6 {
+    padding: 0px 5px;
+  }
+  section.login .row .col-6 .profilename input {
+    padding-left: 15px;
+  }
+  section.login .row .col-lg-12 {
+    padding: 0px !important;
+  }
+  section.login .row > * {
+    padding: 0px !important;
+  }
+  .logininfo {
+    padding: 0px 20px;
+  }
+
+  .logininfo h6 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .logininfo h4 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  input.mail {
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
+
+  .logindetail h4 {
+    font-size: 35px;
+    margin: 0;
+  }
+
+  a.login {
+    height: 50px;
+  }
+
+  .ifallogo {
+    width: 150px;
+  }
+
+  .modalbody.text-center h5 {
+    font-size: 25px;
+  }
+
+  .modalbody.text-center img {
+    width: 200px;
+  }
+
+  a.btntime.giverating {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .showdatetime img {
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  span.need {
+    /* display: none; */
+  }
+
+  a#myBtn span {
+    padding-right: 7px;
+  }
+
+  .col-lg-3.list-item a.btntime {
+    display: flex;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .loginimg img {
+    width: 100%;
+    height: 400px;
+  }
+  .profiletab.packagesec.mem {
+    margin-top: 100px;
+  }
+  section.login .container .row {
+    margin: 0px !important;
+  }
+  section.login .container .row .col-lg-6 {
+    padding: 0px !important;
+  }
+
+  .profilename input {
+    height: 40px !important;
+    margin-bottom: 10px !important;
+    padding-left: 18px !important;
+  }
+  .signupwith a {
+    max-width: 100%;
+  }
+  ul.settings1 li{
+    padding: 12px 20px !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .responsive-video {
+    height: 250px !important;
+  }
+  .logininfo h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  button.navbar-toggler {
+    top: 56%;
+    left: 10px;
+  }
+  .profiletab {
+    margin-top: 70px;
+    padding-top: 35px;
+  }
+  ul.teachertab.active {
+    left: 0;
+  }
+  .col-lg-4.position-relative .firstsession:after {
+    height: 100%;
+    width: 16%;
+    top: 0;
+    border-radius: 0;
+  }
+  nav.navbar.navbar-expand-lg {
+    padding-top: 35px !important;
+  }
+  ul.teachertab {
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    min-width: 0 !important;
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    height: 100vh;
+    background: #28aae1;
+    transition: all 0.5s;
+  }
+
+  .tearchermaintab {
+    height: auto !important;
+  }
+
+  ul.teachertab li {
+    text-align: left;
+    margin: 30px;
+  }
+
+  ul.teachertab li.active:before {
+    left: 0;
+    transform: translate(0);
+    bottom: -13px;
+  }
+
+  .firstsessioninfo.teacherreview .sessionimg.sessionreviewimg img {
+    min-width: 80px;
+    height: 80px !important;
+    margin-right: 10px;
+  }
+
+  .firstsessioninfo.teacherreview {
+    align-items: flex-start;
+  }
+
+  .firstsessioninfo.teacherreview .sessiontitle h4 {
+    margin-top: 0;
+  }
+  .firstsessioninfo.teacherreview .sessionimg.sessionreviewimg img {
+    min-width: 80px;
+    height: 80px !important;
+    margin-right: 10px;
+  }
+
+  .firstsessioninfo.teacherreview {
+    align-items: flex-start;
+  }
+
+  .firstsessioninfo.teacherreview .sessiontitle h4 {
+    margin-top: 0;
+  }
+  a.schedualtime {
+    width: 100%;
+  }
+
+  .membership p {
+    font-size: 14px;
+  }
+
+  .membership span {
+    font-size: 14px;
+  }
+
+  table.compentency tr td {
+    font-size: 14px;
+  }
+
+  h1.maintext.mb-3 {
+    font-size: 24px !important;
+  }
+
+  .mainheading.text-left.sesrep {
+    margin-bottom: 30px;
+  }
+
+  .mainheading.text-left.sesrep h1 {
+    font-size: 24px;
+  }
+
+  ul.mispronounce li a {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .favouritetitle.upcomingses p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  input.test {
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  textarea.test {
+    height: 40px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+
+  .mainheading.text-left.sesrep a img {
+    width: 20px;
+  }
+
+  ul.sentencecurrection li {
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  ul.sentencecurrection a {
+    /* height: 40px; */
+    position: absolute;
+    right: 20px;
+  }
+
+  ul.sentencecurrection li span {
+    font-size: 17px;
+  }
+
+  .youcanchoos a {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  a.popup-youtube i {
+    font-size: 12px !important;
+  }
+
+  a.btnnext {
+    height: 25px !important;
+  }
+
+  a.popup-youtube {
+    height: 25px !important;
+    width: 25px !important;
+  }
+
+  .sesstiondetail.booksession .col-lg-4.list-item {
+    width: 50%;
+  }
+
+  .pastsession .btnnext {
+    margin-right: 40px;
+  }
+
+  .findteachertab .col-lg-3.list-item .firstsession:after {
+    width: 100% !important;
+    height: 60px;
+  }
+
+  .firstsessioninfo a {
+    width: 25px;
+    height: 35px;
+    font-size: 10px;
+  }
+
+  .firstsessioninfo a i {
+    font-size: 9px;
+  }
+
+  .col-lg-3.list-item .sessiontitle {
+    margin: 10px 0px;
+  }
+
+  .modaldate ul#pills-tab li button h3 {
+    font-size: 23px;
+  }
+
+  .myprofiledetails.texhmaindetail .sessiontitle {
+    max-width: 190px;
+  }
+
+  .stardiv {
+    display: block;
+  }
+
+  .level {
+    text-align: center;
+  }
+
+  li.anaylytics {
+    margin: 0;
+    border: none;
+    padding-bottom: 10px;
+  }
+
+  .progress-wrap .progress-bar:after {
+    border-radius: 0;
+  }
+
+  .progress-wrap.progress {
+    border-radius: 0;
+  }
+
+  .mem {
+    padding-top: 0 !important;
+  }
+
+  .paidsession h6 {
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 0px;
+  }
+  .membershipborder {
+    border-top: 2px solid rgb(0 0 0 / 10%);
+    border-left: none !important;
+    margin-top: 20px !important;
+  }
+  .exla-mark {
+    padding-left: 5px;
+  }
+  .ana {
+    padding-top: 20px;
+  }
+  .paidsession {
+    padding-left: 0px !important;
+  }
+  .remianinfo {
+    display: flex;
+  }
+
+  li {
+  }
+
+  .remianinfo {
+    display: grid;
+    flex-direction: column-reverse;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .remianinfo p {
+    margin: 0;
+  }
+
+  ul.remain span {
+  }
+
+  .remianinfo p {
+    order: -1;
+  }
+
+  .mem ul.remain li:last-child {
+    display: flex;
+    margin: 0;
+  }
+
+  .mem ul.remain li:last-child span {
+    /* width: auto; */
+    margin-left: auto;
+  }
+
+  .col-lg-4.position-relative {
+    width: 100%;
+  }
+
+  .myprofiledetails.bookless ul.timeselect li {
+    width: 24%;
+  }
+
+  .myprofiledetails.bookless ul.timeselect li a {
+    width: 90px;
+  }
+
+  .firstsessioninfo.upses a.btntime {
+    width: 80% !important;
+  }
+
+  .firstsessioninfo.techdetail .btnblue {
+    margin-top: 11px;
+  }
+
+  .firstsessioninfo.techdetail img {
+    margin-right: 10px;
+  }
+
+  .myprofiledetails.texhmaindetail .sessionimg {
+    max-width: 90px;
+    height: 90px;
+    margin-right: 10px;
+  }
+
+  .myprofiledetails.texhmaindetail .sessionimg img {
+    max-width: 90px;
+    width: 100%;
+    min-width: 100%;
+    height: 90px;
+  }
+
+  .myprofiledetails.misssec .sesiondetail {
+    display: block;
+  }
+
+  .myprofiledetails.misssec .sesiondetail .teacherinfo {
+    max-width: 100%;
+  }
+
+  .btnteacgertime a.btntime {
+    margin: 0;
+  }
+
+  .col-lg-3.list-item {
+    width: 50%;
+    padding: 0 5px;
+  }
+
+  .firstsessioninfo {
+    padding: 10px;
+  }
+
+  .list-item .firstsessioninfo .btntime {
+    margin-top: 0;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .sessionimg {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .sessiontitle h4 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0px;
+  }
+
+  p.misstag {
+    top: 13px;
+    right: -70px;
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .mainheading.text-left.sesrep a {
+    /* width: 100%;
+    max-width: 100%; */
+  }
+
+  .modaldate ul#pills-tab li {
+    height: auto;
+  }
+
+  ul.timeselect li {
+    width: 25%;
+  }
+
+  .modalbooklession {
+    /* position: fixed;
+        bottom: 0;
+        background: white;
+        width: 94%;
+        padding: 10px 0px !important; */
+  }
+
+  .modaldate .modaldatebody {
+    padding-bottom: 60px;
+  }
+
+  .sesiondetail img {
+    margin-right: 10px;
+    width: 90px;
+    height: 100px;
+  }
+
+  .teacherinfo h6 {
+    font-size: 16px;
+  }
+
+  .myprofiledetails {
+  }
+
+  .sesiondetail a.bookmore {
+    margin-top: 11px;
+    font-size: 11px;
+    height: 40px;
+  }
+
+  .teacherinfo {
+    max-width: 148px;
+  }
+
+  .teacherinfo p {
+    display: block;
+    font-size: 14px;
+  }
+
+  .termsdetail {
+    padding: 50px 0px;
+  }
+
+  .profiletab .myprofiledetails {
+    padding: 10px;
+  }
+
+  .sesstiondetail.booksess.mt-5.active .row .col-lg-6 {
+    max-width: 85%;
+  }
+
+  .payment-checkbox {
+    margin: 0 !important;
+    margin-bottom: 13px !important;
+    font-size: 14px !important;
+  }
+
+  span.current.next span {
+    display: none;
+    width: 40px;
+  }
+
+  span.current.next {
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  .simple-pagination .current {
+    width: 40px;
+    height: 40px;
+  }
+
+  .simple-pagination li a,
+  .simple-pagination li span {
+    width: 40px;
+    height: 40px;
+  }
+
+  a.page-link.next {
+    width: 40px !important;
+  }
+
+  span.current.prev {
+    width: 40px;
+  }
+
+  .navbar-nav .nav-item a {
+    font-size: 16px !important;
+  }
+
+  .mem ul.remain p {
+    font-size: 16px;
+    width: auto !important;
+  }
+
+  ul.remain span {
+    width: 40px;
+    height: 40px;
+    font-size: 18px !important;
+    border-radius: 100%;
+    font-size: 16px !important;
+    margin-left: 0;
+  }
+
+  .remianinfo {
+    margin-bottom: 10px !important;
+  }
+
+  .mem ul li {
+    margin-bottom: 20px;
+  }
+
+  .profiletab.packagesec .myprofiledetails {
+    padding: 10px;
+  }
+
+  .dropdown.code {
+    height: 50px;
+    font-size: 14px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 16px;
+    padding-right: 15px;
+  }
+
+  a.btn.btn-primary.btnbook {
+    font-size: 14px;
+    height: 50px;
+  }
+
+  .myprofiledetails.texhmaindetail {
+    padding: 20px !important;
+  }
+
+  .myprofiledetails.texhmaindetail .btnblue {
+    width: 100%;
+  }
+
+  .aboutbio {
+    margin-right: 0;
+  }
+
+  .techdetailimg a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .techdetailimg a i {
+    font-size: 20px;
+  }
+
+  .techdetailimg img {
+    margin-top: 0;
+  }
+
+  .techdetailimg {
+    margin-top: 40px;
+  }
+
+  .profiletabsec.modaldate .myprofiledetails.bookless p {
+    font-size: 16px;
+  }
+
+  .myprofiledetails.bookless ul.timeselect li {
+    width: 33%;
+    margin: 10px 0;
+  }
+
+  .profiletabsec.modaldate
+    .myprofiledetails.bookless
+    a.btn.btn-primary.btnbook {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .meetingbtns a {
+    margin-right: 0;
+  }
+
+  span.yellowtext {
+    font-size: 16px;
+  }
+
+  span.redtext {
+    font-size: 16px;
+  }
+
+  .profilename input {
+    height: 40px !important;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .profilename label {
+    font-size: 16px;
+  }
+
+  .firstsessioninfo a.btntime {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .mainheading.text-left.setting {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  ul.settings li {
+    padding: 15px;
+  }
+
+  .favourittopic .col-lg-3 {
+    width: 100%;
+  }
+
+  .speak {
+    text-align: center;
+  }
+
+  .speak textarea {
+    text-align: center;
+  }
+
+  .myprofiledetails li.nav-item button {
+    width: auto;
+    font-size: 16px !important;
+  }
+
+  .myprofiledetails li.nav-item button.active:before {
+    width: 150px;
+  }
+
+  ul.teachertab li {
+    width: auto;
+  }
+
+  ul.teachertab li a {
+    font-size: 16px;
+  }
+
+  ul.teachertab li.active:before {
+    width: 60px;
+    height: 5px;
+  }
+
+  ul.teachertab {
+    min-width: 831px;
+    font-weight: 100;
+    font-weight: 100;
+  }
+
+  .anaylytics.anaylyticsprebeginner {
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .headingfooter p span {
+    font-size: 16px;
+  }
+
+  ul.remain li:first-child {
+    display: flex;
+  }
+
+  .remianinfo {
+    margin-bottom: 20px;
+    border: none !important;
+  }
+
+  span.current.prev span {
+    display: none;
+  }
+
+  a.page-link.next span {
+    display: none;
+  }
+
+  a.page-link.next {
+    width: 40px !important;
+  }
+
+  span.current.prev {
+    width: 40px;
+  }
+
+  div#pagination-container {
+    margin-top: 30px;
+  }
+
+  .favouritetitle h6 {
+    font-size: 24px;
+  }
+
+  .firstsessioninfo {
+    -ms-flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+  }
+
+  .sesstiondetail.booksession .firstsession img {
+    width: 80px;
+  }
+
+  a.btntime {
+    width: 100%;
+    background: white;
+    /* margin-top: 20px; */
+  }
+
+  .firstsession img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .mainheading p {
+    font-size: 14px;
+  }
+
+  img.eng {
+    left: 40px;
+    top: 0;
+  }
+
+  h1.maintext {
+    font-size: 24px;
+    margin-bottom: 0;
+    line-height: 40px;
+  }
+
+  .valueimg a {
+    width: 60px;
+    height: 60px;
+  }
+
+  .valueimg a i {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .frontcom tbody tr th {
+    padding: 0px 20px;
+    font-size: 14px;
+  }
+
+  .frontcom table tr {
+    height: 60px;
+  }
+
+  .frontcom table {
+    /* min-width: 800px; */
+  }
+
+  .frontcom tbody td {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .frontcom table thead th {
+    font-size: 16px;
+  }
+
+  ul.download img {
+    width: 49%;
+  }
+
+  .contantdetails {
+    padding: 40px 30px;
+  }
+
+  .contantdetails a {
+    margin-top: 0;
+  }
+
+  .footerdetail img {
+    width: 150px;
+  }
+
+  footer {
+    padding-top: 30px;
+  }
+
+  .admin img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .admin {
+    width: 100px;
+    height: 100px;
+  }
+
+  .entername {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .signupwith span {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .signupwith a {
+    max-width: 100%;
+  }
+
+  .signupwith p {
+    font-size: 16px;
+  }
+
+  a.login {
+    font-size: 16px;
+  }
+
+  .logininfo {
+    bottom: 20px;
+  }
+
+  a.forgot {
+    font-size: 16px;
+  }
+
+  .tag p {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .modaldate .modal-dialog.modal-dialog-centered {
+    padding: 0;
+    margin: auto;
+  }
+
+  ul.timeselect li {
+    width: 25%;
+    margin: 5px;
+  }
+
+  .modaldate .modal-footer a {
+    font-size: 14px;
+  }
+
+  ul.timeselect li a {
+    font-size: 14px;
+  }
+
+  .modaldate ul#pills-tab li button span {
+    font-size: 14px;
+  }
+
+  .modaldate ul#pills-tab li button p {
+    font-size: 12px;
+  }
+
+  .modaldate h5#exampleModalLabel {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .favourittopic .row .speak textarea {
+    text-align: center;
+  }
+
+  .progress-wrap.progress {
+    margin: 10px 0px;
+  }
+
+  ul.biginerprogress {
+    margin-bottom: 0;
+  }
+
+  .bigginer span {
+    font-size: 14px;
+  }
+
+  a.page-link.prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  a.page-link.prev span {
+    display: none;
+  }
+
+  .frontcom::-webkit-scrollbar {
+    display: none;
+  }
+
+  .noti h5 {
+    font-size: 17px;
+  }
+
+  .findteacherheading {
+    padding: 45px 0px 11px 0px !important;
+  }
+
+  .forgotpassmail.text-center {
+    padding: 0px 10px;
+  }
+
+  .forgotpassmail.text-center img {
+    width: 170px;
+  }
+
+  .forgotpassmail.text-center p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 30px 0px;
+  }
+
+  .profiletabsec.modaldate {
+    margin-top: 100px;
+  }
+
+  /* .modal-content {
+    border-radius: 25px;
+  } */
+
+  .findteacherheading {
+    padding-top: 80px;
+    margin-top: 0;
+  }
+
+  .practicetextinput {
+    right: 0;
+    top: 15px;
+  }
+
+  .frontcom table thead th {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  td.select.active {
+    border-left: 2px solid #28aae1;
+    border-right: 2px solid #28aae1;
+  }
+
+  .frontcom tbody tr th {
+    padding: 0px 10px;
+    line-height: 25px;
+  }
+
+  a.bookmore {
+    width: 100% !important;
+    min-width: 100%;
+  }
+
+  .frontcom table thead th img {
+    width: 80px;
+  }
+
+  a.navbar-brand {
+    width: 100px;
+    position: relative;
+    left: 70%;
+    right: 0;
+  }
+
+  select.selectpicker {
+    background: transparent;
+  }
+
+  .frame {
+    transform: scale(1.2);
+  }
+
+  li.progressbigginer.sessrep {
+    margin: 0px;
+  }
+
+  li.progressbigginer.sessrep {
+    margin: 0px;
+  }
+  .togglemenu {
+    margin-right: 20px;
+    display: block;
+  }
+
+  .togglemenu i {
+    font-size: 20px;
+  }
+  .togglemenu {
+    height: 17px;
+  }
+  .profileimg .admin a {
+    width: 30px;
+    height: 30px;
+    bottom: 6px;
+  }
+  .findteacherheading.payment-section {
+    margin-top: 40px;
+  }
+  .admin a {
+    top: -10px;
+    right: 0;
+  }
+  #nav-icon1,
+  #nav-icon2,
+  #nav-icon3,
+  #nav-icon4 {
+    width: 25px;
+    height: 17px;
+    position: relative;
+    /* margin: 50px auto; */
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  #nav-icon1 span,
+  #nav-icon3 span,
+  #nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #000000;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+
+  #nav-icon1 span:nth-child(1) {
+    top: 1px;
+  }
+
+  #nav-icon1 span:nth-child(2) {
+    top: 9px;
+  }
+
+  #nav-icon1 span:nth-child(3) {
+    top: 17px;
+  }
+
+  #nav-icon1.open span:nth-child(1) {
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+
+  #nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+
+  #nav-icon1.open span:nth-child(3) {
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .responsive-video {
+    height: 170px !important;
+  }
+  .btnblueApp {
+    width: 100% !important;
+    font-size: 14px;
+  }
+  .myprofiledetails.bookless ul.timeselect li a {
+    width: 100%;
+  }
+
+  .col-lg-3.list-item {
+    width: 50%;
+  }
+
+  .col-lg-3.list-item .sessionimg {
+    margin-right: 10px;
+  }
+
+  .profiletabsec.modaldate .myprofiledetails.bookless p {
+    font-size: 14px;
+  }
+
+  .profiletab.packagesec .myprofiledetails {
+    padding: 10px;
+  }
+
+  .myprofiledetails li.nav-item button {
+    width: 100px;
+  }
+
+  .myprofiledetails li.nav-item button.active:before {
+    width: 90px;
+  }
+
+  .currentmonth ul#pills-tab li button {
+    width: 130px;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .currentmonth ul#pills-tab li button.active {
+    font-size: 17px;
+  }
+
+  .currentmonth ul#pills-tab li button.active:after {
+    width: 90px;
+  }
+
+  .remianinfo:first-child {
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .favouritetitle h6 {
+    font-size: 22px;
+  }
+
+  .simple-pagination .prev.current,
+  .simple-pagination .next.current {
+    font-size: 21px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .simple-pagination li a,
+  .simple-pagination li span {
+    width: 40px;
+    height: 40px;
+  }
+
+  a.page-link.next {
+    width: 40px !important;
+  }
+
+  div#pagination-container {
+    margin: 0;
+  }
+
+  div#pagination-container ul {
+    margin: 0;
+  }
+
+  ul.timeselect li {
+    width: 40%;
+  }
+
+  .signupwith {
+    display: block;
+    text-align: center;
+  }
+
+  .signupwith a {
+    margin: auto;
+  }
+
+  .signupwith p {
+    margin-bottom: 20px !important;
+    display: block;
+  }
+
+  .logininfo h4 {
+    font-size: 24px !important;
+    line-height: 40px !important;
+  }
+
+  .logininfo h6 {
+    font-size: 18px;
+  }
+
+  .logininfo h6 {
+    line-height: 20px;
+  }
+
+  .logininfo span {
+    margin-bottom: 10px !important;
+  }
+
+  .logininfo {
+    padding: 0px 10px;
+  }
+
+  .logindetail h4 {
+    font-size: 30px;
+  }
+
+  .sesstiondetail.booksess.mt-5.active .row .col-lg-6 {
+    max-width: 95%;
+  }
+
+  .youcanchoos p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .responsive-video {
+    height: 170px !important;
+  }
+  .logininfo h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  .logininfo h6 {
+    font-family: "Proxima Nova Rg";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+}

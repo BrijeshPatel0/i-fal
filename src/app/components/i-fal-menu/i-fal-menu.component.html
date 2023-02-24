@@ -1,0 +1,40 @@
+<!-- <app-header></app-header> -->
+<section class="findteachertab" style="padding-bottom: 0px;" [dir] = "directionController.textDirection">
+<div class="tearchermaintab" *ngIf="appointmentCount != '0'">
+  <!-- <div class="tearchermaintab" style="margin-top: 10px;"  *ngIf="appointmentCount != '0'"> -->
+  <div class="container" >
+    <div class="row">
+      <ul class="teachertab">
+          <li (click)="activate('TeacherMN')"  class="TeacherMN test " ><a routerLink="/i-fal-menu">{{'find_teacher' | translate}}</a></li>
+          <li (click)="activate('SessionsMN')"  class="SessionsMN test " ><a routerLink="/i-fal-menu/sessions">{{'sessions' | translate}}</a></li>
+          <li (click)="activate('AnalyticsMN')"  class="AnalyticsMN test " ><a routerLink="/i-fal-menu/analytics">{{'analytics' | translate}}</a></li>
+          <!-- <li  class="MaterialMN test " >
+            <button class="matdrop" [matMenuTriggerFor]="menu">Material</button>
+            <mat-menu #menu="matMenu">
+              <a class="matmenuitem" routerLink="/i-fal-menu/articles" mat-menu-item>{{'article' | translate}}</a>
+              <a class="matmenuitem" routerLink="/i-fal-menu/grammar" mat-menu-item>{{'Grammar' | translate}}</a>
+            </mat-menu>
+          </li> -->
+          <li  class="MaterialMN test " >
+          <div class="dropdown">
+            <button class="matdrop">Material <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a class="matmenuitem" routerLink="/i-fal-menu/articles">{{'article' | translate}}</a>
+              <a class="matmenuitem" routerLink="/i-fal-menu/grammar">{{'Grammar' | translate}}</a>
+            </div>
+          </div>
+        </li>
+          <li (click)="activate('MYProfileMN')"  class="MYProfileMN test " ><a routerLink="/i-fal-menu/my-profile">{{'profile' | translate}}</a></li>
+          <li (click)="activate('MembershipMN')"  class="MembershipMN test " ><a routerLink="/i-fal-menu/member">{{'membership' |translate}}</a></li>
+          <li (click)="activate('PracticeMN')"  class="PracticeMN test " ><a routerLink="/i-fal-menu/practice">{{'words' | translate}}</a></li>
+          <li (click)="activate('SettingsMN')"  class="SettingsMN test " ><a routerLink="/i-fal-menu/settings">{{'settings' | translate}}</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+<section class="findteachertab" style="background-color:#f5f7fb ; margin-top: 0px;padding-top: 0px;">
+<router-outlet></router-outlet>
+</section>
+<!-- <app-footer></app-footer> -->

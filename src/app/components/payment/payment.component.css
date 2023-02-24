@@ -1,0 +1,300 @@
+#select-box option {
+  padding: 0px;
+}
+
+.myprofiledetails p {
+  font-weight: bold;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.payment-credit .tab-content input::placeholder {
+  color: #878b94;
+}
+
+.payment-credit .tab-content input {
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: Proxima Nova rg;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+  color: #878b94;
+}
+.profilename input {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 60px;
+  padding-left: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Proxima Nova rg;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+  color: #878b94;
+}
+#select-box {
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: Proxima Nova rg;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+  color: black;
+  /* padding: 20px 250px 10px 10px; */
+}
+
+.visa-mast img {
+  width: auto;
+  margin: 0px;
+  height: 30px;
+}
+
+.visa-mast {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 30px;
+  display: flex;
+}
+
+.visa-mast i {
+  margin-left: auto;
+  opacity: 0.6;
+}
+
+.payment-credit {
+  width: 100%;
+  max-width: 600px;
+}
+
+.payment-credit .tab-content div:nth-child(6) {
+  margin-bottom: 50px;
+}
+
+.payment-credit .tab-content div:nth-child(6) a {
+  color: rgb(40, 170, 225);
+  text-decoration: underline;
+}
+
+.payment-checkbox input {
+  margin-top: 0px !important;
+  box-shadow: none !important;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  height: 20px !important;
+  max-width: 20px;
+  min-width: 20px !important;
+  margin-top: 3px !important;
+}
+
+.credit-pay-button i {
+  font-size: 23px;
+  margin-left: auto;
+}
+
+.credit-pay-button {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background: rgb(40, 170, 225);
+  border-radius: 5px;
+  border: 1px solid #28aae1;
+  padding: 15px;
+  font-family: Proxima Nova rg;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.005em;
+  color: white;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.need-help {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.need-help i {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: green;
+}
+
+.paypal img {
+  margin-bottom: 40px;
+  height: 90px;
+  width: 90px;
+}
+
+.paypal p {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.paypal {
+  margin-top: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f7fb;
+}
+
+.payment-checkbox {
+  margin: 15px;
+  align-items: flex-start;
+  display: flex;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.payment-height {
+  margin-bottom: 0px !important;
+}
+
+.payment-section {
+  padding-top: 0px;
+}
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.denger {
+  color: red;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+}
+.credit-pay-button:hover{
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  border: 1px solid;
+}
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+::ng-deep .mat-select-arrow {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-top: 8px solid !important;
+  margin: 0px 15px !important;
+}
+.findteacherheading[dir = "rtl"] h1{
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir = "rtl"] p,.profiletab[dir = "rtl"] a, .profiletab[dir = "rtl"] input,::ng-deep .profiletab[dir = "rtl"] .mat-select-value-text,::ng-deep .profiletab[dir = "rtl"] .mat-option-text,.profiletab[dir = "rtl"] .payment-checkbox {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+::ng-deep .profiletab[dir = "rtl"] .mat-option-text{
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir = "rtl"] .visa-mast i{
+  margin-right: auto;
+  margin-left: unset;
+}
+.profiletab[dir = "rtl"] .credit-pay-button i{
+  margin-right: auto;
+  margin-left: unset;
+}
+.profiletab[dir = "rtl"]  .myprofiledetails{
+  margin: auto 10px 0;
+}
+.profiletab[dir=rtl] .mat-option{
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir = "rtl"] .payment-checkbox input{
+  margin-left: 11px !important;
+  margin-right: unset !important;
+}
+
+.optionfont{
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+.form-control:focus {
+  color: #212529 !important;
+  background-color: #fff !important;
+  border-color: #86b7fe !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%) !important;
+}

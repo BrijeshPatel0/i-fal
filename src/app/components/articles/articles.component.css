@@ -1,0 +1,191 @@
+@media only screen and (max-width: 575px) {
+  .firstsessioninfo {
+    padding: 10px !important;
+  }
+
+  .firstsession img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+  }
+
+  .firstsession:after {
+    width: 50px;
+  }
+
+  .sessiontitle {
+    margin: 0px !important;
+  }
+}
+
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+.sessiontitle {
+  width: 65%;
+  /* margin-top: -20px; */
+}
+.sessiontitle h4 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 3px;
+}
+.firstsession:after {
+  content: unset !important;
+  /* left: auto; */
+  height: 100%;
+  width: 90px;
+  position: absolute;
+  background: #28aae1;
+  border-radius: 10px 0px 0px 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 0;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.misstag-rtl {
+  left: -50px;
+  right: auto;
+  transform: rotate(-37.91deg);
+}
+.misstag {
+  top: 15px;
+  right: -70px;
+  font-size: 12px;
+  color: #fff !important;
+  background: #00c853 !important;
+  height: 25px;
+}
+/* .profiletab[dir="rtl"] .misstag {
+  left: -50px;
+  right: auto;
+  transform: rotate(-37.91deg);
+} */
+.findteacherheading[dir="rtl"] h2,
+.findteacherheading[dir="rtl"] h5 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir="rtl"] button,
+.profiletab[dir="rtl"] .misstag,
+::ng-deep .profiletab[dir="rtl"] span,
+::ng-deep .profiletab[dir="rtl"] .ngx-pagination a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .profiletab[dir="rtl"] .myprofiledetails ul#pills-tab {
+    margin-left: 240px !important;
+    margin-right: unset !important;
+  }
+  .firstsessioninfo.upses .sessiontitle1 {
+    max-width: 100% !important;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .myprofiledetails li.nav-item button {
+    width: 180px;
+  }
+  .myprofiledetails {
+    padding: 10px 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .myprofiledetails li.nav-item button {
+    width: 170px;
+  }
+  .myprofiledetails li.nav-item button.active:before {
+    width: 170px;
+}
+}
+
+@media only screen and (max-width: 575px) {
+  .sessiontitle {
+    padding: 0px 10px 0px 0px;
+  }
+  .myprofiledetails li.nav-item button {
+    width: 140px;
+  }
+  .myprofiledetails li.nav-item button.active:before {
+    width: 140px;
+}
+}
+@media only screen and (max-width: 479px) {
+  .myprofiledetails li.nav-item button {
+    width: 115px;
+  }
+  .myprofiledetails li.nav-item button.active:before {
+    width: 115px;
+}
+  .findteacherheading {
+    padding: 35px 0px 70px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .myprofiledetails li.nav-item button {
+    width: 100px;
+  }
+  .myprofiledetails li.nav-item button.active:before {
+    width: 100px;
+}
+}
+@media only screen and (max-width: 349px) {
+  .myprofiledetails li.nav-item button {
+    width: 90px;
+  }
+  .myprofiledetails li.nav-item button.active:before {
+    width: 90px;
+}
+}
+.firstsessioninfo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  -webkit-box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  border: 0px solid #ffffff00 !important;
+}

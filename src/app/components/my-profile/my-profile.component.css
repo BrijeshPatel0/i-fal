@@ -1,0 +1,161 @@
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+.form-control {
+  display: block;
+  width: 100% !important;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #212529 !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid #ced4da !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none;
+  appearance: none !important;
+  border-radius: 0.25rem !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.denger {
+  color: red;
+}
+.profiletab[dir="rtl"] .profileimg {
+  left: 80px;
+  right: unset;
+}
+.profiletab[dir="rtl"] .admin a {
+  left: 10px;
+  right: unset;
+}
+.findteacherheading[dir="rtl"] h1 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir="rtl"] button,
+.profiletab[dir="rtl"] label,
+.profiletab[dir="rtl"] input {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+.form-control:focus {
+  color: #212529 !important;
+  background-color: #fff !important;
+  border-color: #86b7fe !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%) !important;
+}
+.upload-btn-wrapper {
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.iconinput {
+  width: 38px;
+  height: 38px;
+}
+
+.activetab {
+  border: 2px solid #28aae1 !important;
+  color: #28aae1 !important;
+}
+.tabtext {
+  height: 48px;
+  padding: 0 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  /* border: 3px solid #28aae1; */
+  border: 1px solid rgb(133 137 146 / 50%);
+  font-size: 16px;
+  opacity: 1;
+}
+.tabborder1 {
+  border-radius: 0.25rem 0px 0px 0.25rem;
+}
+.tabborder2 {
+  border-radius: 0px 0.25rem 0.25rem 0px;
+}
+.login[dir="rtl"] .favourittopic .tabborder1 {
+  border-radius: 0px 0.25rem 0.25rem 0px;
+}
+.login[dir="rtl"] .favourittopic .tabborder2 {
+  border-radius: 0.25rem 0px 0px 0.25rem;
+}
+.login[dir="rtl"] .tabborder1 {
+  border-radius: 0px 0.25rem 0.25rem 0px;
+}
+@media only screen and (max-width: 600px) {
+  .tabtext {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .profiletab[dir="rtl"] .myprofiledetails ul#pills-tab {
+    margin-left: 240px !important;
+    margin-right: unset !important;
+  }
+  .profiletab[dir="rtl"] .admin a {
+    /* left: unset;
+  right: unset; */
+  }
+}
+@media only screen and (max-width: 479px) {
+  .profiletab[dir="rtl"] .admin a {
+    left: 0px;
+    right: unset;
+  }
+  .iconinput {
+    width: 30px;
+    height: 30px;
+  }
+}

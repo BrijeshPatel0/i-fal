@@ -1,0 +1,70 @@
+footer {
+    /* z-index: 999 !important; */
+}
+.headingfooter h6 {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #424143;
+    margin-bottom: 5px;
+}
+.footerdetail p {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 175%;
+    letter-spacing: 0.005em;
+    color: #858992;
+    padding-right: 10px;
+    margin-top: 31px;
+}
+.headingfooter a {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #858992;
+    text-decoration: none;
+    padding-left: 10px;
+}
+a#myBtn[dir = "rtl"] {
+    width: 215px;
+
+}
+.footerrtl[dir = "rtl"] .headingfooter a{
+    padding-left: unset;
+    padding-right: 10px;
+}
+.footerrtl[dir = "rtl"] h6,.footerrtl[dir = "rtl"] a,.footerrtl[dir = "rtl"] p{
+    font-family: "open-sans-hebrew-condensed" !important;
+  }
+#myBtn[dir = "rtl"] span {
+    font-family: "open-sans-hebrew-condensed" !important;
+  }
+
+  a#myBtnLP {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #28aae1;
+    border-radius: 50px;
+    z-index: 99999;
+}
+a#myBtnLP i {
+    font-size: 26px;
+}

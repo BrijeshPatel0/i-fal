@@ -1,0 +1,102 @@
+<div *ngIf="userScore" class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h1 class="maintext">{{'Score_and_level' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="isShow" class="profiletab packagesec" [dir]="directionController.textDirection">
+    <div class="container">
+        <!-- <div class="favouritetitle upcomingses">
+            <h6>Score and level</h6>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                    </line>
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                    </line>
+                </svg>
+            </span>
+        </div> -->
+        <div class="myprofiledetails">
+            <ul class="biginerprogress">
+                <li class="anaylytics">
+                    <div class="ana">
+                        <div class="frame">
+
+                            <div class="dashboard">
+                                <div class="text">
+                                    <span style="color: #28aae1;
+                                    font-size: 22px;">{{lastmonthScore!.total_score}}</span> <span class="small"
+                                        style="color:#777777">/1000</span>
+                                </div>
+                                <span style="width: 150px;">
+                                    <circle-progress [percent]="progress" [radius]="70" [outerStrokeWidth]="20"
+                                        [innerStrokeWidth]="20" [space]="-20" [outerStrokeColor]="'#28aae1'"
+                                        [innerStrokeColor]="'#e7e8ea'" [showSubtitle]="false" [animation]="isAnimation"
+                                        [animationDuration]="300" [startFromZero]="false" [responsive]="true"
+                                        [unitsColor]="'#ffffff'" [titleColor]="'#ffffff'"></circle-progress>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="level">
+                            <!-- <span class="yellowtext">Level {{lavel}} <span class="of8">of 8</span></span> -->
+                            <span class="yellowtext">{{'level' | translate}} {{lavel}} </span>
+                             <p *ngIf="lavel == 1">{{'Pre_Beginner' | translate}}</p>
+                            <p *ngIf="lavel == 2">{{'Beginner' | translate}}</p>
+                            <p *ngIf="lavel == 3">{{'Pre_Intermediate' | translate}}</p>
+                            <p *ngIf="lavel == 4">{{'Intermediate' | translate}}</p>
+                            <p *ngIf="lavel == 5">{{'Upper_Intermediate' | translate}}</p>
+                            <p *ngIf="lavel == 6">{{'Pre_Advanced' | translate}}</p>
+                            <p *ngIf="lavel == 7">{{'Advanced' | translate}}</p>
+                            <p *ngIf="lavel == 8">{{'Proficient' | translate}}</p>
+                            <!-- <span class="graytext">Previous Score : {{lastmonthScore!.total_score}} </span> -->
+                        </div>
+                    </div>
+                </li>
+                <li class="teacherfind">
+                    <p>{{lastmonthScore!.level_description}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div style="min-height: auto;" class="container" [dir]="directionController.textDirection">
+    <div *ngIf="userScore" class="chartanalytics">
+
+        <canvas [dir]="directionController.textDirection" baseChart [data]="barChartData" [options]="barChartOptions" [plugins]="barChartPlugins"
+            [legend]="barChartLegend" [type]="'bar'">
+        </canvas>
+    </div>
+</div>
+
+
+<!-- <div class="profiletab">
+    <div class="container">
+
+
+
+    </div>
+</div> -->
+<div class="modal fade modaldate show" style="z-index: 100000;" [ngStyle]="{'display': styleExpClancel}" [dir]="directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 550px !important;">
+        <div class="modal-content">
+            <div class="modal-body " style="padding:1rem;">
+                <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                    <p style="line-height: none;text-align:start;">{{message}}</p>
+                    <div class="okayClose">
+                        <a style="cursor: pointer;" (click)="closePopup()" class="btnblue">{{'ok' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

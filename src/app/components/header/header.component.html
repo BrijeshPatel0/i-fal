@@ -1,0 +1,268 @@
+<header>
+  <!-- <nav class="navbar navbar-expand-lg" style="padding-top: 55PX;"  [dir] = "directionController.textDirection"> -->
+  <nav  *ngIf="!homePageHeader" [ngStyle]="{'padding-top':!landgPage?'10px':'50px' }" class="navbar navbar-expand-lg"
+    [dir]="directionController.textDirection">
+    <!-- <div class="container">
+      <div class="row" style="width: 100%;">
+        <div class="col-4">
+          <button *ngIf="appointmentCount != '0'"  style="    border: none;
+          background: none;" class="" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="" *ngIf="landgPage">
+            <div class="" mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+              <i class="fa fa-bars" style="font-size: 30px;" aria-hidden="true"></i>
+            </div>
+          </span></button>
+        </div>
+        <div class="col-4">
+          <a style="cursor: pointer;" class="" routerLink="/"><img style="width: 110px;" src="assets/images//home/logo.svg"
+            alt="logo"></a>
+        </div>
+        <div class="col-4">
+          <ul class="navbar-nav  m-lg-auto" style="position: unset;" id="homePageHeader" *ngIf="!homePageHeader">
+            <li class="nav-item">
+              <div class="dropdown">
+                <a style="cursor: pointer;" (click)="openClosePopup(isActive)" class="js-link"><img
+                    [src]="languageImage">{{languageName}} <i class="fa fa-chevron-down"></i></a>
+                <ul class="js-dropdown-list1" [ngStyle]="{'display': styleExp}">
+                  <li (click)="selectLanguage('en','English','assets/images/us.svg')"><img
+                      src="assets/images/us.svg">English</li>
+                  <li (click)="selectLanguage('isr','עִברִית','assets/images/israel.svg')"><img
+                      src="assets/images/israel.svg">עִברִית</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row mobileview" style="width: 100%;" >
+        <div class="col-4">
+          <button *ngIf="appointmentCount != '0'"  style="    border: none;
+          background: none;" class="" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="" *ngIf="landgPage">
+            <div class="" mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+              <i class="fa fa-bars" style="font-size: 30px;" aria-hidden="true"></i>
+            </div>
+          </span></button>
+        </div>
+        <div class="col-4">
+          <a style="cursor: pointer;" class="" routerLink="/"><img style="width: 110px;" src="assets/images//home/logo.svg"
+            alt="logo"></a>
+        </div>
+        <div class="col-4">
+          <ul class="navbar-nav  m-lg-auto" style="position: unset;" id="homePageHeader" *ngIf="!homePageHeader">
+            <li class="nav-item">
+              <div class="dropdown">
+                <a style="cursor: pointer;" (click)="openClosePopup(isActive)" class="js-link"><img
+                    [src]="languageImage">{{languageName}} <i class="fa fa-chevron-down"></i></a>
+                <ul class="js-dropdown-list1" [ngStyle]="{'display': styleExp}">
+                  <li (click)="selectLanguage('en','English','assets/images/us.svg')"><img
+                      src="assets/images/us.svg">English</li>
+                  <li (click)="selectLanguage('isr','עִברִית','assets/images/israel.svg')"><img
+                      src="assets/images/israel.svg">עִברִית</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <a style="cursor: pointer;" class="navbar-brand webview" routerLink="/"><img src="assets/images//home/logo.svg"
+          alt="logo"></a>
+      <button *ngIf="appointmentCount != '0'" class="navbar-toggler webview" type="button" data-toggle="collapse"
+        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="" *ngIf="landgPage">
+          <div class="" mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+            <i class="fa fa-bars" style="font-size: 30px;" aria-hidden="true"></i>
+          </div>
+        </span></button>
+      <div class="langugeselect">
+      </div>
+      <div class="collapse navbar-collapse webview" id="navbarNav">
+
+        <ul class="followus" *ngIf="landgPage">
+          <li class="social">
+            <span>{{'Follow_Us' | translate}}</span>
+            <a style="cursor: pointer;" href="https://instagram.com/ifal_app?igshid=YmMyMTA2M2Y=" target=”_blank”><i
+                class="fab fa-instagram"></i></a>
+            <a style="cursor: pointer;" href="https://www.facebook.com/groups/724459755597676" target=”_blank”><i
+                class="fab fa-facebook-f"></i></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav  m-lg-auto">
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('about')">{{'about' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('Why_ifal')">{{'Why_ifal' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('Pricing')">{{'Pricing' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('Our_Teachers')">{{'Our_Teachers' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('FAQs')">{{'FAQs' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('contact')">{{'contact' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('login')">{{'login' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli">
+            <div class="dropdown">
+              <a style="cursor: pointer;" (click)="openClosePopup(isActive)" class="js-link"><img
+                  [src]="languageImage">{{languageName}} <i class="fa fa-chevron-down"></i></a>
+              <ul class="js-dropdown-list1" [ngStyle]="{'display': styleExp}">
+
+                <li (click)="selectLanguage('en','English','assets/images/us.svg')"><img
+                    src="assets/images/us.svg">English</li>
+                <li (click)="selectLanguage('isr','עִברִית','assets/images/israel.svg')"><img
+                    src="assets/images/israel.svg">עִברִית</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav webview  m-lg-auto" id="homePageHeader" *ngIf="!homePageHeader">
+        <li class="nav-item">
+          <div class="dropdown">
+            <a style="cursor: pointer;" (click)="openClosePopup(isActive)" class="js-link"><img
+                [src]="languageImage">{{languageName}} <i class="fa fa-chevron-down"></i></a>
+            <ul class="js-dropdown-list1" [ngStyle]="{'display': styleExp}">
+              <li (click)="selectLanguage('en','English','assets/images/us.svg')"><img
+                  src="assets/images/us.svg">English</li>
+              <li (click)="selectLanguage('isr','עִברִית','assets/images/israel.svg')"><img
+                  src="assets/images/israel.svg">עִברִית</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav  *ngIf="homePageHeader" [ngClass]="landgPage?'landgPage':'landgPage1'"  class="navbar navbar-expand-lg"
+    [dir]="directionController.textDirection">
+    <div class="container">
+      <a *ngIf="landgPage" style="cursor: pointer;" class="navbar-brand" routerLink="/"><img src="assets/images//home/logo.svg"
+          alt="logo"></a>
+          <a *ngIf="!landgPage" style="cursor: pointer;" class="navbar-brand" ><img src="assets/images//home/logo.svg"
+            alt="logo"></a>
+      <button *ngIf="appointmentCount != '0' && landgPage" class="navbar-toggler " type="button" data-toggle="collapse"
+        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="">
+          <div class="" mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+            <i class="fa fa-bars" style="font-size: 30px;" aria-hidden="true"></i>
+          </div>
+        </span></button>
+      <!-- <div class="langugeselect">
+      </div> -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="followus" *ngIf="landgPage">
+          <li class="social">
+            <span>{{'Follow_Us' | translate}}</span>
+            <a style="cursor: pointer;" href="https://instagram.com/ifal_app?igshid=YmMyMTA2M2Y=" target=”_blank”><i
+                class="fab fa-instagram"></i></a>
+            <a style="cursor: pointer;" href="https://www.facebook.com/groups/724459755597676" target=”_blank”><i
+                class="fab fa-facebook-f"></i></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav  m-lg-auto">
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('about')">{{'about' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('Why_ifal')">{{'Why_ifal' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('Pricing')">{{'Pricing' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('Our_Teachers')">{{'Our_Teachers' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('FAQs')">{{'FAQs' | translate}}</span>
+          </li>
+          <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('contact')">{{'contact' | translate}}</span>
+          </li>
+          <!-- <li class="nav-item topmenuli" *ngIf="landgPage">
+            <span style="cursor: pointer;" (click)="redirectHome('login')">{{'login' | translate}}</span>
+          </li> -->
+          <li class="nav-item topmenuli">
+            <div class="dropdown">
+              <a style="cursor: pointer;" (click)="openClosePopup(isActive)" class="js-link"><img
+                  [src]="languageImage">{{languageName}} <i class="fa fa-chevron-down"></i></a>
+              <ul class="js-dropdown-list1" [ngStyle]="{'display': styleExp}">
+
+                <li (click)="selectLanguage('en','English','assets/images/us.svg')"><img
+                    src="assets/images/us.svg">English</li>
+                <li (click)="selectLanguage('isr','עִברִית','assets/images/israel.svg')"><img
+                    src="assets/images/israel.svg">עִברִית</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav  m-lg-auto" id="homePageHeader" *ngIf="!landgPage">
+        <li class="nav-item">
+          <div class="dropdown">
+            <a style="cursor: pointer;" (click)="openClosePopup(isActive)" class="js-link"><img
+                [src]="languageImage">{{languageName}} <i class="fa fa-chevron-down"></i></a>
+            <ul class="js-dropdown-list1" [ngStyle]="{'display': styleExp}">
+              <li (click)="selectLanguage('en','English','assets/images/us.svg')"><img
+                  src="assets/images/us.svg">English</li>
+              <li (click)="selectLanguage('isr','עִברִית','assets/images/israel.svg')"><img
+                  src="assets/images/israel.svg">עִברִית</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<mat-sidenav-container fxFlexFill class="menuslider" [dir]="directionController.textDirection">
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu" mat-list-item (click)="sidenav.toggle()">{{'find_teacher' |
+        translate}}</a>
+      <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/analytics" mat-list-item
+        (click)="sidenav.toggle()">{{'analytics' | translate}}</a>
+      <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/sessions" mat-list-item (click)="sidenav.toggle()">{{'sessions'
+        | translate}}</a>
+      <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/my-profile" mat-list-item (click)="sidenav.toggle()">{{'profile'
+        | translate}}</a>
+      <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/member" mat-list-item (click)="sidenav.toggle()">{{'membership'
+        |translate}}</a>
+      <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/practice" mat-list-item (click)="sidenav.toggle()">{{'words' |
+        translate}}</a>
+      <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/settings" mat-list-item (click)="sidenav.toggle()">{{'settings'
+        | translate}}</a>
+        <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/articles" mat-list-item (click)="sidenav.toggle()">{{'article'
+          | translate}}</a>
+          <a class="sidebarfont" *ngIf="homePageHeader" routerLink="/i-fal-menu/grammar" mat-list-item (click)="sidenav.toggle()">{{'Grammar'
+            | translate}}</a>
+
+      <a class="sidebarfont" *ngIf="!homePageHeader" style="cursor: pointer;" mat-list-item
+        (click)="redirectHomeNew('about',sidenav)">{{'about' | translate}}</a>
+      <a class="sidebarfont" *ngIf="!homePageHeader" style="cursor: pointer;" mat-list-item
+        (click)="redirectHomeNew('Why_ifal',sidenav)">{{'Why_ifal' | translate}}</a>
+      <a class="sidebarfont" *ngIf="!homePageHeader" style="cursor: pointer;" mat-list-item
+        (click)="redirectHomeNew('Pricing',sidenav)">{{'Pricing' | translate}}</a>
+      <a class="sidebarfont" *ngIf="!homePageHeader" style="cursor: pointer;" mat-list-item
+        (click)="redirectHomeNew('Our_Teachers',sidenav)">{{'Our_Teachers' | translate}}</a>
+      <a class="sidebarfont" *ngIf="!homePageHeader" style="cursor: pointer;" mat-list-item
+        (click)="redirectHomeNew('FAQs',sidenav)">{{'FAQs' | translate}}</a>
+      <a class="sidebarfont" *ngIf="!homePageHeader" style="cursor: pointer;" mat-list-item
+        (click)="redirectHomeNew('contact',sidenav)">{{'contact' | translate}}</a>
+        <a class="sidebarfont" *ngIf="!homePageHeader" style="cursor: pointer;" mat-list-item
+        (click)="redirectHomeNew('login',sidenav)">{{'login' | translate}}</a>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-sidenav-container>

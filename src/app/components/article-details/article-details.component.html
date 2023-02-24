@@ -1,0 +1,303 @@
+<div class="findteacherheading">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h2 class="maintext">{{articlesDetailsModel.artical_name}}
+            </h2>
+            <!-- <span class="dropdown1">
+                <button onclick="{$('.myDropdown').toggleClass('show');}" class="dropbtn1">
+                    match
+            
+            </button>
+            </span>
+            <span id="myDropdown" class=" myDropdown t1 dropdown-content">
+                <span style="display: flex;
+                margin: auto;
+                width: 40%;">
+                    <a style="cursor: pointer;cursor: pointer !important;
+                    padding: 5px !important;
+                    width: 30px !important;" onclick="{var voices = speechSynthesis.getVoices();
+var msg = new SpeechSynthesisUtterance('Female');
+msg.lang = 'en-GB';
+msg.voice = voices.filter(function (voice) {
+return voice.name == 'Google UK English Female';
+})[0];
+speechSynthesis.speak(msg);}" >
+                        <img style="width: 22px;" src="assets/images/teacher/speaker.png" alt="">
+                    </a>
+                    <span style="    font-size: 22px;
+                    padding: 5px;
+                    font-weight: 700;">  match</span>
+                </span>
+                <span>
+                    query.vocabular
+                </span>
+                <span>
+                    query.vocabulary_he
+                </span>
+                <button onclick="{$('.myDropdown').toggleClass('show');}">
+                    okay
+                </button>
+            </span> -->
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+<!-- <div class="profiletab" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="myprofiledetails">
+            <div class="sesiondetail">
+                <img style="width: 300px;height: auto;    border: 2px solid #28AAE1; border-radius: 10px;"
+                    src="{{articlesDetailsModel.artical_image}}" alt="">
+                <div class="teacherinfo">
+                    <h6>{{articlesDetailsModel.artical_name}}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="profiletab" style=" margin-top: -90px;" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class=" session">
+            <!-- <ul class="nav nav-pills mb-3 upcoming myprofiledetails" id="pills-tab" role="tablist">
+                <drag-scroll #nav [scroll-x-wheel-enabled]="true" class="nav-overflow" style="
+                width: auto; max-width: 90%;">
+                    <li (click)="activate('navitem1')" class="nav-item" role="presentation" drag-scroll-item>
+                        <button class="nav-link t1 active navitem1" id="pills-vocabulary-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-vocabulary" type="button" role="tab" aria-controls="pills-vocabulary"
+                            aria-selected="true">{{'essential_vocabulary' | translate}}</button>
+                    </li>
+                    <li (click)="activate('navitem2')" class="nav-item" role="presentation" drag-scroll-item>
+                        <button class="nav-link t1 navitem2" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">{{articlesDetailsModel.type == 'Article' ?'dialogue' :'article' |
+                            translate }}</button>
+                    </li>
+                    <li (click)="activate('navitem3')" class="nav-item" role="presentation" drag-scroll-item>
+                        <button class="nav-link t1 navitem3" id="pills-advances-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-advances" type="button" role="tab" aria-controls="pills-advances"
+                            aria-selected="false">{{'reading_comprehension' | translate}}</button>
+                    </li>
+                    <li (click)="activate('navitem4')" class="nav-item" role="presentation" drag-scroll-item>
+                        <button class="nav-link t1 navitem4" id="pills-discussion-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-discussion" type="button" role="tab" aria-controls="pills-discussion"
+                            aria-selected="false">{{'further_discussion' | translate}}</button>
+                    </li>
+                </drag-scroll>
+
+
+            </ul> -->
+            <div class="profiletabsec modaldate " [dir]="directionController.textDirection">
+                <div class="container" style="padding: 0px;">
+                    <div class="myprofiledetails bookless" style="padding: 5px;">
+                        <div class="modal-body">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist"
+                                style="max-width: 100%;">
+                                <div #nav class="nav-overflow" style="width: auto; max-width: 90%; display: contents;">
+                                    <li (click)="activate('navitem1')" class="nav-item" role="presentation" drag-scroll-item>
+                                        <button class="nav-link t1 active navitem1" id="pills-vocabulary-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-vocabulary" type="button" role="tab" aria-controls="pills-vocabulary"
+                                            aria-selected="true">{{'essential_vocabulary' | translate}}</button>
+                                    </li>
+                                    <li (click)="activate('navitem2')" class="nav-item" role="presentation" drag-scroll-item>
+                                        <button class="nav-link t1 navitem2" id="pills-profile-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                            aria-selected="false">{{articlesDetailsModel.type == 'Article' ?'article' :'dialogue' |
+                                            translate }}</button>
+                                    </li>
+                                    <li (click)="activate('navitem3')" class="nav-item" role="presentation" drag-scroll-item>
+                                        <button class="nav-link t1 navitem3" id="pills-advances-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-advances" type="button" role="tab" aria-controls="pills-advances"
+                                            aria-selected="false">{{'reading_comprehension' | translate}}</button>
+                                    </li>
+                                    <li (click)="activate('navitem4')" class="nav-item" role="presentation" drag-scroll-item>
+                                        <button class="nav-link t1 navitem4" id="pills-discussion-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-discussion" type="button" role="tab" aria-controls="pills-discussion"
+                                            aria-selected="false">{{'further_discussion' | translate}}</button>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-vocabulary" role="tabpanel"
+                    aria-labelledby="pills-vocabulary-tab">
+                    <div class="sesstiondetail">
+                        <div class="row" dir="ltr">
+                            <div *ngFor="let item of vocabularyDetailsModel; let i = index" class="col-lg-4">
+                                <div class="firstsession">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle sessiontitle1">
+                                            <h4>{{i+1}}. {{item.vocabulary_name}} ({{item.vocabulary_pronunciation}})
+                                                ({{item.vocabulary_types}})
+                                            </h4>
+                                            <p style="color: #333333 !important;
+                                            opacity: 0.8 !important;" class="wordSentance">{{item.vocabulary_description}}</p>
+                                            <p class="wordSentance1" style="color: #f9a722 !important;">Sample Sentence
+                                            </p>
+                                            <p style="color: #333333 !important;
+                                            opacity: 0.8 !important;" dir='ltr' class="wordSentance2" [innerHTML]="item.simple_sentenceNew">
+                                            </p>
+                                            <a *ngIf="!item.id" style="cursor:pointer;"
+                                                (click)="addFavouriteWord(item,i)" class="btntime">Add to favorite}</a>
+                                            <a *ngIf="item.id" style="cursor:pointer;"
+                                                (click)="deleteFavouriteWord(item,i)"
+                                                class="btntime">Remove from favorite</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                    dir="ltr">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div>
+                                <div class="firstsession pastsession">
+                                    <div class="firstsessioninfo firstsession-completed upses">
+                                        <div class="sessiontitle">
+                                            <span
+                                                [innerHTML]="articlesDetailsModel.artical_description | safeHtml"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-advances" role="tabpanel" aria-labelledby="pills-advances-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div>
+                                <div class="firstsession">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle sessiontitle2" style="display: flex; width: 100%;">
+                                            <p style="width: 100%; margin: auto;">{{'test_your_comprehension_below' |
+                                                translate}}</p>
+                                            <button type="button" (click)="previousAttempts()"
+                                                class=" btn btn-primary1 box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);">
+                                                {{'previous_attempts' | translate}} </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" dir="ltr">
+                            <div *ngFor="let item of readingComprehensionModel; let i = index" class="col-lg-6">
+                                <div class="firstsession">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle sessiontitle2">
+                                            <h4 style="margin-bottom: 10px;">{{i+1}}. {{item.question}}</h4>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'A'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'A')?'success':(item.selectAnswer == 'A'?'danger':((item.answer == 'A')?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;">
+                                                <div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">
+                                                    A</div>
+                                                <div style="margin: auto 10px;">{{item.options.A}}</div>
+                                            </div>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'B'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'B')?'success':(item.selectAnswer == 'B'?'danger':(item.answer == 'B'?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;">
+                                                <div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">
+                                                    B</div>
+                                                <div style="margin: auto 10px;">{{item.options.B}}</div>
+                                            </div>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'C'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'C')?'success':(item.selectAnswer == 'C'?'danger':(item.answer == 'C'?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;">
+                                                <div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">
+                                                    C</div>
+                                                <div style="margin: auto 10px;">{{item.options.C}}</div>
+                                            </div>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'D'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'D')?'success':(item.selectAnswer == 'D'?'danger':(item.answer == 'D'?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;">
+                                                <div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">
+                                                    D</div>
+                                                <div style="margin: auto 10px;">{{item.options.D}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div [dir]="directionController.textDirection">
+                            <button type="button" style="display: block; padding: 10px 20px;
+                            font-size: 18px;" (click)="onSubmit()"
+                                class=" mt-3 col-2 btn btn-primary box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);">
+                                {{'submit' |
+                                translate}} </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-discussion" role="tabpanel" aria-labelledby="pills-discussion-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+
+                            <div>
+                                <div class="firstsession">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle" style="margin-bottom: 10px;">
+                                            <h4 style="font-size: 20px; font-weight: 200;">
+                                                {{'enjoy_having_a_conversation_with_your_teacher' | translate}}</h4>
+                                        </div>
+                                        <div  dir="ltr" class="sessiontitle sessiontitle1"
+                                            *ngFor="let item of articlesDetailsModel.further_discussion; let i = index">
+                                            <h4 style="line-height: 40px;">{{i+1}}. {{item}}</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="firstsession">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle" style="margin-bottom: 10px;">
+                                            <h4 style="font-size: 20px; font-weight: 200;">
+                                                {{'this_lesson_is_based_on_an_article' | translate}}</h4>
+                                        </div>
+                                        <div class="sessiontitle">
+                                            <!-- <h4>{{'this_lesson_is_based_on_an_article' | translate}}</h4> -->
+
+                                            <a class="googlelink" href="{{articlesDetailsModel.google_drive_link}}"
+                                                target="_blank"
+                                                style="text-decoration: underline !important;">{{articlesDetailsModel.google_drive_link
+                                                }} </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="firstsession" style="background: #28aae1;">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle" style="margin-right: auto;">
+                                            <h4 style="font-size: 20px; font-weight: 200; color: #fff;">
+                                                {{'disclaimer_this_lesson_is_for_educational_purposes_only' |
+                                                translate}}</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" style="z-index: 99999999;" color="red" class="mat-spinner-color"></mat-spinner>

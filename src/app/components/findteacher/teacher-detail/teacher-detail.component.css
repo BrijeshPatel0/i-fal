@@ -1,0 +1,401 @@
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+.aboutbio h5 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 15px;
+}
+.sessiontitle h4 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 3px;
+}
+.sessiontitle p {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #777777;
+  margin-bottom: 5px;
+}
+.stardiv h5 {
+  margin: 0;
+  margin-right: 10px;
+}
+.sessiontitle h5 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #858992;
+  margin-bottom: 5px;
+}
+.favouritetitle h6 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #424143;
+}
+.modaldate .modal-dialog.modal-dialog-centered {
+  max-width: 940px !important;
+}
+drag-scroll div {
+  overflow: hidden !important;
+}
+.drag-scroll-content {
+  overflow: hidden !important;
+}
+.test {
+  overflow: hidden !important;
+}
+ul.timeselect li a {
+  cursor: pointer;
+}
+drag-scroll div {
+  overflow: hidden !important;
+}
+
+ul.timeselect span {
+  width: 20%;
+}
+.modaldate .modal-content {
+  border-radius: 50px;
+}
+ul.timeselect li a {
+  width: 142px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid rgb(133 137 146 / 50%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #858992;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+button.btn.btn-primary.btnbook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #28aae1;
+  border-radius: 5px;
+  width: 243px;
+  height: 50px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.crop {
+  overflow: hidden;
+}
+
+.sessionmainname i {
+  color: #faa721;
+  margin: 0px !important;
+}
+
+.modaldate ul#pills-tab li {
+  width: 80px;
+  height: 94px;
+  margin: 5px;
+}
+.modaldate ul#pills-tab li button {
+  width: 80px;
+  height: 100px !important;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0 !important;
+}
+ul.timeselect li a {
+  width: 162px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(133 137 146 / 50%);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #858992;
+  transition: all 0.5s;
+}
+ul.timeselect li {
+  width: auto;
+  margin: 6px 0px;
+}
+.croprating {
+  margin-top: -24px;
+}
+.profiletabtopm[dir="rtl"] .firstsessioninfo a {
+  margin-left: unset;
+  margin-right: auto;
+}
+.teacherdetailrtl[dir="rtl"] .modal-header .btn-close {
+  margin-left: unset;
+  margin-right: auto;
+}
+.teacherdetailrtl[dir="rtl"] .modaldate ul#pills-tab {
+  padding-right: 0px;
+}
+.profiletabtopm[dir="rtl"] .sessionimg {
+  margin-left: 22px;
+  margin-right: unset;
+}
+.profiletabtopm[dir="rtl"] .stardiv h5 {
+  margin-right: unset;
+  margin-left: 10px;
+}
+.profiletabtopm[dir="rtl"] .sessiontitle h5 i {
+  margin-right: unset;
+  margin-left: 10px;
+}
+ul.timeselect li.active1 a {
+  background: red;
+  color: white !important;
+}
+.modaldate ul#pills-tab li button.active1 {
+  background: red !important;
+  color: white !important;
+}
+@media only screen and (max-width: 575px) {
+  .croprating {
+    margin-top: -18px;
+  }
+  ::ng-deep .drag-scroll-content {
+    overflow: initial;
+  }
+
+  .firstsessioninfo.upses .sessiontitle {
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .profiletabtopm[dir="rtl"] .firstsessioninfo {
+    text-align: right;
+  }
+}
+
+.findteacherheading[dir="rtl"] h1 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.modaldate[dir="rtl"] h5,
+.modaldate[dir="rtl"] p,
+.modaldate[dir="rtl"] span,
+.modaldate[dir="rtl"] a,
+.modaldate[dir="rtl"] button,.modaldate[dir="rtl"] div ,.modaldate[dir="rtl"] label  {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+.teacherdetailrtl[dir="rtl"] h5,
+.teacherdetailrtl[dir="rtl"] p,
+.teacherdetailrtl[dir="rtl"] span,
+.teacherdetailrtl[dir="rtl"] a,
+.teacherdetailrtl[dir="rtl"] button {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+.profiletab[dir="rtl"] p,
+.profiletab[dir="rtl"] a,
+.profiletab[dir="rtl"] h5 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.teacherdetailrtl[dir="rtl"] p,
+.teacherdetailrtl[dir="rtl"] a,
+.teacherdetailrtl[dir="rtl"] h6,
+.teacherdetailrtl[dir="rtl"] h5,
+.teacherdetailrtl[dir="rtl"] button,
+.teacherdetailrtl[dir="rtl"] h4,
+::ng-deep .teacherdetailrtl[dir="rtl"] span,
+::ng-deep .teacherdetailrtl[dir="rtl"] .ngx-pagination a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.container1 {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border: none;
+}
+::ng-deep iframe body video {
+  min-height: 100%;
+}
+.responsive-video {
+  margin: 0 auto;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 500px;
+}
+
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.expanxsion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  box-shadow: 0px 8px 10px rgb(0 0 0 / 8%) !important;
+  border-radius: 10px !important;
+  padding: 15px 42px;
+  margin-bottom: 19px;
+  margin: 5px;
+}
+::ng-deep.form-check-input:checked {
+  background-color: #faa721 !important;
+  border-color: #faa721 !important;
+  box-shadow: 0 0 0 0.25rem rgb(253 153 13 / 25%) !important;
+}
+
+.settingmarging[dir="rtl"] .form-check .form-check-input {
+  float: right;
+  margin-right: -1.5em;
+}
+.form-group label {
+  visibility: visible;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #777777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bissuness {
+  font-family: "Proxima Nova Rg";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #858992;
+    text-align:start !important;
+}
+.classPreference[dir="rtl"] .form-check .form-check-input {
+  float: right;
+  margin-right: -1.5em;
+}
+.classPreference[dir="rtl"] .form-check {
+  padding-right: 1.5em;
+}
+.okayClose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: end !important;
+}

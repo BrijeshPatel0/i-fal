@@ -1,0 +1,258 @@
+<!-- <section class="findteachertab"> -->
+<!-- <div class="tearchermaintab">
+      <div class="container">
+          <ul class="teachertab">
+              <li><a routerLink="/findteacher">Find a Teacher</a></li>
+              <li><a routerLink="/analytics">Analytics</a></li>
+              <li><a routerLink="/session">Sessions</a></li>
+              <li><a routerLink="/profile">My Profile</a></li>
+              <li><a routerLink="/member">Membership</a></li>
+              <li><a routerLink="/practice">Practice words</a></li>
+
+              <li class="active"><a href="setting.php">Settings</a></li>
+
+          </ul>
+      </div>
+  </div> -->
+
+<div class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left setting">
+            <div class="setting">
+                <h1 class="maintext ">{{'settings' | translate}}
+                </h1>
+                <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                        <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    </svg>
+                </span>
+                <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                  obligation</p> -->
+            </div>
+            <div class="logout">
+                <a style="cursor: pointer;" class="redbtn" (click)="openLogout()">{{'logout_title' | translate}}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container settingmarging" [dir]="directionController.textDirection">
+    <ul class="settings">
+        <li>
+            <mat-accordion style="width: 100%;">
+                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title class="notititle">
+                            {{'notifications' | translate}}
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div class="settings2" >{{'email' | translate}}</div>
+                    <ul class="settings1">
+                        <form [formGroup]="notificationForm">
+                        <li>
+                            <div class="noti">
+                                <h5>{{'session_confirmation' | translate}}</h5>
+                            </div>
+                            <div class="button r" id="button-1">
+                                <input type="checkbox" class="checkbox" formControlName="mail_session_confirmation" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="noti">
+                                <h5>{{'session_report' | translate}}</h5>
+                            </div>
+                            <div class="button r" id="button-1">
+                                <input type="checkbox" class="checkbox" formControlName="mail_session_report" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </li>
+                    </form>
+                    </ul>
+                    <div class="youcanchoos" style="    margin-bottom: 0px;
+                    text-align: end;">
+                        <a style="   cursor: pointer; margin-top: 0px;" (click)="onNotificationSubmit()"
+                            class="schedualtime">{{'save' | translate}}</a>
+                    </div>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </li>
+        <li>
+            <mat-accordion style="width: 100%;">
+                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title class="notititle">
+                            {{'reminders' | translate}}
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div class="settings2">{{'whatsapp_messages' | translate}}</div>
+                    <form [formGroup]="remindersForm">
+                    <ul class="settings1">
+                        
+                        <li>
+                            <div class="noti">
+                                <h5>{{'before_3_hours' | translate}}</h5>
+                            </div>
+                            <div class="button r" id="button-1">
+                                <input type="radio" class="checkbox" name="whatsapp" value="whatsapp_3_hours" formControlName="whatsapp" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="noti">
+                                <h5>{{'before_30_minutes' | translate}}</h5>
+                            </div>
+                            <div class="button r" id="button-1">
+                                <input type="radio" class="checkbox" name="whatsapp" value="whatsapp_30_minutes" formControlName="whatsapp" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="noti">
+                                <h5>{{'before_5_minutes' | translate}}</h5>
+                            </div>
+                            <div class="button r" id="button-1">
+                                <input type="radio" class="checkbox" name="whatsapp" value="whatsapp_5_minutes" formControlName="whatsapp" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="settings2">{{'email' | translate}}</div>
+                    <ul class="settings1">
+                        <li>
+                            <div class="noti">
+                                <h5>{{'before_10_minutes' | translate}}</h5>
+                            </div>
+                            <div class="button r" id="button-1">
+                                <input type="checkbox" class="checkbox" formControlName="mail_10_minutes" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="settings2">{{'ivr' | translate}}</div>
+                    <ul class="settings1">
+                        <li>
+                            <div class="noti">
+                                <h5>{{'before_2_5_minutes' | translate}}</h5>
+                            </div>
+                            <div class="button r" id="button-1">
+                                <input type="checkbox" class="checkbox" formControlName="ivr_2_5_minutes" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+                    <div class="youcanchoos" style="    margin-bottom: 0px;
+                    text-align: end;">
+                        <a style="    cursor: pointer; margin-top: 0px;" (click)="onRemindersSubmit()"
+                            class="schedualtime">{{'save' | translate}}</a>
+                    </div>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </li>
+        <!-- <li>
+            <div class="noti">
+                <h5>{{'push_notification' | translate}}</h5>
+            </div>
+            <div class="button r" id="button-1">
+                <input type="checkbox" class="checkbox" checked />
+                <div class="knobs"></div>
+                <div class="layer"></div>
+            </div>
+        </li>
+        <li>
+            <div class="noti">
+                <h5>{{'daily_word_notification' | translate}}</h5>
+            </div>
+            <div class="button r" id="button-1">
+                <input type="checkbox" class="checkbox" />
+                <div class="knobs"></div>
+                <div class="layer"></div>
+            </div>
+        </li>
+        <li>
+            <div class="noti">
+                <h5>{{'whatsapp_notification' | translate}}</h5>
+            </div>
+            <div class="button r" id="button-1">
+                <input type="checkbox" class="checkbox" checked />
+                <div class="knobs"></div>
+                <div class="layer"></div>
+            </div>
+        </li>
+        <li>
+            <div class="noti">
+                <h5>{{'email_notification' | translate}}</h5>
+            </div>
+            <div class="button r" id="button-1">
+                <input type="checkbox" class="checkbox" checked />
+                <div class="knobs"></div>
+                <div class="layer"></div>
+            </div>
+        </li> -->
+        <li>
+            <div class="noti1">
+                <h5>{{'language' | translate}}</h5>
+            </div>
+            <div class="labguge">
+                <div class="dropdown dropdown2 marginsetup">
+                    <a style="cursor: pointer;" (click)="openClosePopup(isActive)" class="js-link"><img
+                            [src]="languageImage">{{languageName}} <i class="fa fa-chevron-down"></i></a>
+                    <ul class="js-dropdown-list21" [ngStyle]="{'display': styleExpLan}">
+                        <li (click)="selectLanguage('en','English','assets/images/us.svg')"><img
+                                src="assets/images/us.svg">
+                            English</li>
+                        <li (click)="selectLanguage('isr','עִברִית','assets/images/israel.svg')"><img
+                                src="assets/images/israel.svg">עִברִית</li>
+
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- </section> -->
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade logoutmodal popupbtnrtl show" style="    z-index: 9999999 !important;"
+    [ngStyle]="{'display': styleExp}" [dir]="directionController.textDirection">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h1></h1>
+                <button type="button" class="btn-close" (click)="closeLogout()"></button>
+            </div>
+            <div class="modal-body">
+                <div class="modalbody text-center">
+
+                    <img src="assets/images/teacher/logout.png" alt="">
+                    <h5>{{'logout_title' | translate}}</h5>
+                    <span><svg width="73" height="5" viewBox="0 0 73 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                            <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                        </svg>
+                    </span>
+                    <p style="text-transform: none;">{{'logout_msg' | translate}}</p>
+                    <div class="logoutyesno">
+                        <a style="cursor: pointer;" (click)="logOut()" class="btnblue">{{'yes' | translate}}</a>
+                        <a style="cursor: pointer;" class="btnblue" (click)="closeLogout()">{{'no' | translate}}</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

@@ -1,0 +1,181 @@
+<div class="" style=" background-color: white;     margin-top: 70px;">
+  <div class="container-fuild">
+    <div class="mainheading text-left">
+      <div class="container-fuild aos-init aos-animate" data-aos="fade-up">
+        <owl-carousel-o [options]="customOptions" (translated)="getPassedData($event)">
+          <ng-template carouselSlide id="1">
+            <div class="row content" [dir]="directionController.textDirection">
+              <div class="col-lg-12" style="margin: auto; text-align: center;">
+                <img class="imgSty" src="../assets/images/newhome/newhome-3.png" alt="Hello">
+              </div>
+              <div class="col-lg-12 " style="text-align: center;">
+                <p class="newPageP">{{'NewLandingPage.helloFirst' | translate}}</p>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide id="2">
+            <div class="row content" [dir]="directionController.textDirection">
+              <div class="col-lg-12" style="margin: auto; text-align: center;">
+                <img class="imgSty" src="../assets/images/newhome/newhome-1.png" alt="Hello">
+              </div>
+              <div class="col-lg-12" style="text-align: center;">
+                <p class="newPageP" [innerHtml]="'NewLandingPage.howToBegin' | translate"></p>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide id="3">
+            <div class="row content" [dir]="directionController.textDirection">
+              <div class="col-lg-12" style="margin: auto; text-align: center;">
+                <img class="imgSty" src="../assets/images/newhome/newhome-2.png" alt="Hello">
+              </div>
+              <div class="col-lg-12" style="text-align: center;">
+                <p class="newPageP" [innerHtml]="'NewLandingPage.deserveThird' | translate"></p>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide id="3">
+            <div *ngIf="!isShow" class="profiletabsec newHomeslot modaldate">
+              <div class="container" [dir]="directionController.textDirection">
+                <div class="myprofiledetails bookless" style="  box-shadow: none;  padding: 0px 40px 60px 40px;">
+                  <div class="modal-body">
+                    <!-- <ul class="nav nav-pills mb-3 navscroll" id="pills-tab" role="tablist"> -->
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <!-- <li class="nav-item" role="presentation" *ngFor="let item of result">
+                              <button [ngClass]="[item === selectdate ? 'nav-link active' : 'nav-link']" id="pills-day-tab"
+                                  data-bs-toggle="pill" data-bs-target="#pills-day" type="button" role="tab"
+                                  aria-controls="pills-day" aria-selected="true" (click)="selectDate(item)">
+                                  <span>{{item | date:"MMM"}}</span>
+                                  <h3>{{item | date:"d"}}</h3>
+                                  <p>{{item | date:"EEEE"}}</p>
+                              </button>
+                          </li> -->
+                      <drag-scroll #nav [scroll-x-wheel-enabled]="true" style="
+                          width: auto; overflow: initial !important;
+                      ">
+                        <li class="nav-item" id="#sample_id" role="presentation"
+                          *ngFor="let item of result; let i = index" drag-scroll-item>
+                          <button [disabled]="isDisabled"
+                            [ngClass]="[item === selectdate ? 'nav-link active' : 'nav-link']" id="pills-day-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-day" type="button" role="tab"
+                            aria-controls="pills-day" aria-selected="true" (click)="selectDate(item)">
+                            <span>{{item | date:"MMM"}}</span>
+                            <h3>{{item | date:"d"}}</h3>
+                            <span style="font-size: 12px;">{{item | date:"EEE"}}</span>
+                          </button>
+                        </li>
+                      </drag-scroll>
+                    </ul>
+                    <div>
+                      <p class="detailsP">{{'NewLandingPage.toSetforth' | translate}}</p>
+                    </div>
+                    <div class="tab-content" id="pills-tabContent" style="margin-top: 18px;">
+                      <div class="tab-pane fade show active" id="0-day" role="tabpanel" aria-labelledby="pills-day-tab">
+                        <ul class="timeselect">
+                          <span *ngFor="let item of unicresponseSlot">
+                            <li [ngClass]="[item.start_date === selectdat ? 'active' : '']"><a
+                                *ngIf="item.startTimeNumber >= currentTime" (click)="selectSlot(item)">
+                                {{item.start_date | date:"HH:mm"}}</a>
+                              <a style="color: #8589928c;" *ngIf="item.startTimeNumber < currentTime">
+                                {{item.start_date | date:"HH:mm"}}</a>
+                            </li>
+                          </span>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class=" booksess mt-3" style=" margin: 20px 5px;" >
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-4 col-md-12 col-ms-12 position-relative" *ngFor="let findTeacher of findTeacherData">
+                        <input type="radio" id="check" class="check" name="check" (change)="onCheck(findTeacher)"
+                          [value]="'{{findTeacher.id}}'">
+                        <div class="changeclass" [ngClass]="[directionController.textDirection === 'ltr' ? 'firstsession' : 'testdemo']">
+          
+                          <div class="firstsessioninfo" >
+                            <img style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;"
+                              src="{{findTeacher.thumbnail}}" alt="">
+                            <div class="sessiontitle" style="    padding: 0px 10px;">
+                              <h4 style="    font-family: Assistant;">{{findTeacher.first_name}} {{findTeacher.last_name}}</h4>
+                              <h5 style="    font-family: Assistant;"><i class="fas fa-star" style="font-size: 15x;"></i><span style="color:#28AAE1;font-weight: 800;
+                                                font-size: 15px;">{{findTeacher.teacher_ratings}}</span></h5>
+                              <p>{{'NewLandingPage.newRatings' | translate}}</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div style="margin: auto;
+                  width: auto;
+                  font-weight: 700;
+                  text-align: -webkit-center;
+                  font-size: 30px !important;">
+                    <button type="button"
+                      style="display: block;font-size: 20px;    box-shadow: 0px 2px 2px rgb(0 0 0 / 10%) !important;   margin-left: 6px;"
+                      (click)="bookFirstLesson()" class="btn btn-primary" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal1">{{'NewLandingPage.bookFirstLesson' | translate}}</button>
+                  </div>
+                  <div class='nav-button owl-prev test'>css</div>
+                </div>
+              </div>
+            </div>
+
+          </ng-template>
+        </owl-carousel-o>
+        <!-- <div class="col-lg-12 " style="text-align: center;     margin: 10px;
+        padding: 10px;">
+          <button type="button" style="padding:5px 40px ;" (click)="test()" class="btn btn-primary">Next</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade modaldate show" style="z-index:100000 ;" [ngStyle]="{'display': styleExp}">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" (click)="closePopup()" class="btn-close" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <div class="modalbody thankyou text-center">
+            <h5>Thank you</h5>
+            <span><svg width="73" height="5" viewBox="0 0 73 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                </line>
+                <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                  stroke-linecap="round">
+                </line>
+              </svg>
+            </span>
+            <p>Your session has been booked with teacher <span>{{teacherFirstName}} {{teacherLastName}}.</span></p>
+            <div class="showdatetime">
+              <a><img src="assets/images/teacher/calender.png" alt=""><span>{{sloteDate | date:'d MMMM
+                  y'}}</span></a>
+              <a><img src="assets/images/teacher/time.png" alt=""><span>{{this.selectdat | date:'HH:mm'}} -
+                  {{futureDate | date:'HH:mm'}}</span></a>
+            </div>
+            <p class="cancellationinfo"><span>Cancellation of the session is only possible 2 hours before the
+                scheduled<br> session
+                starts.</span></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="btnssessions">
+            <a (click)="sessionDetail()" type="button" class="btn btn-primary btnblue"
+              clbuttonss="btn btn-primary btnblue">{{'Details_preferences' | translate}}
+            </a>
+            <a *ngIf="appointmentCount != '0'" (click)="session()" type="button" class="btn btn-primary btnblue"
+              clbuttonss="btn btn-primary btnblue">Book More Sessions
+            </a>
+            <a href="{{googleCalendar}}" target="blank" type="button" class="btn btn-primary btnblue">ok, add in google
+              calendar
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner> -->

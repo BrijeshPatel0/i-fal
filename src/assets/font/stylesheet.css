@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue.woff2') format('woff2'),
+        url('BebasNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-Regular.woff2') format('woff2'),
+        url('ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family:"open-sans-hebrew-condensed";
+    src:url("OpenSansHebrewCondensed-Light.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

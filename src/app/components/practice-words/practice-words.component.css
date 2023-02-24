@@ -1,0 +1,480 @@
+.search-model .modal-content {
+  border-radius: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal.show .modal-dialog {
+  overflow: hidden;
+  height: 94%;
+}
+
+.search-model-input input {
+  border: none;
+  width: 100%;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 38px;
+  color: black;
+  border: 1px solid #dee2e6;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.select-search a:hover .onclick-pop-up {
+  bottom: 10px;
+}
+.onclick-pop-up.active {
+  bottom: 0;
+  left: 0;
+  padding-bottom: 50px;
+  background: white;
+}
+.select-search a {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 38px;
+  color: black;
+  margin-top: 20px;
+  max-width: 700px;
+  display: flex;
+  /* padding: 15px 0px; */
+}
+
+.search-model-input input::placeholder {
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.search-model-input input:focus {
+  border-color: black;
+}
+
+.onclick-pop-up p:nth-child(2) {
+  margin-bottom: 30px !important;
+  color: #28aae1;
+}
+
+.onclick-pop-up p {
+  margin-bottom: 0px;
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.onclick-pop-up a i {
+  font-size: 21px;
+  margin-right: 15px;
+}
+
+.onclick-pop-up a {
+  border-radius: 10px;
+  font-size: 21px;
+  color: white;
+  padding: 20px 15px;
+  background-color: #28aae1;
+}
+
+.onclick-pop-up {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  bottom: -100%;
+  transition: all 0.5s;
+}
+
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+.favouritetitle h6 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #424143;
+}
+
+.select-search1 {
+  overflow: auto;
+  height: 400px;
+}
+
+.word {
+  text-decoration: none;
+  font-size: 18px !important;
+  /* color: #000 !important; */
+  font-weight: 100 !important;
+}
+.custom-card ul li {
+  list-style-type: none;
+}
+.modal-title {
+  font-family: "Lato", sans-serif;
+  line-height: 120%;
+  color: #333;
+  font-weight: bold;
+  margin: 0 0 15px;
+  font-size: 1.25rem;
+}
+.topic1 a.star {
+  top: 20px;
+  right: 20px;
+  bottom: auto;
+}
+.favourite[dir="rtl"] .topic1 a.star {
+  top: 20px;
+  bottom: auto;
+  right: unset;
+  left: 20px;
+}
+#searchPop[dir="rtl"] .btn-close {
+  margin-left: unset !important;
+  margin-right: auto !important;
+}
+.profiletab[dir="rtl"] .myprofiledetails a.star {
+  right: unset;
+  left: 20px;
+}
+.findteacherheading[dir="rtl"] .practicetextinput {
+  right: unset;
+  left: 80px;
+}
+.speaker2,
+.speaker3,
+.speaker4,
+.speaker5,
+.speaker6,
+.speaker7,
+.speaker8 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 25px;
+}
+a.speaker {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+a.star {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.drag-scroll-content {
+  overflow: hidden !important;
+}
+.wordSentance {
+  opacity: 0.6 !important;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 18px !important;
+  line-height: 24px;
+  color: #333333;
+  opacity: 0.6;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 5px !important;
+  white-space: normal !important;
+}
+.wordSentance1 {
+  opacity: 1 !important;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 100 !important;
+  font-size: 18px !important;
+  line-height: 24px;
+  color: #f9a722;
+  opacity: 0.6;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+.span {
+  font-weight: 900 !important;
+  font-size: 25px !important;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.topic1.backside {
+  max-width: 382px !important;
+  height: 330px !important;
+}
+.speak h1 {
+  border: none;
+  text-align: center;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #424143;
+  height: 35px;
+  pointer-events: none;
+}
+
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+}
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #28aae1;
+}
+.practicetextinput {
+  position: absolute;
+  right: 80px;
+  top: 110px;
+}
+.btn:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+}
+::ng-deep .mat-tab-label {
+  padding: 0px 60px !important;
+}
+.select-search1::-webkit-scrollbar {
+  display: none;
+}
+.select-search1 {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.findteacherheading[dir="rtl"] h1,
+.findteacherheading[dir="rtl"] h5 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir="rtl"] p,
+.profiletab[dir="rtl"] a,
+.profiletab[dir="rtl"] input,
+::ng-deep .profiletab[dir="rtl"] .mat-select-value-text,
+::ng-deep .profiletab[dir="rtl"] .mat-option-text {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.favourite[dir="rtl"] button,
+.favourite[dir="rtl"] p,
+::ng-deep .favourite[dir="rtl"] .mat-tab-label-content {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+::ng-deep .mat-tab-group > .mat-tab-header .mat-tab-label {
+  font-size: 20px;
+  opacity: 1;
+}
+.mat-tab-label,
+.mat-tab-link {
+  font-size: 20px;
+}
+#searchPop[dir="rtl"] h5,
+#searchPop[dir="rtl"] .mat-tab-label-content {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.tabtext {
+  height: 48px;
+  padding: 0 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  /* border: 3px solid #28aae1; */
+  border: 1px solid rgb(133 137 146 / 50%);
+  font-size: 20px;
+  opacity: 1;
+}
+
+.tabtext1 {
+  height: 48px;
+  padding: 0 24px;
+  width: 200px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  /* border: 3px solid #28aae1; */
+  border: 1px solid rgb(133 137 146 / 50%);
+  font-size: 20px;
+  opacity: 1;
+}
+.activetab {
+  border: 2px solid #28aae1;
+  color: #28aae1;
+}
+.tabborder1 {
+  border-radius: 10px 0px 0px 10px;
+}
+.tabborder2 {
+  border-radius: 0px 10px 10px 0px;
+}
+.favourite[dir="rtl"] .favourittopic .tabborder1 {
+  border-radius: 0px 10px 10px 0px;
+}
+.favourite[dir="rtl"] .favourittopic .tabborder2 {
+  border-radius: 10px 0px 0px 10px;
+}
+#searchPop[dir="rtl"] .tabborder1 {
+  border-radius: 0px 10px 10px 0px;
+}
+#searchPop[dir="rtl"] .tabborder2 {
+  border-radius: 10px 0px 0px 10px;
+}
+.favourite[dir="rtl"] div {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+#searchPop[dir="rtl"] div {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+a#myBtn1 {
+  bottom: 10px;
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #28aae1;
+  border-radius: 50px;
+  z-index: 99999;
+}
+.findteacherheading {
+  margin-top: 30px;
+  background: #f5f7fb;
+  padding: 35px 0px 90px;
+  position: relative;
+}
+.favouritetitle {
+  margin-bottom: 10px;
+}
+.profiletab.packagesec {
+  margin-bottom: 10px;
+}
+.offcanvas-bottom {
+  z-index: 999999;
+  height: auto;
+}
+.offcanvas-header {
+  background-color: #28aae1;
+  justify-content: center;
+  padding: 0px;
+}
+.listcard {
+  box-shadow: 0 1px 5px #00000026;
+  background: white;
+}
+a.login {
+  border-radius: 10px !important;
+  height: 40px;
+  margin-top: 0px;
+}
+.login:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  border: 2px solid;
+}
+.offcanvas[dir="rtl"] div,
+.offcanvas[dir="rtl"] span,
+.offcanvas[dir="rtl"] p {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+.offcanvas[dir="rtl"] .tabborder1 {
+  border-radius: 0px 10px 10px 0px;
+}
+.offcanvas[dir="rtl"] .tabborder2 {
+  border-radius: 10px 0px 0px 10px;
+}
+/* drag-scroll div {
+  overflow: inherit !important;
+}
+::ng-deep.drag-scroll-content {
+  overflow: inherit !important;
+} */
+.favouritetitle1 {
+  display: block;
+}
+.settingid {
+  display: none !important;
+}
+.transtatli {
+  background: white;
+  margin: 0px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px #00000026;
+  margin-right: 20px;
+}
+ .favourite[dir="rtl"] .transtatli {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .favouritetitle1 {
+    display: none;
+  }
+  .settingid {
+    display: flex !important;
+  }
+  .profiletab.packagesec {
+    margin-bottom: 18px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .tabtext {
+    font-size: 14px;
+  }
+  .tabtext1 span {
+    font-size: 14px;
+  }
+  .tabtext1 i {
+    font-size: 8px !important;
+  }
+}

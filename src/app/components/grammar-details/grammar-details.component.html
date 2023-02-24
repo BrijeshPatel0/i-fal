@@ -1,0 +1,132 @@
+<div class="findteacherheading" >
+    <div class="container">
+        <div class="mainheading text-left">
+
+            <h2 class="maintext ">{{grammarDetailsModel.grammar_name}}
+            </h2>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="profiletab" [dir]="directionController.textDirection">
+  <div class="container">
+      <div class="myprofiledetails">
+          <div class="sesiondetail">
+              <img style="width: 300px;height: auto;    border: 2px solid #28AAE1; border-radius: 10px;"
+                  src="{{grammarDetailsModel.grammar_image}}" alt="">
+              <div class="teacherinfo">
+                  <h6>{{grammarDetailsModel.grammar_name}}</h6>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> -->
+
+<div class="profiletab" [dir]="directionController.textDirection" style="margin-top: -90px;">
+    <div class="container">
+        <div class=" session">
+            <ul class="nav nav-pills mb-3 myprofiledetails upcoming" id="pills-tab" role="tablist"
+                style="padding-bottom: 0px;">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-vocabulary-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-vocabulary" type="button" role="tab" aria-controls="pills-vocabulary"
+                        aria-selected="true">{{'Grammar' | translate}}</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-advances-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-advances" type="button" role="tab" aria-controls="pills-advances"
+                        aria-selected="false">{{'exercise' | translate}}</button>
+                </li>
+            </ul>
+            <div dir="ltr" class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-vocabulary" role="tabpanel"
+                    aria-labelledby="pills-vocabulary-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div>
+                                <div class="firstsession pastsession">
+                                    <div class="firstsessioninfo firstsession-completed upses">
+                                        <div class="sessiontitle">
+                                            <p [innerHTML]="grammarDetailsModel.grammar_description | safeHtml"></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-advances" role="tabpanel" aria-labelledby="pills-advances-tab">
+                    <div class="sesstiondetail">
+                        <div  [dir]="directionController.textDirection"  class="row">
+                            <div>
+                                <div class="firstsession">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle transfamily" style="display: flex; width: 100%;">
+                                            <p  style="width: 100%; margin: auto;">{{'test_your_comprehension_below' |
+                                                translate}}</p>
+                                            <button type="button" (click)="previousAttempts()" class=" btn btn-primary1 box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);">
+                                                {{'previous_attempts' | translate}} </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div *ngFor="let item of readingComprehensionModel; let i = index" class="col-lg-6">
+                                <div class="firstsession">
+                                    <div class="firstsessioninfo firstsession-cancelled upses">
+                                        <div class="sessiontitle sessiontitle2">
+                                            <h4 style="margin-bottom: 10px;">{{i+1}}. {{item.question}}</h4>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'A'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'A')?'success':(item.selectAnswer == 'A'?'danger':((item.answer == 'A')?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;"><div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">A</div><div style="margin: auto 10px;">{{item.options.A}}</div>
+                                        </div>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'B'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'B')?'success':(item.selectAnswer == 'B'?'danger':(item.answer == 'B'?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;"><div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">B</div><div style="margin: auto 10px;">{{item.options.B}}</div>
+                                        </div>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'C'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'C')?'success':(item.selectAnswer == 'C'?'danger':(item.answer == 'C'?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;"><div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">C</div><div style="margin: auto 10px;">{{item.options.C}}</div>
+                                        </div>
+                                            <div (click)="item.selectAnswer == '' ? selectedAnswer(item,i,'D'):''"
+                                                class="btn btn1"
+                                                [ngClass]="item.selectAnswer != ''?((item.answer == item.selectAnswer && item.selectAnswer == 'D')?'success':(item.selectAnswer == 'D'?'danger':(item.answer == 'D'?'success':''))):''"
+                                                style="padding: 0px; border: 1px solid black;"><div class="btn"
+                                                    style="border: 1px solid black; padding: 5px; margin: 5px;    width: 33px; height: 33px;">D</div><div style="margin: auto 10px;">{{item.options.D}}</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div [dir]="directionController.textDirection">
+                            <!-- <button type="button" style="display: block; padding: 10px 20px;
+                          font-size: 18px;" (click)="onSubmit()"
+                                class=" mt-3 btn btn-primary box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);"> {{'submit' |
+                                translate}} </button> -->
+                                <button type="button" style="display: block; padding: 10px 20px;
+                                font-size: 18px;" (click)="onSubmit()"
+                                    class=" mt-3 col-2 btn btn-primary box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);">
+                                    {{'submit' |
+                                    translate}} </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

@@ -1,0 +1,245 @@
+<div class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h1 style="padding: 0px 15px;" class="maintext ">{{'membership' | translate}}
+            </h1>
+            <span style="padding: 0px 15px;"><svg width="73" height="4" viewBox="0 0 73 4" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                  obligation</p> -->
+        </div>
+    </div>
+</div>
+<div class="profiletab packagesec mem" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="myprofiledetails">
+            <div class="row">
+                <div (click)="activate('WEEKLY_2')" class="col-lg-3 WEEKLY_2">
+                    <div class="package">
+                        <h5>{{currencySymbol}}{{pricingListed.two_session_week}} <span>{{'monthly' | translate}}</span>
+                        </h5>
+                        <p>{{'_2_sessions_a_week_one_month' | translate}}</p>
+                        <span>
+                            <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson_2_times_a_week' | translate}}
+                        </span>
+                        <a style="cursor: pointer;" *ngIf="profileModel.is_subscription_active == '0'"
+                            (click)="paymentAmount('WEEKLY_2')">{{'start_my_membership' |
+                            translate}}</a>
+                        <a style="cursor: pointer;"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_2' && profileModel.is_subscription_active == '1' ">{{'activated'
+                            | translate }}</a>
+                        <p class="cancel-btn" (click)="openCancelConfirmation()"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_2' && profileModel.is_subscription_active == '1'">
+                            {{'cancel_membership' | translate}}</p>
+                    </div>
+                </div>
+                <div (click)="activate('WEEKLY_3')" class="col-lg-3 WEEKLY_3">
+                    <div class="package">
+                        <h5>{{currencySymbol}}{{pricingListed.three_session_week}} <span>{{'monthly' |
+                                translate}}</span></h5>
+                        <p>{{'_3_sessions_a_week_one_month' | translate}}</p>
+                        <span>
+                            <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson_3_times_a_week' | translate}}
+                        </span>
+                        <a style="cursor: pointer;" *ngIf="profileModel.is_subscription_active == '0'"
+                            (click)="paymentAmount('WEEKLY_3')">{{'start_my_membership'
+                            | translate}} </a>
+                        <a style="cursor: pointer;"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_3' && profileModel.is_subscription_active == '1'">{{'activated'
+                            | translate }}</a>
+                        <p class="cancel-btn" (click)="openCancelConfirmation()"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_3' && profileModel.is_subscription_active == '1'">
+                            {{'cancel_membership' | translate}}</p>
+                    </div>
+                </div>
+                <div (click)="activate('WEEKLY_4')" class="col-lg-3 WEEKLY_4">
+                    <div class="package">
+                        <h5>{{currencySymbol}}{{pricingListed.four_session_week}} <span>{{'monthly' | translate}}</span>
+                        </h5>
+                        <p>{{'_4_sessions_a_week_one_month' | translate}}</p>
+                        <span>
+                            <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson_4_times_a_week' | translate}}
+                        </span>
+                        <a style="cursor: pointer;" *ngIf="profileModel.is_subscription_active == '0'"
+                            (click)="paymentAmount('WEEKLY_4')">{{'start_my_membership'
+                            | translate}}</a>
+                        <a style="cursor: pointer;"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_4' && profileModel.is_subscription_active == '1'">{{'activated'
+                            | translate }}</a>
+                        <p class="cancel-btn" (click)="openCancelConfirmation()"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_4' && profileModel.is_subscription_active == '1'">
+                            {{'cancel_membership' | translate}}</p>
+                    </div>
+                </div>
+                <div (click)="activate('WEEKLY_5')" class="col-lg-3 WEEKLY_5">
+                    <div class="package">
+                        <h5>{{currencySymbol}}{{pricingListed.five_session_week}} <span>{{'monthly' | translate}}</span>
+                        </h5>
+                        <p>{{'_5_sessions_a_week_one_month' | translate}}</p>
+                        <span>
+                            <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson_5_times_a_week' | translate}}
+                        </span>
+                        <a style="cursor: pointer;" *ngIf="profileModel.is_subscription_active == '0'"
+                            (click)="paymentAmount('WEEKLY_5')">{{'start_my_membership'
+                            | translate}}</a>
+                        <a style="cursor: pointer;"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_5'&& profileModel.is_subscription_active == '1'">{{'activated'
+                            | translate }}</a>
+                        <p class="cancel-btn" (click)="openCancelConfirmation()"
+                            *ngIf="profileModel.frequncy == 'WEEKLY_5' && profileModel.is_subscription_active == '1'">
+                            {{'cancel_membership' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <button type="button" style="display: block; padding-left: 0px;" (click)="test()" class="btn btn-primary">Book
+    your first lesson free</button> -->
+
+<div class="modal fade modaldate show" style="z-index: 100000;" [ngStyle]="{'display': styleExp}"
+    [dir]="directionController.textDirection">
+    <!-- <div class="modal fade modaldate show" style="z-index: 100000; display: block;" > -->
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" (click)="closePopup()" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="modalbody thankyou text-center" style="    padding-bottom: 0px !important;">
+                    <img src="assets/images/teacher/thanksimg.png" alt="">
+                    <h5>{{'thank_you' | translate}}</h5>
+                    <span><svg width="73" height="5" viewBox="0 0 73 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round"></line>
+                            <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round"></line>
+                        </svg>
+                    </span>
+                    <p style="text-transform: none;">{{'you_have_purchased_the_membership' | translate}}</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <p>{{'expiration_date' | translate}}</p>
+                            <P style="text-transform: none;">{{'until_you_cancel_it' | translate}}</P>
+                        </div>
+                        <div class="col-6">
+                            <p>{{'membership' | translate}}</p>
+                            <P *ngIf="profileModel.frequncy == 'WEEKLY_2'">{{'two_session_a_week' | translate}}</P>
+                            <P *ngIf="profileModel.frequncy == 'WEEKLY_3'">{{'three_session_a_week' | translate}}</P>
+                            <P *ngIf="profileModel.frequncy == 'WEEKLY_4'">{{'four_session_a_week' | translate}}</P>
+                            <P *ngIf="profileModel.frequncy == 'WEEKLY_5'">{{'five_session_a_week' | translate}}</P>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modaldate modelthanks show" style="z-index: 100000;" [ngStyle]="{'display': styleExpClancel}"
+    [dir]="directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 550px !important;">
+
+        <div class="modal-content">
+            <div *ngIf="isCancel" class="modal-header border-0">
+                <h1></h1>
+                <button type="button" class="btn-close" (click)="closePopupClancel()"></button>
+            </div>
+            <div class="modal-body " style="padding:1rem;">
+                <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                    <h5 *ngIf="isCancel">{{'confirmation' | translate}}</h5>
+                    <span *ngIf="isCancel"><svg width="73" height="5" viewBox="0 0 73 5" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                            <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                        </svg>
+                    </span>
+                    <p *ngIf="!isCancel" style="line-height: none;text-align:start;text-transform: none;">
+                        {{'wait_thirty_minutes' | translate}}</p>
+                    <p *ngIf="isCancel" style="line-height: none;text-align:center;text-transform: none;">
+                        {{'cancel_confirmation_' | translate}}</p>
+                    <div *ngIf="!isCancel" class="okayClose">
+                        <a style="cursor: pointer;" (click)="closePopup()" class="btnblue">{{'ok' | translate}}</a>
+                    </div>
+                    <div *ngIf="isCancel" class="logoutyesno">
+                        <a style="cursor: pointer;" (click)="canceliCreditSubscription()" class="btnblue">{{'yes' |
+                            translate}}</a>
+                        <a style="cursor: pointer;" class="btnblue" (click)="closePopup()">{{'no' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade modaldate modelthanks show" style="z-index: 100000;" [ngStyle]="{'display': styleHeaer}"
+    [dir]="directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 550px !important;">
+
+        <div class="modal-content">
+            <div *ngIf="isCancel" class="modal-header border-0">
+                <h1></h1>
+                <button type="button" class="btn-close" (click)="closePopup1()"></button>
+            </div>
+            <div class="modal-body " style="padding:1rem;">
+                <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                    <h5 *ngIf="isCancel">{{'how_did_you_hear_about_i_fal' | translate}}</h5>
+                    <span *ngIf="isCancel"><svg width="73" height="5" viewBox="0 0 73 5" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                            <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                        </svg>
+                    </span>
+                      <form id="registrationForm" >
+                        <div class="containerfuil">
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="profilename">
+                                <!-- <label>{{'Email_Address' | translate}}</label> -->
+                                <input type="text" [(ngModel)]="headeSlug" 
+                                 [formControl]="myControl"
+                                 [matAutocomplete]="auto" class="form-control mail" class="mail" placeholder="{{'type_here' | translate}}">
+                                <mat-autocomplete #auto="matAutocomplete">
+                                    <mat-option *ngFor="let option of filteredOptions | async" (click)="selectoption(option)" [value]="option">
+                                      {{option}}
+                                    </mat-option>
+                                  </mat-autocomplete>
+                                  <div class="denger">
+                                    <span  *ngIf="submitted && myControl.hasError('required')">
+                                        About is required
+                                    </span>
+                                    
+                                    <!-- {{'First_Name_is_required' | translate}} -->
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    <div class="okayClose">
+                        <a style="cursor: pointer;" type="submit" (click)="onAboutSubmit()" class="btnblue">{{'ok' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<mat-spinner style="z-index: 99999999;" *ngIf="Loader" class="mat-spinner-color"></mat-spinner>
+<!-- <div *ngIf="Loader" class="dark-overlay">
+    <mat-spinner class="mat-spinner-color"></mat-spinner>
+</div> -->

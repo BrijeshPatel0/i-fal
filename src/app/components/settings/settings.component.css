@@ -1,0 +1,169 @@
+ul.js-dropdown-list21 {
+  padding: 0;
+  background: white;
+  margin-top: 10px;
+}
+
+ul.js-dropdown-list21 li {
+  padding: 10px;
+  margin: 0;
+}
+
+.dropdown2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+ul.settings li {
+  position: relative;
+}
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+.noti h5 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 18px;
+  line-height: 24px;
+  color: #424143;
+  margin-bottom: 8px;
+}
+.noti1 h5 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #424143;
+  margin-bottom: 8px;
+}
+.notititle {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #424143;
+  margin-bottom: 8px;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+.dropdown a:hover {
+  color: #0d6efd !important;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+}
+.modaldate .modal-content {
+    border-radius: 30px !important;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 30px;
+    outline: 0;
+}
+
+.settingmarging{
+  margin-top: -100px;
+}
+.settingmarging[dir = "rtl"] ul li  #button-1{
+ margin-right: auto;
+ margin-left: 0;
+}
+.settingmarging[dir = "rtl"] .marginsetup{
+  margin: 0 40px 0 0;
+ }
+.findteacherheading[dir = "rtl"] .logout {
+  margin-left: 0px;
+  margin-right: auto;
+}
+.popupbtnrtl[dir = "rtl"] .btn-close{
+  margin-left: 0px;
+}
+
+.findteacherheading[dir = "rtl"] h1,.findteacherheading[dir = "rtl"] a{
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.settingmarging[dir = "rtl"] h5,.settingmarging[dir = "rtl"] div , .settingmarging[dir = "rtl"] mat-panel-title,.settingmarging[dir = "rtl"] a,.settingmarging[dir = "rtl"] li{
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.settingmarging[dir = "rtl"] .labguge{
+  margin-left: unset;
+  margin-right: auto;
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.settingmarging[dir = "rtl"] .dropdown i{
+  margin-left: unset;
+  margin-right: 10px;
+}
+ul.settings {
+  margin-bottom: 60px;
+}
+.popupbtnrtl[dir = "rtl"] h5,.popupbtnrtl[dir = "rtl"] p,.popupbtnrtl[dir = "rtl"] a{
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.mat-expansion-panel:not([class*=mat-elevation-z]){
+  box-shadow:unset;
+}
+.mat-expansion-panel-header{
+  padding: 0 24px 0 0;
+}
+ul.settings1 {
+  list-style: none;
+  padding: 0;
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin-top: -55px; */
+  position: relative;
+}
+.settings2 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #28a9e0;
+  margin-bottom: 8px;
+}
+ul.settings1 li {
+  padding: 12px 42px;
+}
+.marginsetup{
+  margin: 0 20px 0 0;
+}

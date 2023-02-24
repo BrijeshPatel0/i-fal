@@ -1,0 +1,112 @@
+<div class="findteacherheading" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+
+            <h2 class="maintext ">{{'sessions' | translate}}
+            </h2>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="profiletab" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="myprofiledetails session">
+            <ul class="nav nav-pills mb-3 upcoming" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button (click)="upcommingAppointmentForUser()" class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">{{'upcoming' | translate}}</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button (click)="pastAppointmentForUser()" class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">{{'past' | translate}}</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div *ngFor="
+                              let item of sessionsModelList
+                                | paginate
+                                  : {
+                                      itemsPerPage: itemsPerPage,
+                                      currentPage: page,
+                                      totalItems: totalItems
+                                    }
+                            " class="col-lg-4">
+                                <div class="firstsession">
+                                    <a style="cursor: pointer;" (click)="sessionDetail(item.id)">
+                                        <div class="firstsessioninfo firstsession-cancelled upses">
+                                            <img *ngIf="item.teacher_data?.thumbnail" style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;" src="{{item.teacher_data?.thumbnail}}" alt="">
+                                            <img *ngIf="!item.teacher_data?.thumbnail" style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;" src="assets/images/userprofile.png" alt="">
+                                          
+                                            <div class="sessiontitle">
+                                                <h4>{{item.teacher_data?.first_name}} {{item.teacher_data?.last_name}} </h4>
+                                                <p dir = "ltr">{{item.startAppointmentDate |  date  : 'd MMMM y'}}</p>
+                                                <p>{{item.startAppointmentDate | date:'HH:mm'}} - {{item.endAppointmentDate | date:'HH:mm'}}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+      
+                        </div>
+                        <div *ngIf="sessionsModelList && !sessionsModelList.length" style="text-align:center; padding:150px 0px;"><p>{{'upcoming_session_placeholder' | translate}}</p></div>
+                        <div style="text-align: center;">
+                            <pagination-controls (pageChange)="newPageUpcoming((page = $event))"  [previousLabel]="'previous' | translate" [nextLabel]="'next' | translate"></pagination-controls>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div *ngFor="
+                            let item of pastSessionsModelList
+                              | paginate
+                                : {
+                                    itemsPerPage: itemsPerPage,
+                                    currentPage: page,
+                                    totalItems: totalItems
+                                  }
+                          " class="col-lg-4">
+                                <div class="firstsession pastsession">
+                                    <a style="cursor: pointer;" (click)="sessionDetail(item.id)">
+                                        <div class="firstsessioninfo firstsession-completed upses">
+                                            <img *ngIf="item.teacher_data?.thumbnail" style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;" src="{{item.teacher_data?.thumbnail}}" alt="">
+                                            <img *ngIf="!item.teacher_data?.thumbnail" style="width: 100px;height: 100px;    border: 2px solid #28AAE1; border-radius: 10px;" src="assets/images/userprofile.png" alt="">
+                                          
+                                            <div class="sessiontitle">
+                                                <h4>{{item.teacher_data?.first_name}} {{item.teacher_data?.last_name}} </h4>
+                                                <p dir = "ltr">{{item.startAppointmentDate |  date  : 'd MMMM y'}}</p>
+                                                <p>{{item.startAppointmentDate | date:'HH:mm'}} - {{item.endAppointmentDate | date:'HH:mm'}}</p>
+                                            </div>
+                                            <p *ngIf="item.appointment_status == 'CANCELLED' "  class="misstag">{{'cancelled' | translate}}</p>
+                                            <p *ngIf="item.appointment_status == 'MISSED' "  class="misstag">{{'missed' | translate}}</p>
+                                            <p *ngIf="item.appointment_status == 'COMPLETED' " class="misstag com">{{'completed' | translate}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="pastSessionsModelList && !pastSessionsModelList.length" style="text-align:center; padding:150px 0px;"><p>{{'past_session_placeolder' | translate}}</p></div>
+                        <div style="text-align: center;">
+                            <pagination-controls (pageChange)="newPagePast((page = $event))" [previousLabel]="'previous' | translate" [nextLabel]="'next' | translate"></pagination-controls>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>
+<!-- <div *ngIf="Loader" class="dark-overlay">
+    <mat-spinner class="mat-spinner-color"></mat-spinner>
+</div> -->

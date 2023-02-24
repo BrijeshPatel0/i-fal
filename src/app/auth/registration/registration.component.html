@@ -1,0 +1,414 @@
+<section class="login" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="loginimg">
+                    <img src="assets/images/login/loginimg.png" alt="">
+                    <div class="logininfo">
+                        <h6>{{'Welcome_To_ifal' | translate}}</h6>
+                        <h4>{{'Learning_Platform' | translate}}
+                        </h4>
+                        <span>
+                            <svg width="71" height="5" viewBox="0 0 71 5" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.0440063" y="0.992676" width="54.9796" height="3.83578" rx="1.91789"
+                                    fill="white" />
+                                <rect x="60.138" y="0.992676" width="10.2288" height="3.83578" rx="1.91789"
+                                    fill="white" />
+                            </svg>
+                        </span>
+                        <p> {{'The_ifal_app_was_established'| translate}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="logindetail1">
+
+                    <div class="ifallogo ">
+                        <img src="assets/images/login/Logo.svg">
+                    </div>
+
+                    <div class="signupwith text-center">
+                        <a style="border-radius: 5px; cursor: pointer;" class="justify-content-center m-auto"
+                            (click)="signInWithFB()"><i class="fab fa-facebook-f"></i><span>{{'login_with_facebook' |
+                                translate}}</span></a>
+                    </div>
+
+                    <div class="signupwith signupwithapp text-center mt-2">
+                        <!-- <button (click)="apple()">
+                             Sign in with Apple
+                        </button> -->
+                        <a style="border-radius: 5px; background: black; cursor: pointer;"
+                            class="justify-content-center m-auto" (click)="apple()"><i
+                                class="fab fa-apple"></i><span>{{'Sign_in_with_Apple' | translate}}</span></a>
+                    </div>
+
+                    <div class="signupwith1 text-center mt-2">
+                        <a style="border-radius: 5px; cursor: pointer;" class="justify-content-center m-auto"
+                            (click)="signInWithGoogle()"><i class="fab fa-google"></i><span>Continue free with
+                                Google</span></a>
+                    </div>
+                    <!-- <h3>{{user?.name}}</h3>
+                                <h5>Photo of me:</h5>
+                                <div class="fakeimg"><img src="{{user.photoUrl}}"></div> -->
+                    <!-- <div class="loginexistinguser">
+                        <a style="cursor:pointer ;" (click)="loginexistinguser()" class="existinguser">Login
+                            (existing users)</a>
+                    </div> -->
+                    <div class="or">
+                        <p style="margin: 0px;
+                        padding: 0px;">{{'or' | translate}}</p>
+                    </div>
+                    <h4>{{'Create_your_account' | translate}}</h4>
+                    <span><svg width="70" height="5" viewBox="0 0 70 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.468506" y="0.491943" width="54.1918" height="3.78082" rx="1.89041"
+                                fill="#28AAE1" />
+                            <rect x="59.7014" y="0.491943" width="10.0822" height="3.78082" rx="1.89041"
+                                fill="#28AAE1" />
+                        </svg>
+                    </span>
+
+                    <div class="creatadmin" style="margin-top:15px ;">
+                        <div class="admin">
+                            <div class="profile-pic">
+                                <img style="border: 4px solid #28aae1;" [src]="imagePreview" alt="User Pic"
+                                    id="profile-image1">
+                                <div class="upload-btn-wrapper">
+                                    <a style="cursor: pointer;">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.75882 0.381856C0.686028 0.385634 0.614694 0.403715 0.54889 0.435065C0.483087 0.466415 0.424103 0.51042 0.375308 0.564568C0.326513 0.618715 0.288862 0.681945 0.264506 0.750645C0.24015 0.819345 0.229565 0.89217 0.233356 0.964961C0.237147 1.03775 0.25524 1.10908 0.286602 1.17488C0.317963 1.24068 0.361979 1.29966 0.416135 1.34844C0.470291 1.39723 0.533527 1.43487 0.602231 1.45921C0.670936 1.48356 0.743762 1.49413 0.816553 1.49032H8.02159C8.09504 1.49136 8.16795 1.47779 8.23611 1.45041C8.30426 1.42302 8.36629 1.38236 8.41859 1.33079C8.4709 1.27922 8.51243 1.21777 8.54078 1.15002C8.56912 1.08226 8.58372 1.00954 8.58372 0.93609C8.58372 0.86264 8.56912 0.789922 8.54078 0.722163C8.51243 0.654404 8.4709 0.592955 8.41859 0.541386C8.36629 0.489818 8.30426 0.449159 8.23611 0.421772C8.16795 0.394385 8.09504 0.380817 8.02159 0.381856H0.816553C0.797322 0.380853 0.778051 0.380853 0.75882 0.381856ZM14.7705 0.381856C14.2285 0.381856 13.686 0.588864 13.2753 0.999596L6.39931 7.88133C6.31733 7.96272 6.26284 8.06768 6.24343 8.18154L5.81043 10.8199C5.79655 10.9065 5.8034 10.9951 5.8304 11.0785C5.85741 11.1619 5.90381 11.2377 5.96579 11.2996C6.02777 11.3616 6.10356 11.408 6.18695 11.435C6.27034 11.462 6.35894 11.4689 6.44549 11.455L9.08965 11.0278C9.20352 11.0084 9.30848 10.9539 9.38986 10.8719L16.2716 3.99015C17.0937 3.16797 17.0872 1.82106 16.2658 0.999596C16.2147 0.947829 16.1539 0.906632 16.0869 0.878357C16.0849 0.878347 16.083 0.878347 16.0811 0.878357C15.6965 0.568854 15.2411 0.381856 14.7705 0.381856ZM14.7705 1.48455C15.0257 1.48455 15.2859 1.58417 15.4864 1.78476C15.8876 2.18593 15.8869 2.81031 15.4864 3.21076L15.2324 3.45901L13.8122 2.03878L14.0604 1.78476C14.261 1.58417 14.5153 1.48455 14.7705 1.48455ZM13.027 2.82395L14.4472 4.24417L8.73171 9.95971L7.02859 10.2368L7.30571 8.54526L13.027 2.82395ZM0.75882 3.52251C0.686028 3.52629 0.614694 3.54437 0.54889 3.57572C0.483087 3.60707 0.424103 3.65108 0.375308 3.70523C0.326513 3.75937 0.288862 3.8226 0.264506 3.8913C0.24015 3.96 0.229565 4.03283 0.233356 4.10562C0.237147 4.17841 0.25524 4.24974 0.286602 4.31554C0.317963 4.38134 0.361979 4.44031 0.416135 4.4891C0.470291 4.53789 0.533527 4.57553 0.602231 4.59987C0.670936 4.62421 0.743762 4.63479 0.816553 4.63098H8.02159C8.09504 4.63202 8.16795 4.61845 8.23611 4.59107C8.30426 4.56368 8.36629 4.52302 8.41859 4.47145C8.4709 4.41988 8.51243 4.35843 8.54078 4.29068C8.56912 4.22292 8.58372 4.1502 8.58372 4.07675C8.58372 4.0033 8.56912 3.93058 8.54078 3.86282C8.51243 3.79506 8.4709 3.73361 8.41859 3.68205C8.36629 3.63048 8.30426 3.58982 8.23611 3.56243C8.16795 3.53504 8.09504 3.52148 8.02159 3.52251H0.816553C0.797322 3.52151 0.778051 3.52151 0.75882 3.52251ZM0.75882 6.66317C0.686028 6.66695 0.614694 6.68503 0.54889 6.71638C0.483087 6.74773 0.424103 6.79174 0.375308 6.84589C0.326513 6.90003 0.288862 6.96326 0.264506 7.03196C0.24015 7.10066 0.229565 7.17349 0.233356 7.24628C0.237147 7.31907 0.25524 7.3904 0.286602 7.4562C0.317963 7.522 0.361979 7.58097 0.416135 7.62976C0.470291 7.67854 0.533527 7.71618 0.602231 7.74053C0.670936 7.76487 0.743762 7.77544 0.816553 7.77164H4.51145C4.58489 7.77268 4.6578 7.75911 4.72596 7.73172C4.79411 7.70434 4.85614 7.66368 4.90844 7.61211C4.96075 7.56054 5.00228 7.49909 5.03063 7.43133C5.05898 7.36357 5.07357 7.29086 5.07357 7.21741C5.07357 7.14396 5.05898 7.07124 5.03063 7.00348C5.00228 6.93572 4.96075 6.87427 4.90844 6.8227C4.85614 6.77114 4.79411 6.73048 4.72596 6.70309C4.6578 6.6757 4.58489 6.66213 4.51145 6.66317H0.816553C0.797322 6.66217 0.778051 6.66217 0.75882 6.66317ZM0.75882 9.80383C0.686028 9.80761 0.614694 9.82569 0.54889 9.85704C0.483087 9.88839 0.424103 9.9324 0.375308 9.98654C0.326513 10.0407 0.288862 10.1039 0.264506 10.1726C0.24015 10.2413 0.229565 10.3141 0.233356 10.3869C0.237147 10.4597 0.25524 10.5311 0.286602 10.5969C0.317963 10.6627 0.361979 10.7216 0.416135 10.7704C0.470291 10.8192 0.533527 10.8568 0.602231 10.8812C0.670936 10.9055 0.743762 10.9161 0.816553 10.9123H4.51145C4.58489 10.9133 4.6578 10.8998 4.72596 10.8724C4.79411 10.845 4.85614 10.8043 4.90844 10.7528C4.96075 10.7012 5.00228 10.6398 5.03063 10.572C5.05898 10.5042 5.07357 10.4315 5.07357 10.3581C5.07357 10.2846 5.05898 10.2119 5.03063 10.1441C5.00228 10.0764 4.96075 10.0149 4.90844 9.96336C4.85614 9.91179 4.79411 9.87114 4.72596 9.84375C4.6578 9.81636 4.58489 9.80279 4.51145 9.80383H0.816553C0.797322 9.80283 0.778051 9.80283 0.75882 9.80383Z"
+                                                fill="white" />
+                                        </svg>
+                                        <input class="iconinput" type="file" (change)="handleImageChange($event)">
+                                    </a>
+
+                                </div>
+                                <!-- <input id="profile-image-upload" class="hidden" type="file"
+                                    (change)="handleImageChange($event)">
+                                <a href="javascript:void(0)" id="profile-image2">
+                                    <svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.75882 0.381856C0.686028 0.385634 0.614694 0.403715 0.54889 0.435065C0.483087 0.466415 0.424103 0.51042 0.375308 0.564568C0.326513 0.618715 0.288862 0.681945 0.264506 0.750645C0.24015 0.819345 0.229565 0.89217 0.233356 0.964961C0.237147 1.03775 0.25524 1.10908 0.286602 1.17488C0.317963 1.24068 0.361979 1.29966 0.416135 1.34844C0.470291 1.39723 0.533527 1.43487 0.602231 1.45921C0.670936 1.48356 0.743762 1.49413 0.816553 1.49032H8.02159C8.09504 1.49136 8.16795 1.47779 8.23611 1.45041C8.30426 1.42302 8.36629 1.38236 8.41859 1.33079C8.4709 1.27922 8.51243 1.21777 8.54078 1.15002C8.56912 1.08226 8.58372 1.00954 8.58372 0.93609C8.58372 0.86264 8.56912 0.789922 8.54078 0.722163C8.51243 0.654404 8.4709 0.592955 8.41859 0.541386C8.36629 0.489818 8.30426 0.449159 8.23611 0.421772C8.16795 0.394385 8.09504 0.380817 8.02159 0.381856H0.816553C0.797322 0.380853 0.778051 0.380853 0.75882 0.381856ZM14.7705 0.381856C14.2285 0.381856 13.686 0.588864 13.2753 0.999596L6.39931 7.88133C6.31733 7.96272 6.26284 8.06768 6.24343 8.18154L5.81043 10.8199C5.79655 10.9065 5.8034 10.9951 5.8304 11.0785C5.85741 11.1619 5.90381 11.2377 5.96579 11.2996C6.02777 11.3616 6.10356 11.408 6.18695 11.435C6.27034 11.462 6.35894 11.4689 6.44549 11.455L9.08965 11.0278C9.20352 11.0084 9.30848 10.9539 9.38986 10.8719L16.2716 3.99015C17.0937 3.16797 17.0872 1.82106 16.2658 0.999596C16.2147 0.947829 16.1539 0.906632 16.0869 0.878357C16.0849 0.878347 16.083 0.878347 16.0811 0.878357C15.6965 0.568854 15.2411 0.381856 14.7705 0.381856ZM14.7705 1.48455C15.0257 1.48455 15.2859 1.58417 15.4864 1.78476C15.8876 2.18593 15.8869 2.81031 15.4864 3.21076L15.2324 3.45901L13.8122 2.03878L14.0604 1.78476C14.261 1.58417 14.5153 1.48455 14.7705 1.48455ZM13.027 2.82395L14.4472 4.24417L8.73171 9.95971L7.02859 10.2368L7.30571 8.54526L13.027 2.82395ZM0.75882 3.52251C0.686028 3.52629 0.614694 3.54437 0.54889 3.57572C0.483087 3.60707 0.424103 3.65108 0.375308 3.70523C0.326513 3.75937 0.288862 3.8226 0.264506 3.8913C0.24015 3.96 0.229565 4.03283 0.233356 4.10562C0.237147 4.17841 0.25524 4.24974 0.286602 4.31554C0.317963 4.38134 0.361979 4.44031 0.416135 4.4891C0.470291 4.53789 0.533527 4.57553 0.602231 4.59987C0.670936 4.62421 0.743762 4.63479 0.816553 4.63098H8.02159C8.09504 4.63202 8.16795 4.61845 8.23611 4.59107C8.30426 4.56368 8.36629 4.52302 8.41859 4.47145C8.4709 4.41988 8.51243 4.35843 8.54078 4.29068C8.56912 4.22292 8.58372 4.1502 8.58372 4.07675C8.58372 4.0033 8.56912 3.93058 8.54078 3.86282C8.51243 3.79506 8.4709 3.73361 8.41859 3.68205C8.36629 3.63048 8.30426 3.58982 8.23611 3.56243C8.16795 3.53504 8.09504 3.52148 8.02159 3.52251H0.816553C0.797322 3.52151 0.778051 3.52151 0.75882 3.52251ZM0.75882 6.66317C0.686028 6.66695 0.614694 6.68503 0.54889 6.71638C0.483087 6.74773 0.424103 6.79174 0.375308 6.84589C0.326513 6.90003 0.288862 6.96326 0.264506 7.03196C0.24015 7.10066 0.229565 7.17349 0.233356 7.24628C0.237147 7.31907 0.25524 7.3904 0.286602 7.4562C0.317963 7.522 0.361979 7.58097 0.416135 7.62976C0.470291 7.67854 0.533527 7.71618 0.602231 7.74053C0.670936 7.76487 0.743762 7.77544 0.816553 7.77164H4.51145C4.58489 7.77268 4.6578 7.75911 4.72596 7.73172C4.79411 7.70434 4.85614 7.66368 4.90844 7.61211C4.96075 7.56054 5.00228 7.49909 5.03063 7.43133C5.05898 7.36357 5.07357 7.29086 5.07357 7.21741C5.07357 7.14396 5.05898 7.07124 5.03063 7.00348C5.00228 6.93572 4.96075 6.87427 4.90844 6.8227C4.85614 6.77114 4.79411 6.73048 4.72596 6.70309C4.6578 6.6757 4.58489 6.66213 4.51145 6.66317H0.816553C0.797322 6.66217 0.778051 6.66217 0.75882 6.66317ZM0.75882 9.80383C0.686028 9.80761 0.614694 9.82569 0.54889 9.85704C0.483087 9.88839 0.424103 9.9324 0.375308 9.98654C0.326513 10.0407 0.288862 10.1039 0.264506 10.1726C0.24015 10.2413 0.229565 10.3141 0.233356 10.3869C0.237147 10.4597 0.25524 10.5311 0.286602 10.5969C0.317963 10.6627 0.361979 10.7216 0.416135 10.7704C0.470291 10.8192 0.533527 10.8568 0.602231 10.8812C0.670936 10.9055 0.743762 10.9161 0.816553 10.9123H4.51145C4.58489 10.9133 4.6578 10.8998 4.72596 10.8724C4.79411 10.845 4.85614 10.8043 4.90844 10.7528C4.96075 10.7012 5.00228 10.6398 5.03063 10.572C5.05898 10.5042 5.07357 10.4315 5.07357 10.3581C5.07357 10.2846 5.05898 10.2119 5.03063 10.1441C5.00228 10.0764 4.96075 10.0149 4.90844 9.96336C4.85614 9.91179 4.79411 9.87114 4.72596 9.84375C4.6578 9.81636 4.58489 9.80279 4.51145 9.80383H0.816553C0.797322 9.80283 0.778051 9.80283 0.75882 9.80383Z"
+                                            fill="white" />
+                                    </svg>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="accountdetail">
+                            <form id="registrationForm" [formGroup]="registrationForm">
+                                <div class="containerfuil">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-sm-6  col-xl-6">
+                                            <div class="profilename">
+                                                <label>{{'first_name' | translate}}</label>
+                                                <input type="text" name="first name" class="form-control mail"
+                                                    placeholder="{{'err_first_name' | translate}}"
+                                                    formControlName="first_name">
+                                                <div style="height: 20px;">
+                                                    <div class="denger"
+                                                        *ngIf="submitted && first_name!.errors?.['required']">
+                                                        {{'First_Name_is_required' | translate}}
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" col-12 col-sm-6 col-sm-6  col-xl-6">
+                                            <div class="profilename">
+                                                <label>{{'last_name' | translate}}</label>
+                                                <input name="last name" type="text" class="form-control mail"
+                                                    placeholder="{{'err_last_name' | translate}}"
+                                                    formControlName="last_name">
+                                                <div style="height: 20px;">
+                                                    <div class="denger"
+                                                        *ngIf="submitted && last_name!.errors?.['required']">
+                                                        {{'Last_Name_is_required' | translate}}
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12" *ngIf="isPasswords">
+                                            <div class="profilename">
+                                                <label>{{'password' | translate}}</label>
+                                                <input type="password" name="password" class="form-control mail"
+                                                    placeholder="{{'password' | translate}}" formControlName="password">
+                                                <div style="height: 20px;">
+                                                    <div class="denger"
+                                                        *ngIf="submitted && password!.errors?.['required']">
+                                                        {{'Password_is_required' | translate}}
+                                                        <!-- {{'First_Name_is_required' | translate}} -->
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="entername">
+                                    <div class="name">
+                                        <label>First Name</label>
+                                        <input type="text" class="form-control mail" placeholder="Enter First name"
+                                            formControlName="first_name">
+                                    </div>
+                                    <div class="name">
+                                        <label>Last Name</label>
+                                        <input type="text" class="form-control mail" placeholder="Enter Last name"
+                                            formControlName="last_name">
+                                    </div>
+                                </div> -->
+                                <!-- <div class="password">
+                                    <label>Password *</label>
+                                    <input type="password" class="form-control mail" placeholder="Enter Password"
+                                        formControlName="password">
+                                </div> -->
+                                <div class="containerfuil">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <a style="border-radius: 5px;
+                                cursor: pointer;
+                                box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" *ngIf="!emailReminder"
+                                                (click)="emailReminderCheck()" class="login">{{'next' | translate}}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <Span *ngIf="emailReminder">
+                                    <label
+                                        style="padding-bottom: 15px;">{{'please_add_your_phone_number_and_email_address_for_the_reminder_of_your_lessons'
+                                        | translate}}</label>
+                                    <div class="containerfuil">
+                                        <div class="row">
+                                            <div class=" col-12 col-sm-6 col-sm-6  col-xl-6">
+                                                <div class="profilename">
+                                                    <label>{{'email' | translate}}</label>
+                                                    <input name="email" type="mail" class="form-control mail"
+                                                        formControlName="email"
+                                                        placeholder="{{'err_email' | translate}}">
+                                                    <div style="height: 20px;">
+                                                        <div class="denger"
+                                                            *ngIf="submitted && email!.errors?.['required']">
+                                                            {{'Email_is_required' | translate}}
+                                                            <!-- {{'First_Name_is_required' | translate}} -->
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-12 col-sm-6 col-sm-6  col-xl-6">
+                                                <div class="profilename">
+                                                    <label style="    margin-bottom: 10px;
+                                                ">{{'phone' | translate}}</label>
+                                                    <ngx-intl-tel-input [cssClass]="'custom'"
+                                                        [preferredCountries]="preferredCountries"
+                                                        [enableAutoCountrySelect]="true" [enablePlaceholder]="true"
+                                                        [searchCountryFlag]="true"
+                                                        [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
+                                                        [selectFirstCountry]="false" [selectedCountryISO]="countryPhone"
+                                                        [maxLength]="15" [phoneValidation]="true"
+                                                        [separateDialCode]="separateDialCode"
+                                                        [numberFormat]="PhoneNumberFormat.National" name="phone"
+                                                        formControlName="mobile">
+                                                    </ngx-intl-tel-input>
+                                                    <div style="height: 20px; margin-top: 10px;">
+                                                        <div class="denger"
+                                                            *ngIf="submitted && mobilephone!.errors?.['required']">
+                                                            {{'Mobile_is_required' | translate}}
+                                                            <!-- {{'First_Name_is_required' | translate}} -->
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-12 col-sm-12 col-sm-12  col-xl-12">
+                                                <div class="" style="order-radius: 10px;">
+                                                    <div style="background: white;margin: 0px; border-radius: 5px; box-shadow: 0 1px 5px #00000026;"
+                                                        mat-stretch-tabs
+                                                        class=" row example-stretched-tabs mat-elevation-z4"
+                                                        mat-align-tabs="center">
+                                                        <div (click)="loadComponent(1)"
+                                                            [ngClass]="ageGroup == 1 ? 'activetab': ''"
+                                                            class="tabtext tabborder1 col-4">{{'adult' | translate  }}</div>
+                                                        <div (click)="loadComponent(2)"
+                                                            [ngClass]="ageGroup == 2 ? 'activetab': ''"
+                                                            class="tabtext col-4"> {{'teen' | translate}}
+                                                        </div>
+                                                        <div (click)="loadComponent(3)"
+                                                            [ngClass]="ageGroup == 3 ? 'activetab': ''"
+                                                            class="tabtext tabborder2 col-4">{{'kid' | translate}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-12 mt-3" *ngIf="isRecaptchaSign">
+                                                <ngx-recaptcha2 #captchaElem
+                                                    siteKey="6LfYlH8jAAAAACt8z9PaUw7vZ1Bn326d6um9ifJZ"
+                                                    (success)="handleSuccess($event)" [size]="size" [hl]="lang"
+                                                    [theme]="theme" [type]="type" formControlName="recaptcha">
+                                                </ngx-recaptcha2>
+                                                <div class="denger"
+                                                    *ngIf="submitted && recaptchaV!.errors?.['required']">
+                                                    Captcha is required
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Span>
+                            </form>
+
+                            <!-- <button form="registrationForm" class="login">Next</button> -->
+                            <div class="containerfuil">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a type="submit" *ngIf="emailReminder" form="registrationForm"
+                                            (click)="onSubmit()" style="border-radius: 5px;
+                                cursor: pointer;
+                                box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" class="login">{{'sign_up' | translate}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="or">
+                                <p style="    margin: 0px;
+                                padding: 0px;">{{'or' | translate}}</p>
+                            </div>
+                            <!-- <div class="signupwith text-center">
+                                <a style="border-radius: 5px;" href="https://www.facebook.com/login"
+                                    class="justify-content-center m-auto"><i
+                                        class="fab fa-facebook-f"></i><span>Continue free
+                                        with
+                                        facebook</span></a>
+                            </div> -->
+                            <div class="loginexistinguser">
+                                <a style="cursor:pointer ;" (click)="loginexistinguser()"
+                                    class="existinguser">{{'login_' | translate}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade logoutmodal show background" id="exampleModal" [ngStyle]="{'display': styleExp}"
+    [dir]="directionController.textDirection">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+
+                <button type="button" class="btn-close" (click)="closePopup()"></button>
+            </div>
+            <div class="modal-body">
+                <div class="modalbody text-center">
+
+                    <img src="assets/images/teacher/userverification.png" alt="">
+                    <p>{{'Enter_6_digit_verification_code_we_just_send_you_through_SMS_to_the_number_you_specified' |
+                        translate}}</p>
+                    <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2" dir='ltr'>
+                        <ng-otp-input #ngOtpInput (onInputChange)="onOtpChange($event)" *ngIf="showOtpComponent"
+                            [config]="{allowNumbersOnly: true,
+                            length: 6,
+                            isPasswordInput: false,
+                            disableAutoFocus: false,
+                            placeholder: '',
+                            inputStyles: { 'width': '50px','height': '50px'}
+                         }">
+                        </ng-otp-input>
+                    </div>
+
+                    <!-- <div class="mt-4">
+                        <button (click)="userVerification()"
+                            [ngClass]="[isDisabled ? 'btn btn-primary px-4 validateDisable' : 'btn btn-primary px-4 validate']"
+                            [disabled]="isDisabled == true ">{{'verify' | translate}}</button>
+                            <button (click)="userVerification()" [disabled]="isDisabled == true " class="btn btn-primary">{{'verify' | translate}}</button>
+                    </div> -->
+                    <div class="mt-1">
+                        <button [ngClass]="[isDisabled ? 'validateDisable' : 'validate']" style="cursor: pointer;"
+                            (click)="userVerification()" [disabled]="isDisabled == true" class="login1">{{'verify' |
+                            translate}}</button>
+                    </div>
+                    <!-- <div class="inputs d-flex flex-row justify-content-center mt-2">
+                        <form [formGroup]="aFormGroup">
+                            <ngx-recaptcha2 #captchaElem siteKey="6LfYlH8jAAAAACt8z9PaUw7vZ1Bn326d6um9ifJZ" (success)="handleSuccess($event)" [size]="size"
+                             [hl]="lang" [theme]="theme" [type]="type" formControlName="recaptcha">
+                            </ngx-recaptcha2>
+                        </form>
+                    </div> -->
+                    <div class="mt-4">
+                        <p style="font-size: 15px;">{{'didn_t_receive_the_code' | translate}}</p>
+                        <form (ngSubmit)="reSendOTP()" class="d-flex justify-content-center" [formGroup]="aFormGroup">
+                            <div class="inputs flex-row justify-content-center">
+                                <ngx-recaptcha2 #captchaElem siteKey="6LfYlH8jAAAAACt8z9PaUw7vZ1Bn326d6um9ifJZ"
+                                    (success)="handleSuccessReset($event)" [size]="size" [hl]="lang" [theme]="theme"
+                                    [type]="type" formControlName="recaptcha">
+                                </ngx-recaptcha2>
+                                <div class="denger mt-3 mb-2" *ngIf="submittedR && recaptchaR!.errors?.['required']">
+                                    {{'Captcha_is_required' | translate}}
+                                </div>
+                            </div>
+
+                        </form>
+                        <a class="mt-2" type="submit" style="cursor:pointer; color: #28AAE1;font-size: 20px;"
+                            (click)="reSendOTP()">{{'resend' | translate}}</a>
+
+                    </div>
+                    <div class="logoutyesno">
+                        <!-- <div> <span>A code has been sent to</span> <small>*******9897</small> </div>
+                        <button type="button" >Didn't Receive the Code?</button>
+                        <button type="button" >Resend Code</button> -->
+                        <!-- <a type="button" class="btnblue">Yes</a>
+                        <a type="button" class="btnblue" data-bs-dismiss="modal" aria-label="Close">No</a>
+                        <a href="javascript:void(0)" class="btnblue">No</a> -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- <div class="jumbotron bg-transparent text-center">
+	<div *ngIf="!user" class="card text-center">
+		<h6 class="card-header">
+			Social Login Demo
+		</h6>
+		<div class="card-block">
+			<h4 class="card-title">Not signed in</h4>
+			<p class="card-text">Sign in with</p>
+		</div>
+		<div class="card-block">
+			<button class="btn btn-primary my-2 mr-3" (click)="signInWithFB()">
+        Sign in with Facebook
+      </button>
+			<button class="btn btn-primary my-2" (click)="signInWithGoogle()" >
+        Signin in with Google
+      </button>
+		</div>
+	</div>
+	<div *ngIf="user" class="card text-center">
+		<h6 class="card-header">
+			Social Login Demo
+		</h6>
+		<div class="card-block"></div>
+		<img class="card-img-top img-responsive photo" src="{{ user.photoUrl }}" />
+		<div class="card-block">
+			<h4 class="card-title">{{ user.name }}</h4>
+			<p class="card-text">{{ user.email }}</p>
+		</div>
+		<div class="card-block">
+			<button class="btn btn-danger" (click)="signOut()">Sign out</button>
+		</div>
+	</div>
+</div> -->
+
+<!-- <re-captcha id="recaptcha" name="recaptcha" #recaptcha="ngModel" [(ngModel)]="token"></re-captcha> -->
+
+<!-- <form [formGroup]="aFormGroup">
+	<ngx-recaptcha2 #captchaElem siteKey="6LeFR6cUAAAAAGviLYm9xPsWGyVaTLjBCDFma9Yp" (success)="handleSuccess($event)" [size]="size"
+	 [hl]="lang" [theme]="theme" [type]="type" formControlName="recaptcha">
+	</ngx-recaptcha2>
+</form> -->
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

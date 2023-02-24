@@ -1,0 +1,57 @@
+<div class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+
+            <h2 class="maintext ">{{'previous_attempts' | translate}}
+            </h2>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="profiletab" >
+    <div class="container">
+        <div class="session" style="    margin-top: -100px;">
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div *ngFor="let item of answerListedModel; let j=index" class="col-lg-4">
+                                <div class="firstsession">
+                                    <a style=" border-left: 5px solid #28aae1;">
+                                        <div class="firstsessioninfo firstsession-cancelled upses"  style="padding: 0px;">
+                                            <div class="sessiontitle sessiontitle1" style="display: flex; padding: 0px;">
+                                                <div style="border-right: 2px solid rgb(133 137 146 / 50%); padding: 10px; text-align: center;width: 100px;">
+                                                <!-- <h4 style="font-weight: unset;
+                                                font-size: 15px;" >{{item.date  | timeAgo}} </h4>
+                                                <h4 style="font-weight: unset;
+                                                font-size: 15px;">{{item.date | date:'HH:mm'}} </h4> -->
+                                                                     <h4 style="font-weight: unset;
+                                                                     font-size: 15px; line-height: 18px;" >{{item.date  | timeAgo}}</h4>
+                                                                     <h4 style="font-weight: unset;
+                                                                     font-size: 15px;">{{item.date | date:'HH:mm'}}</h4>
+                                            </div>
+                                            <div style="display: flex;
+                                            margin: auto 0;">
+                                                <div *ngFor="let option of item.answers; let i=index" style="padding: 10px;
+                                                font-size: 18px;">
+                                                    <span [ngStyle]="{'color': option.isAnswer?'green':'red'}" >{{i+1}}. {{option.answer}}</span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" style="z-index: 99999999;" class="mat-spinner-color"></mat-spinner>

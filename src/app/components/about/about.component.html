@@ -1,0 +1,64 @@
+<div class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h1 class="maintext">{{'about' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="profiletab packagesec" [dir]="directionController.textDirection">
+    <div class="container">
+        <!-- <div class="favouritetitle upcomingses">
+          <h6>Score and level</h6>
+          <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                  </line>
+                  <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round">
+                  </line>
+              </svg>
+          </span>
+      </div> -->
+
+        <div class="myprofiledetails">
+            <div class="biginerprogress">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-8 col-xl-8 p-5">
+                        <div class="teacherfind">
+                            <p [innerHtml]="'about_page' | translate"></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-4 col-xl-4 p-5">
+                        <img decoding="async"
+                            src="https://i-fal.com/wp-content/uploads/2021/01/ezgif-2-bd3bff4c02e8-final.gif"
+                            class="attachment-full size-full gifimage" alt="" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- <div class="modal fade modaldate show" style="z-index: 100000;" [ngStyle]="{'display': styleExpClancel}" [dir]="directionController.textDirection">
+  <div class="modal-dialog modal-dialog-centered" style="max-width: 550px !important;">
+      <div class="modal-content">
+          <div class="modal-body " style="padding:1rem;">
+              <div class="modalbody thankyou text-center" style="border: none;margin-bottom:0px">
+                  <p style="line-height: none;text-align:start;">{{message}}</p>
+                  <div class="okayClose">
+                      <a style="cursor: pointer;" (click)="closePopup()" class="btnblue">{{'ok' | translate}}</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> -->
+
+<!-- <mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner> -->

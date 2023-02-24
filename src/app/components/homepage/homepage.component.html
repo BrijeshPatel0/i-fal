@@ -1,0 +1,855 @@
+<app-header></app-header>
+<span >
+<section class="hero pb-0" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="heroinfo">
+                    <h1 class="maintext">{{'Homepage_h_Learning_English_Online' | translate}}
+                    </h1>
+                    <!-- <h1>{{message}}</h1> -->
+                    <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                            <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round" />
+                        </svg>
+                    </span>
+                    <span>{{'Homepage_sh_For_a_lesson' | translate}} </span>
+                    <p [innerHtml]="'Homepage_P_The_i_fal_app' | translate"></p>
+                    <!-- // "btn_book_the_class_free_trial": "Book a free trial class without credit/payment details required", -->
+                    <p>{{'Homepage_P_ifal_is_an' | translate}}</p>
+                    <a style="cursor: pointer;" (click)="chooseTime('Morning')" class="btnblue">{{'btn_book_the_class_free_trial' |
+                        translate}}</a>
+                    <!-- <button (click)="bookTheClass()" > API</button>
+                      <button (click)="bookTheClass1()" > API1</button> -->
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="heroimg">
+                    <img src="assets/images/home/homebannerimg.jpg" alt="">
+                    <img src="assets/images/home/eng.png" alt="" class="eng">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Why_ifal" class="value sectionmenu" [dir] = "directionController.textDirection" >
+    <div class="container">
+        <div class="mainheading text-center">
+            <h1 class="maintext ">{{'Homepage_h_Some_more_good' | translate}}</h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+        <div class="row align-items-center" >
+            <div class="col-lg-5">
+                <div class="valueimg" *ngIf="directionController.textDirection == 'ltr'">
+                    <img src="assets/images/home/phone.png" alt="">
+                    <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')" class="popup-youtube"><i
+                            class="fas fa-play"></i></a>
+                </div>
+                <div class="valueimg"  *ngIf="directionController.textDirection == 'rtl'">
+                    <img src="assets/images/home/phone.png" alt="">
+                    <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/ZItyr9kYTqM')" class="popup-youtube"><i
+                            class="fas fa-play"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="valueinfo">
+                    <ul>
+                        <li>
+                            <img src="assets/images/home/value.png" alt="">
+                            <div class="valuedetail">
+                                <h5>{{'Homepage_sh_Maximum_value' | translate}}</h5>
+                                <p> {{'Homepage_p_A_price_you' | translate}}</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/images/home/value2.png" alt="">
+                            <div class="valuedetail">
+                                <h5>{{'Homepage_sh_Without_obligation' | translate}}</h5>
+                                <p>{{'Homepage_p_In_the_i_fal' | translate}}</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/images/home/value3.png" alt="">
+                            <div class="valuedetail">
+                                <h5>{{'Homepage_sh_Weekly_daily' | translate}}</h5>
+                                <p>{{'Homepage_p_A_daily_lesson' | translate}}</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/images/home/value4.png" alt="">
+                            <div class="valuedetail">
+                                <h5> {{'Homepage_sh_Experienced_professional_teachers' | translate}}</h5>
+                                <p> {{'Homepage_p_The_teaching_staff' | translate}}</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="frontcomsec"  [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-center">
+            <h1 class="maintext ">{{'Homepage_h_We_are_in' | translate}}</h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <p>{{'Homepage_p_Our_goal_is' | translate}}</p>
+        </div>
+        <div class="frontcom">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="select active">{{'Homepage_sh_Other_competitors' | translate}}</th>
+                        <th><img src="assets/images/home/frontlogo.png" alt=""></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>{{'Homepage_p_Price_per_lesson' | translate}}</th>
+                        <td class="select active">{{'Homepage_p_Between_50' | translate}}</td>
+                        <td>{{'Homepage_p_Between_16' | translate}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{'Homepage_p_Convenient_app_for' | translate}}</th>
+                        <td class="select active"><img src="assets/images/home/rong.png" alt=""></td>
+                        <td><img src="assets/images/home/true.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <th>{{'Homepage_p_Commitment_for' | translate}}</th>
+                        <td class="select active">{{'Homepage_p_THERE_IS' | translate}}</td>
+                        <td>{{'Homepage_p_NOTHING' | translate}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{'Homepage_p_Detailed_lesson' | translate}}</th>
+                        <td class="select active">{{'Homepage_p_THERE_ARE_IN' | translate}}</td>
+                        <td><img src="assets/images/home/true.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <th>{{'Homepage_p_Practice_words_learned' | translate}}</th>
+                        <td class="select active"><img src="assets/images/home/rong.png" alt=""></td>
+                        <td><img src="assets/images/home/true.png" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+<section class="downloadsec" [dir] = "directionController.textDirection">
+    <div class="container">
+        <ul class="download">
+            <li>
+                <h3>{{'Download_the_app_now_and_get_a_first_lesson' | translate}}</h3>
+
+                <!-- <span><svg width="72" height="5" viewBox="0 0 72 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="0.719238" width="53.4661" height="3.92455" rx="1.96227" fill="white" />
+                        <rect x="58" y="0.719238" width="13.3665" height="3.92455" rx="1.96227" fill="white" />
+                    </svg>
+                </span> -->
+                <span>  <a style="cursor: pointer;" (click)="chooseTime('Morning')" class="btnblueApp">{{'btn_book_the_class_free_trial' |
+                    translate}}</a>
+            </span>
+                
+                <p>{{'You_can_download_the_app_from_your_mobile_smartphone_only' | translate}}</p>
+            </li>
+            <li>
+                <a style="cursor: pointer;" href="https://apps.apple.com/us/app/i-fal/id1535918494"><img src="assets/images/home/appstore.png"
+                        alt=""></a>
+                <a style="cursor: pointer;" href="https://play.google.com/store/apps/details?id=com.i_fal"><img src="assets/images/home/play.png"
+                        alt=""></a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="Pricing" class="packagesec sectionmenu" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-center">
+            <h1 class="maintext ">{{'Choose_the_package_that_is_right_for_you' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+              obligation</p> -->
+        </div>
+        <div class="row">
+            <div (click)="activate('WEEKLY_2')" class="col-lg-3 WEEKLY_2">
+                <div class="package">
+                    <h5>{{currencySymbol}}{{pricingListed?.two_session_week}}<span>{{'monthly' | translate}}</span></h5>
+                    <p style="margin-bottom: 0px;">{{'_2_sessions_a_week_one_month' | translate }}</p>
+                    <p>{{'_2_sessions_a_average' | translate }}</p>
+                    <span>
+                        <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson' | translate }}
+                    </span>
+                    <!-- <a style="cursor: pointer;" routerLink="/book-lesson">Set a free trial lesson</a> -->
+                    <a style="cursor: pointer;" (click)="chooseTime('Morning')" class="btnblue">{{'btn_book_the_class' |
+                        translate}}</a>
+
+                </div>
+            </div>
+            <div (click)="activate('WEEKLY_3')" class="col-lg-3 WEEKLY_3">
+                <div class="package">
+                    <h5>{{currencySymbol}}{{pricingListed?.three_session_week}} <span>{{'monthly' | translate}}</span></h5>
+                    <p style="margin-bottom: 0px;">{{'_3_sessions_a_week_one_month' | translate }} </p>
+                    <p>{{'_3_sessions_a_average' | translate }} </p>
+                    <span>
+                        <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson' | translate }}
+                    </span>
+                    <!-- <a style="cursor: pointer;" routerLink="/book-lesson">Set a free trial lesson</a> -->
+                    <a style="cursor: pointer;" (click)="chooseTime('Morning')" class="btnblue">{{'btn_book_the_class' |
+                        translate}}</a>
+
+                </div>
+            </div>
+            <div (click)="activate('WEEKLY_4')" class="col-lg-3 WEEKLY_4">
+                <div class="package">
+                    <h5>{{currencySymbol}}{{pricingListed?.four_session_week}} <span>{{'monthly' | translate}}</span></h5>
+                    <p style="margin-bottom: 0px;">{{'_4_sessions_a_week_one_month' | translate }}</p>
+                    <p>{{'_4_sessions_a_average' | translate }}</p>
+                    <span>
+                        <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson' | translate }}
+                    </span>
+                    <!-- <a style="cursor: pointer;" routerLink="/book-lesson">Set a free trial lesson</a> -->
+                    <a style="cursor: pointer;" (click)="chooseTime('Morning')" class="btnblue">{{'btn_book_the_class' |
+                        translate}}</a>
+
+                </div>
+            </div>
+            <div (click)="activate('WEEKLY_5')" class="col-lg-3 WEEKLY_5">
+                <div class="package">
+                    <h5>{{currencySymbol}}{{pricingListed?.five_session_week}} <span>{{'monthly' | translate}}</span></h5>
+                    <p style="margin-bottom: 0px;">{{'_5_sessions_a_week_one_month' | translate }}</p>
+                    <p>{{'_5_sessions_a_average' | translate }}</p>
+                    <span>
+                        <i class="fas fa-check"></i>{{'_25_minutes_of_private_lesson' | translate }}
+                    </span>
+                    <!-- <a style="cursor: pointer;" routerLink="/book-lesson">Set a free trial lesson</a> -->
+                    <a style="cursor: pointer;" (click)="chooseTime('Morning')" class="btnblue">{{'btn_book_the_class' |
+                        translate}}</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="Our_Teachers" class="videoonworthsec sectionmenu" >
+    <div class="container">
+        <div class="mainheading text-left" style="margin-bottom: 5px;" [dir] = "directionController.textDirection">
+            <h1 class="maintext ">{{'One_video_is_worth_about' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <p style="    padding: 10px 0px;" >{{'watch_some_of_our_amazing_teachers' | translate}}</p>
+        </div>
+        <div id="owlcarousel" [ngClass]="directionController.textDirection" >
+            <owl-carousel-o [options]="customOptions">
+                <ng-template *ngFor="let item of teacherVideos" carouselSlide >
+                    <div class="item" style="padding: 15px;" [dir] = "directionController.textDirection">
+                        <div class="lecture">
+                            <div class="lecturerimg">
+                                <img style="width: 100%; height: 100%;" [src]="item.image" alt="">
+                                <a style="cursor: pointer;" (click)="popUpVideo(item.video_url)"
+                                    class="popup-youtube"><i class="fas fa-play"></i></a>
+                            </div>
+                            <div class="lecturer">
+                                <h6>{{item.name}}</h6>
+                                <!-- <p>{{'IFal_Online_English_Learning_Platform' | translate}}</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <!-- <ng-template carouselSlide>
+                    <div class="item" style="padding: 15px;">
+                        <div class="lecture">
+                            <div class="lecturerimg">
+                                <img src="assets/images/home/onevideo2.png" alt="">
+                                <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')"
+                                    class="popup-youtube"><i class="fas fa-play"></i></a>
+                            </div>
+                            <div class="lecturer">
+                                <h6>Teacher Rachel</h6>
+                                <p>I-Fal - Online English Learning Platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="item" style="padding: 15px;">
+                        <div class="lecture">
+                            <div class="lecturerimg">
+                                <img src="assets/images/home/onevideo3.png" alt="">
+                                <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')"
+                                    class="popup-youtube"><i class="fas fa-play"></i></a>
+                            </div>
+                            <div class="lecturer">
+                                <h6>Teacher Rachel</h6>
+                                <p>I-Fal - Online English Learning Platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="item" style="padding: 15px;" drag-scroll-item>
+                        <div class="lecture">
+                            <div class="lecturerimg">
+                                <img src="assets/images/home/onevideo2.png" alt="">
+                                <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')"
+                                    class="popup-youtube"><i class="fas fa-play"></i></a>
+                            </div>
+                            <div class="lecturer">
+                                <h6>Teacher Rachel</h6>
+                                <p>I-Fal - Online English Learning Platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template> -->
+            </owl-carousel-o>
+        </div>
+        <!-- <div class="" id="">
+            <drag-scroll #nav [scroll-x-wheel-enabled]="true">
+                <div class="item" style="padding: 15px;" drag-scroll-item>
+                    <div class="lecture">
+                        <div class="lecturerimg">
+                            <img src="assets/images/home/onevideo.png" alt="">
+                            <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')" class="popup-youtube"><i
+                                    class="fas fa-play"></i></a>
+                        </div>
+                        <div class="lecturer">
+                            <h6>Teacher Rachel</h6>
+                            <p>I-Fal - Online English Learning Platform</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding: 15px;" drag-scroll-item>
+                    <div class="lecture">
+                        <div class="lecturerimg">
+                            <img src="assets/images/home/onevideo2.png" alt="">
+                            <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')" class="popup-youtube"><i
+                                    class="fas fa-play"></i></a>
+                        </div>
+                        <div class="lecturer">
+                            <h6>Teacher Rachel</h6>
+                            <p>I-Fal - Online English Learning Platform</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding: 15px;" drag-scroll-item>
+                    <div class="lecture">
+                        <div class="lecturerimg">
+                            <img src="assets/images/home/onevideo3.png" alt="">
+                            <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')" class="popup-youtube"><i
+                                    class="fas fa-play"></i></a>
+                        </div>
+                        <div class="lecturer">
+                            <h6>Teacher Rachel</h6>
+                            <p>I-Fal - Online English Learning Platform</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding: 15px;" drag-scroll-item>
+                    <div class="lecture">
+                        <div class="lecturerimg">
+                            <img src="assets/images/home/onevideo2.png" alt="">
+                            <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/TZdU19bORRY')" class="popup-youtube"><i
+                                    class="fas fa-play"></i></a>
+                        </div>
+                        <div class="lecturer">
+                            <h6>Teacher Rachel</h6>
+                            <p>I-Fal - Online English Learning Platform</p>
+                        </div>
+                    </div>
+                </div>
+            </drag-scroll>
+        </div> -->
+    </div>
+</section>
+
+
+<section id="FAQs" class="faqsec sectionmenu" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-center">
+            <h1 class="maintext ">{{'Common_questions' | translate }}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <p>{{'Our_goal_is_to_enable_students' | translate }}</p>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingOne">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        {{'faq_question_1' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" style="padding: 0px 35px 30px 35px;" class="accordion-body">
+                        {{'faq_answer_1' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingTwo">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        {{'faq_question_2' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_2' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingThree">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        {{'faq_question_3' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_3' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingFour">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        {{'faq_question_4' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_4' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingFour">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        {{'faq_question_5' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_5' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingFour">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        {{'faq_question_6' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_6' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingFour">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        {{'faq_question_7' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_7' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingFour">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseEghit" aria-expanded="false" aria-controls="flush-collapseEghit">
+                        {{'faq_question_8' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseEghit" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_8' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingFour">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsenine" aria-expanded="false" aria-controls="flush-collapsenine">
+                        {{'faq_question_9' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapsenine" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_9' | translate}}</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 style="margin-bottom: 0px;" class="accordion-header" id="flush-headingFour">
+                    <button style="padding: 35px 35px 20px 35px;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                        {{'faq_question_10' | translate}}
+                    </button>
+                </h2>
+                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div style="padding: 0px 35px 30px 35px;" class="accordion-body">{{'faq_answer_10' | translate}}</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="herelan pb-0" >
+    <div class="container">
+        <div class="mainheading text-center" [dir] = "directionController.textDirection">
+            <h1 class="maintext ">{{'Hear_from_our_Students' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+              obligation</p> -->
+        </div>
+        <div *ngIf="directionController.textDirection == 'rtl'"  class="herevideo" [dir] = "directionController.textDirection">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="lecturerimg">
+                        <img src="assets/images/home/hear1.jpg" style="width: 100%;" alt="">
+                        <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/1UOUGy-dBFU')" class="popup-youtube"><i
+                                class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="lecturerimg">
+                        <img src="assets/images/home/hear2.jpg" style="width: 100%;" alt="">
+                        <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/YyoukF36qRo')" class="popup-youtube"><i
+                                class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="lecturerimg">
+                        <img src="assets/images/home/hear3.jpg" style="width: 100%;" alt="">
+                        <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/BIrbl7llUmw')" class="popup-youtube"><i
+                                class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profilemain"  id="profile"  *ngIf="directionController.textDirection == 'ltr'">
+            <div class="">
+                <owl-carousel-o [options]="customOptions1">
+                    <ng-template *ngFor="let item of teacherReviews" carouselSlide>
+                        <div class="item">
+                            <div class="profileinfo">
+                                <img style="border-radius: 100%;" [src]="item.image" alt="">
+                                <h6>{{item.name}}</h6>
+                                <span>{{item.location}}</span>
+                                <div>
+                                    <p>{{item.review}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <!-- <ng-template carouselSlide>
+                        <div class="item">
+                            <div class="profileinfo">
+                                <img src="assets/images/home/profile.png" alt="">
+                                <h6>Dharshani Arumugam</h6>
+                                <span>Sydney, Australia</span>
+                                <div>
+                                    <p>I tried lots of ways to learn English, each time I encountered a different
+                                        difficulty and did
+                                        not
+                                        find the right solution for me. Both in terms of price and in terms of quality.
+                                        When I heard
+                                        from a friend about the i-fal app I was a little skeptical. Today, after about
+                                        half a year
+                                        of
+                                        lessons on a daily basis - I highly recommend - my English has improved even
+                                        beyond my
+                                        expectations! Thank you</p>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template> -->
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- <section class="instruction" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-center">
+            <h1 class="maintext ">{{'Instructional_videos_and_use_of_the_Ifal_app' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <p>Our goal is to enable students around the world to learn English (with a one-on-one teacher) in zoom
+                classes and provide a platform that enables them to improve all speaking, reading and writing skills in
+                English.</p>
+        </div>
+        <ul class="instr">
+            <li>
+                <div class="lecturerimg">
+                    <img src="assets/images/home/membership.jpg" alt="">
+                    <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/F5RGoeuATxQ')" class="popup-youtube"><i
+                            class="fas fa-play"></i></a>
+                </div>
+                <div style="    height: 150px;">
+                <h5>{{'How_to_sign_up_as_a_member_and_pay_on_the_App' | translate}}</h5>
+            </div>
+            </li>
+            <li>
+                <div class="lecturerimg">
+                    <img src="assets/images/home/score.jpg" alt="">
+                    <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/AOqXXYSZzq8')" class="popup-youtube"><i
+                            class="fas fa-play"></i></a>
+                </div>
+                <div style="    height: 150px;">
+                <h5>{{'How_to_enter_a_lesson_through_the_app' | translate}}</h5>
+            </div>
+            </li>
+            <li>
+                <div class="lecturerimg">
+                    <img src="assets/images/home/signup.jpg" alt="">
+                    <a style="cursor: pointer;" (click)="popUpVideo('https://www.youtube.com/embed/vSvhv8jHCIE')" class="popup-youtube"><i
+                            class="fas fa-play"></i></a>
+                </div>
+                <div style="    height: 150px;">
+                <h5>{{'How_to_sign_up_for_a_first_class_as_a_gift' | translate}}</h5>
+            </div>
+            </li>
+        </ul>
+    </div>
+</section> -->
+<section  id="contact"  class="contact furtherrtl sectionmenu" [dir] = "directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-center">
+            <h1 class="maintext ">{{'Not_sure_if_ifal_is_the_right_app_for_you_to_learn_English' | translate}}
+            </h1>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+            <!-- <p style="margin-top: 0px;padding-top: 50px;">{{'Not_sure_if_ifal_is_the_right_app_for_you_to_learn_English' | translate}}</p> -->
+        </div>
+        <div class="contantdetails">
+            <form (ngSubmit)="onSubmit()" id="registrationForm" [formGroup]="questionsForm">
+            <div class="row">
+                <div class="col-lg-4">
+                    <label>{{'Full_Name' | translate}}</label>
+                    <input type="text" name="name" value="" formControlName="name">
+                </div>
+                <div class="col-lg-4">
+                    <label>{{'Email_Address' | translate}}</label>
+                    <input type="mail" name="name" value="" formControlName="email">
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label>{{'Phone_Number' | translate}}</label>
+                    <!-- <input type="text" name="name" value=""> -->
+                    <div class="profilename" id="profilename">
+                        <!-- <label style="    margin-bottom: 10px;
+                        ">Phone</label> -->
+                        <ngx-intl-tel-input [cssClass]="'custom'" [preferredCountries]="preferredCountries"
+                            [enableAutoCountrySelect]="true" [enablePlaceholder]="true" [searchCountryFlag]="true"
+                            [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
+                            [selectFirstCountry]="false" [selectedCountryISO]="countryPhone" [maxLength]="15"
+                            [phoneValidation]="true" [separateDialCode]="separateDialCode"
+                            [numberFormat]="PhoneNumberFormat.National" name="phone" formControlName="mobile">
+                        </ngx-intl-tel-input>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <a style="cursor: pointer;" (click)="onSubmit()" class="btnblue">{{'Get_back_to_me' | translate}} </a>
+                </div>
+            </div>
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+<div class="modal fade modaldate show" style="z-index:100000 ;" [ngStyle]="{'display': styleExpPop}" [dir] = "directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 0px;">
+                <button type="button" class="btn-close" (click)="closePopUpVideo()"></button>
+            </div>
+            <div class="modal-body">
+                <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation" *ngFor="let item of result">
+                        <button [ngClass]="[item === selectdate ? 'nav-link active' : 'nav-link']" id="pills-day-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-day" type="button" role="tab"
+                            aria-controls="pills-day" aria-selected="true" (click)="selectDate(item)">
+                            <span>{{item | date:"MMM"}}</span>
+                            <h3>{{item | date:"d"}}</h3>
+                            <p>{{item | date:"EEEE"}}</p>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-day6-tab" data-bs-toggle="pill" data-bs-target="#pills-day6"
+                            type="button" role="tab" aria-controls="pills-day6" aria-selected="false">
+                            <span (click)="Last7Days(5)">See More</span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="tag">
+                    <p>To set a Free trial class without the need for your credit card details.please choose a time that
+                        is convenient for you.</p>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="0-day" role="tabpanel" aria-labelledby="pills-day-tab">
+                        <ul class="timeselect">
+                            <span *ngFor="let item of unicresponseSlot">
+                                <li [ngClass]="[item === selectdat ? 'active' : '']"><a style="cursor: pointer;" (click)="selectSlot(item)">
+                                        {{item | date:"HH:mm"}}</a></li>
+                            </span>
+                        </ul>
+                    </div>
+                </div> -->
+                <label id="example-radio-group-label" style="    font-size: 20px;
+                font-weight: 700;">{{'choose_time' | translate}}</label>
+                <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+                    [(ngModel)]="favoriteSeason">
+                    <!-- <mat-radio-button class="example-radio-button" (click)="chooseTime(season)" color="primary"
+                        *ngFor="let season of seasons" [value]="season">
+                        {{season}}
+                    </mat-radio-button> -->
+                    <mat-radio-button class="example-radio-button" (click)="chooseTime('Morning')" color="primary"
+                         value="Morning">
+                        {{'morning' | translate}}
+                    </mat-radio-button>
+                    <mat-radio-button class="example-radio-button" (click)="chooseTime('Afternoon')" color="primary"
+                         value="Afternoon">
+                         {{'afternoon' | translate}}
+                    </mat-radio-button>
+                    <mat-radio-button class="example-radio-button" (click)="chooseTime('Evening')" color="primary"
+                         value="Evening">
+                         {{'evening' | translate}}
+                    </mat-radio-button>
+                </mat-radio-group>
+            </div>
+
+            <!-- <div class="modal-footer">
+
+                <button type="button" [disabled]="selectdat === ''" (click)="bookFirstLesson()"
+                    class="btn btn-primary firstlession">Book your first lesson
+                    free</button>
+            </div> -->
+        </div>
+    </div>
+</div>
+<div class="modal fade logoutmodal show" style="z-index: 1000000; display:block;" [ngStyle]="{'display': styleExp}"  [dir] = "directionController.textDirection">
+    <!-- <div class="modal fade logoutmodal show" style="z-index: 1000000; display:block;"> -->
+    <!-- <button type="button" class="btn-close" (click)="closePopUpVideo()"></button> -->
+    <!-- <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">book your lesson</h5>
+                <button type="button" class="btn-close" (click)="closePopUpVideo()"></button>
+            </div> -->
+    <div class="modal-dialog  modal-dialog-centered videosize" >
+
+
+        <div class="modal-content videoback" >
+            <div class="modal-header border-0" style="padding:0px ;">
+
+                <button type="button" style="    background-color: transparent !important;
+                position: absolute;
+                right: 0px;
+                z-index: 1;" class="btn-close" (click)="closePopUpVideo()"></button>
+            </div>
+            <div class="modal-body mobileview1" style="    padding: 0px;">
+                <iframe class="popuptext show" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" id="myPopup" class="mobileview" [src]="videoURL" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade modaldate show" style="z-index: 100000;" [ngStyle]="{'display': styleExpThanks}" [dir] = "directionController.textDirection">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" (click)="closePopup()" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="modalbody thankyou text-center">
+                    <img src="assets/images/teacher/thanksimg.png" alt="">
+                    <h5>{{'thank_you' | translate}}</h5>
+                    <span><svg width="73" height="5" viewBox="0 0 73 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2" y1="2.21851" x2="48" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round"></line>
+                            <line x1="65" y1="2.21851" x2="71" y2="2.21851" stroke="#28AAE1" stroke-width="4"
+                                stroke-linecap="round"></line>
+                        </svg>
+                    </span>
+                    <!-- <p>You have purchased the membership.</p> -->
+                    <!-- <hr> -->
+                    <!-- <div class="row">
+                        <div class="col-6">
+                            <p>EXPIRATION DATE</p>
+                            <P style="line-height: 0px;">Until you cancel it</P>
+                        </div>
+                        <div class="col-6">
+                            <p>MEMBERSHIP</p>
+                            <P style="line-height: 0px;" *ngIf="profileModel?.frequncy == 'WEEKLY_2'">2 SESSIONS A WEEK</P>
+                            <P style="line-height: 0px;" *ngIf="profileModel?.frequncy == 'WEEKLY_3'">3 SESSIONS A WEEK</P>
+                            <P style="line-height: 0px;" *ngIf="profileModel?.frequncy == 'WEEKLY_4'">4 SESSIONS A WEEK</P>
+                            <P style="line-height: 0px;" *ngIf="profileModel?.frequncy == 'WEEKLY_5'">5 SESSIONS A WEEK</P>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</span>
+<!-- <div class="popup" dt onclick="myFunction()"><button>Preview</button>
+            <iframe class="popuptext show" id="myPopup" style="width:800px;
+            " src="https://www.youtube.com/embed/TZdU19bORRY" frameborder="0" allowfullscreen></iframe>
+  </div> -->
+
+
+  <!-- <mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner> -->
+<!-- <mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner> -->

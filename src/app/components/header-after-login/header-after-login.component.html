@@ -1,0 +1,113 @@
+<!--Header-->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="togglemenu">
+                <div id="nav-icon1" class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <a class="navbar-brand" href="index.php"><img src="assets/images//home/logo.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon">
+                    <div class="plate plate4" onclick="this.classList.toggle('active')">
+                        <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line line1" d="M 50,35 H 30" />
+                            <path class="line line2" d="M 50,35 H 70" />
+                            <path class="line line3" d="M 50,50 H 30" />
+                            <path class="line line4" d="M 50,50 H 70" />
+                            <path class="line line5" d="M 50,65 H 30" />
+                            <path class="line line6" d="M 50,65 H 70" />
+                        </svg>
+                        <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line" d="M 34,32 L 66,68" />
+                            <path class="line" d="M 66,32 L 34,68" />
+                        </svg>
+                    </div>
+                </span></button>
+            <div class="langugeselect">
+
+                <div class="dropdown">
+                    <a href="#" class="js-link"><img src="assets/images/us.svg">English <i
+                            class="fa fa-chevron-down"></i></a>
+                    <ul class="js-dropdown-list">
+                        <li><img src="assets/images/us.svg"> English</li>
+                        <li><img src="assets/images/israel.svg">israel</li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="followus">
+                    <li class="social">
+                        <span>Follow Us</span>
+                        <!-- <a href="javascript:void(0)"><svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M3.91756 0.400024C5.02867 0.400024 6.13978 0.400024 7.23502 0.400024C7.26676 0.400024 7.28264 0.415897 7.31438 0.415897C7.66359 0.43177 7.99692 0.511136 8.31438 0.63812C9.07629 0.939707 9.64772 1.43177 10.0128 2.14606C10.362 2.86034 10.3779 3.62225 10.3461 4.38415C10.3461 4.60637 10.2985 4.8286 10.2668 5.06669C10.3937 5.08256 10.5207 5.08256 10.6477 5.09844C11.0604 5.14606 11.4572 5.25717 11.7906 5.49526C12.2826 5.84447 12.5207 6.35241 12.5525 6.93971C12.6001 7.54288 12.6001 8.16193 12.6001 8.7651C12.6001 9.38415 12.4731 9.97145 12.2033 10.527C11.9176 11.1461 11.489 11.6381 10.9017 11.9873C10.235 12.3842 9.50486 12.5429 8.74295 12.5429C7.28264 12.5429 5.82232 12.5429 4.362 12.5429C3.69534 12.5429 3.04454 12.4635 2.42549 12.1778C1.56835 11.781 0.996923 11.0984 0.758828 10.1461C0.615971 9.5905 0.600098 9.03495 0.600098 8.46352C0.600098 6.92383 0.600098 5.40002 0.600098 3.86034C0.600098 3.32066 0.695336 2.79685 0.933431 2.30479C1.37788 1.36828 2.10803 0.749231 3.13978 0.527009C3.39375 0.463516 3.66359 0.43177 3.91756 0.400024ZM6.58422 9.74923C7.34613 9.74923 8.09216 9.74923 8.85407 9.74923C8.9493 9.74923 9.04454 9.74923 9.13978 9.73336C9.58422 9.70161 9.96518 9.36828 10.0604 8.90796C10.1557 8.47939 9.93343 8.0032 9.55248 7.79685C9.362 7.68574 9.13978 7.65399 8.91756 7.65399C7.39375 7.65399 5.86994 7.65399 4.34613 7.65399C4.23502 7.65399 4.12391 7.65399 4.0128 7.66987C3.61597 7.71748 3.33026 7.92383 3.17153 8.28891C3.0128 8.65399 3.06042 9.0032 3.29851 9.32066C3.52073 9.62225 3.83819 9.74923 4.21915 9.74923C5.0128 9.74923 5.80645 9.74923 6.58422 9.74923ZM5.63184 2.86034C5.63184 2.86034 5.63184 2.87621 5.63184 2.86034C5.20327 2.86034 4.7747 2.84447 4.34613 2.87622C3.93343 2.89209 3.63184 3.11431 3.45724 3.49526C3.29851 3.87622 3.34613 4.24129 3.6001 4.55875C3.82232 4.84447 4.12391 4.95558 4.45724 4.95558C5.15565 4.95558 5.86994 4.95558 6.56835 4.95558C6.71121 4.95558 6.86994 4.95558 7.0128 4.93971C7.39375 4.87622 7.67946 4.68574 7.82232 4.30479C8.07629 3.5905 7.56835 2.87621 6.80645 2.86034C6.42549 2.86034 6.02867 2.86034 5.63184 2.86034Z"
+                                  fill="white" />
+                          </svg>
+                      </a>
+                      <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://instagram.com/ifal_app?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/groups/724459755597676"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <!-- <li>
+                      <p>i-fal for companies and organizations &nbsp;&nbsp; &nbsp;|&nbsp;&nbsp;&nbsp; Common
+                          questions</p>
+                  </li> -->
+                </ul>
+                <ul class="navbar-nav  m-lg-auto">
+                    <!-- <li class="nav-item">
+                      <a class="nav-link <?php if(chk_active('index')){echo" active ";} ?>" href="index.php">Why
+                          i-fal?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">About ifal</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">How much does it cost?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">Our teachers</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">Students tell</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">Blogs</a>
+                  </li> -->
+                    <li class="nav-item">
+
+                        <!-- <select class="selectpicker" data-width="fit">
+
+</select> -->
+
+                        <div class="dropdown">
+                            <a href="#" class="js-link"><img src="assets/images/us.svg">English <i
+                                    class="fa fa-chevron-down"></i></a>
+                            <ul class="js-dropdown-list">
+                                <li><img src="assets/images/us.svg"> English</li>
+                                <li><img src="assets/images/israel.svg">israel</li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="btn nav-link requestbtn " role="button" aria-pressed="true"
+                            data-toggle="modal" data-target="#exampleModalCenter"><img
+                                src="assets/images/teacher/profile.png" alt=""></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Modal -->
+</header>

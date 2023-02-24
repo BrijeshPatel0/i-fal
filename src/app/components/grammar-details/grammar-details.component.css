@@ -1,0 +1,412 @@
+.maintext {
+  font-family: Bebas Neue !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 34px !important;
+  line-height: 50px !important;
+  letter-spacing: 0.02em !important;
+  color: #424143 !important;
+  margin-bottom: 5px !important;
+}
+.sessiontitle {
+  width: 65%;
+  font-family: "Proxima Nova Rg";
+}
+.sessiontitle1 {
+  width: 100% !important;
+  font-family: "Proxima Nova Rg";
+}
+.sessiontitle2 {
+  width: 100% !important;
+  font-family: "Proxima Nova Rg";
+}
+.sessiontitle h4 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 3px;
+}
+.firstsession:after {
+  content: unset !important;
+  /* left: auto; */
+  height: 100%;
+  width: 90px;
+  position: absolute;
+  background: #28aae1;
+  border-radius: 10px 0px 0px 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 0;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.misstag-rtl {
+  left: -50px;
+  right: auto;
+  transform: rotate(-37.91deg);
+}
+.profiletab[dir="rtl"] .misstag {
+  left: -50px;
+  right: auto;
+  transform: rotate(-37.91deg);
+}
+.findteacherheading[dir="rtl"] h2,
+.findteacherheading[dir="rtl"] h5 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir="rtl"] .transfamily p {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.profiletab[dir="rtl"] button,
+.profiletab[dir="rtl"] .misstag,
+::ng-deep .profiletab[dir="rtl"] span,
+::ng-deep .profiletab[dir="rtl"] .ngx-pagination a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.wordSentance {
+  opacity: 1 !important;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 24px;
+  opacity: 0.6;
+  margin: 5px 0 !important;
+  height: 40px;
+  color: #000000 !important;
+}
+
+.wordSentance1 {
+  opacity: 1 !important;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 100 !important;
+  font-size: 17px !important;
+  line-height: 24px;
+  color: #f9a722 !important;
+  margin: 10px 0 !important;
+}
+.wordSentance2 {
+  opacity: 1 !important;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 18px !important;
+  line-height: 24px;
+  color: #000000 !important;
+  margin: 5px 0 !important;
+  white-space: normal !important;
+  height: 40px;
+}
+a.btntime {
+  margin-left: 0px;
+  border: 1px solid #28aae1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  width: 220px;
+  height: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #28aae1;
+}
+a.btntime:hover {
+  background: #28aae1;
+  color: white !important;
+}
+.btn1 {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  margin-bottom: 10px;
+}
+.success {
+  background-color: #00c853;
+  color: #ffffff;
+}
+.danger {
+  background-color: #d50000;
+  color: #ffffff;
+}
+.danger .btn {
+  color: #ffffff !important;
+  border: 1px solid #fff !important;
+}
+.danger div {
+  color: #ffffff !important;
+}
+
+.success .btn {
+  color: #ffffff !important;
+  border: 1px solid #fff !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #28aae1 !important;
+  border-color: #28aae1 !important;
+}
+.btn-primary:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+}
+.btn-primary1 {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+  width: 230px !important;
+  display: block;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.btn-primary1:hover {
+  color: #fff !important;
+  background-color: #28aae1 !important;
+  border-color: #28aae1 !important;
+}
+.teacherinfo h6 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 10px;
+}
+
+/* Artical innerHTML  */
+.dropbtn {
+  background-color: unset;
+  color: black;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.dropbtn1 {
+  border: none;
+  background: unset;
+  font-size: 12pt;
+  font-family: "Times New Roman";
+  color: #000000;
+  background-color: transparent;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: pre-wrap;
+  padding: 0px;
+}
+.speakerword {
+  cursor: pointer !important;
+  padding: 0px !important;
+  width: 25px !important;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+  padding: 10px;
+  margin-top: -70px;
+  margin-left: 50px;
+  transition: all 10s ease-in-out;
+  transform: scale(0.5);
+  white-space: pre-line !important;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+  transform: scale(1);
+}
+
+/* button {
+  background: #1389fd;
+  border: 1px solid #1389fd;
+  color: white;
+} */
+.buttonpopup {
+  margin-left: auto;
+  background: #28aae1;
+  -webkit-box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px 48px;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+.buttonpopup:hover {
+  color: #28aae1;
+  background: #ffffff;
+  border: 1px solid #28aae1;
+}
+.googlelink {
+  font-size: 16px;
+  font-weight: 600;
+}
+.googlelink:hover {
+  color: #28aae1 !important;
+}
+.myprofiledetails {
+  padding-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .profiletab[dir="rtl"] .myprofiledetails ul#pills-tab {
+    margin-left: 240px !important;
+    margin-right: unset !important;
+  }
+  .sessiontitle {
+    width: 100%;
+  }
+  .firstsessioninfo.upses .sessiontitle {
+    max-width: 80%;
+  }
+  .firstsessioninfo.upses .sessiontitle2 {
+    max-width: 100% !important;
+  }
+  .btn-primary1 {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .firstsessioninfo.upses a.btntime {
+    width: 220px !important;
+    margin-left: unset;
+  }
+  .myprofiledetails li.nav-item button {
+    width: 200px;
+}
+}
+@media only screen and (max-width: 575px) {
+  .sessiontitle {
+    padding: 0px 10px 0px 0px;
+  }
+  .firstsessioninfo {
+    padding: 10px !important;
+  }
+
+  .firstsession img {
+    height: unset;
+    width: 75px;
+    border-radius: 50%;
+  }
+
+  .firstsession:after {
+    width: 50px;
+  }
+
+  .sessiontitle {
+    margin: 0px !important;
+  }
+  .firstsessioninfo.upses .sessiontitle1 {
+    max-width: 100% !important;
+  }
+}
+@media only screen and (max-width: 479px){
+  .firstsessioninfo a {
+    width: 25px;
+    height: 35px;
+    font-size: 15px;
+}
+.myprofiledetails li.nav-item button {
+  width: 150px;
+}
+}
+@media only screen and (max-width: 1429px){
+.firstsessioninfo.upses .sessiontitle {
+    max-width: 100%;
+}
+}

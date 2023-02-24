@@ -1,0 +1,112 @@
+<div class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <h2 class="maintext ">{{'Grammar' | translate}}
+            </h2>
+            <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="profiletab" [dir]="directionController.textDirection" style="margin-top: -90px;">
+    <div class="container">
+        <div class=" session">
+            <ul class="nav nav-pills myprofiledetails mb-3 upcoming" id="pills-tab" role="tablist"
+                style="    padding-bottom: 0px;">
+                <li class="nav-item" role="presentation">
+                    <button (click)="getAllGrammars('BEGINNER')" class="nav-link active" id="pills-home-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                        aria-controls="pills-home" aria-selected="true">{{'Beginner' | translate}}</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button (click)="getAllGrammars('AVERAGE')" class="nav-link" id="pills-profile-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">{{'Intermediate' | translate}}</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button (click)="getAllGrammars('ADVANCED')" class="nav-link" id="pills-advances-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-advances" type="button" role="tab"
+                        aria-controls="pills-advances" aria-selected="false">{{'Advanced' | translate}}</button>
+                </li>
+            </ul>
+            <div dir="ltr" class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div *ngFor="let item of grammarModel" class="col-xl-4 col-lg-6">
+                                <div class="firstsession">
+                                    <a style="cursor: pointer;" (click)="grammarDetail(item.id)">
+                                        <div class="firstsessioninfo firstsession-cancelled upses"
+                                            style="padding: 0px;">
+                                            <img *ngIf="item.grammar_image" style="aspect-ratio: 16 / 9; width: 125px;"
+                                                src="{{item.grammar_image}}" alt="">
+                                            <img *ngIf="!item.grammar_image" style="aspect-ratio: 16 / 9; width: 125px;"
+                                                src="assets/images/userprofile.png" alt="">
+                                            <div class="sessiontitle">
+                                                <h4>{{item.grammar_name}} </h4>
+                                            </div>
+                                            <p *ngIf="item.is_submitted == '1' " class="misstag com">Completed</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div *ngFor="let item of grammarModel" class="col-xl-4 col-lg-6">
+                                <div class="firstsession pastsession">
+                                    <a style="cursor: pointer;" (click)="grammarDetail(item.id)">
+                                        <div class="firstsessioninfo firstsession-cancelled upses"
+                                            style="padding: 0px;">
+                                            <img *ngIf="item.grammar_image" style="aspect-ratio: 16 / 9; width: 125px;"
+                                                src="{{item.grammar_image}}" alt="">
+                                            <img *ngIf="!item.grammar_image" style="aspect-ratio: 16 / 9; width: 125px;"
+                                                src="assets/images/userprofile.png" alt="">
+                                            <div class="sessiontitle">
+                                                <h4>{{item.grammar_name}} </h4>
+                                            </div>
+                                            <p *ngIf="item.is_submitted == '1' " class="misstag com">{{'completed' |
+                                                translate}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-advances" role="tabpanel" aria-labelledby="pills-advances-tab">
+                    <div class="sesstiondetail">
+                        <div class="row">
+                            <div *ngFor="let item of grammarModel" class="col-xl-4 col-lg-6">
+                                <div class="firstsession pastsession">
+                                    <a style="cursor: pointer;" (click)="grammarDetail(item.id)">
+                                        <div class="firstsessioninfo firstsession-cancelled upses"
+                                            style="padding: 0px;">
+                                            <img *ngIf="item.grammar_image" style="aspect-ratio: 16 / 9; width: 125px;"
+                                                src="{{item.grammar_image}}" alt="">
+                                            <img *ngIf="!item.grammar_image" style="aspect-ratio: 16 / 9; width: 125px;"
+                                                src="assets/images/userprofile.png" alt="">
+                                            <div class="sessiontitle">
+                                                <h4>{{item.grammar_name}} </h4>
+                                            </div>
+                                            <p *ngIf="item.is_submitted == '1' " class="misstag com">{{'completed' |
+                                                translate}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

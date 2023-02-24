@@ -1,0 +1,621 @@
+.modaldate .modal-dialog.modal-dialog-centered {
+  max-width: 940px !important;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #28aae1 !important;
+  border-color: #28aae1 !important;
+  font-family: Assistant;
+}
+/* a:hover {
+  color: white !important;
+} */
+/* .profiletabsec.modaldate ul.timeselect li a:hover {
+  color: black !important;
+} */
+.modaldate ul#pills-tab li {
+  width: 80px;
+  height: 94px;
+  margin: 5px;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+}
+ul.timeselect li a {
+  width: 142px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid rgb(133 137 146 / 50%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #858992;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+ul.timeselect li a {
+  cursor: pointer;
+}
+drag-scroll div {
+  overflow: hidden !important;
+}
+
+.profiletabsec.modaldate ul.timeselect li {
+  width: auto;
+}
+ul.timeselect li {
+  width: 20%;
+  margin-bottom: 22px;
+}
+.profiletabsec.modaldate ul.timeselect li a {
+  width: 162px;
+  margin: 0px 6px;
+}
+.modaldate ul#pills-tab li button {
+  width: 80px;
+  height: 93px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 1px !important;
+}
+.mainheading h1 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #424143;
+}
+.profiletabsec.modaldate ul.timeselect li {
+  width: auto;
+  margin: 6px 0px;
+}
+.btnssessions a.btnblue:hover {
+  border: 1px solid #28aae1;
+  background-color: white !important;
+  color: #28aae1 !important;
+}
+ul.timeselect li a {
+  cursor: pointer;
+}
+drag-scroll div {
+  overflow: hidden !important;
+}
+
+.profiletabsec.modaldate ul.timeselect li {
+  width: auto;
+}
+ul.timeselect li {
+  width: 20%;
+  margin-bottom: 22px;
+}
+.profiletabsec.modaldate ul.timeselect li a {
+  width: 162px;
+  margin: 0px 6px;
+}
+.findteacherheadingnew {
+  margin-top: 60px;
+  background: white;
+  padding: 45px 0px 111px;
+  position: relative;
+}
+.center {
+  margin: auto;
+  padding: 10px;
+}
+.btn-primary:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+}
+
+.newPageP {
+  font-size: 25px;
+  margin-top: 0px;
+  line-height: 30px;
+  color: black;
+  max-width: none;
+  font-family: Assistant;
+}
+.sessiontitle p {
+  font-family: Assistant;
+}
+/* .owl-theme .owl-dots .owl-dot.active span{
+  background: #28aae1;
+  width: 25px;
+} */
+/* ::ng-deep .owl-theme .owl-dots .owl-dot span {
+  background: #D6D6D6!important; 
+} */
+::ng-deep .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #28aae1 !important;
+  width: 25px;
+}
+
+.imgSty {
+  width: 435px !important;
+}
+
+.test {
+  display: none;
+}
+::ng-deep .owl-nav .owl-prev {
+  display: none !important;
+}
+::ng-deep .owl-theme .owl-nav [class*="owl-"] .example {
+  box-shadow: none !important;
+  font-family: Assistant;
+}
+
+::ng-deep .owl-theme .owl-nav [class*="owl-"] {
+  color: #fff !important;
+  font-size: 20px !important;
+  margin: 5px !important;
+  padding: 15px 40px !important;
+  background: #28aae1 !important;
+  display: inline-block;
+  cursor: pointer !important;
+  border-radius: 3px !important;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 10%) !important;
+  font-weight: 600;
+}
+/* .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #fff !important;
+  color: #28aae1 !important;
+  border: 1px solid #28aae1 !important;
+  text-decoration: none !important;
+} */
+
+/* ::ng-deep .owl-theme .owl-nav {
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+} */
+
+.mainheading.text-left h5 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #424143;
+  position: unset;
+  top: 32px;
+}
+
+
+.navscroll {
+  max-width: 85%;
+  margin-bottom: 18px !important;
+}
+.dragscroll {
+  width: auto;
+  max-width: 90%;
+}
+.profiletabsec.modaldate ul.timeselect li a {
+  width: 162px;
+  margin: 0px 6px;
+  font-family: Assistant !important;
+}
+.firstsession[dir="rtl"]:after {
+  content: "";
+  right: 0 !important;
+  height: 100%;
+  width: 90px;
+  position: absolute;
+  background: #28aae1;
+  border-radius: 10px 0px 0px 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 0;
+}
+
+.firstsession[dir="rtl"] {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #8c2c2c !important;
+  -webkit-box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  /* padding: 30px; */
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.myprofiledetails ul#pills-tab {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.detailsP {
+  color: black;
+  font-size: 25px !important;
+  margin-top: 0px;
+  max-width: 1120px;
+  font-weight: 700;
+  margin-left: 5px;
+  font-family: Assistant;
+  line-height: 30px;
+}
+.fa-check-circle {
+  color: #28aae1;
+}
+::ng-deep.newPageP .fa-check:before {
+  color: orange !important;
+}
+
+.newHomeslot{
+  margin-top: 150px;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .newHomeslot{
+    margin-top: 110px;
+  }
+  .mainheading p {
+    padding: 0px;
+    line-height: 30px;
+  }
+  .imgSty {
+    width: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .imgSty {
+    width: 320px !important;
+  }
+  .profiletabsec.modaldate .myprofiledetails.bookless {
+    padding: 0px !important;
+  }
+  .profiletabsec.modaldate .myprofiledetails ul#pills-tab {
+    border: none;
+    margin-bottom: 10px !important;
+  }
+  .navscroll {
+    max-width: 100%;
+    margin-bottom: 18px !important;
+  }
+  .dragscroll {
+    width: auto;
+    max-width: 100%;
+  }
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 85px;
+  }
+  .modaldate ul#pills-tab li {
+    width: 60px;
+    height: 94px;
+    margin: 5px;
+  }
+  .modaldate ul#pills-tab li button {
+    width: 70px;
+    height: 93px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px !important;
+  }
+  .sessiontitle {
+    margin: 0px 10px;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  ::ng-deep .owl-theme .owl-nav [class*="owl-"]:hover {
+    border: 1px solid #28aae1;
+    background-color: white !important;
+    color: #28aae1 !important;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+
+  ::ng-deep.owl-theme .owl-nav [class*="owl-"] {
+    color: #fff !important;
+    font-size: 18px !important;
+    margin: 5px !important;
+    padding: 10px 30px !important;
+    background: #28aae1 !important;
+    display: inline-block;
+    cursor: pointer !important;
+    border-radius: 3px !important;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 10%) !important;
+    font-weight: 600;
+}
+
+  .mainheading p {
+    line-height: 25px;
+}
+.newPageP{
+  font-size: 18px;
+}
+  .imgSty {
+    width: 280px !important;
+  }
+  .modaldate ul#pills-tab li {
+    width: auto !important;
+    height: 94px;
+    margin: 0px 5px !important;
+  }
+  .profiletabsec.modaldate .myprofiledetails.bookless p {
+    font-size: 15px !important;
+  }
+  .profiletabsec.modaldate ul.timeselect li {
+    width: auto;
+  }
+  ul.timeselect {
+    justify-content: center;
+  }
+  .profiletabsec.modaldate ul.timeselect li a {
+    width: 120px !important;
+  }
+  ::ng-deep .drag-scroll-content{
+    overflow: initial;
+  }
+  .section.login .container .row {
+    margin: 0px !important;
+  }
+  
+  
+}
+@media only screen and (max-width: 551px) {
+  
+  .profiletabsec.modaldate ul.timeselect li a {
+    width: 100px !important;
+  }
+  ::ng-deep .drag-scroll-content{
+    overflow: initial;
+  }
+}
+@media only screen and (max-width: 472px) {
+  
+  .profiletabsec.modaldate ul.timeselect li a {
+    width: 90px !important;
+  }
+}
+@media only screen and (max-width: 432px) {
+  
+  .profiletabsec.modaldate ul.timeselect li a {
+    width: 80px !important;
+  }
+}
+@media only screen and (max-width: 392px) {
+  
+  .profiletabsec.modaldate ul.timeselect li a {
+    width: 70px !important;
+  }
+}
+@media only screen and (max-width: 352px) {
+  
+  .profiletabsec.modaldate ul.timeselect li a {
+    width: 60px !important;
+  }
+}
+/* 
+
+@media only screen and (max-width: 576px) {
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 97px;
+  }
+  .profiletabsec.modaldate {
+    margin-top: 115px !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 479px) {
+  .firstsessioninfo {
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+  }
+  .modaldate ul#pills-tab li {
+    width: 59px;
+    height: 94px;
+    margin: 5px;
+  }
+  .profiletabsec.modaldate {
+    margin-top: 115px !important;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 97px;
+  }
+  .modaldate ul#pills-tab li {
+    width: 80px;
+    height: 94px;
+    margin: 0px 8px !important;
+  }
+  .modaldate ul#pills-tab li button {
+    width: 85px;
+    height: 93px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px !important;
+  }
+  .profiletabsec.modaldate {
+    margin-top: 115px !important;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 88px;
+  }
+  .modaldate ul#pills-tab li {
+    width: 75px;
+    height: 94px;
+    margin: 5px;
+  }
+  .modaldate ul#pills-tab li button {
+    width: 85px;
+    height: 93px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px !important;
+  }
+  .profiletabsec.modaldate {
+    margin-top: 115px !important;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .firstsessioninfo {
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+  }
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 84px;
+  }
+  .modaldate ul#pills-tab li {
+    width: 72px;
+    height: 94px;
+    margin: 8px !important;
+  }
+  .modaldate ul#pills-tab li button {
+    width: 80px;
+    height: 93px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px !important;
+  }
+  .profiletabsec.modaldate {
+    margin-top: 115px !important;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 78px;
+  }
+  .modaldate ul#pills-tab li {
+    width: 67px;
+    height: 94px;
+    margin: 5px;
+  }
+  .modaldate ul#pills-tab li button {
+    width: 78px;
+    height: 93px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px !important;
+  }
+  .profiletabsec.modaldate {
+    margin-top: 115px !important;
+  }
+}
+@media only screen and (max-width: 343px) {
+
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 75px;
+  }
+}
+@media only screen and (max-width: 324px) {
+
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 304px) {
+
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 65px;
+  }
+} */
+/* 
+@media only screen and (min-width: 390px) {
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 87px;
+  }
+  .modaldate ul#pills-tab li {
+    width: 51px;
+    height: 94px;
+    margin: 5px;
+  }
+  .modaldate ul#pills-tab li button {
+    width: 61px;
+    height: 93px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px !important;
+  }
+} */
+/* 
+@media only screen and (min-width: 360px) {
+  .profiletabsec.modaldate ul.timeselect li {
+    width: 84px;
+  }
+  .modaldate ul#pills-tab li {
+    width: 48px;
+    height: 94px;
+    margin: 5px;
+  }
+  .modaldate ul#pills-tab li button {
+    width: 61px;
+    height: 93px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 1px !important;
+  }
+} */
+.content[dir = "rtl"] p,.content[dir = "rtl"] button{
+  font-family: "open-sans-hebrew-condensed" !important;
+}

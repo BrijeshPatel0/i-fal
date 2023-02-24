@@ -1,0 +1,158 @@
+.maintext {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #424143;
+  margin-bottom: 5px;
+}
+.package h5 {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: #2ca6d7;
+  margin-bottom: 3px;
+}
+.package p {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  opacity: 0.6;
+  margin-bottom: 57px;
+}
+.package {
+  height: 405px;
+}
+
+
+.cancel-btn {
+  text-align: center !important;
+  margin-top: 20px;
+  margin-bottom: 0px !important;
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 300;
+  cursor: pointer !important;
+}
+.package a {
+  color: white !important;
+}
+.okayClose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: end !important;
+}
+mat-spinner {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mat-spinner-color::ng-deep circle {
+  stroke: #28aae1 !important;
+  z-index: 99999999;
+}
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+
+element.style {
+  background-color: #f5f7fb;
+}
+.profiletab.packagesec .myprofiledetails {
+  padding: 0px 15px;
+  margin: 10px auto 0;
+  margin-left: 0;
+  margin-top: -100px;
+}
+.myprofiledetails {
+  background: #f5f7fb;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-top: -100px;
+  z-index: 999;
+  overflow: hidden;
+  position: relative;
+}
+.package {
+  background-color: white;
+}
+.package a:hover {
+  color: #28aae1 !important;
+  background-color: #fff !important;
+  border-color: #28aae1 !important;
+}
+.packagesec .row .col-lg-3.active .package a:hover {
+  border-color: #faa721 !important;
+  color: #faa721 !important;
+}
+/* .modalbody.thankyou.text-center p {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px !important;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #858992;
+  margin-bottom: 5px !important;
+} */
+.modalbody.thankyou.text-center {
+  padding-bottom: 20px;
+  border-bottom: none !important;
+  margin-bottom: 10px;
+}
+.modalbody.thankyou.text-center p {
+  font-size: 21px;
+  text-align: start;
+  color: black;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.profiletab[dir="rtl"] .package span i {
+  margin-left: 13px;
+  margin-right: unset;
+}
+.modelthanks[dir="rtl"] .btn-close {
+  margin-left: 0px !important;
+}
+.findteacherheading[dir="rtl"] h1 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.packagesec[dir="rtl"] p,
+.packagesec[dir="rtl"] a,
+.packagesec[dir="rtl"] span {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.modaldate[dir="rtl"] h1,.modaldate[dir="rtl"] p,.modaldate[dir="rtl"] .modalbody.text-center h5 {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+.denger {
+  color: red;
+  height: 30px;
+  text-align: start;
+}
+.profilename input{
+margin-bottom: 10px;
+}

@@ -1,0 +1,451 @@
+(<div class="findteacherheading" [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="mainheading text-left">
+            <div class="practicetext">
+                <h1 class="maintext ">{{'words' | translate}}
+                </h1>
+                <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                        <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    </svg>
+                </span>
+                <!-- <p>All tracks are flexible and can be changed / switched between the different study tracks without
+                  obligation</p> -->
+                <h5>{{'word_of_the_day' | translate}}</h5>
+                <div style="z-index: 1;
+                cursor: pointer;" (click)="searchPopup()" class="practicetextinput">
+                    <a><i class=" fas fa-search"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="profiletab packagesec profiletabtop" [dir]="directionController.textDirection">
+    <div class="container">
+
+        <div class="myprofiledetails">
+            <div class="speak">
+                <h1 id="say_these_words" style="padding-left:0px; margin-bottom: 10px; height: auto;"> {{practiceWords?.english}} </h1>
+                <span>
+                    <p id="say_these_words" style="margin-bottom: 10px;">{{practiceWords?.hebrew}} </p>
+                </span>
+                <p *ngIf="practiceWords?.sentence" class="wordSentance1">Sample Sentence</p>
+                <p  dir = 'ltr' class="wordSentance" [innerHTML]="translateSentence(practiceWords?.sentence,practiceWords?.english)"></p>
+            </div>
+
+            <a style="cursor: pointer;" (click)="voice(practiceWords.english)" class="speaker2"><img
+                    src="assets/images/teacher/speaker.png" alt=""></a>
+
+            <a style="cursor: pointer;" (click)="addFavouriteWord(practiceWords)" class="star"><i *ngIf="isWordOfDay"
+                    class="fas fa-star"></i><i *ngIf="!isWordOfDay" class="far fa-star"></i>
+
+
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="translatesetting" class="favourite" *ngIf="AllFavouriteWordData && AllFavouriteWordData.length"
+    [dir]="directionController.textDirection">
+    <div class="container">
+        <div class="favourittopic">
+            <div class="favouritetitle favouritetitle1">
+                <h2 style="height: 65px;"></h2>
+                <!-- <h2>Favourite</h2> -->
+
+                <!-- <span><svg width="73" height="4" viewBox="0 0 73 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="2" y1="2" x2="48" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                        <line x1="65" y1="2" x2="71" y2="2" stroke="#28AAE1" stroke-width="4" stroke-linecap="round" />
+                    </svg>
+                </span> -->
+            </div>
+
+            <ul class="nav nav-pills mb-3 practicetab favouritetitle1" style="padding: 0px;" id="pills-tab" role="tablist">
+                <!-- <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">List</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">Card</button>
+                </li> -->
+                <div class="" style="border-radius: 10px; display: flex;">
+                    <div 
+                        mat-stretch-tabs class=" row transtatli example-stretched-tabs mat-elevation-z4" mat-align-tabs="center">
+                        <div (click)="loadComponent2(1)" [ngClass]="languageGroup == 1 ? 'activetab': ''"
+                            class="tabtext1 tabborder1 col-6"><span style="padding-right: 2px;"> &nbsp;{{'English' | translate}}&nbsp;</span>
+                             <i *ngIf="directionController.textDirection == 'ltr'" class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i>
+                                <i *ngIf="directionController.textDirection == 'rtl'" class="fa fa-arrow-left" style="font-size: 12px;" aria-hidden="true"></i>
+                                 <span style="padding-left: 2px;"> &nbsp;{{'Hebrew' | translate}}&nbsp;</span></div>
+                        <div (click)="loadComponent2(2)" [ngClass]="languageGroup == 2 ? 'activetab': ''"
+                            class="tabtext1 tabborder2 col-6"><span style="padding-right: 2px;"> &nbsp;{{'Hebrew' | translate}} &nbsp;</span>
+                            <i *ngIf="directionController.textDirection == 'ltr'" class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i>
+                            <i *ngIf="directionController.textDirection == 'rtl'" class="fa fa-arrow-left" style="font-size: 12px;" aria-hidden="true"></i>
+                                <span
+                                style="padding-left: 2px;"> &nbsp;{{'English' | translate}} &nbsp;</span>
+                        </div>
+                    </div>
+                    <div style="background: white;margin: 0px; border-radius: 10px; box-shadow: 0 1px 5px #00000026;"
+                        mat-stretch-tabs class=" row example-stretched-tabs mat-elevation-z4" mat-align-tabs="center">
+                        <div (click)="loadComponent1(1)" [ngClass]="listGroup == 1 ? 'activetab': ''"
+                            class="tabtext tabborder1 col-6">{{'list' | translate }}</div>
+                        <div (click)="loadComponent1(2)" [ngClass]="listGroup == 2 ? 'activetab': ''"
+                            class="tabtext tabborder2 col-6">{{'card' | translate}}
+                        </div>
+                    </div>
+                </div>
+            </ul>
+
+            <!-- <div class="row mb-5" style="margin-left: 1px;
+            border-radius: 10px;
+            margin-right: 1px;">
+                <mat-tab-group style="background: white; border-radius: 10px;"  mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4" mat-align-tabs="center"
+                    (selectedTabChange)="loadComponent($event)" [selectedIndex]="selectedIndex">
+                        <mat-tab  class="mat-tab-label-active"
+                        label="{{'favorite_words' | translate }}"> </mat-tab>
+                        <mat-tab  class="mat-tab-label-active"
+                        label="{{'session_words' | translate }}"> </mat-tab>
+                        <mat-tab  class="mat-tab-label-active"
+                        label="{{'both' | translate }}"> </mat-tab>
+                </mat-tab-group>
+            </div> -->
+            <div class="container mb-3" style="margin-left: 1px;
+            border-radius: 10px;
+            margin-right: 1px;">
+                <div style="background: white; border-radius: 10px; box-shadow: 0px 8px 10px rgb(0 0 0 / 8%);"
+                    mat-stretch-tabs class=" row example-stretched-tabs mat-elevation-z4" mat-align-tabs="center">
+                    <div (click)="loadComponent('Favorites Words')"
+                        [ngClass]="activeTabMenu == 'Favorites Words' ? 'activetab': ''"
+                        class="tabtext tabborder1 col-4"> {{'favorite_words' | translate }} </div>
+                    <div (click)="loadComponent('Session Words')"
+                        [ngClass]="activeTabMenu == 'Session Words' ? 'activetab': ''" class="tabtext col-4">
+                        {{'session_words' | translate }}</div>
+                    <div (click)="loadComponent('Both')" [ngClass]="activeTabMenu == 'Both' ? 'activetab': ''"
+                        class="tabtext tabborder2 col-4"> {{'both' | translate }}</div>
+                </div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div *ngIf="listGroup == 1" class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+                    <div class="row">
+                        <div *ngFor="let Item of AllFavouriteWord; let i = index " style="cursor: default;"
+                            class="col-lg-3 flipcards  togcard{{i}}">
+
+                            <div class="cardflip">
+                                <div class="topic1 frontside">
+                                    <div class="speak ">
+                                        <h1 *ngIf="languageGroup == 1" class="say_these_words2"
+                                            style="text-align: center;"> {{Item.english}} </h1>
+                                        <h1 *ngIf="languageGroup == 2" class="say_these_words2"
+                                            style="text-align: center;"> {{Item.hebrew}} </h1>
+                                        <button (click)="toggleFlip(i)" class="front flip btn"
+                                            style="background-color: #28aae1; color:white"
+                                            id="say_these_words">{{'reveal' | translate}}</button>
+                                    </div>
+                                    <a style="cursor: pointer;" (click)="deleteFavouriteWord(Item)" class="star"><i
+                                            class="fas fa-star"></i> </a>
+                                    <a style="cursor: pointer;" (click)="voice(Item.english)" class="speaker2"
+                                        id="speak"><img src="assets/images/teacher/speaker.png" alt=""></a>
+                                </div>
+                                <div class="topic1 backside">
+                                    <div class="speak ">
+                                        <h1 *ngIf="languageGroup == 1" class="say_these_words2"
+                                            style="text-align: center;"> {{Item.english}} </h1>
+                                        <p *ngIf="languageGroup == 1" id="say_these_words">{{Item.hebrew}}</p>
+                                        <h1 *ngIf="languageGroup == 2" class="say_these_words2"
+                                            style="text-align: center;"> {{Item.hebrew}} </h1>
+                                        <p *ngIf="languageGroup == 2" id="say_these_words">{{Item.english}}</p>
+                                        <p *ngIf="Item.sentence" class="wordSentance1">Sample Sentence</p>
+                                        <p dir = 'ltr' class="wordSentance"  [innerHTML]="translateSentence(Item.sentence,Item.english)"></p>
+                                    </div>
+                                    <a style="cursor: pointer;" (click)="voice(Item.english)" class="speaker2"><img
+                                            src="assets/images/teacher/speaker.png" alt=""></a>
+
+                                    <a style="cursor: pointer;" (click)="deleteFavouriteWord(Item)" class="star"><i
+                                            class="fas fa-star"></i></a>
+                                    <a style="cursor: pointer;" (click)="toggleFlip(i)" class="refresh back flip"><i
+                                            class="fas fa-sync"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="AllFavouriteWord && !AllFavouriteWord.length && noRecord == 'Favorites'"
+                        style="text-align:center; padding:150px 0px;">
+                        <p>{{'you_don_t_have_any_favorite_word_yet' | translate}}</p>
+                    </div>
+                    <div *ngIf="AllFavouriteWord && !AllFavouriteWord.length && noRecord == 'Session'"
+                        style="text-align:center; padding:150px 0px;">
+                        <p>{{'You_don_t_have_any_session_word_yet' | translate}}</p>
+                    </div>
+                </div>
+
+                <div *ngIf="listGroup == 2" class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+
+                    <div class="row">
+                        <drag-scroll #nav [scroll-x-wheel-enabled]="true">
+                            <div *ngFor="let Item of AllFavouriteWord; let i = index" style="width: 366.3px;
+                            margin-right: 14px;" class="col-lg-3 flipcards togcard{{i}}" drag-scroll-item>
+
+                                <div class="cardflip" style="cursor: default;">
+                                    <div class="topic1 frontside">
+                                        <div class="speak ">
+                                            <h1 *ngIf="languageGroup == 1" class="say_these_words2"
+                                                style="text-align: center;"> {{Item.english}} </h1>
+                                            <h1 *ngIf="languageGroup == 2" class="say_these_words2"
+                                                style="text-align: center;"> {{Item.hebrew}} </h1>
+                                            <button (click)="toggleFlip(i)" class="front flip btn"
+                                                style="background-color: #28aae1; color:white"
+                                                id="say_these_words">{{'reveal' | translate}}</button>
+                                        </div>
+
+                                        <a style="cursor: pointer;" (click)="voice(Item.english)" class="speaker2"
+                                            id="speak"><img src="assets/images/teacher/speaker.png" alt=""></a>
+
+                                        <a style="cursor: pointer;" (click)="deleteFavouriteWord(Item)" class="star"><i
+                                                class="fas fa-star"></i>
+
+
+                                        </a>
+                                    </div>
+                                    <div class="topic1 backside">
+                                        <div class="speak ">
+                                            <h1 *ngIf="languageGroup == 1" class="say_these_words2"
+                                                style="text-align: center;"> {{Item.english}} </h1>
+                                            <p *ngIf="languageGroup == 1" id="say_these_words">{{Item.hebrew}}</p>
+                                            <h1 *ngIf="languageGroup == 2" class="say_these_words2"
+                                                style="text-align: center;"> {{Item.hebrew}} </h1>
+                                            <p *ngIf="languageGroup == 2" id="say_these_words">{{Item.english}}</p>
+                                            <p *ngIf="Item.sentence" class="wordSentance1">Sample Sentence</p>
+                                            <p  dir = 'ltr' class="wordSentance"  [innerHTML]="translateSentence(Item.sentence,Item.english)"></p>
+                                        </div>
+
+                                        <a style="cursor: pointer;" (click)="voice(Item.english)" class="speaker2"><img
+                                                src="assets/images/teacher/speaker.png" alt=""></a>
+
+                                        <a style="cursor: pointer;" (click)="deleteFavouriteWord(Item)" class="star"><i
+                                                class="fas fa-star"></i>
+                                        </a>
+                                        <a style="cursor: pointer;" (click)="toggleFlip(i)" class="refresh back flip"><i
+                                                class="fas fa-sync"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </drag-scroll>
+                        <!-- <owl-carousel-o [options]="customOptions1">
+                            <div *ngFor="let Item of AllFavouriteWord; let i = index" style="width: 366.3px;
+                            margin-right: 14px;" class="col-lg-3 flipcards togcard{{i}}" carouselSlide>
+
+                                <div class="cardflip" style="cursor: default;">
+                                    <div class="topic1 frontside">
+                                        <div class="speak ">
+                                            <h1 *ngIf="languageGroup == 1" class="say_these_words2" style="text-align: center;">  {{Item.english}}    </h1>
+                                        <h1 *ngIf="languageGroup == 2" class="say_these_words2" style="text-align: center;">  {{Item.hebrew}}    </h1>
+                                            <button (click)="toggleFlip(i)" class="front flip btn" style="background-color: #28aae1; color:white" id="say_these_words">{{'reveal' | translate}}</button>
+                                        </div>
+
+                                        <a style="cursor: pointer;" (click)="voice(Item.english)" class="speaker2" id="speak"><img
+                                                src="assets/images/teacher/speaker.png" alt=""></a>
+
+                                        <a style="cursor: pointer;" (click)="deleteFavouriteWord(Item)" class="star"><i class="fas fa-star"></i>
+
+
+                                        </a>
+                                    </div>
+                                    <div class="topic1 backside">
+                                        <div class="speak ">
+                                            <h1 *ngIf="languageGroup == 1" class="say_these_words2" style="text-align: center;">  {{Item.english}}    </h1>
+                                            <p *ngIf="languageGroup == 1" id="say_these_words">{{Item.hebrew}}</p>
+                                            <h1 *ngIf="languageGroup == 2" class="say_these_words2" style="text-align: center;">  {{Item.hebrew}}    </h1>
+                                            <p *ngIf="languageGroup == 2" id="say_these_words">{{Item.english}}</p>
+                                            <p *ngIf="Item.sentence" class="wordSentance1" >Sample Sentence</p>
+                                            <p class="wordSentance" >{{Item.sentence}}</p>
+                                        </div>
+
+                                        <a style="cursor: pointer;" (click)="voice(Item.english)" class="speaker2"><img
+                                                src="assets/images/teacher/speaker.png" alt=""></a>
+
+                                        <a style="cursor: pointer;" (click)="deleteFavouriteWord(Item)" class="star"><i class="fas fa-star"></i>
+                                        </a>
+                                        <a style="cursor: pointer;" (click)="toggleFlip(i)" class="refresh back flip"><i
+                                                class="fas fa-sync"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </owl-carousel-o> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- </section> -->
+<div class="modal fade show" style="z-index: 100000;" [ngStyle]="{'display': styleExp}" id="searchPop"
+    [dir]="directionController.textDirection">
+    <div class="modal-dialog search-model" style="max-width: 600px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">{{'Search_Words' | translate}}</h5>
+                <button type="button" class="btn-close" (click)="closePopup()"></button>
+            </div>
+            <div class="modal-body search-model-input">
+                <input type="search" class="mb-2" name="search" [formControl]="wordFilterCtrl"
+                    placeholder="{{'search' | translate}}">
+                <div *ngIf="!isSearch" class="readmin-panel mb-4">
+                    <!-- <mat-tab-group class="appointment-dash-tab" (selectedTabChange)="loadComponentSerch($event)"
+                        [selectedIndex]="selectedIndexSearch">
+                            <mat-tab class="mat-tab-label-active"
+                            label="{{ 'beginner' | translate }}"> </mat-tab>
+                            <mat-tab class="mat-tab-label-active"
+                            label="{{ 'intermediate' | translate }}"> </mat-tab>
+                            <mat-tab class="mat-tab-label-active"
+                            label="{{ 'advanced' | translate }}"> </mat-tab>
+                    </mat-tab-group> -->
+                    <div class="container" style="margin-left: 1px;
+                    border-radius: 10px;
+                    margin-right: 1px;">
+                        <div style="background: white; border-radius: 10px;" class="row">
+                            <div (click)="loadComponentSerch(0)" [ngClass]="selectedIndexSearch == 0 ? 'activetab': ''"
+                                class="tabtext tabborder1 col-4"> {{'beginner' | translate }} </div>
+                            <div (click)="loadComponentSerch(1)" [ngClass]="selectedIndexSearch == 1 ? 'activetab': ''"
+                                class="tabtext col-4"> {{'intermediate' | translate }}</div>
+                            <div (click)="loadComponentSerch(2)" [ngClass]="selectedIndexSearch == 2 ? 'activetab': ''"
+                                class="tabtext tabborder2 col-4"> {{'advanced' | translate }}</div>
+                        </div>
+                    </div>
+                    <div *ngIf="selectedIndexSearch == 0" class="row">
+                        <div class="col-md-12 custom-card custom-card-header">
+                            <ul class="select-search select-search1">
+                                <li *ngFor="let item of beginner_words" (click)="addFavorite(item,isActive)"> <a
+                                        style="   cursor: pointer; " class="word">{{item.english}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div *ngIf="selectedIndexSearch == 1" class="row">
+                        <div class="col-md-12 custom-card custom-card-header">
+                            <ul class="select-search select-search1">
+                                <li *ngFor="let item of intermediate_words" (click)="addFavorite(item,isActive)"> <a
+                                        style="   cursor: pointer; " class="word">{{item.english}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div *ngIf="selectedIndexSearch == 2" class="row">
+                        <div class="col-md-12 custom-card custom-card-header">
+                            <ul class="select-search select-search1">
+                                <li *ngFor="let item of advanced_words" (click)="addFavorite(item,isActive)"> <a
+                                        style="   cursor: pointer; " class="word">{{item.english}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="isSearch" class="col-md-12 custom-card custom-card-header">
+                    <ul class="select-search select-search1">
+                        <li *ngFor="let item of AllPracticeWordsData" (click)="addFavorite(item,isActive)"> <a
+                                style="   cursor: pointer; " class="word">{{item.english}}</a></li>
+                    </ul>
+                </div>
+                <div style="width: 100%;     background-color: #f7f7f7;padding-top: 15px;"
+                    [ngClass]="[isActive  ? 'active' : '']" class="onclick-pop-up">
+                    <p>{{wordEnglish}}</p>
+                    <p style="    margin-bottom: 10px !important;">{{wordHebrew}}</p>
+                    <p class="wordSentance1">Sample Sentence</p>
+                    <p dir="ltr" style="    margin-bottom: 10px !important;
+                    " class="wordSentance" [innerHTML]="wordSentence"></p>
+                    <p>
+                        <a style="   cursor: pointer; font-weight: 100;
+                        font-size: 15px;" *ngIf="!removebtn" (click)="addFavouriteWord(wordsData)"><i
+                                style="    font-size: 15px;" class="fa fa-star"></i>{{'add_to_favorite' |
+                            translate}}</a>
+                        <a style=" cursor: pointer;    font-weight: 100;
+                        font-size: 15px;" *ngIf="removebtn" (click)="deleteFavouriteWord(deleteWordsData)"><i
+                                style="    font-size: 15px;" class="fa fa-star"></i>{{'remove_from_favorite' |
+                            translate}}</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div style="width: 100%;z-index: 99999999;     background-color: #f7f7f7;padding-top: 15px;" [ngClass]="[isSetting  ? 'active' : '']"  class="onclick-pop-up">
+    <p>{{wordEnglish}}</p>
+    <p style="    margin-bottom: 10px !important;">{{wordHebrew}}</p>
+    <p class="wordSentance1" >Sample Sentence</p>
+    <span dir = "ltr" style="    margin-bottom: 10px !important;
+    " class="wordSentance" [innerHTML]="wordSentence"></span>
+    <p>
+        <a  style="   cursor: pointer; font-weight: 100;
+        font-size: 15px;" *ngIf="!removebtn" (click)="addFavouriteWord(wordsData)"><i style="    font-size: 15px;" class="fa fa-star"></i>{{'add_to_favorite' | translate}}</a>
+        <a  style=" cursor: pointer;    font-weight: 100;
+        font-size: 15px;" *ngIf="removebtn" (click)="deleteFavouriteWord(deleteWordsData)"><i style="    font-size: 15px;"
+                class="fa fa-star"></i>{{'remove_from_favorite' | translate}}</a>
+    </p>
+</div> -->
+
+<!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+    aria-controls="offcanvasBottom">Toggle bottom offcanvas</button> -->
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel"
+    [dir]="directionController.textDirection">
+    <div class="offcanvas-header">
+        <span style="    font-family: 'Proxima Nova Rg';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 29px;
+     color: #ffffff;
+     margin: 8px;">{{'preference' | translate}}</span>
+    </div>
+    <div class="offcanvas-body small">
+        <p style="font-weight: 700;font-size: 20px;">{{'view' | translate}}</p>
+        <div style="background: white;margin: 0px; border-radius: 10px; box-shadow: 0 1px 5px #00000026;"
+            mat-stretch-tabs class=" row example-stretched-tabs mat-elevation-z4 col-6 mb-3" mat-align-tabs="center">
+            <div (click)="loadComponent1(1)" style="height: 40px;" [ngClass]="listGroup == 1 ? 'activetab': ''"
+                class="tabtext tabborder1 col-6">{{'list' | translate }}</div>
+            <div (click)="loadComponent1(2)" style="height: 40px;" [ngClass]="listGroup == 2 ? 'activetab': ''"
+                class="tabtext tabborder2 col-6">{{'card' | translate}}
+            </div>
+        </div>
+        <p style="font-weight: 700;font-size: 20px;">{{'translation' | translate}}</p>
+        <div style="background: white;margin: 0px;  border-radius: 10px; box-shadow: 0 1px 5px #00000026;"
+            mat-stretch-tabs class=" row example-stretched-tabs mat-elevation-z4 mb-3" mat-align-tabs="center">
+            <div (click)="loadComponent2(1)" style="height: 40px; width: 50%;"
+                [ngClass]="languageGroup == 1 ? 'activetab': ''" class="tabtext1 tabborder1  col-6"><span
+                    style="padding-right: 2px;">&nbsp;{{'English' | translate}}&nbsp;</span> 
+                    <i *ngIf="directionController.textDirection == 'ltr'" class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i>
+                    <i *ngIf="directionController.textDirection == 'rtl'" class="fa fa-arrow-left" style="font-size: 12px;" aria-hidden="true"></i>
+                    <span style="padding-left: 2px;">&nbsp;{{'Hebrew' | translate}}&nbsp;</span></div>
+            <div (click)="loadComponent2(2)" style="height: 40px; width: 50%;"
+                [ngClass]="languageGroup == 2 ? 'activetab': ''" class="tabtext1 tabborder2  col-6"><span
+                    style="padding-right: 2px;">&nbsp;{{'Hebrew' | translate}}&nbsp;</span> 
+                    <i *ngIf="directionController.textDirection == 'ltr'" class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i>
+                    <i *ngIf="directionController.textDirection == 'rtl'" class="fa fa-arrow-left" style="font-size: 12px;" aria-hidden="true"></i>
+                    <span style="padding-left: 2px;">&nbsp;{{'English' | translate}}&nbsp;</span>
+            </div>
+        </div>
+        <!-- <div class="containerfuil">
+            <div class="row">
+                <div class="col-12">
+                    <a type="submit"  form="registrationForm"
+                         style="border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);" class="login">{{'save' | translate}}</a>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>
+
+<a (click)="setting(isSetting)" class="settingid" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+    aria-controls="offcanvasBottom" id="myBtn1" title="Go to top"><span><i style="color: white; font-size: 20px;"
+            class="fa fa-cog"></i></span></a>
+<mat-spinner *ngIf="Loader" class="mat-spinner-color"></mat-spinner>

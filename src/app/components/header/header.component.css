@@ -1,0 +1,192 @@
+ul.js-dropdown-list1 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 60px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+  list-style: none;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul.js-dropdown-list1 {
+  padding: 0;
+  top: 40px;
+}
+::ng-deep .mat-drawer-transition .mat-drawer-backdrop {
+  position: fixed;
+}
+.mat-drawer-container {
+  /* height: 100%; */
+  z-index: 9999;
+}
+.mat-drawer {
+  position: fixed;
+  padding-top: 60px;
+}
+::ng-deep .mat-drawer-inner-container {
+  width: 200px !important;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+nav[dir="rtl"] div#navbarNav ul {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+nav[dir="rtl"] .dropdown i {
+  margin-left: unset;
+  margin-right: 10px;
+}
+nav[dir="rtl"] span,
+nav[dir="rtl"] a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+
+#homePageHeader {
+  display: none;
+}
+/* .topmenuli {
+  font-family: "Proxima Nova Rg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  color: #858992;
+  margin-left: 100px;
+} */
+nav[dir="rtl"] #homePageHeader div#navbarNav ul {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+.menuslider[dir="rtl"] a {
+  font-family: "open-sans-hebrew-condensed" !important;
+}
+@media only screen and (max-width: 479px) {
+  nav[dir="rtl"] a.navbar-brand {
+    left: 0;
+    right: 70%;
+  }
+  nav[dir="rtl"] .navbar-brand {
+    padding-left: 1rem !important;
+  }
+
+  #homePageHeader {
+    display: block;
+    left: 0;
+    right: 70%;
+    position: absolute;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  nav[dir="rtl"] #homePageHeader {
+    display: block;
+    left: 70%;
+    right: 0;
+    position: absolute;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #homePageHeader {
+    display: block;
+    left: 0;
+    right: 70%;
+    position: absolute;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  nav[dir="rtl"] #homePageHeader {
+    display: block;
+    left: 70%;
+    right: 0;
+    position: absolute;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  #homePageHeader {
+    display: block;
+    left: 0;
+    right: 70%;
+    position: absolute;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  nav[dir="rtl"] #homePageHeader {
+    display: block;
+    left: 70%;
+    right: 0;
+    position: absolute;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+  nav[dir="rtl"] a.navbar-brand {
+    left: 0;
+    right: 70%;
+  }
+  nav[dir="rtl"] .navbar-brand {
+    padding-left: 1rem !important;
+  }
+  nav.navbar.navbar-expand-lg {
+    padding-top: 15px !important;
+  }
+  .tearchermaintab {
+    height: auto !important;
+  }
+  ul.teachertab {
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    min-width: 0 !important;
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    height: 100vh;
+    background: #28aae1;
+    transition: all 0.5s;
+  }
+  .mobileview {
+    display: flex !important;
+    }
+    .webview{
+
+      display: none !important;
+    }
+}
+
+.mobileview {
+  display: none;
+  }
+  .webview{
+    /* display: flex ; */
+  }
+  .landgPage {
+    padding-top: 10px ;
+}
+.landgPage1 {
+  padding-top: 10px !important;
+}
+  @media only screen and (max-width: 1429px){
+    .landgPage {
+      padding-top: 10px;
+      padding-bottom: 15px !important;
+  }
+  .landgPage1 {
+    padding-top: 55px;
+  }
+  }
+  .sidebarfont {
+    font-family: "Proxima Nova Rg";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #858992;
+  }
